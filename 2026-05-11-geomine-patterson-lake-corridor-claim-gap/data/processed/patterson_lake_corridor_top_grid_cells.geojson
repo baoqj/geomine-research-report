@@ -1,0 +1,4405 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-184",
+        "lon_min": -109.6,
+        "lon_max": -109.5,
+        "lat_min": 57.85,
+        "lat_max": 57.9,
+        "center_lon": -109.55,
+        "center_lat": 57.875,
+        "active_bbox_intersections": 12,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 6,
+        "uranium_mdi_count": 4,
+        "gold_mdi_count": 1,
+        "ree_thorium_mdi_count": 8,
+        "base_metal_mdi_count": 9,
+        "mdi_names": "4761:Drill hole BR2-6;4765:Drill hole BR-10A;4766:Drill hole BR-14;4767:Drill hole BR-17;4768:Drill hole BR-18;4769:Drill hole BR-21",
+        "drillhole_count": 19,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 5.3,
+        "score": 48.97,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.6,
+              57.85
+            ],
+            [
+              -109.5,
+              57.85
+            ],
+            [
+              -109.5,
+              57.9
+            ],
+            [
+              -109.6,
+              57.9
+            ],
+            [
+              -109.6,
+              57.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-001",
+        "lon_min": -109.9,
+        "lon_max": -109.8,
+        "lat_min": 57.25,
+        "lat_max": 57.3,
+        "center_lon": -109.85,
+        "center_lat": 57.275,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 2,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 50,
+        "score": 48.79,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.9,
+              57.25
+            ],
+            [
+              -109.8,
+              57.25
+            ],
+            [
+              -109.8,
+              57.3
+            ],
+            [
+              -109.9,
+              57.3
+            ],
+            [
+              -109.9,
+              57.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-234",
+        "lon_min": -109.1,
+        "lon_max": -109,
+        "lat_min": 58,
+        "lat_max": 58.05,
+        "center_lon": -109.05,
+        "center_lat": 58.025,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 2,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 35.4,
+        "score": 48.79,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.1,
+              58
+            ],
+            [
+              -109,
+              58
+            ],
+            [
+              -109,
+              58.05
+            ],
+            [
+              -109.1,
+              58.05
+            ],
+            [
+              -109.1,
+              58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-026",
+        "lon_min": -108.9,
+        "lon_max": -108.8,
+        "lat_min": 57.3,
+        "lat_max": 57.35,
+        "center_lon": -108.85,
+        "center_lat": 57.325,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 0,
+        "rock_sample_count": 8,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 45.3,
+        "score": 48,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.9,
+              57.3
+            ],
+            [
+              -108.8,
+              57.3
+            ],
+            [
+              -108.8,
+              57.35
+            ],
+            [
+              -108.9,
+              57.35
+            ],
+            [
+              -108.9,
+              57.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-027",
+        "lon_min": -108.8,
+        "lon_max": -108.7,
+        "lat_min": 57.3,
+        "lat_max": 57.35,
+        "center_lon": -108.75,
+        "center_lat": 57.325,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 0,
+        "rock_sample_count": 5,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 48.1,
+        "score": 48,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.8,
+              57.3
+            ],
+            [
+              -108.7,
+              57.3
+            ],
+            [
+              -108.7,
+              57.35
+            ],
+            [
+              -108.8,
+              57.35
+            ],
+            [
+              -108.8,
+              57.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-169",
+        "lon_min": -109.6,
+        "lon_max": -109.5,
+        "lat_min": 57.8,
+        "lat_max": 57.85,
+        "center_lon": -109.55,
+        "center_lat": 57.825,
+        "active_bbox_intersections": 9,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 7,
+        "uranium_mdi_count": 4,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 5,
+        "base_metal_mdi_count": 21,
+        "mdi_names": "4743:Drill holes PL0703 & PLN14-011;5268:Drill hole GL-10-10;5848:Drill holes PLN14-010 & PLN14-016;5849:Drill hole PLN14-017;5850:Drill holes PLN14-018 & PLN14-019;5851:Drill hole PLN14-020;5991:JR Zone Uranium Mineralization",
+        "drillhole_count": 28,
+        "rock_sample_count": 1,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 1.6,
+        "score": 43,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.6,
+              57.8
+            ],
+            [
+              -109.5,
+              57.8
+            ],
+            [
+              -109.5,
+              57.85
+            ],
+            [
+              -109.6,
+              57.85
+            ],
+            [
+              -109.6,
+              57.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-010",
+        "lon_min": -109,
+        "lon_max": -108.9,
+        "lat_min": 57.25,
+        "lat_max": 57.3,
+        "center_lon": -108.95,
+        "center_lat": 57.275,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 0,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 47.5,
+        "score": 40,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109,
+              57.25
+            ],
+            [
+              -108.9,
+              57.25
+            ],
+            [
+              -108.9,
+              57.3
+            ],
+            [
+              -109,
+              57.3
+            ],
+            [
+              -109,
+              57.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-011",
+        "lon_min": -108.9,
+        "lon_max": -108.8,
+        "lat_min": 57.25,
+        "lat_max": 57.3,
+        "center_lon": -108.85,
+        "center_lat": 57.275,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 0,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Arrow",
+        "nearest_anchor_km": 50.3,
+        "score": 40,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.9,
+              57.25
+            ],
+            [
+              -108.8,
+              57.25
+            ],
+            [
+              -108.8,
+              57.3
+            ],
+            [
+              -108.9,
+              57.3
+            ],
+            [
+              -108.9,
+              57.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-012",
+        "lon_min": -108.8,
+        "lon_max": -108.7,
+        "lat_min": 57.25,
+        "lat_max": 57.3,
+        "center_lon": -108.75,
+        "center_lat": 57.275,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 0,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 52.9,
+        "score": 40,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.8,
+              57.25
+            ],
+            [
+              -108.7,
+              57.25
+            ],
+            [
+              -108.7,
+              57.3
+            ],
+            [
+              -108.8,
+              57.3
+            ],
+            [
+              -108.8,
+              57.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-013",
+        "lon_min": -108.7,
+        "lon_max": -108.6,
+        "lat_min": 57.25,
+        "lat_max": 57.3,
+        "center_lon": -108.65,
+        "center_lat": 57.275,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 0,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 56,
+        "score": 40,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.7,
+              57.25
+            ],
+            [
+              -108.6,
+              57.25
+            ],
+            [
+              -108.6,
+              57.3
+            ],
+            [
+              -108.7,
+              57.3
+            ],
+            [
+              -108.7,
+              57.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-014",
+        "lon_min": -108.6,
+        "lon_max": -108.5,
+        "lat_min": 57.25,
+        "lat_max": 57.3,
+        "center_lon": -108.55,
+        "center_lat": 57.275,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 0,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 59.6,
+        "score": 40,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.6,
+              57.25
+            ],
+            [
+              -108.5,
+              57.25
+            ],
+            [
+              -108.5,
+              57.3
+            ],
+            [
+              -108.6,
+              57.3
+            ],
+            [
+              -108.6,
+              57.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-015",
+        "lon_min": -108.5,
+        "lon_max": -108.45,
+        "lat_min": 57.25,
+        "lat_max": 57.3,
+        "center_lon": -108.475,
+        "center_lat": 57.275,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 0,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 62.5,
+        "score": 40,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.5,
+              57.25
+            ],
+            [
+              -108.45,
+              57.25
+            ],
+            [
+              -108.45,
+              57.3
+            ],
+            [
+              -108.5,
+              57.3
+            ],
+            [
+              -108.5,
+              57.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-016",
+        "lon_min": -109.9,
+        "lon_max": -109.8,
+        "lat_min": 57.3,
+        "lat_max": 57.35,
+        "center_lon": -109.85,
+        "center_lat": 57.325,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 0,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 45.6,
+        "score": 40,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.9,
+              57.3
+            ],
+            [
+              -109.8,
+              57.3
+            ],
+            [
+              -109.8,
+              57.35
+            ],
+            [
+              -109.9,
+              57.35
+            ],
+            [
+              -109.9,
+              57.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-028",
+        "lon_min": -108.7,
+        "lon_max": -108.6,
+        "lat_min": 57.3,
+        "lat_max": 57.35,
+        "center_lon": -108.65,
+        "center_lat": 57.325,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 0,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 51.5,
+        "score": 40,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.7,
+              57.3
+            ],
+            [
+              -108.6,
+              57.3
+            ],
+            [
+              -108.6,
+              57.35
+            ],
+            [
+              -108.7,
+              57.35
+            ],
+            [
+              -108.7,
+              57.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-029",
+        "lon_min": -108.6,
+        "lon_max": -108.5,
+        "lat_min": 57.3,
+        "lat_max": 57.35,
+        "center_lon": -108.55,
+        "center_lat": 57.325,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "1109:Cache Lake Area Fe Occurrences",
+        "drillhole_count": 0,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 55.3,
+        "score": 40,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.6,
+              57.3
+            ],
+            [
+              -108.5,
+              57.3
+            ],
+            [
+              -108.5,
+              57.35
+            ],
+            [
+              -108.6,
+              57.35
+            ],
+            [
+              -108.6,
+              57.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-030",
+        "lon_min": -108.5,
+        "lon_max": -108.45,
+        "lat_min": 57.3,
+        "lat_max": 57.35,
+        "center_lon": -108.475,
+        "center_lat": 57.325,
+        "active_bbox_intersections": 0,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 0,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 58.4,
+        "score": 40,
+        "status_note": "No active disposition bbox intersection in this screening grid; verify in MARS before staking."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.5,
+              57.3
+            ],
+            [
+              -108.45,
+              57.3
+            ],
+            [
+              -108.45,
+              57.35
+            ],
+            [
+              -108.5,
+              57.35
+            ],
+            [
+              -108.5,
+              57.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-111",
+        "lon_min": -109.4,
+        "lon_max": -109.3,
+        "lat_min": 57.6,
+        "lat_max": 57.65,
+        "center_lon": -109.35,
+        "center_lat": 57.625,
+        "active_bbox_intersections": 5,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 2,
+        "uranium_mdi_count": 2,
+        "gold_mdi_count": 1,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 5,
+        "mdi_names": "4754:Drill hole CLU 12-79;5340:Triple R Deposit",
+        "drillhole_count": 104,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 1.8,
+        "score": 34,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.4,
+              57.6
+            ],
+            [
+              -109.3,
+              57.6
+            ],
+            [
+              -109.3,
+              57.65
+            ],
+            [
+              -109.4,
+              57.65
+            ],
+            [
+              -109.4,
+              57.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-129",
+        "lon_min": -109.1,
+        "lon_max": -109,
+        "lat_min": 57.65,
+        "lat_max": 57.7,
+        "center_lon": -109.05,
+        "center_lat": 57.675,
+        "active_bbox_intersections": 6,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 4,
+        "uranium_mdi_count": 2,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 12,
+        "mdi_names": "1993:Drill hole DER-4;4740:Drill hole DER-45;4741:Drill hole DER-59;4742:Drill holes DER-60 & 61",
+        "drillhole_count": 104,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 7.5,
+        "score": 26,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.1,
+              57.65
+            ],
+            [
+              -109,
+              57.65
+            ],
+            [
+              -109,
+              57.7
+            ],
+            [
+              -109.1,
+              57.7
+            ],
+            [
+              -109.1,
+              57.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-127",
+        "lon_min": -109.3,
+        "lon_max": -109.2,
+        "lat_min": 57.65,
+        "lat_max": 57.7,
+        "center_lon": -109.25,
+        "center_lat": 57.675,
+        "active_bbox_intersections": 13,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 2,
+        "gold_mdi_count": 1,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 1,
+        "mdi_names": "5332:Arrow Deposit",
+        "drillhole_count": 532,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Arrow",
+        "nearest_anchor_km": 0.2,
+        "score": 22,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.3,
+              57.65
+            ],
+            [
+              -109.2,
+              57.65
+            ],
+            [
+              -109.2,
+              57.7
+            ],
+            [
+              -109.3,
+              57.7
+            ],
+            [
+              -109.3,
+              57.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-128",
+        "lon_min": -109.2,
+        "lon_max": -109.1,
+        "lat_min": 57.65,
+        "lat_max": 57.7,
+        "center_lon": -109.15,
+        "center_lat": 57.675,
+        "active_bbox_intersections": 10,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 5,
+        "uranium_mdi_count": 8,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 3,
+        "mdi_names": "4739:Drill holes PAT-04, -11,-13;4755:Drill hole CLU 16-79;5678:Spitfire Zone;5958:Drill hole RK-15-69;5959:Bow Target Area",
+        "drillhole_count": 124,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 2.5,
+        "score": 22,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.2,
+              57.65
+            ],
+            [
+              -109.1,
+              57.65
+            ],
+            [
+              -109.1,
+              57.7
+            ],
+            [
+              -109.2,
+              57.7
+            ],
+            [
+              -109.2,
+              57.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-080",
+        "lon_min": -109.5,
+        "lon_max": -109.4,
+        "lat_min": 57.5,
+        "lat_max": 57.55,
+        "center_lon": -109.45,
+        "center_lat": 57.525,
+        "active_bbox_intersections": 5,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 3,
+        "uranium_mdi_count": 2,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 6,
+        "base_metal_mdi_count": 1,
+        "mdi_names": "5852:Drill holes ALN14-008 & ALN14-009;5962:Rock sample 91454;5966:Rock sample 91463",
+        "drillhole_count": 11,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 13.9,
+        "score": 20.88,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.5,
+              57.5
+            ],
+            [
+              -109.4,
+              57.5
+            ],
+            [
+              -109.4,
+              57.55
+            ],
+            [
+              -109.5,
+              57.55
+            ],
+            [
+              -109.5,
+              57.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-152",
+        "lon_min": -109.8,
+        "lon_max": -109.7,
+        "lat_min": 57.75,
+        "lat_max": 57.8,
+        "center_lon": -109.75,
+        "center_lat": 57.775,
+        "active_bbox_intersections": 8,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 2,
+        "uranium_mdi_count": 2,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 4,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "5264:Drill hole GL-10-05;5265:Drill hole GL-10-06",
+        "drillhole_count": 13,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Smart Lake",
+        "nearest_anchor_km": 10.2,
+        "score": 18.11,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.8,
+              57.75
+            ],
+            [
+              -109.7,
+              57.75
+            ],
+            [
+              -109.7,
+              57.8
+            ],
+            [
+              -109.8,
+              57.8
+            ],
+            [
+              -109.8,
+              57.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-112",
+        "lon_min": -109.3,
+        "lon_max": -109.2,
+        "lat_min": 57.6,
+        "lat_max": 57.65,
+        "center_lon": -109.25,
+        "center_lat": 57.625,
+        "active_bbox_intersections": 11,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 2,
+        "uranium_mdi_count": 2,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 2,
+        "mdi_names": "4752:Drill hole CLU 2-78;5676:Drill holes RK-13-05 & RK-14-15",
+        "drillhole_count": 35,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Arrow",
+        "nearest_anchor_km": 5.3,
+        "score": 18,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.3,
+              57.6
+            ],
+            [
+              -109.2,
+              57.6
+            ],
+            [
+              -109.2,
+              57.65
+            ],
+            [
+              -109.3,
+              57.65
+            ],
+            [
+              -109.3,
+              57.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-143",
+        "lon_min": -109.2,
+        "lon_max": -109.1,
+        "lat_min": 57.7,
+        "lat_max": 57.75,
+        "center_lon": -109.15,
+        "center_lat": 57.725,
+        "active_bbox_intersections": 6,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 2,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "5515:Drill hole HK13-06",
+        "drillhole_count": 43,
+        "rock_sample_count": 3,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 3.7,
+        "score": 16,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.2,
+              57.7
+            ],
+            [
+              -109.1,
+              57.7
+            ],
+            [
+              -109.1,
+              57.75
+            ],
+            [
+              -109.2,
+              57.75
+            ],
+            [
+              -109.2,
+              57.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-117",
+        "lon_min": -108.8,
+        "lon_max": -108.7,
+        "lat_min": 57.6,
+        "lat_max": 57.65,
+        "center_lon": -108.75,
+        "center_lat": 57.625,
+        "active_bbox_intersections": 4,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 2,
+        "uranium_mdi_count": 2,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 7,
+        "mdi_names": "4748:Sample MRIB 207;5847:Drill hole LAUR-13",
+        "drillhole_count": 16,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 26.2,
+        "score": 14.67,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.8,
+              57.6
+            ],
+            [
+              -108.7,
+              57.6
+            ],
+            [
+              -108.7,
+              57.65
+            ],
+            [
+              -108.8,
+              57.65
+            ],
+            [
+              -108.8,
+              57.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-095",
+        "lon_min": -109.5,
+        "lon_max": -109.4,
+        "lat_min": 57.55,
+        "lat_max": 57.6,
+        "center_lon": -109.45,
+        "center_lat": 57.575,
+        "active_bbox_intersections": 9,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 6,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 12,
+        "base_metal_mdi_count": 9,
+        "mdi_names": "5672:Drill hole CW-01;5674:Drill hole CW-07;5675:Drill hole CW-09;5967:Drill hole CW-12;5968:Drill hole CW-13;5969:Drill hole CW-14",
+        "drillhole_count": 12,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 9,
+        "score": 7.52,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.5,
+              57.55
+            ],
+            [
+              -109.4,
+              57.55
+            ],
+            [
+              -109.4,
+              57.6
+            ],
+            [
+              -109.5,
+              57.6
+            ],
+            [
+              -109.5,
+              57.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-131",
+        "lon_min": -108.9,
+        "lon_max": -108.8,
+        "lat_min": 57.65,
+        "lat_max": 57.7,
+        "center_lon": -108.85,
+        "center_lat": 57.675,
+        "active_bbox_intersections": 9,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 2,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "4738:Drill hole RS-07-14A",
+        "drillhole_count": 9,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 19.2,
+        "score": 0.42,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.9,
+              57.65
+            ],
+            [
+              -108.8,
+              57.65
+            ],
+            [
+              -108.8,
+              57.7
+            ],
+            [
+              -108.9,
+              57.7
+            ],
+            [
+              -108.9,
+              57.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-094",
+        "lon_min": -109.6,
+        "lon_max": -109.5,
+        "lat_min": 57.55,
+        "lat_max": 57.6,
+        "center_lon": -109.55,
+        "center_lat": 57.575,
+        "active_bbox_intersections": 6,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 4,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 8,
+        "base_metal_mdi_count": 6,
+        "mdi_names": "5673:Drill holes CW-05, CW-17 & CW-18;5679:Drill hole CW-16;5970:Drill hole CW-20;5973:Drill hole CW-20",
+        "drillhole_count": 7,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 13.4,
+        "score": -0.36,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.6,
+              57.55
+            ],
+            [
+              -109.5,
+              57.55
+            ],
+            [
+              -109.5,
+              57.6
+            ],
+            [
+              -109.6,
+              57.6
+            ],
+            [
+              -109.6,
+              57.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-181",
+        "lon_min": -109.9,
+        "lon_max": -109.8,
+        "lat_min": 57.85,
+        "lat_max": 57.9,
+        "center_lon": -109.85,
+        "center_lat": 57.875,
+        "active_bbox_intersections": 5,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 3,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 1,
+        "base_metal_mdi_count": 11,
+        "mdi_names": "4758:Drill hole S-4;4759:Drill hole S-5;4760:Drill hole S-7",
+        "drillhole_count": 15,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Smart Lake",
+        "nearest_anchor_km": 7.1,
+        "score": -0.82,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.9,
+              57.85
+            ],
+            [
+              -109.8,
+              57.85
+            ],
+            [
+              -109.8,
+              57.9
+            ],
+            [
+              -109.9,
+              57.9
+            ],
+            [
+              -109.9,
+              57.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-116",
+        "lon_min": -108.9,
+        "lon_max": -108.8,
+        "lat_min": 57.6,
+        "lat_max": 57.65,
+        "center_lon": -108.85,
+        "center_lat": 57.625,
+        "active_bbox_intersections": 8,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 2,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 2,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 5,
+        "mdi_names": "3077:Drill hole HOO-01;3078:Drill hole HOO-03",
+        "drillhole_count": 8,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 20.6,
+        "score": -4.42,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.9,
+              57.6
+            ],
+            [
+              -108.8,
+              57.6
+            ],
+            [
+              -108.8,
+              57.65
+            ],
+            [
+              -108.9,
+              57.65
+            ],
+            [
+              -108.9,
+              57.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-104",
+        "lon_min": -108.6,
+        "lon_max": -108.5,
+        "lat_min": 57.55,
+        "lat_max": 57.6,
+        "center_lon": -108.55,
+        "center_lat": 57.575,
+        "active_bbox_intersections": 6,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 3,
+        "base_metal_mdi_count": 4,
+        "mdi_names": "5846:Drill hole MRR-05",
+        "drillhole_count": 19,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 39.3,
+        "score": -5.03,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.6,
+              57.55
+            ],
+            [
+              -108.5,
+              57.55
+            ],
+            [
+              -108.5,
+              57.6
+            ],
+            [
+              -108.6,
+              57.6
+            ],
+            [
+              -108.6,
+              57.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-058",
+        "lon_min": -108.7,
+        "lon_max": -108.6,
+        "lat_min": 57.4,
+        "lat_max": 57.45,
+        "center_lon": -108.65,
+        "center_lat": 57.425,
+        "active_bbox_intersections": 4,
+        "lapsed_bbox_intersections": 5,
+        "lapsed_ids": "MC00013968;MC00013970;MC00014519;MC00014557;MC00013808",
+        "lapsed_owners": "CAT Strategic Metals Corporation: 100.000%",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 3,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "5668:Drill hole PN14004",
+        "drillhole_count": 6,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 43.1,
+        "score": -5.43,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.7,
+              57.4
+            ],
+            [
+              -108.6,
+              57.4
+            ],
+            [
+              -108.6,
+              57.45
+            ],
+            [
+              -108.7,
+              57.45
+            ],
+            [
+              -108.7,
+              57.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-083",
+        "lon_min": -109.2,
+        "lon_max": -109.1,
+        "lat_min": 57.5,
+        "lat_max": 57.55,
+        "center_lon": -109.15,
+        "center_lat": 57.525,
+        "active_bbox_intersections": 3,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 2,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 3,
+        "base_metal_mdi_count": 4,
+        "mdi_names": "5960:Drill hole CWW15-001;5961:Drill hole CWW15-003",
+        "drillhole_count": 3,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Arrow",
+        "nearest_anchor_km": 17.5,
+        "score": -5.91,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.2,
+              57.5
+            ],
+            [
+              -109.1,
+              57.5
+            ],
+            [
+              -109.1,
+              57.55
+            ],
+            [
+              -109.2,
+              57.55
+            ],
+            [
+              -109.2,
+              57.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-069",
+        "lon_min": -109.1,
+        "lon_max": -109,
+        "lat_min": 57.45,
+        "lat_max": 57.5,
+        "center_lon": -109.05,
+        "center_lat": 57.475,
+        "active_bbox_intersections": 6,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 2,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 3,
+        "base_metal_mdi_count": 4,
+        "mdi_names": "5671:Drill hole PN14009;5845:Drill hole PN15004",
+        "drillhole_count": 6,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Arrow",
+        "nearest_anchor_km": 25,
+        "score": -7.43,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.1,
+              57.45
+            ],
+            [
+              -109,
+              57.45
+            ],
+            [
+              -109,
+              57.5
+            ],
+            [
+              -109.1,
+              57.5
+            ],
+            [
+              -109.1,
+              57.45
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-145",
+        "lon_min": -109,
+        "lon_max": -108.9,
+        "lat_min": 57.7,
+        "lat_max": 57.75,
+        "center_lon": -108.95,
+        "center_lat": 57.725,
+        "active_bbox_intersections": 6,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 2,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 10,
+        "mdi_names": "4750:Drill hole K-2;4751:Drill hole K-8",
+        "drillhole_count": 18,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 13.6,
+        "score": -8.44,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109,
+              57.7
+            ],
+            [
+              -108.9,
+              57.7
+            ],
+            [
+              -108.9,
+              57.75
+            ],
+            [
+              -109,
+              57.75
+            ],
+            [
+              -109,
+              57.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-113",
+        "lon_min": -109.2,
+        "lon_max": -109.1,
+        "lat_min": 57.6,
+        "lat_max": 57.65,
+        "center_lon": -109.15,
+        "center_lat": 57.625,
+        "active_bbox_intersections": 14,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 5,
+        "mdi_names": "4753:Drill hole CLU 3-78",
+        "drillhole_count": 9,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 7.8,
+        "score": -9.58,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.2,
+              57.6
+            ],
+            [
+              -109.1,
+              57.6
+            ],
+            [
+              -109.1,
+              57.65
+            ],
+            [
+              -109.2,
+              57.65
+            ],
+            [
+              -109.2,
+              57.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-059",
+        "lon_min": -108.6,
+        "lon_max": -108.5,
+        "lat_min": 57.4,
+        "lat_max": 57.45,
+        "center_lon": -108.55,
+        "center_lat": 57.425,
+        "active_bbox_intersections": 5,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 3,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 8,
+        "base_metal_mdi_count": 11,
+        "mdi_names": "5666:Drill hole PN14001;5667:Drill hole PN14003;5669:Drill hole PN14007",
+        "drillhole_count": 5,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 47.6,
+        "score": -14.67,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.6,
+              57.4
+            ],
+            [
+              -108.5,
+              57.4
+            ],
+            [
+              -108.5,
+              57.45
+            ],
+            [
+              -108.6,
+              57.45
+            ],
+            [
+              -108.6,
+              57.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-067",
+        "lon_min": -109.3,
+        "lon_max": -109.2,
+        "lat_min": 57.45,
+        "lat_max": 57.5,
+        "center_lon": -109.25,
+        "center_lat": 57.475,
+        "active_bbox_intersections": 5,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 2,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 6,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "5963:Rock samples 91458, 91460, 91461, 91462, 91465;5964:Rock sample 91464",
+        "drillhole_count": 7,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 19.6,
+        "score": -16.36,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.3,
+              57.45
+            ],
+            [
+              -109.2,
+              57.45
+            ],
+            [
+              -109.2,
+              57.5
+            ],
+            [
+              -109.3,
+              57.5
+            ],
+            [
+              -109.3,
+              57.45
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-099",
+        "lon_min": -109.1,
+        "lon_max": -109,
+        "lat_min": 57.55,
+        "lat_max": 57.6,
+        "center_lon": -109.05,
+        "center_lat": 57.575,
+        "active_bbox_intersections": 9,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 5,
+        "mdi_names": "4756:Drill hole SAM 16",
+        "drillhole_count": 6,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 15.1,
+        "score": -16.43,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.1,
+              57.55
+            ],
+            [
+              -109,
+              57.55
+            ],
+            [
+              -109,
+              57.6
+            ],
+            [
+              -109.1,
+              57.6
+            ],
+            [
+              -109.1,
+              57.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-196",
+        "lon_min": -109.9,
+        "lon_max": -109.8,
+        "lat_min": 57.9,
+        "lat_max": 57.95,
+        "center_lon": -109.85,
+        "center_lat": 57.925,
+        "active_bbox_intersections": 9,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 2,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "5513:Drill hole CSE10-02",
+        "drillhole_count": 6,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Smart Lake",
+        "nearest_anchor_km": 12.3,
+        "score": -16.43,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.9,
+              57.9
+            ],
+            [
+              -109.8,
+              57.9
+            ],
+            [
+              -109.8,
+              57.95
+            ],
+            [
+              -109.9,
+              57.95
+            ],
+            [
+              -109.9,
+              57.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-070",
+        "lon_min": -109,
+        "lon_max": -108.9,
+        "lat_min": 57.45,
+        "lat_max": 57.5,
+        "center_lon": -108.95,
+        "center_lat": 57.475,
+        "active_bbox_intersections": 5,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 2,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 3,
+        "base_metal_mdi_count": 7,
+        "mdi_names": "5664:Rock sample MKPNR005;5670:Drill hole PN14008",
+        "drillhole_count": 1,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 27.7,
+        "score": -17.45,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109,
+              57.45
+            ],
+            [
+              -108.9,
+              57.45
+            ],
+            [
+              -108.9,
+              57.5
+            ],
+            [
+              -109,
+              57.5
+            ],
+            [
+              -109,
+              57.45
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-055",
+        "lon_min": -109,
+        "lon_max": -108.9,
+        "lat_min": 57.4,
+        "lat_max": 57.45,
+        "center_lon": -108.95,
+        "center_lat": 57.425,
+        "active_bbox_intersections": 5,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 3,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "5844:Drill hole PN15003",
+        "drillhole_count": 13,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 32.7,
+        "score": -17.89,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109,
+              57.4
+            ],
+            [
+              -108.9,
+              57.4
+            ],
+            [
+              -108.9,
+              57.45
+            ],
+            [
+              -109,
+              57.45
+            ],
+            [
+              -109,
+              57.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-213",
+        "lon_min": -109.7,
+        "lon_max": -109.6,
+        "lat_min": 57.95,
+        "lat_max": 58,
+        "center_lon": -109.65,
+        "center_lat": 57.975,
+        "active_bbox_intersections": 5,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 2,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "4762:Drill hole BR5-2",
+        "drillhole_count": 9,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 17.8,
+        "score": -19.58,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.7,
+              57.95
+            ],
+            [
+              -109.6,
+              57.95
+            ],
+            [
+              -109.6,
+              58
+            ],
+            [
+              -109.7,
+              58
+            ],
+            [
+              -109.7,
+              57.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-167",
+        "lon_min": -109.8,
+        "lon_max": -109.7,
+        "lat_min": 57.8,
+        "lat_max": 57.85,
+        "center_lon": -109.75,
+        "center_lat": 57.825,
+        "active_bbox_intersections": 9,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 1,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "5514:Drill hole GL-12-04",
+        "drillhole_count": 10,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Smart Lake",
+        "nearest_anchor_km": 9,
+        "score": -19.82,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.8,
+              57.8
+            ],
+            [
+              -109.7,
+              57.8
+            ],
+            [
+              -109.7,
+              57.85
+            ],
+            [
+              -109.8,
+              57.85
+            ],
+            [
+              -109.8,
+              57.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-144",
+        "lon_min": -109.1,
+        "lon_max": -109,
+        "lat_min": 57.7,
+        "lat_max": 57.75,
+        "center_lon": -109.05,
+        "center_lat": 57.725,
+        "active_bbox_intersections": 6,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 37,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 8,
+        "score": -20,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.1,
+              57.7
+            ],
+            [
+              -109,
+              57.7
+            ],
+            [
+              -109,
+              57.75
+            ],
+            [
+              -109.1,
+              57.75
+            ],
+            [
+              -109.1,
+              57.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-228",
+        "lon_min": -109.7,
+        "lon_max": -109.6,
+        "lat_min": 58,
+        "lat_max": 58.05,
+        "center_lon": -109.65,
+        "center_lat": 58.025,
+        "active_bbox_intersections": 5,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 5,
+        "mdi_names": "4764:Drill hole BR-8",
+        "drillhole_count": 8,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 23,
+        "score": -20.42,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.7,
+              58
+            ],
+            [
+              -109.6,
+              58
+            ],
+            [
+              -109.6,
+              58.05
+            ],
+            [
+              -109.7,
+              58.05
+            ],
+            [
+              -109.7,
+              58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-126",
+        "lon_min": -109.4,
+        "lon_max": -109.3,
+        "lat_min": 57.65,
+        "lat_max": 57.7,
+        "center_lon": -109.35,
+        "center_lat": 57.675,
+        "active_bbox_intersections": 10,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 1,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "5677:Drill hole RK-13-06",
+        "drillhole_count": 9,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 3.9,
+        "score": -20.58,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.4,
+              57.65
+            ],
+            [
+              -109.3,
+              57.65
+            ],
+            [
+              -109.3,
+              57.7
+            ],
+            [
+              -109.4,
+              57.7
+            ],
+            [
+              -109.4,
+              57.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-153",
+        "lon_min": -109.7,
+        "lon_max": -109.6,
+        "lat_min": 57.75,
+        "lat_max": 57.8,
+        "center_lon": -109.65,
+        "center_lat": 57.775,
+        "active_bbox_intersections": 9,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 1,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "5267:Drill hole GL-10-08",
+        "drillhole_count": 9,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 9.6,
+        "score": -20.58,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.7,
+              57.75
+            ],
+            [
+              -109.6,
+              57.75
+            ],
+            [
+              -109.6,
+              57.8
+            ],
+            [
+              -109.7,
+              57.8
+            ],
+            [
+              -109.7,
+              57.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-199",
+        "lon_min": -109.6,
+        "lon_max": -109.5,
+        "lat_min": 57.9,
+        "lat_max": 57.95,
+        "center_lon": -109.55,
+        "center_lat": 57.925,
+        "active_bbox_intersections": 8,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 4,
+        "mdi_names": "4763:Drill hole BR4-4A",
+        "drillhole_count": 2,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 10.7,
+        "score": -23.21,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.6,
+              57.9
+            ],
+            [
+              -109.5,
+              57.9
+            ],
+            [
+              -109.5,
+              57.95
+            ],
+            [
+              -109.6,
+              57.95
+            ],
+            [
+              -109.6,
+              57.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-168",
+        "lon_min": -109.7,
+        "lon_max": -109.6,
+        "lat_min": 57.8,
+        "lat_max": 57.85,
+        "center_lon": -109.65,
+        "center_lat": 57.825,
+        "active_bbox_intersections": 7,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 1,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "5262:Drill hole GL-08-01",
+        "drillhole_count": 6,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 7.5,
+        "score": -23.43,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.7,
+              57.8
+            ],
+            [
+              -109.6,
+              57.8
+            ],
+            [
+              -109.6,
+              57.85
+            ],
+            [
+              -109.7,
+              57.85
+            ],
+            [
+              -109.7,
+              57.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-170",
+        "lon_min": -109.5,
+        "lon_max": -109.4,
+        "lat_min": 57.8,
+        "lat_max": 57.85,
+        "center_lon": -109.45,
+        "center_lat": 57.825,
+        "active_bbox_intersections": 7,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 12,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 4.4,
+        "score": -23.48,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.5,
+              57.8
+            ],
+            [
+              -109.4,
+              57.8
+            ],
+            [
+              -109.4,
+              57.85
+            ],
+            [
+              -109.5,
+              57.85
+            ],
+            [
+              -109.5,
+              57.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-160",
+        "lon_min": -109,
+        "lon_max": -108.9,
+        "lat_min": 57.75,
+        "lat_max": 57.8,
+        "center_lon": -108.95,
+        "center_lat": 57.775,
+        "active_bbox_intersections": 7,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 13,
+        "rock_sample_count": 1,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 15.9,
+        "score": -24.89,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109,
+              57.75
+            ],
+            [
+              -108.9,
+              57.75
+            ],
+            [
+              -108.9,
+              57.8
+            ],
+            [
+              -109,
+              57.8
+            ],
+            [
+              -109,
+              57.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-159",
+        "lon_min": -109.1,
+        "lon_max": -109,
+        "lat_min": 57.75,
+        "lat_max": 57.8,
+        "center_lon": -109.05,
+        "center_lat": 57.775,
+        "active_bbox_intersections": 5,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 7,
+        "rock_sample_count": 3,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 11.5,
+        "score": -25.36,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.1,
+              57.75
+            ],
+            [
+              -109,
+              57.75
+            ],
+            [
+              -109,
+              57.8
+            ],
+            [
+              -109.1,
+              57.8
+            ],
+            [
+              -109.1,
+              57.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-185",
+        "lon_min": -109.5,
+        "lon_max": -109.4,
+        "lat_min": 57.85,
+        "lat_max": 57.9,
+        "center_lon": -109.45,
+        "center_lat": 57.875,
+        "active_bbox_intersections": 4,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 8,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 6.7,
+        "score": -26.42,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.5,
+              57.85
+            ],
+            [
+              -109.4,
+              57.85
+            ],
+            [
+              -109.4,
+              57.9
+            ],
+            [
+              -109.5,
+              57.9
+            ],
+            [
+              -109.5,
+              57.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-098",
+        "lon_min": -109.2,
+        "lon_max": -109.1,
+        "lat_min": 57.55,
+        "lat_max": 57.6,
+        "center_lon": -109.15,
+        "center_lat": 57.575,
+        "active_bbox_intersections": 6,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 13,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Arrow",
+        "nearest_anchor_km": 12.4,
+        "score": -26.89,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.2,
+              57.55
+            ],
+            [
+              -109.1,
+              57.55
+            ],
+            [
+              -109.1,
+              57.6
+            ],
+            [
+              -109.2,
+              57.6
+            ],
+            [
+              -109.2,
+              57.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-151",
+        "lon_min": -109.9,
+        "lon_max": -109.8,
+        "lat_min": 57.75,
+        "lat_max": 57.8,
+        "center_lon": -109.85,
+        "center_lat": 57.775,
+        "active_bbox_intersections": 4,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 7,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Smart Lake",
+        "nearest_anchor_km": 5.7,
+        "score": -27.36,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.9,
+              57.75
+            ],
+            [
+              -109.8,
+              57.75
+            ],
+            [
+              -109.8,
+              57.8
+            ],
+            [
+              -109.9,
+              57.8
+            ],
+            [
+              -109.9,
+              57.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-079",
+        "lon_min": -109.6,
+        "lon_max": -109.5,
+        "lat_min": 57.5,
+        "lat_max": 57.55,
+        "center_lon": -109.55,
+        "center_lat": 57.525,
+        "active_bbox_intersections": 4,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 3,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "5965:Rock sample 91452",
+        "drillhole_count": 1,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 17,
+        "score": -27.45,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.6,
+              57.5
+            ],
+            [
+              -109.5,
+              57.5
+            ],
+            [
+              -109.5,
+              57.55
+            ],
+            [
+              -109.6,
+              57.55
+            ],
+            [
+              -109.6,
+              57.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-121",
+        "lon_min": -109.9,
+        "lon_max": -109.8,
+        "lat_min": 57.65,
+        "lat_max": 57.7,
+        "center_lon": -109.85,
+        "center_lat": 57.675,
+        "active_bbox_intersections": 4,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 12,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Smart Lake",
+        "nearest_anchor_km": 16.2,
+        "score": -27.48,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.9,
+              57.65
+            ],
+            [
+              -109.8,
+              57.65
+            ],
+            [
+              -109.8,
+              57.7
+            ],
+            [
+              -109.9,
+              57.7
+            ],
+            [
+              -109.9,
+              57.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-142",
+        "lon_min": -109.3,
+        "lon_max": -109.2,
+        "lat_min": 57.7,
+        "lat_max": 57.75,
+        "center_lon": -109.25,
+        "center_lat": 57.725,
+        "active_bbox_intersections": 5,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 5,
+        "rock_sample_count": 1,
+        "nearest_anchor": "Arrow",
+        "nearest_anchor_km": 5.8,
+        "score": -27.67,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.3,
+              57.7
+            ],
+            [
+              -109.2,
+              57.7
+            ],
+            [
+              -109.2,
+              57.75
+            ],
+            [
+              -109.3,
+              57.75
+            ],
+            [
+              -109.3,
+              57.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-154",
+        "lon_min": -109.6,
+        "lon_max": -109.5,
+        "lat_min": 57.75,
+        "lat_max": 57.8,
+        "center_lon": -109.55,
+        "center_lat": 57.775,
+        "active_bbox_intersections": 9,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 1,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "5266:Drill hole GL-10-07",
+        "drillhole_count": 3,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 6.3,
+        "score": -27.91,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.6,
+              57.75
+            ],
+            [
+              -109.5,
+              57.75
+            ],
+            [
+              -109.5,
+              57.8
+            ],
+            [
+              -109.6,
+              57.8
+            ],
+            [
+              -109.6,
+              57.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-089",
+        "lon_min": -108.6,
+        "lon_max": -108.5,
+        "lat_min": 57.5,
+        "lat_max": 57.55,
+        "center_lon": -108.55,
+        "center_lat": 57.525,
+        "active_bbox_intersections": 5,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 2,
+        "mdi_names": "3079:Drill hole MIR-20",
+        "drillhole_count": 21,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 41.5,
+        "score": -28,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.6,
+              57.5
+            ],
+            [
+              -108.5,
+              57.5
+            ],
+            [
+              -108.5,
+              57.55
+            ],
+            [
+              -108.6,
+              57.55
+            ],
+            [
+              -108.6,
+              57.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-256",
+        "lon_min": -109.9,
+        "lon_max": -109.8,
+        "lat_min": 58.1,
+        "lat_max": 58.15,
+        "center_lon": -109.85,
+        "center_lat": 58.125,
+        "active_bbox_intersections": 10,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 2,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "2142:Area 11 Yttrium Showing",
+        "drillhole_count": 5,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Smart Lake",
+        "nearest_anchor_km": 34.3,
+        "score": -29.67,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.9,
+              58.1
+            ],
+            [
+              -109.8,
+              58.1
+            ],
+            [
+              -109.8,
+              58.15
+            ],
+            [
+              -109.9,
+              58.15
+            ],
+            [
+              -109.9,
+              58.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-140",
+        "lon_min": -109.5,
+        "lon_max": -109.4,
+        "lat_min": 57.7,
+        "lat_max": 57.75,
+        "center_lon": -109.45,
+        "center_lat": 57.725,
+        "active_bbox_intersections": 6,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 8,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 10.8,
+        "score": -30.42,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.5,
+              57.7
+            ],
+            [
+              -109.4,
+              57.7
+            ],
+            [
+              -109.4,
+              57.75
+            ],
+            [
+              -109.5,
+              57.75
+            ],
+            [
+              -109.5,
+              57.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-105",
+        "lon_min": -108.5,
+        "lon_max": -108.45,
+        "lat_min": 57.55,
+        "lat_max": 57.6,
+        "center_lon": -108.475,
+        "center_lat": 57.575,
+        "active_bbox_intersections": 4,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 5,
+        "mdi_names": "3076:Drill hole WOL-03",
+        "drillhole_count": 4,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 43.5,
+        "score": -31.12,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.5,
+              57.55
+            ],
+            [
+              -108.45,
+              57.55
+            ],
+            [
+              -108.45,
+              57.6
+            ],
+            [
+              -108.5,
+              57.6
+            ],
+            [
+              -108.5,
+              57.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-125",
+        "lon_min": -109.5,
+        "lon_max": -109.4,
+        "lat_min": 57.65,
+        "lat_max": 57.7,
+        "center_lon": -109.45,
+        "center_lat": 57.675,
+        "active_bbox_intersections": 9,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 4,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 6.5,
+        "score": -31.12,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.5,
+              57.65
+            ],
+            [
+              -109.4,
+              57.65
+            ],
+            [
+              -109.4,
+              57.7
+            ],
+            [
+              -109.5,
+              57.7
+            ],
+            [
+              -109.5,
+              57.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-141",
+        "lon_min": -109.4,
+        "lon_max": -109.3,
+        "lat_min": 57.7,
+        "lat_max": 57.75,
+        "center_lon": -109.35,
+        "center_lat": 57.725,
+        "active_bbox_intersections": 4,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 4,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Arrow",
+        "nearest_anchor_km": 8.3,
+        "score": -31.12,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.4,
+              57.7
+            ],
+            [
+              -109.3,
+              57.7
+            ],
+            [
+              -109.3,
+              57.75
+            ],
+            [
+              -109.4,
+              57.75
+            ],
+            [
+              -109.4,
+              57.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-166",
+        "lon_min": -109.9,
+        "lon_max": -109.8,
+        "lat_min": 57.8,
+        "lat_max": 57.85,
+        "center_lon": -109.85,
+        "center_lat": 57.825,
+        "active_bbox_intersections": 4,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 4,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Smart Lake",
+        "nearest_anchor_km": 3.2,
+        "score": -31.12,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.9,
+              57.8
+            ],
+            [
+              -109.8,
+              57.8
+            ],
+            [
+              -109.8,
+              57.85
+            ],
+            [
+              -109.9,
+              57.85
+            ],
+            [
+              -109.9,
+              57.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-231",
+        "lon_min": -109.4,
+        "lon_max": -109.3,
+        "lat_min": 58,
+        "lat_max": 58.05,
+        "center_lon": -109.35,
+        "center_lat": 58.025,
+        "active_bbox_intersections": 6,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 13,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 24,
+        "score": -32.89,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.4,
+              58
+            ],
+            [
+              -109.3,
+              58
+            ],
+            [
+              -109.3,
+              58.05
+            ],
+            [
+              -109.4,
+              58.05
+            ],
+            [
+              -109.4,
+              58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-097",
+        "lon_min": -109.3,
+        "lon_max": -109.2,
+        "lat_min": 57.55,
+        "lat_max": 57.6,
+        "center_lon": -109.25,
+        "center_lat": 57.575,
+        "active_bbox_intersections": 8,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 3,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 9.9,
+        "score": -32.91,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.3,
+              57.55
+            ],
+            [
+              -109.2,
+              57.55
+            ],
+            [
+              -109.2,
+              57.6
+            ],
+            [
+              -109.3,
+              57.6
+            ],
+            [
+              -109.3,
+              57.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-155",
+        "lon_min": -109.5,
+        "lon_max": -109.4,
+        "lat_min": 57.75,
+        "lat_max": 57.8,
+        "center_lon": -109.45,
+        "center_lat": 57.775,
+        "active_bbox_intersections": 7,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 3,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 7.5,
+        "score": -32.91,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.5,
+              57.75
+            ],
+            [
+              -109.4,
+              57.75
+            ],
+            [
+              -109.4,
+              57.8
+            ],
+            [
+              -109.5,
+              57.8
+            ],
+            [
+              -109.5,
+              57.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-183",
+        "lon_min": -109.7,
+        "lon_max": -109.6,
+        "lat_min": 57.85,
+        "lat_max": 57.9,
+        "center_lon": -109.65,
+        "center_lat": 57.875,
+        "active_bbox_intersections": 13,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 3,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 9,
+        "score": -32.91,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.7,
+              57.85
+            ],
+            [
+              -109.6,
+              57.85
+            ],
+            [
+              -109.6,
+              57.9
+            ],
+            [
+              -109.7,
+              57.9
+            ],
+            [
+              -109.7,
+              57.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-227",
+        "lon_min": -109.8,
+        "lon_max": -109.7,
+        "lat_min": 58,
+        "lat_max": 58.05,
+        "center_lon": -109.75,
+        "center_lat": 58.025,
+        "active_bbox_intersections": 7,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 12,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Smart Lake",
+        "nearest_anchor_km": 24.7,
+        "score": -33.48,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.8,
+              58
+            ],
+            [
+              -109.7,
+              58
+            ],
+            [
+              -109.7,
+              58.05
+            ],
+            [
+              -109.8,
+              58.05
+            ],
+            [
+              -109.8,
+              58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-198",
+        "lon_min": -109.7,
+        "lon_max": -109.6,
+        "lat_min": 57.9,
+        "lat_max": 57.95,
+        "center_lon": -109.65,
+        "center_lat": 57.925,
+        "active_bbox_intersections": 6,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 1,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "5263:Drill hole GL-08-03",
+        "drillhole_count": 5,
+        "rock_sample_count": 0,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 12.9,
+        "score": -33.67,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.7,
+              57.9
+            ],
+            [
+              -109.6,
+              57.9
+            ],
+            [
+              -109.6,
+              57.95
+            ],
+            [
+              -109.7,
+              57.95
+            ],
+            [
+              -109.7,
+              57.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-212",
+        "lon_min": -109.8,
+        "lon_max": -109.7,
+        "lat_min": 57.95,
+        "lat_max": 58,
+        "center_lon": -109.75,
+        "center_lat": 57.975,
+        "active_bbox_intersections": 5,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 5,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Smart Lake",
+        "nearest_anchor_km": 19.6,
+        "score": -33.67,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.8,
+              57.95
+            ],
+            [
+              -109.7,
+              57.95
+            ],
+            [
+              -109.7,
+              58
+            ],
+            [
+              -109.8,
+              58
+            ],
+            [
+              -109.8,
+              57.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-246",
+        "lon_min": -109.4,
+        "lon_max": -109.3,
+        "lat_min": 58.05,
+        "lat_max": 58.1,
+        "center_lon": -109.35,
+        "center_lat": 58.075,
+        "active_bbox_intersections": 7,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 8,
+        "rock_sample_count": 1,
+        "nearest_anchor": "JR Zone",
+        "nearest_anchor_km": 29.1,
+        "score": -34.42,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.4,
+              58.05
+            ],
+            [
+              -109.3,
+              58.05
+            ],
+            [
+              -109.3,
+              58.1
+            ],
+            [
+              -109.4,
+              58.1
+            ],
+            [
+              -109.4,
+              58.05
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-102",
+        "lon_min": -108.8,
+        "lon_max": -108.7,
+        "lat_min": 57.55,
+        "lat_max": 57.6,
+        "center_lon": -108.75,
+        "center_lat": 57.575,
+        "active_bbox_intersections": 7,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 10,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 28.4,
+        "score": -34.82,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.8,
+              57.55
+            ],
+            [
+              -108.7,
+              57.55
+            ],
+            [
+              -108.7,
+              57.6
+            ],
+            [
+              -108.8,
+              57.6
+            ],
+            [
+              -108.8,
+              57.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-041",
+        "lon_min": -108.9,
+        "lon_max": -108.8,
+        "lat_min": 57.35,
+        "lat_max": 57.4,
+        "center_lon": -108.85,
+        "center_lat": 57.375,
+        "active_bbox_intersections": 2,
+        "lapsed_bbox_intersections": 1,
+        "lapsed_ids": "MC00014557",
+        "lapsed_owners": "CAT Strategic Metals Corporation: 100.000%",
+        "mdi_count": 2,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 3,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "1992:Drill hole KL-77-3;5663:Rock sample JBPNR008",
+        "drillhole_count": 0,
+        "rock_sample_count": 1,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 40.3,
+        "score": -35,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.9,
+              57.35
+            ],
+            [
+              -108.8,
+              57.35
+            ],
+            [
+              -108.8,
+              57.4
+            ],
+            [
+              -108.9,
+              57.4
+            ],
+            [
+              -108.9,
+              57.35
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-182",
+        "lon_min": -109.8,
+        "lon_max": -109.7,
+        "lat_min": 57.85,
+        "lat_max": 57.9,
+        "center_lon": -109.75,
+        "center_lat": 57.875,
+        "active_bbox_intersections": 11,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 4,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Smart Lake",
+        "nearest_anchor_km": 11,
+        "score": -35.12,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.8,
+              57.85
+            ],
+            [
+              -109.7,
+              57.85
+            ],
+            [
+              -109.7,
+              57.9
+            ],
+            [
+              -109.8,
+              57.9
+            ],
+            [
+              -109.8,
+              57.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-096",
+        "lon_min": -109.4,
+        "lon_max": -109.3,
+        "lat_min": 57.55,
+        "lat_max": 57.6,
+        "center_lon": -109.35,
+        "center_lat": 57.575,
+        "active_bbox_intersections": 8,
+        "lapsed_bbox_intersections": 0,
+        "lapsed_ids": "",
+        "lapsed_owners": "",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 2,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Triple R",
+        "nearest_anchor_km": 7.3,
+        "score": -35.21,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.4,
+              57.55
+            ],
+            [
+              -109.3,
+              57.55
+            ],
+            [
+              -109.3,
+              57.6
+            ],
+            [
+              -109.4,
+              57.6
+            ],
+            [
+              -109.4,
+              57.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PLC-042",
+        "lon_min": -108.8,
+        "lon_max": -108.7,
+        "lat_min": 57.35,
+        "lat_max": 57.4,
+        "center_lon": -108.75,
+        "center_lat": 57.375,
+        "active_bbox_intersections": 1,
+        "lapsed_bbox_intersections": 3,
+        "lapsed_ids": "MC00014519;MC00014557;MC00014560",
+        "lapsed_owners": "CAT Strategic Metals Corporation: 100.000%",
+        "mdi_count": 0,
+        "uranium_mdi_count": 0,
+        "gold_mdi_count": 0,
+        "ree_thorium_mdi_count": 0,
+        "base_metal_mdi_count": 0,
+        "mdi_names": "",
+        "drillhole_count": 0,
+        "rock_sample_count": 0,
+        "nearest_anchor": "Spitfire",
+        "nearest_anchor_km": 43.5,
+        "score": -36,
+        "status_note": "Intersects active disposition bbox; only boundary slivers may be open, if any."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.8,
+              57.35
+            ],
+            [
+              -108.7,
+              57.35
+            ],
+            [
+              -108.7,
+              57.4
+            ],
+            [
+              -108.8,
+              57.4
+            ],
+            [
+              -108.8,
+              57.35
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

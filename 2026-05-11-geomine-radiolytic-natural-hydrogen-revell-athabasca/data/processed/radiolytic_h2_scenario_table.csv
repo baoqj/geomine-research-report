@@ -1,0 +1,6 @@
+scenario,rock_type_or_setting,U_ppm,Th_ppm,K_wt_percent,density_kg_m3,radiogenic_heat_uW_m3,water_energy_fraction_assumption,G_H2_molecule_per_100eV,H2_mol_per_m3rock_per_yr,H2_nmol_per_m3rock_per_yr,interpretation
+Revell 2025 JGR most probable,low-porosity crystalline batholith,not_reported_here,not_reported_here,not_reported_here,not_reported_here,not_back_calculated,calibrated_by_paper,not_reported_here,1.6E-9,1.6,"Published most probable rate; controlled by very low porosity and sulfide-poor setting"
+Generic upper continental granitoid,granite-granodiorite,3,12,3,2700,1.94,0.0002,1.0,1.27E-9,1.27,"Illustrative: Revell-like low water-energy interception gives nmol scale"
+Average Athabasca felsic intrusive,granite/orthogneiss,4,15,4,2700,2.44,0.001,1.0,7.97E-9,7.97,"Illustrative: normal to moderately elevated heat-producing granite with connected microfractures"
+Elevated Athabasca pegmatitic sample,pegmatite/radiogenic accessory-mineral-rich rock,10,35,5,2650,5.43,0.005,1.2,1.07E-7,106.9,"Illustrative: local alpha-interface hotspots can be two orders higher than Revell but still small as bulk resource"
+U-mineralized microfracture halo,uraninite/monazite-bearing fracture wall,100,80,3,2800,33.23,0.01,1.5,1.63E-6,1630.8,"Conceptual local hotspot only; not representative of bulk rock and likely coupled to U mobility/radon/sulfate reactions"

@@ -1,0 +1,76 @@
+{
+  "title": "Patterson Lake Corridor claim-gap uranium-gold-critical-mineral screening",
+  "date": "2026-05-11",
+  "aoi": {
+    "name": "Patterson Lake Corridor, southwest Athabasca Basin margin, Saskatchewan, Canada",
+    "bbox_epsg4326": [-109.9, 57.25, -108.45, 58.15],
+    "crs": "EPSG:4326 for downloaded outputs; source Saskatchewan layers wkid 2151/latest 2957"
+  },
+  "commodities": ["uranium", "gold accessory", "REE-Th", "Ni-Cu-Co", "critical minerals"],
+  "data_counts": {
+    "active_mineral_disposition_features": 521,
+    "lapsed_mineral_disposition_features": 26,
+    "drillholes": 1635,
+    "mineral_deposits_index_points": 96,
+    "government_rock_sample_points": 53,
+    "screen_grid_cells": 270
+  },
+  "ranked_findings": [
+    {
+      "rank": 1,
+      "area": "JR-Broach-Minto-Smart Lake extension",
+      "approx_center": [-109.55, 57.85],
+      "commodity_model": "basement-hosted high-grade uranium with REE-Th-Ni-Cu-Co accessory evidence",
+      "claim_gap_status": "mostly active tenure in this screen",
+      "recommended_entry": "JV, option, acquisition, boundary and good-standing watchlist"
+    },
+    {
+      "rank": 2,
+      "area": "Hook Lake-Spitfire-Bow-Harpoon corridor",
+      "approx_center": [-109.18, 57.69],
+      "commodity_model": "graphitic-shear-hosted basement/unconformity-related uranium",
+      "claim_gap_status": "mostly active tenure",
+      "recommended_entry": "JV/option or future boundary gap monitoring"
+    },
+    {
+      "rank": 3,
+      "area": "Triple R-Arrow flanks",
+      "approx_center": [-109.30, 57.66],
+      "commodity_model": "development-stage high-grade uranium district with Au-Cu-Ag accessory evidence",
+      "claim_gap_status": "very low probability of unclaimed core ground",
+      "recommended_entry": "corporate transaction or non-core claim acquisition"
+    },
+    {
+      "rank": 4,
+      "area": "PNR / Cache Lake lapsed cluster",
+      "approx_center": [-108.65, 57.425],
+      "commodity_model": "REE-Th plus Ni-Cu-Co and weak uranium optionality",
+      "claim_gap_status": "lapsed features present but active bbox intersections also present; exact MARS subtraction required",
+      "recommended_entry": "immediate tenure subtraction and MARS verification"
+    },
+    {
+      "rank": 5,
+      "area": "PLC-234 northeast open grid",
+      "approx_center": [-109.05, 58.025],
+      "commodity_model": "low-confidence grassroots uranium/structure target",
+      "claim_gap_status": "no active disposition bbox intersection in local grid screen",
+      "recommended_entry": "low-cost geophysics/geochem only after MARS verification"
+    }
+  ],
+  "key_caveats": [
+    "This is not a Qualified Person opinion, title opinion, mineral resource estimate, reserve estimate, mine plan, or investment recommendation.",
+    "Lapsed layer did not expose lapse date, so recent expiry within one to two years cannot be confirmed from the downloaded public layer alone.",
+    "The grid screen used bbox overlaps, not exact polygon overlay, for active and lapsed tenure.",
+    "MARS parcel-level verification is mandatory before staking or acquisition decisions.",
+    "Gold evidence in the AOI is mostly accessory or isolated drillhole evidence, not enough for a standalone gold-belt thesis."
+  ],
+  "outputs": [
+    "patterson_lake_corridor_claim_gap_research_report_zh.md",
+    "evidence_matrix.csv",
+    "patterson_claim_gap_grid_screen.mjs",
+    "data/processed/patterson_lake_corridor_claim_gap_grid.csv",
+    "data/processed/patterson_lake_corridor_top_grid_cells.geojson",
+    "data/processed/patterson_lake_corridor_screen_summary.json",
+    "data/processed/active_claim_goodstanding_watch.csv"
+  ]
+}

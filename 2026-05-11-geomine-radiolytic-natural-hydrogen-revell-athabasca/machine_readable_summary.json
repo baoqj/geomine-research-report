@@ -1,0 +1,57 @@
+{
+  "title": "U-Th-K radiolysis-driven deep natural hydrogen generation: Revell Batholith and Athabasca Basin basement analog study",
+  "date": "2026-05-11",
+  "research_type": [
+    "literature_review",
+    "geochemical_model_development",
+    "dataset_discovery",
+    "environmental_baseline_review",
+    "natural_hydrogen_conceptual_screening"
+  ],
+  "normalized_entities": {
+    "primary_aoi": "Revell Batholith, northwestern Ontario, Canada",
+    "comparison_aoi": "Athabasca Basin crystalline basement, Saskatchewan-Alberta, Canada",
+    "commodities_or_products": ["natural hydrogen", "sulfate", "uranium", "thorium", "potassium"],
+    "processes": ["water radiolysis", "radiogenic heat production", "sulfide oxidation", "sulfate reduction", "radionuclide migration", "deep groundwater evolution"]
+  },
+  "key_findings": [
+    {
+      "finding": "Revell Batholith is a low-porosity, low-permeability benchmark for radiolytic H2 and sulfate source-term modeling, not an economic natural hydrogen resource benchmark.",
+      "evidence": "Higgins et al. 2025 estimate most probable H2 production at 1.6 nmol m-3 rock yr-1; Revell sulfate production is 10^2-10^6 lower than Kidd Creek.",
+      "confidence": "high"
+    },
+    {
+      "finding": "Athabasca Basin basement may host local radiolytic H2 hotspots around U-rich brines, radiogenic felsic intrusives, pegmatites, uraninite/monazite-bearing halos and connected microfractures.",
+      "evidence": "Athabasca brine inclusions contain 0.6-26.8 ppm U in barren basin samples; eastern Athabasca felsic intrusives mostly show 1.6-3.5 microW m-3 heat production with pegmatitic elevations.",
+      "confidence": "medium"
+    },
+    {
+      "finding": "H2 accumulation potential is governed by a complete source-interface-residence-retention-sink system, not U-Th-K abundance alone.",
+      "evidence": "Radiolysis equations, Revell low-rate result, fracture-width sensitivity from Dzaugis et al. 2016, and sulfate coupling from Li et al. 2016.",
+      "confidence": "high for framework, medium for site-specific prediction"
+    }
+  ],
+  "proposed_innovations": [
+    "Radiolytic Hydrogen System Index (RHSI)",
+    "H2-sulfate redox balance number B_RS = 4 P_SO4 / P_H2",
+    "Radiolytic uranium mobility feedback / radiolytic redox halo hypothesis"
+  ],
+  "critical_equations": [
+    "A_RHP = 1e-5 rho (9.52 C_U + 2.56 C_Th + 3.48 C_K)",
+    "Y_H2 = 1.036e-7 G_H2 mol/J",
+    "P_H2,rad = 1.036e-7 G_H2 A_RHP f_w seconds_per_year",
+    "d(phi C_H2)/dt = diffusion - advection + radiolysis source - microbial/abiotic/leakage sinks",
+    "SO4^2- + 4H2 + H+ -> HS- + 4H2O"
+  ],
+  "outputs": [
+    "radiolytic_natural_hydrogen_revell_athabasca_research_report_zh.md",
+    "evidence_matrix.csv",
+    "data/processed/radiolytic_h2_scenario_table.csv"
+  ],
+  "main_limitations": [
+    "Higgins et al. 2025 supplementary Monte Carlo input distributions were not extracted in this run.",
+    "Revell borehole-level U-Th-K, porosity, fracture aperture, sulfide and groundwater datasets were not parsed.",
+    "Athabasca basement fracture-water H2 data were not compiled.",
+    "GeoMine MCP CDoGS and Canada geodata tools provided source-planning outputs only; live spatial filtering was not implemented."
+  ]
+}
