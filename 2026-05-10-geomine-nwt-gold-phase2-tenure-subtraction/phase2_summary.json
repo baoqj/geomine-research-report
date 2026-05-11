@@ -1,0 +1,80 @@
+{
+  "research": "GeoMine Research phase-2 NWT gold tenure subtraction and anomaly tracing",
+  "retrieved_at_utc": "2026-05-10T01:22:20Z",
+  "jurisdiction": "Northwest Territories, Canada",
+  "commodity": "gold",
+  "crs": "EPSG:4326",
+  "method_boundary": "Official active mineral tenure geometry was unioned and differenced from broad WGS84 screening bboxes using the GNWT ArcGIS GeometryServer. Candidate ranking used 0.10 x 0.05 degree tenure-clear grid cells. This is research screening, not legal staking advice or a Qualified Person opinion.",
+  "windows": [
+    {
+      "code": "sr",
+      "name": "South Rae / Hearne margin south of MacKay",
+      "bbox_wgs84": [-113.0, 61.3, -108.0, 63.5],
+      "active_claims": 85,
+      "active_leases": 99,
+      "active_permits": 0,
+      "bbox_area_km2_approx": 63011.9,
+      "active_tenure_area_inside_bbox_km2_approx": 1359.3,
+      "open_ground_area_km2_approx": 61652.6,
+      "open_ground_pct_approx": 97.8,
+      "top_cell": {
+        "cell_id": "sr_-108.30_62.55",
+        "center": [-108.25, 62.575],
+        "score": 68,
+        "max_au_ppb": 322.0,
+        "nearest_drilled_or_advanced_km": 53.28
+      },
+      "priority": "First priority for claim-gap follow-up because top Au till cluster is not inside active tenure polygons in this screening pass and the window has the lowest tenure pressure relative to evidence."
+    },
+    {
+      "code": "es",
+      "name": "East Slave Lac de Gras-MacKay-McCrea",
+      "bbox_wgs84": [-112.0, 63.2, -107.5, 65.2],
+      "active_claims": 189,
+      "active_leases": 375,
+      "active_permits": 0,
+      "bbox_area_km2_approx": 48432.1,
+      "active_tenure_area_inside_bbox_km2_approx": 4655.0,
+      "open_ground_area_km2_approx": 43777.2,
+      "open_ground_pct_approx": 90.4,
+      "top_cell": {
+        "cell_id": "es_-111.60_63.90",
+        "center": [-111.55, 63.925],
+        "score": 69,
+        "max_au_ppb": 9420.0,
+        "nearest_drilled_or_advanced_km": 19.44
+      },
+      "priority": "Highest geochemical anomaly strength, but several top Au samples are inside active tenure polygons; use tenure as the first filter."
+    },
+    {
+      "code": "cs",
+      "name": "Central Slave Indin-Colomac-Courageous",
+      "bbox_wgs84": [-116.5, 63.8, -112.0, 65.8],
+      "active_claims": 50,
+      "active_leases": 151,
+      "active_permits": 4,
+      "bbox_area_km2_approx": 47380.3,
+      "active_tenure_area_inside_bbox_km2_approx": 1979.8,
+      "open_ground_area_km2_approx": 45400.5,
+      "open_ground_pct_approx": 95.8,
+      "top_cell": {
+        "cell_id": "cs_-114.00_64.90",
+        "center": [-113.95, 64.925],
+        "score": 54,
+        "max_au_ppb": 225.0,
+        "nearest_drilled_or_advanced_km": 62.36
+      },
+      "priority": "Belt-extension portfolio only; avoid known project cores and focus on parallel structures, BIF contacts, mafic sill analogs and tenure-edge gaps."
+    }
+  ],
+  "principal_outputs": [
+    "data/processed/exact_tenure_difference_summary.csv",
+    "data/processed/window_tenure_grid_summary.csv",
+    "data/processed/top_candidate_cells.csv",
+    "data/processed/anomaly_tenure_trace.csv",
+    "data/processed/ranked_open_cells.geojson",
+    "data/processed/sr_open_ground_difference.json",
+    "data/processed/es_open_ground_difference.json",
+    "data/processed/cs_open_ground_difference.json"
+  ]
+}

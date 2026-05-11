@@ -1,0 +1,4 @@
+window,bbox_wgs84,active_claims,active_leases,active_permits,grid_cells_total,tenure_clear_cells,tenure_clear_cell_pct,approx_window_area_km2,approx_tenure_clear_grid_area_km2
+South Rae / Hearne margin south of MacKay,"-113.0,61.3,-108.0,63.5",85,99,0,2200,2088,94.9,63149.7,59972.4
+East Slave Lac de Gras-MacKay-McCrea,"-112.0,63.2,-107.5,65.2",189,375,0,1800,1454,80.8,48538.5,39208.6
+Central Slave Indin-Colomac-Courageous,"-116.5,63.8,-112.0,65.8",50,151,4,1800,1658,92.1,47484.4,43725.0
