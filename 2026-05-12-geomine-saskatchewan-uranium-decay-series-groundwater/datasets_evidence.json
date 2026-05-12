@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-05-12",
+  "workflow": "GeoMine Research academic-paper + math-PDF export",
+  "topic": "Saskatchewan uranium district groundwater U-Ra-Rn-Po-Pb series radionuclides",
+  "mcp_provenance": [
+    {
+      "tool": "normalize_aoi",
+      "result": "Text-only AOI parsed for Athabasca Basin uranium mining districts, northern Saskatchewan, Canada; no authoritative boundary geometry returned."
+    },
+    {
+      "tool": "search_saskatchewan_mineral_data",
+      "result": "Candidate Saskatchewan GeoAtlas source identified; no live analytical groundwater table retrieved."
+    },
+    {
+      "tool": "search_canada_geodata",
+      "result": "Candidate Open Canada CKAN source route identified; no live table retrieved."
+    },
+    {
+      "tool": "search_cdogs_surveys",
+      "result": "CDoGS survey route identified; no live retrieval."
+    }
+  ],
+  "key_sources": [
+    {
+      "title": "Comprehensive analysis of naturally occurring radionuclides in well water: Isotopic ratios, mitigation, and dose assessment",
+      "url": "https://doi.org/10.1016/j.ecoenv.2024.117480",
+      "use": "External 2025 well-water comparator for U-series disequilibrium and dose ranking."
+    },
+    {
+      "title": "Health Canada Guidelines for Canadian drinking water quality: Radiological parameters",
+      "url": "https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-drinking-water-quality-radiological-parameters.html",
+      "use": "Current Canadian radiological drinking-water screening, MACs, summation formula, and radon/Po scenario values."
+    },
+    {
+      "title": "CNSC Independent Environmental Monitoring Program: Cigar Lake Operation",
+      "url": "https://www.cnsc-ccsn.gc.ca/eng/resources/maps-of-nuclear-facilities/iemp/cigar-lake/",
+      "use": "Saskatchewan uranium mine environmental monitoring context."
+    },
+    {
+      "title": "Eastern Athabasca Regional Monitoring Program",
+      "url": "https://www.earmp.ca/",
+      "use": "Regional monitoring context for water, sediment, fish, berries, wildlife, and cumulative effects."
+    },
+    {
+      "title": "USGS Radionuclides in Water",
+      "url": "https://www.usgs.gov/mission-areas/water-resources/science/radionuclides",
+      "use": "U-Ra-Rn decoupling and general groundwater radionuclide behaviour."
+    },
+    {
+      "title": "USGS Pb-210 and Po-210 in public drinking-water aquifers",
+      "url": "https://www.usgs.gov/publications/occurrence-and-geochemistry-lead-210-and-polonium-210-radionuclides-public-drinking",
+      "use": "Pb/Po geochemical controls and dose relevance."
+    }
+  ]
+}
+

@@ -1,0 +1,208 @@
+{
+  "job_id": "geomine_job_mp2knkwx_cmian05x",
+  "prompt": "围绕 Revell Batholith 结晶岩深地质处置库场址的地下水化学演化、放射性辐解产氢过程及其对长期安全性的影响 展开综述性研究。研究重点不是直接评价处置库是否安全，而是梳理和建立一个可解释的地球化学框架：在低孔隙度、低渗透率的花岗质结晶岩体系中，地下水与含 U-Th-K 矿物长期相互作用，会通过放射性衰变和水辐解产生 H₂、氧化剂和硫酸盐等组分；这些组分进一步影响深部微生物代谢、氧化还原环境、金属容器腐蚀、膨润土缓冲材料稳定性以及核素迁移行为。\n\n本研究的目标是回答三个问题：第一，Revell Batholith 地下水的主要化学特征、盐度分层、氧化还原状态和水岩作用路径是什么；第二，围岩中 U、Th、K 的放射性衰变在长期尺度上可能产生多少 H₂，以及这些 H₂ 是被矿物反应消耗、被微生物利用，还是可能形成气体压力风险；第三，这些地球化学过程如何进入深地质处置库的 THMC 安全评价体系，并影响核素释放、迁移和封闭后风险判断。\n\n预设方法上，第一步将系统综述 NWMO、CNSC、加拿大地质调查资料以及相关学术论文，整理 Revell Batholith 的岩性、裂隙结构、地下水化学、U-Th-K 含量和已有安全案例参数。第二步建立概念模型，将地下水化学分为浅部补给水、深部盐水、裂隙混合水等端元，并分析 Eh-pH、Cl-Br、SO₄²⁻、Fe、S、U 系列核素等指标。第三步引入 U-Th-K 放射性热与水辐解模型，估算 H₂ 和氧化剂的长期生成潜力。第四步把 H₂、硫酸盐还原、微生物活动、铜容器腐蚀、膨润土演化和核素吸附/扩散纳入 THMC 耦合框架，形成一个面向处置库长期安全评价的反应路径图。\n\n预期结果包括：形成 Revell Batholith 深部水—岩—气—微生物相互作用的综述模型；明确放射性辐解产氢在该场址安全评价中的潜在作用；总结 H₂ 对微生物生态、腐蚀过程和核素迁移的正负影响；并提出后续可量化研究所需的关键参数，例如 U-Th-K 含量、裂隙水停留时间、H₂ 生成率、硫酸盐还原速率、Eh-pH 演化边界和核素分配系数。整体上，本课题希望把 Revell Batholith 从一个“工程处置场址”扩展为一个深部地球化学系统来理解，为后续建立 PHREEQC、COMSOL 或 PINN 驱动的长期安全模拟模型提供文献基础和概念框架。  Commodity: uranium.",
+  "interpreted_intent": {
+    "research_type": "aoi-screening",
+    "aoi": "Quebec mining area",
+    "commodity": "uranium",
+    "deposit_model": "commodity-specific mineral system",
+    "jurisdiction": {
+      "code": "QC",
+      "name": "Quebec",
+      "level": "provincial"
+    },
+    "confidence": "medium",
+    "extracted_terms": [
+      "uranium",
+      "QC",
+      "Quebec",
+      "Quebec mining area",
+      "aoi-screening",
+      "commodity-specific mineral system"
+    ],
+    "default_geomine_research": true
+  },
+  "source_rows": [
+    {
+      "tool": "normalize_aoi",
+      "source": "Quebec mining area",
+      "status": "parsed",
+      "url": "",
+      "evidence_lane": "text-only"
+    },
+    {
+      "tool": "search_canada_geodata",
+      "source": "Geo.ca / Open Government Canada",
+      "status": "planned",
+      "url": "https://geo.ca/",
+      "evidence_lane": "geology,geochemistry,geophysics,mineral occurrences"
+    },
+    {
+      "tool": "search_canada_geodata",
+      "source": "Provincial or territorial geoscience catalogue",
+      "status": "planned",
+      "url": "https://open.canada.ca/data/en/dataset",
+      "evidence_lane": "tenure context,project records,regional datasets"
+    },
+    {
+      "tool": "search_cdogs_surveys",
+      "source": "NRCan Canadian Database of Geochemical Surveys",
+      "status": "planned",
+      "url": "https://geochem.nrcan.gc.ca/cdogs/content/main/home_en.htm",
+      "evidence_lane": "regional geochemistry"
+    }
+  ],
+  "worker_tool_calls": [
+    {
+      "id": "mcp_mp2knm0m_q8wvdde4",
+      "tool": "normalize_aoi",
+      "arguments": {
+        "aoi": "Quebec mining area",
+        "default_crs": "EPSG:4326"
+      },
+      "response": {
+        "ok": true,
+        "tool": "normalize_aoi",
+        "query": {
+          "aoi": "Quebec mining area",
+          "default_crs": "EPSG:4326"
+        },
+        "result": {
+          "label": "Quebec mining area",
+          "normalized_name": "Quebec mining area",
+          "jurisdiction_code": "QC",
+          "crs": "EPSG:4326",
+          "geometry_status": "text-only",
+          "precision": "unverified",
+          "commodity": "uranium"
+        },
+        "provenance": {
+          "tool_layer": "openminer-worker/geomine-research-adapter",
+          "source_plugin": "GeoMine Research",
+          "retrieval_status": "parsed",
+          "network": "worker-internal",
+          "retrieved_at": "2026-05-12T11:53:14.806Z",
+          "limitations": [
+            "This platform adapter runs the GeoMine MCP contract as Worker-internal TypeScript tools.",
+            "MVP source tools preserve provenance and planned retrieval metadata; deeper live source adapters can replace each tool without changing the job contract."
+          ]
+        },
+        "warnings": [
+          "AOI is normalized from text. Authoritative geometry is required before area, distance, or overlap claims.",
+          "CRS is assumed as EPSG:4326 until a source geometry is supplied."
+        ],
+        "next_steps": [
+          "Attach claim polygon, bbox, NTS sheet, or source geometry.",
+          "Confirm analysis CRS before GIS overlay or buffering."
+        ]
+      }
+    },
+    {
+      "id": "mcp_mp2knm0m_ilcca2zy",
+      "tool": "search_canada_geodata",
+      "arguments": {
+        "query": "Quebec mining area uranium commodity-specific mineral system",
+        "province": "Quebec",
+        "commodity": "uranium",
+        "rows": 10,
+        "allow_network": false
+      },
+      "response": {
+        "ok": true,
+        "tool": "search_canada_geodata",
+        "query": {
+          "query": "Quebec mining area uranium commodity-specific mineral system",
+          "province": "Quebec",
+          "commodity": "uranium",
+          "rows": 10,
+          "allow_network": false
+        },
+        "results": [
+          {
+            "source_name": "Geo.ca / Open Government Canada",
+            "source_url": "https://geo.ca/",
+            "retrieval_status": "planned",
+            "expected_layers": [
+              "geology",
+              "geochemistry",
+              "geophysics",
+              "mineral occurrences"
+            ]
+          },
+          {
+            "source_name": "Provincial or territorial geoscience catalogue",
+            "source_url": "https://open.canada.ca/data/en/dataset",
+            "retrieval_status": "planned",
+            "expected_layers": [
+              "tenure context",
+              "project records",
+              "regional datasets"
+            ]
+          }
+        ],
+        "provenance": {
+          "tool_layer": "openminer-worker/geomine-research-adapter",
+          "source_plugin": "GeoMine Research",
+          "retrieval_status": "planned",
+          "network": "worker-internal",
+          "retrieved_at": "2026-05-12T11:53:14.806Z",
+          "limitations": [
+            "This platform adapter runs the GeoMine MCP contract as Worker-internal TypeScript tools.",
+            "MVP source tools preserve provenance and planned retrieval metadata; deeper live source adapters can replace each tool without changing the job contract."
+          ]
+        },
+        "warnings": [
+          "Catalogue planning does not validate dataset currency, license, CRS, or completeness."
+        ],
+        "next_steps": [
+          "Select authoritative datasets, then record license, CRS, scale, publication date, and retrieval timestamp."
+        ]
+      }
+    },
+    {
+      "id": "mcp_mp2knm0m_bws6g5xd",
+      "tool": "search_cdogs_surveys",
+      "arguments": {
+        "aoi": "Quebec mining area",
+        "commodity": "uranium",
+        "province": "Quebec",
+        "allow_network": false
+      },
+      "response": {
+        "ok": true,
+        "tool": "search_cdogs_surveys",
+        "query": {
+          "aoi": "Quebec mining area",
+          "commodity": "uranium",
+          "province": "Quebec",
+          "allow_network": false
+        },
+        "results": [
+          {
+            "source_name": "NRCan Canadian Database of Geochemical Surveys",
+            "source_url": "https://geochem.nrcan.gc.ca/cdogs/content/main/home_en.htm",
+            "retrieval_status": "planned",
+            "evidence_lane": "regional geochemistry"
+          }
+        ],
+        "provenance": {
+          "tool_layer": "openminer-worker/geomine-research-adapter",
+          "source_plugin": "GeoMine Research",
+          "retrieval_status": "planned",
+          "network": "worker-internal",
+          "retrieved_at": "2026-05-12T11:53:14.806Z",
+          "limitations": [
+            "This platform adapter runs the GeoMine MCP contract as Worker-internal TypeScript tools.",
+            "MVP source tools preserve provenance and planned retrieval metadata; deeper live source adapters can replace each tool without changing the job contract."
+          ]
+        },
+        "warnings": [
+          "No CDoGS survey records were fetched in this run."
+        ],
+        "next_steps": [
+          "Retrieve survey metadata, sample medium, analytical method, detection limits, and QA/QC notes before interpreting anomalies."
+        ]
+      }
+    }
+  ]
+}
