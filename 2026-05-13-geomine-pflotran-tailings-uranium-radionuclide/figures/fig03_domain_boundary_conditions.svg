@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="620" viewBox="0 0 1050 620">
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #17202a; }
+    .small { font-size: 13px; }
+    .label { font-size: 15px; font-weight: 600; }
+    .title { font-size: 19px; font-weight: 700; }
+    .caveat { font-size: 12px; fill: #5f6b72; }
+  </style>
+
+  <rect x="0" y="0" width="1050" height="620" fill="#ffffff"/>
+  <text x="40" y="45" class="title">PFLOTRAN 2D cross-section model domain and boundary-condition plan</text>
+  <rect x="120" y="100" width="780" height="390" fill="#f8fbfd" stroke="#1f2d3d" stroke-width="2.4"/>
+  <rect x="120" y="100" width="220" height="90" fill="#b7b0a6" stroke="#5b5147" stroke-width="1.5"/>
+  <text x="155" y="154" class="label">Tailings layer</text>
+  <rect x="120" y="190" width="780" height="105" fill="#d8c99b" stroke="#9c874e" stroke-width="1.5"/>
+  <text x="455" y="250" class="label">Vadose / transition zone</text>
+  <rect x="120" y="295" width="780" height="140" fill="#cce7f6" stroke="#4a90ad" stroke-width="1.5"/>
+  <text x="460" y="370" class="label">Shallow saturated aquifer</text>
+  <rect x="120" y="435" width="780" height="55" fill="#8f8f8f" stroke="#555" stroke-width="1.5"/>
+  <text x="455" y="468" class="label">Low-K base</text>
+  <path d="M90 118 L120 118" stroke="#2f80b7" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="25" y="123" class="small">infiltration</text>
+  <path d="M900 362 L960 362" stroke="#2f80b7" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="965" y="368" class="small">head / outflow</text>
+  <path d="M120 360 L70 360" stroke="#5f6b72" stroke-width="3" stroke-dasharray="7 5"/>
+  <text x="23" y="345" class="small">upgradient</text>
+  <text x="25" y="365" class="small">head/flux</text>
+  <text x="342" y="95" class="small">top atmospheric/recharge boundary</text>
+  <text x="388" y="515" class="small">no-flow or specified leakage base</text>
+  <circle cx="430" cy="360" r="7" fill="#1f77b4"/><text x="444" y="365" class="small">OBS-1</text>
+  <circle cx="610" cy="365" r="7" fill="#1f77b4"/><text x="624" y="370" class="small">OBS-2</text>
+  <circle cx="780" cy="374" r="7" fill="#1f77b4"/><text x="794" y="379" class="small">OBS-3</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2f80b7"/></marker></defs>
+  <text x="52" y="585" class="caveat">Recommended first executable geometry: 2D cross-section. 1D column is for screening; 3D requires measured topography, hydrostratigraphy, and monitoring layout.</text>
+
+</svg>

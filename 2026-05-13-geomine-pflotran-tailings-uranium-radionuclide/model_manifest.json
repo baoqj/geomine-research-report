@@ -1,0 +1,186 @@
+{
+  "package_type": "PFLOTRAN Modeling Package",
+  "version": "0.1",
+  "created": "2026-05-13",
+  "project": "sulfide_tailings_acidic_seepage_uranium_series_radionuclide_transport",
+  "research_objective": "Design a PFLOTRAN reactive transport workflow for acidic seepage from sulfide-bearing uranium tailings entering a shallow aquifer, with emphasis on acid generation, carbonate buffering, U mobility, Ra/Pb/Po migration, and attenuation by mineral precipitation and sorption.",
+  "scenario": "uranium_mine_tailings_to_shallow_aquifer",
+  "solver_family": "PFLOTRAN",
+  "model_status": "site_model_draft_not_executed; synthetic_1d_screening_executed_not_calibrated_not_validated",
+  "relationship_to_thmc": "solver-specific THC/reactive-transport implementation; thermal and mechanical coupling are optional later scenarios",
+  "requires_phreeqc_prototype": true,
+  "requires_professional_review": true,
+  "process_modes": {
+    "flow_candidates": [
+      "RICHARDS for tailings/vadose-zone seepage",
+      "saturated groundwater flow for fully saturated aquifer-only model"
+    ],
+    "transport": "advection_dispersion_reactive_transport",
+    "reactive_transport": true,
+    "thermal": "not_first_model_unless_temperature_or_rate_data_require_it",
+    "geomechanics": "not_first_model; porosity/permeability feedback handled chemically first"
+  },
+  "domain": {
+    "recommended_first_dimension": "2D_cross_section",
+    "screening_dimension": "1D_column",
+    "future_dimension": "3D_site_scale_after_geometry_and_monitoring_data",
+    "grid_type": "structured_first",
+    "regions": [
+      "tailings_source",
+      "vadose_or_transition_zone",
+      "shallow_aquifer",
+      "low_permeability_base",
+      "downgradient_observation_points",
+      "receptor_boundary"
+    ]
+  },
+  "materials": [
+    "tailings",
+    "vadose_zone",
+    "shallow_aquifer",
+    "low_permeability_base_layer"
+  ],
+  "chemistry": {
+    "primary_species_required": [
+      "H",
+      "O",
+      "C",
+      "Ca",
+      "Mg",
+      "Na",
+      "K",
+      "Cl",
+      "S",
+      "Fe",
+      "Al",
+      "Mn",
+      "U",
+      "Ra",
+      "Pb",
+      "Po"
+    ],
+    "optional_heavy_metals": [
+      "As",
+      "Ni",
+      "Co",
+      "Cu",
+      "Zn"
+    ],
+    "conceptual_minerals": [
+      "pyrite",
+      "calcite",
+      "dolomite",
+      "gypsum",
+      "barite",
+      "Fe(OH)3(am)",
+      "gibbsite",
+      "Mn-oxide placeholder",
+      "uranium-bearing phases if database-supported"
+    ],
+    "kinetic_reactions": [
+      "pyrite_oxidation_placeholder",
+      "calcite_dissolution_placeholder",
+      "dolomite_dissolution_placeholder"
+    ],
+    "sorption": [
+      "Fe-Mn oxide surface-complexation placeholder",
+      "Kd screening only if surface constants are unavailable",
+      "ion exchange placeholder if clay capacity data exist"
+    ],
+    "database_requirements": [
+      "aqueous carbonate and sulfate complexes",
+      "uranyl carbonate and calcium-uranyl-carbonate complexes",
+      "Ra/Ba/Sr sulfate or barite solid-solution support if Ra attenuation is modeled mechanistically",
+      "Pb/Po species support or explicit surrogate treatment"
+    ]
+  },
+  "required_field_data": [
+    "tailings mineralogy and sulfide sulfur",
+    "neutralization potential and carbonate mineral abundance",
+    "tailings porewater chemistry",
+    "background groundwater chemistry",
+    "hydraulic heads",
+    "seepage flux or recharge",
+    "porosity",
+    "permeability tensor",
+    "dispersivity",
+    "temperature",
+    "pH",
+    "Eh_or_pe",
+    "EC_TDS",
+    "alkalinity",
+    "sulfate",
+    "Fe_Mn_Al",
+    "U_Ra_Pb_Po",
+    "As_Ni_Co_Cu_Zn_if_relevant",
+    "monitoring_well_locations_and_time_series"
+  ],
+  "execution": {
+    "input_file": "pflotran_tailings_uranium_template.in",
+    "local_command": "pflotran -pflotranin pflotran_tailings_uranium_template.in",
+    "mpi_command_example": "mpirun -np 16 pflotran -pflotranin pflotran_tailings_uranium_template.in",
+    "status": "site_deck_draft_not_executed",
+    "executed_screening_manifest": "pflotran_run_manifest.json",
+    "executed_screening_runs": [
+      {
+        "scenario": "calcite_buffered",
+        "input_file": "pflotran_runs/calcite_buffered/tailings_u_calcite_buffered.in",
+        "status": "executed_converged_not_calibrated_not_validated",
+        "transport_steps": 119,
+        "transport_newton": 492,
+        "transport_cuts": 0
+      },
+      {
+        "scenario": "no_calcite",
+        "input_file": "pflotran_runs/no_calcite/tailings_u_no_calcite.in",
+        "status": "executed_converged_not_calibrated_not_validated",
+        "transport_steps": 161,
+        "transport_newton": 826,
+        "transport_cuts": 0
+      }
+    ]
+  },
+  "outputs": {
+    "planned_observation_variables": [
+      "pH",
+      "sulfate",
+      "alkalinity",
+      "Fe",
+      "Al",
+      "Mn",
+      "U",
+      "Ra",
+      "Pb",
+      "Po",
+      "As",
+      "Ni",
+      "Co",
+      "Cu",
+      "Zn",
+      "mineral_volume_fraction",
+      "porosity",
+      "permeability",
+      "hydraulic_head_or_pressure",
+      "liquid_saturation"
+    ],
+    "figure_plan": [
+      "conceptual cross-section",
+      "model domain and boundary-condition schematic",
+      "reaction network",
+      "screening acid-buffer heatmap",
+      "breakthrough and retardation curves",
+      "mineral precipitation and porosity/permeability feedback maps",
+      "sensitivity ranking",
+      "executed synthetic 1D pH profiles",
+      "executed synthetic 1D U and sulfate profiles"
+    ]
+  },
+  "limitations": [
+    "No measured site concentrations are supplied.",
+    "No kinetic constants are supplied.",
+    "No thermodynamic database has been verified for all U/Ra/Pb/Po species.",
+    "Synthetic PFLOTRAN screening runs exist, but no site-scale PFLOTRAN calibration result exists.",
+    "The executed screening network does not mechanistically validate Ra/Pb/Po attenuation.",
+    "This package is not a regulatory submission, safety case, engineering design, or certified environmental assessment."
+  ]
+}

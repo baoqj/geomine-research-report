@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #17202a; }
+    .small { font-size: 13px; }
+    .label { font-size: 15px; font-weight: 600; }
+    .title { font-size: 19px; font-weight: 700; }
+    .caveat { font-size: 12px; fill: #5f6b72; }
+  </style>
+  <rect x="0" y="0" width="900" height="620" fill="#ffffff"/>
+  <text x="40" y="45" class="title">Dimensionless acid-buffer screening index</text>
+  <text x="252" y="560" class="label">Normalized sulfide oxidation / seepage forcing</text>
+  <text x="35" y="310" class="label" transform="rotate(-90 35,310)">Normalized carbonate buffering capacity</text>
+  <text x="175" y="148" class="small">10</text>
+  <rect x="235" y="100" width="78" height="78" fill="#f8f8f1" stroke="#ffffff" stroke-width="2"/>
+  <text x="255" y="145" class="small">0.01</text>
+  <rect x="313" y="100" width="78" height="78" fill="#ecdfd8" stroke="#ffffff" stroke-width="2"/>
+  <text x="333" y="145" class="small">0.03</text>
+  <rect x="391" y="100" width="78" height="78" fill="#e0c5bd" stroke="#ffffff" stroke-width="2"/>
+  <text x="411" y="145" class="small">0.1</text>
+  <rect x="469" y="100" width="78" height="78" fill="#d4ada4" stroke="#ffffff" stroke-width="2"/>
+  <text x="489" y="145" class="small">0.3</text>
+  <rect x="547" y="100" width="78" height="78" fill="#c89289" stroke="#ffffff" stroke-width="2"/>
+  <text x="567" y="145" class="small">1</text>
+  <text x="175" y="226" class="small">3</text>
+  <rect x="235" y="178" width="78" height="78" fill="#ebddd5" stroke="#ffffff" stroke-width="2"/>
+  <text x="255" y="223" class="small">0.033</text>
+  <rect x="313" y="178" width="78" height="78" fill="#e0c5bd" stroke="#ffffff" stroke-width="2"/>
+  <text x="333" y="223" class="small">0.1</text>
+  <rect x="391" y="178" width="78" height="78" fill="#d3aaa2" stroke="#ffffff" stroke-width="2"/>
+  <text x="411" y="223" class="small">0.33</text>
+  <rect x="469" y="178" width="78" height="78" fill="#c89289" stroke="#ffffff" stroke-width="2"/>
+  <text x="489" y="223" class="small">1</text>
+  <rect x="547" y="178" width="78" height="78" fill="#bc776e" stroke="#ffffff" stroke-width="2"/>
+  <text x="567" y="223" class="small">3.3</text>
+  <text x="175" y="304" class="small">1</text>
+  <rect x="235" y="256" width="78" height="78" fill="#e0c5bd" stroke="#ffffff" stroke-width="2"/>
+  <text x="255" y="301" class="small">0.1</text>
+  <rect x="313" y="256" width="78" height="78" fill="#d4ada4" stroke="#ffffff" stroke-width="2"/>
+  <text x="333" y="301" class="small">0.3</text>
+  <rect x="391" y="256" width="78" height="78" fill="#c89289" stroke="#ffffff" stroke-width="2"/>
+  <text x="411" y="301" class="small">1</text>
+  <rect x="469" y="256" width="78" height="78" fill="#bd7a70" stroke="#ffffff" stroke-width="2"/>
+  <text x="489" y="301" class="small">3</text>
+  <rect x="547" y="256" width="78" height="78" fill="#b05f55" stroke="#ffffff" stroke-width="2"/>
+  <text x="567" y="301" class="small">10</text>
+  <text x="175" y="382" class="small">0.3</text>
+  <rect x="235" y="334" width="78" height="78" fill="#d3aaa2" stroke="#ffffff" stroke-width="2"/>
+  <text x="255" y="379" class="small">0.33</text>
+  <rect x="313" y="334" width="78" height="78" fill="#c89289" stroke="#ffffff" stroke-width="2"/>
+  <text x="333" y="379" class="small">1</text>
+  <rect x="391" y="334" width="78" height="78" fill="#bc776e" stroke="#ffffff" stroke-width="2"/>
+  <text x="411" y="379" class="small">3.3</text>
+  <rect x="469" y="334" width="78" height="78" fill="#b05f55" stroke="#ffffff" stroke-width="2"/>
+  <text x="489" y="379" class="small">10</text>
+  <rect x="547" y="334" width="78" height="78" fill="#a4453a" stroke="#ffffff" stroke-width="2"/>
+  <text x="567" y="379" class="small">33</text>
+  <text x="175" y="460" class="small">0.1</text>
+  <rect x="235" y="412" width="78" height="78" fill="#c89289" stroke="#ffffff" stroke-width="2"/>
+  <text x="255" y="457" class="small">1</text>
+  <rect x="313" y="412" width="78" height="78" fill="#bd7a70" stroke="#ffffff" stroke-width="2"/>
+  <text x="333" y="457" class="small">3</text>
+  <rect x="391" y="412" width="78" height="78" fill="#b05f55" stroke="#ffffff" stroke-width="2"/>
+  <text x="411" y="457" class="small">10</text>
+  <rect x="469" y="412" width="78" height="78" fill="#a5473d" stroke="#ffffff" stroke-width="2"/>
+  <text x="489" y="457" class="small">30</text>
+  <rect x="547" y="412" width="78" height="78" fill="#992d22" stroke="#ffffff" stroke-width="2"/>
+  <text x="567" y="457" class="small">1e+02</text>
+  <text x="265" y="518" class="small">0.1</text>
+  <text x="343" y="518" class="small">0.3</text>
+  <text x="421" y="518" class="small">1</text>
+  <text x="499" y="518" class="small">3</text>
+  <text x="577" y="518" class="small">10</text>
+  <text x="660" y="135" class="small">Index &gt; 1:</text>
+  <text x="660" y="158" class="small">acid forcing exceeds</text>
+  <text x="660" y="181" class="small">buffer capacity</text>
+  <text x="660" y="235" class="small">Index &lt; 1:</text>
+  <text x="660" y="258" class="small">buffer-dominated</text>
+  <text x="40" y="590" class="caveat">Computed from dimensionless screening groups only; not calibrated acid generation or neutralization potential.</text>
+</svg>

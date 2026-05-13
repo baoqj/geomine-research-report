@@ -1,0 +1,61 @@
+{
+  "created": "2026-05-13",
+  "status": "executed_synthetic_screening_not_calibrated_not_validated",
+  "solver": "PFLOTRAN in Docker image pflotran/pflotran:ubuntu22",
+  "docker_repo_digest": "pflotran/pflotran@sha256:b9413b676cf826ba6ce9bf733e1c05e558fae00cedc0814d291450d52fbd8197",
+  "docker_image_created": "2023-09-05T18:12:24.4708764Z",
+  "petsc_version_reported_by_pflotran_help": "PETSc Release Version 3.19.3",
+  "platform": "linux/amd64",
+  "thermodynamic_database_in_container": "/software/pflotran/database/hanford.dat",
+  "scenarios": [
+    {
+      "scenario": "calcite_buffered",
+      "input_deck": "pflotran_runs/calcite_buffered/tailings_u_calcite_buffered.in",
+      "final_tecplot_output": "pflotran_runs/calcite_buffered/tailings_u_calcite_buffered-005.tec",
+      "log": "pflotran_runs/calcite_buffered/tailings_u_calcite_buffered.out",
+      "command": "docker run --rm --platform linux/amd64 -v /Users/aibao/Documents/Project/MiningReg/openminer/report/2026-05-13-geomine-pflotran-tailings-uranium-radionuclide/pflotran_runs/calcite_buffered:/work -w /work pflotran/pflotran:ubuntu22 pflotran -pflotranin tailings_u_calcite_buffered.in",
+      "exit_status": 0,
+      "convergence": {
+        "flow_steps": 111,
+        "flow_newton": 116,
+        "flow_linear": 116,
+        "flow_cuts": 0,
+        "transport_steps": 119,
+        "transport_newton": 492,
+        "transport_linear": 492,
+        "transport_cuts": 0,
+        "wall_clock_seconds": 1.7307
+      }
+    },
+    {
+      "scenario": "no_calcite",
+      "input_deck": "pflotran_runs/no_calcite/tailings_u_no_calcite.in",
+      "final_tecplot_output": "pflotran_runs/no_calcite/tailings_u_no_calcite-005.tec",
+      "log": "pflotran_runs/no_calcite/tailings_u_no_calcite.out",
+      "command": "docker run --rm --platform linux/amd64 -v /Users/aibao/Documents/Project/MiningReg/openminer/report/2026-05-13-geomine-pflotran-tailings-uranium-radionuclide/pflotran_runs/no_calcite:/work -w /work pflotran/pflotran:ubuntu22 pflotran -pflotranin tailings_u_no_calcite.in",
+      "exit_status": 0,
+      "convergence": {
+        "flow_steps": 111,
+        "flow_newton": 116,
+        "flow_linear": 116,
+        "flow_cuts": 0,
+        "transport_steps": 161,
+        "transport_newton": 826,
+        "transport_linear": 826,
+        "transport_cuts": 0,
+        "wall_clock_seconds": 2.2572
+      }
+    }
+  ],
+  "result_tables": [
+    "data/pflotran_screening_summary.csv",
+    "data/pflotran_profiles_25y.csv"
+  ],
+  "result_figures": [
+    "figures/fig07_pflotran_ph_profiles.svg",
+    "figures/fig07_pflotran_ph_profiles.png",
+    "figures/fig08_pflotran_u_sulfate_profiles.svg",
+    "figures/fig08_pflotran_u_sulfate_profiles.png"
+  ],
+  "interpretation_boundary": "Synthetic 1D model used to test mechanism directionality only; no field calibration or regulatory conclusion."
+}

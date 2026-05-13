@@ -1,0 +1,325 @@
+# DRAFT / TEMPLATE / REQUIRES PARAMETERIZATION AND VALIDATION
+# GeoMine Research PFLOTRAN skeleton:
+# Sulfide-bearing uranium tailings acidic seepage to shallow aquifer.
+#
+# This file is intentionally not a validated executable deck. Replace every
+# <PLACEHOLDER> after PHREEQC prototyping, thermodynamic database review,
+# field/lab parameterization, and PFLOTRAN syntax validation.
+
+SIMULATION
+  SIMULATION_TYPE SUBSURFACE
+  PROCESS_MODELS
+    SUBSURFACE_FLOW flow
+      MODE <RICHARDS_OR_SATURATED_FLOW_MODE>
+      OPTIONS
+        <FLOW_MODE_OPTIONS>
+      /
+    /
+    SUBSURFACE_TRANSPORT transport
+      MODE <GIRT_OR_NWT_REACTIVE_TRANSPORT_MODE>
+      OPTIONS
+        <TRANSPORT_MODE_OPTIONS>
+      /
+    /
+  /
+END
+
+SUBSURFACE
+
+  # --------------------------------------------------------------------------
+  # Grid: first defensible model should be a 2D cross-section; a 1D column is
+  # only for reaction-network screening, and a 3D model requires measured
+  # geometry, monitoring wells, and hydraulic boundary support.
+  # --------------------------------------------------------------------------
+  GRID
+    TYPE structured
+    NXYZ <NX> 1 <NZ>
+    BOUNDS
+      0.d0 0.d0 <Z_BOTTOM_M>
+      <DOMAIN_LENGTH_M> 1.d0 <Z_TOP_M>
+    /
+  END
+
+  REGION all
+    COORDINATES
+      0.d0 0.d0 <Z_BOTTOM_M>
+      <DOMAIN_LENGTH_M> 1.d0 <Z_TOP_M>
+    /
+  END
+
+  REGION tailings_source
+    COORDINATES
+      <TAILINGS_XMIN_M> 0.d0 <TAILINGS_ZMIN_M>
+      <TAILINGS_XMAX_M> 1.d0 <TAILINGS_ZMAX_M>
+    /
+  END
+
+  REGION vadose_or_transition_zone
+    COORDINATES
+      0.d0 0.d0 <VADOSE_ZMIN_M>
+      <DOMAIN_LENGTH_M> 1.d0 <VADOSE_ZMAX_M>
+    /
+  END
+
+  REGION shallow_aquifer
+    COORDINATES
+      0.d0 0.d0 <AQUIFER_ZMIN_M>
+      <DOMAIN_LENGTH_M> 1.d0 <AQUIFER_ZMAX_M>
+    /
+  END
+
+  REGION downgradient_boundary
+    FACE EAST
+    COORDINATES
+      <DOMAIN_LENGTH_M> 0.d0 <AQUIFER_ZMIN_M>
+      <DOMAIN_LENGTH_M> 1.d0 <AQUIFER_ZMAX_M>
+    /
+  END
+
+  REGION basal_boundary
+    FACE BOTTOM
+    COORDINATES
+      0.d0 0.d0 <Z_BOTTOM_M>
+      <DOMAIN_LENGTH_M> 1.d0 <Z_BOTTOM_M>
+    /
+  END
+
+  # --------------------------------------------------------------------------
+  # Material properties: placeholders must be replaced by field/lab values.
+  # --------------------------------------------------------------------------
+  MATERIAL_PROPERTY tailings
+    ID 1
+    POROSITY <POROSITY_TAILINGS>
+    TORTUOSITY <TORTUOSITY_TAILINGS>
+    PERMEABILITY
+      PERM_X <PERMEABILITY_TAILINGS_X_M2>
+      PERM_Y <PERMEABILITY_TAILINGS_Y_M2>
+      PERM_Z <PERMEABILITY_TAILINGS_Z_M2>
+    /
+    CHARACTERISTIC_CURVES <TAILINGS_CC_IF_RICHARDS>
+  END
+
+  MATERIAL_PROPERTY vadose_material
+    ID 2
+    POROSITY <POROSITY_VADOSE>
+    TORTUOSITY <TORTUOSITY_VADOSE>
+    PERMEABILITY
+      PERM_ISO <PERMEABILITY_VADOSE_M2>
+    /
+    CHARACTERISTIC_CURVES <VADOSE_CC_IF_RICHARDS>
+  END
+
+  MATERIAL_PROPERTY aquifer
+    ID 3
+    POROSITY <POROSITY_AQUIFER>
+    TORTUOSITY <TORTUOSITY_AQUIFER>
+    PERMEABILITY
+      PERM_X <PERMEABILITY_AQUIFER_X_M2>
+      PERM_Y <PERMEABILITY_AQUIFER_Y_M2>
+      PERM_Z <PERMEABILITY_AQUIFER_Z_M2>
+    /
+  END
+
+  MATERIAL_PROPERTY low_permeability_base
+    ID 4
+    POROSITY <POROSITY_BASE>
+    TORTUOSITY <TORTUOSITY_BASE>
+    PERMEABILITY
+      PERM_ISO <PERMEABILITY_BASE_M2>
+    /
+  END
+
+  # --------------------------------------------------------------------------
+  # Flow conditions and boundaries.
+  # --------------------------------------------------------------------------
+  FLOW_CONDITION initial_flow
+    TYPE <PRESSURE_OR_HEAD>
+    PRESSURE <INITIAL_PRESSURE_PA>
+    LIQUID_SATURATION <INITIAL_LIQUID_SATURATION_IF_RICHARDS>
+  END
+
+  FLOW_CONDITION recharge_or_seepage_flux
+    TYPE FLUX
+    FLUX <RECHARGE_OR_SEEPAGE_FLUX_M_PER_S>
+  END
+
+  FLOW_CONDITION downgradient_head
+    TYPE <HYDROSTATIC_OR_PRESSURE>
+    PRESSURE <DOWNGRADIENT_PRESSURE_PA>
+  END
+
+  INITIAL_CONDITION initial_condition
+    FLOW_CONDITION initial_flow
+    TRANSPORT_CONDITION background_groundwater
+    REGION all
+  END
+
+  BOUNDARY_CONDITION source_flux_bc
+    FLOW_CONDITION recharge_or_seepage_flux
+    TRANSPORT_CONDITION tailings_seepage_water
+    REGION tailings_source
+  END
+
+  BOUNDARY_CONDITION downgradient_bc
+    FLOW_CONDITION downgradient_head
+    TRANSPORT_CONDITION background_groundwater
+    REGION downgradient_boundary
+  END
+
+  BOUNDARY_CONDITION base_bc
+    FLOW_CONDITION <NO_FLOW_OR_LEAKAGE_CONDITION>
+    REGION basal_boundary
+  END
+
+  # --------------------------------------------------------------------------
+  # Chemistry: PHREEQC prototype should be used to screen speciation,
+  # saturation indices, and database support before finalizing this block.
+  # --------------------------------------------------------------------------
+  CHEMISTRY
+    DATABASE <THERMODYNAMIC_DATABASE_PATH>
+    PRIMARY_SPECIES
+      H+
+      O2(aq)
+      HCO3-
+      Ca++
+      Mg++
+      Na+
+      K+
+      Cl-
+      SO4--
+      Fe++
+      Fe+++
+      Al+++
+      Mn++
+      UO2++
+      Ra++
+      Pb++
+      <PO_PRIMARY_OR_SURROGATE_SPECIES>
+      <OPTIONAL_HEAVY_METAL_PRIMARY_SPECIES>
+    /
+    SECONDARY_SPECIES
+      <CARBONATE_COMPLEXES_FROM_DATABASE>
+      <URANYL_CARBONATE_COMPLEXES_FROM_DATABASE>
+      <SULFATE_COMPLEXES_FROM_DATABASE>
+      <RA_BA_SR_SULFATE_COMPLEXES_IF_SUPPORTED>
+      <PB_PO_COMPLEXES_IF_SUPPORTED>
+    /
+    MINERALS
+      Calcite
+      Dolomite
+      Gypsum
+      Barite
+      Fe(OH)3(am)
+      Gibbsite
+      <URANIUM_MINERAL_PHASES_IF_SUPPORTED>
+      <MANGANESE_OXIDE_PHASE_IF_SUPPORTED>
+    /
+    MINERAL_KINETICS
+      Pyrite
+        RATE_CONSTANT <PYRITE_OXIDATION_RATE>
+        ACTIVATION_ENERGY <PYRITE_ACTIVATION_ENERGY_IF_THC>
+        SPECIFIC_SURFACE_AREA <PYRITE_SPECIFIC_SURFACE_AREA>
+      /
+      Calcite
+        RATE_CONSTANT <CALCITE_DISSOLUTION_RATE>
+        SPECIFIC_SURFACE_AREA <CALCITE_SPECIFIC_SURFACE_AREA>
+      /
+    /
+    SORPTION
+      <SURFACE_COMPLEXATION_OR_KD_BLOCK_FOR_FE_MN_OXIDES>
+      <ION_EXCHANGE_BLOCK_IF_SUPPORTED>
+    /
+    POROSITY_PERMEABILITY_FEEDBACK
+      <OPTIONAL_MINERAL_VOLUME_FEEDBACK_RULES>
+    /
+  END
+
+  CONSTRAINT background_groundwater
+    CONCENTRATIONS
+      H+ <BACKGROUND_PH_OR_CHARGE_BALANCE>
+      HCO3- <BACKGROUND_ALKALINITY>
+      SO4-- <BACKGROUND_SULFATE>
+      UO2++ <BACKGROUND_U>
+      Ra++ <BACKGROUND_RA>
+      Pb++ <BACKGROUND_PB>
+      <PO_PRIMARY_OR_SURROGATE_SPECIES> <BACKGROUND_PO>
+    /
+    MINERALS
+      Calcite <INITIAL_CALCITE_SI_OR_VOLUME_FRACTION>
+      Dolomite <INITIAL_DOLOMITE_SI_OR_VOLUME_FRACTION>
+      Fe(OH)3(am) <INITIAL_FE_HYDROXIDE_STATUS>
+    /
+  END
+
+  CONSTRAINT tailings_seepage_water
+    CONCENTRATIONS
+      H+ <SEEPAGE_PH_OR_CHARGE_BALANCE>
+      SO4-- <SEEPAGE_SULFATE>
+      Fe++ <SEEPAGE_FEII>
+      Fe+++ <SEEPAGE_FEIII>
+      Al+++ <SEEPAGE_AL>
+      Mn++ <SEEPAGE_MN>
+      UO2++ <SEEPAGE_U>
+      Ra++ <SEEPAGE_RA>
+      Pb++ <SEEPAGE_PB>
+      <PO_PRIMARY_OR_SURROGATE_SPECIES> <SEEPAGE_PO>
+      <OPTIONAL_HEAVY_METALS> <SEEPAGE_HEAVY_METAL_VALUES>
+    /
+    MINERALS
+      Pyrite <PYRITE_VOLUME_FRACTION>
+      Calcite <CALCITE_VOLUME_FRACTION>
+      Dolomite <DOLOMITE_VOLUME_FRACTION>
+    /
+  END
+
+  TRANSPORT_CONDITION background_groundwater
+    TYPE dirichlet
+    CONSTRAINT_LIST
+      0.d0 background_groundwater
+    /
+  END
+
+  TRANSPORT_CONDITION tailings_seepage_water
+    TYPE dirichlet
+    CONSTRAINT_LIST
+      0.d0 tailings_seepage_water
+    /
+  END
+
+  OBSERVATION
+    REGION <OBS_WELL_1_REGION>
+    VELOCITY
+    LIQUID_PRESSURE
+    PH
+    TOTAL_CONCENTRATION SO4--
+    TOTAL_CONCENTRATION UO2++
+    TOTAL_CONCENTRATION Ra++
+    TOTAL_CONCENTRATION Pb++
+    TOTAL_CONCENTRATION <PO_PRIMARY_OR_SURROGATE_SPECIES>
+  END
+
+  OUTPUT
+    FORMAT HDF5
+    TIMES y <OUTPUT_TIMES_YEARS>
+    VARIABLES
+      LIQUID_PRESSURE
+      LIQUID_SATURATION
+      POROSITY
+      PERMEABILITY
+      PH
+      TOTAL_CONCENTRATION SO4--
+      TOTAL_CONCENTRATION Fe++
+      TOTAL_CONCENTRATION Al+++
+      TOTAL_CONCENTRATION Mn++
+      TOTAL_CONCENTRATION UO2++
+      TOTAL_CONCENTRATION Ra++
+      TOTAL_CONCENTRATION Pb++
+      TOTAL_CONCENTRATION <PO_PRIMARY_OR_SURROGATE_SPECIES>
+      MINERAL_VOLUME_FRACTION Calcite
+      MINERAL_VOLUME_FRACTION Dolomite
+      MINERAL_VOLUME_FRACTION Barite
+      MINERAL_VOLUME_FRACTION Fe(OH)3(am)
+    /
+  END
+
+END_SUBSURFACE

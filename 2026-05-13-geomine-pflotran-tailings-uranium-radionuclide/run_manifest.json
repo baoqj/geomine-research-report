@@ -1,0 +1,57 @@
+{
+  "model_name": "pflotran_tailings_uranium_radionuclide_draft",
+  "model_version": "v0.2-site-draft-plus-executed-1d-screening-20260513",
+  "execution_status": "site_model_not_executed; synthetic_1d_screening_executed",
+  "input_deck": "pflotran_tailings_uranium_template.in",
+  "thermodynamic_database": "<THERMODYNAMIC_DATABASE_PATH>",
+  "local_run_command": "pflotran -pflotranin pflotran_tailings_uranium_template.in",
+  "mpi_run_command_example": "mpirun -np 16 pflotran -pflotranin pflotran_tailings_uranium_template.in",
+  "executed_screening_manifest": "pflotran_run_manifest.json",
+  "executed_screening_runs": [
+    {
+      "scenario": "calcite_buffered",
+      "command": "docker run --rm --platform linux/amd64 -v report/2026-05-13-geomine-pflotran-tailings-uranium-radionuclide/pflotran_runs/calcite_buffered:/work -w /work pflotran/pflotran:ubuntu22 pflotran -pflotranin tailings_u_calcite_buffered.in",
+      "status": "executed_converged",
+      "output_log": "pflotran_runs/calcite_buffered/tailings_u_calcite_buffered.out",
+      "final_output": "pflotran_runs/calcite_buffered/tailings_u_calcite_buffered-005.tec"
+    },
+    {
+      "scenario": "no_calcite",
+      "command": "docker run --rm --platform linux/amd64 -v report/2026-05-13-geomine-pflotran-tailings-uranium-radionuclide/pflotran_runs/no_calcite:/work -w /work pflotran/pflotran:ubuntu22 pflotran -pflotranin tailings_u_no_calcite.in",
+      "status": "executed_converged",
+      "output_log": "pflotran_runs/no_calcite/tailings_u_no_calcite.out",
+      "final_output": "pflotran_runs/no_calcite/tailings_u_no_calcite-005.tec"
+    }
+  ],
+  "expected_outputs": [
+    "*.h5",
+    "*-obs-*.tec",
+    "*.out",
+    "restart/checkpoint files if enabled"
+  ],
+  "log_checks_required": [
+    "PFLOTRAN version and build",
+    "database file loaded successfully",
+    "all placeholder fields replaced",
+    "all primary species recognized",
+    "all mineral/sorption entries recognized",
+    "Newton/Krylov convergence for flow and transport",
+    "mass-balance residuals",
+    "charge-balance warnings",
+    "time-step cuts or failures",
+    "observation files created"
+  ],
+  "run_record_fields": [
+    "model_version",
+    "git_commit",
+    "input_deck_hash",
+    "database_hash",
+    "pfloTran_version",
+    "mpi_process_count",
+    "wall_time",
+    "output_directory",
+    "convergence_summary",
+    "known_warnings",
+    "operator_notes"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "package": "PFLOTRAN tailings acid seepage uranium radionuclide figure package",
+  "status": "draft_publication_figures_and_screening_visuals",
+  "created": "2026-05-13",
+  "figures": [
+    {
+      "id": "fig01",
+      "file": "figures/fig01_conceptual_cross_section.svg",
+      "pdf_fallback_file": "figures/fig01_conceptual_cross_section.png",
+      "type": "conceptual cross-section",
+      "paper_section": "Conceptual model",
+      "caveat": "Schematic; no site geometry or concentration data."
+    },
+    {
+      "id": "fig02",
+      "file": "figures/fig02_reaction_network.svg",
+      "pdf_fallback_file": "figures/fig02_reaction_network.png",
+      "type": "reaction network",
+      "paper_section": "Chemistry configuration",
+      "caveat": "Constants and database support remain placeholders."
+    },
+    {
+      "id": "fig03",
+      "file": "figures/fig03_domain_boundary_conditions.svg",
+      "pdf_fallback_file": "figures/fig03_domain_boundary_conditions.png",
+      "type": "model architecture",
+      "paper_section": "PFLOTRAN model design",
+      "caveat": "Boundary values must be measured or defensibly estimated before execution."
+    },
+    {
+      "id": "fig04",
+      "file": "figures/fig04_acid_buffer_index_heatmap.svg",
+      "pdf_fallback_file": "figures/fig04_acid_buffer_index_heatmap.png",
+      "type": "screening heatmap",
+      "paper_section": "Sensitivity and uncertainty",
+      "source_data": "data/screening_parameter_sweep.csv",
+      "caveat": "Dimensionless screening values, not measured or simulated results."
+    },
+    {
+      "id": "fig05",
+      "file": "figures/fig05_retardation_screening_curves.svg",
+      "pdf_fallback_file": "figures/fig05_retardation_screening_curves.png",
+      "type": "analytic screening curve",
+      "paper_section": "Transport interpretation",
+      "source_data": "data/retardation_scenarios.csv",
+      "caveat": "Analytic retardation illustration, not fitted monitoring-well breakthrough."
+    },
+    {
+      "id": "fig06",
+      "file": "figures/fig06_sensitivity_tornado.svg",
+      "pdf_fallback_file": "figures/fig06_sensitivity_tornado.png",
+      "type": "sensitivity design ranking",
+      "paper_section": "Calibration and validation plan",
+      "source_data": "data/sensitivity_screening_rank.csv",
+      "caveat": "Expert-priority ranking, not a variance-based sensitivity result."
+    },
+    {
+      "id": "fig07",
+      "file": "figures/fig07_pflotran_ph_profiles.svg",
+      "pdf_fallback_file": "figures/fig07_pflotran_ph_profiles.png",
+      "type": "executed PFLOTRAN 1D screening output",
+      "paper_section": "Executed PFLOTRAN screening results",
+      "source_data": "data/pflotran_profiles_25y.csv",
+      "caveat": "Executed synthetic 1D PFLOTRAN result; not calibrated site prediction."
+    },
+    {
+      "id": "fig08",
+      "file": "figures/fig08_pflotran_u_sulfate_profiles.svg",
+      "pdf_fallback_file": "figures/fig08_pflotran_u_sulfate_profiles.png",
+      "type": "executed PFLOTRAN 1D screening output",
+      "paper_section": "Executed PFLOTRAN screening results",
+      "source_data": "data/pflotran_profiles_25y.csv",
+      "caveat": "Executed synthetic 1D PFLOTRAN result; not calibrated site prediction."
+    }
+  ]
+}

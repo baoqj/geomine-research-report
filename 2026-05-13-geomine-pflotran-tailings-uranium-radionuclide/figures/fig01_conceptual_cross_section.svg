@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #17202a; }
+    .small { font-size: 13px; }
+    .label { font-size: 15px; font-weight: 600; }
+    .title { font-size: 19px; font-weight: 700; }
+    .caveat { font-size: 12px; fill: #5f6b72; }
+  </style>
+
+  <rect x="0" y="0" width="1100" height="620" fill="#f7fbff"/>
+  <text x="40" y="45" class="title">Conceptual model: sulfide-bearing uranium tailings seepage to shallow aquifer</text>
+  <rect x="70" y="105" width="300" height="110" fill="#b7b0a6" stroke="#5b5147" stroke-width="2"/>
+  <text x="105" y="150" class="label">Tailings source zone</text>
+  <text x="105" y="176" class="small">pyrite + U-bearing phases</text>
+  <path d="M80 215 C230 260 420 260 575 255 C745 248 890 255 1050 238 L1050 325 C830 348 630 337 430 330 C260 326 150 305 80 300 Z" fill="#d8c99b" stroke="#9c874e" stroke-width="2"/>
+  <text x="455" y="302" class="label">Vadose / seepage pathway</text>
+  <path d="M30 342 C250 335 420 360 630 350 C820 342 970 345 1080 360 L1080 495 L30 495 Z" fill="#cce7f6" stroke="#4a90ad" stroke-width="2"/>
+  <text x="610" y="395" class="label">Shallow aquifer</text>
+  <rect x="30" y="495" width="1050" height="75" fill="#8f8f8f" stroke="#555" stroke-width="2"/>
+  <text x="690" y="540" class="label" fill="#fff">Low-permeability base layer</text>
+  <path d="M240 210 C280 260 340 305 445 350" fill="none" stroke="#c0392b" stroke-width="5" stroke-dasharray="10 8" marker-end="url(#arrow-red)"/>
+  <path d="M420 367 C560 367 705 370 900 392" fill="none" stroke="#2f80b7" stroke-width="5" marker-end="url(#arrow-blue)"/>
+  <path d="M445 350 C560 330 690 325 840 318" fill="none" stroke="#d35400" stroke-width="4" stroke-dasharray="7 6" marker-end="url(#arrow-orange)"/>
+  <circle cx="520" cy="380" r="9" fill="#4a90ad"/><text x="535" y="385" class="small">MW-1</text>
+  <circle cx="720" cy="385" r="9" fill="#4a90ad"/><text x="735" y="390" class="small">MW-2</text>
+  <circle cx="930" cy="405" r="9" fill="#4a90ad"/><text x="945" y="410" class="small">MW-3 / receptor</text>
+  <rect x="115" y="235" width="190" height="70" fill="#fff7e6" stroke="#d35400" stroke-width="1.5"/>
+  <text x="132" y="262" class="small">Acid + sulfate source</text>
+  <text x="132" y="286" class="small">metals + U-series release</text>
+  <rect x="540" y="255" width="250" height="70" fill="#eef8ef" stroke="#3a8b4f" stroke-width="1.5"/>
+  <text x="560" y="283" class="small">Carbonate neutralization</text>
+  <text x="560" y="307" class="small">Fe/Al hydroxide precipitation</text>
+  <defs>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#c0392b"/></marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2f80b7"/></marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d35400"/></marker>
+  </defs>
+  <text x="40" y="600" class="caveat">Schematic only. Geometry, gradients, concentrations, and mineral quantities require site measurements before PFLOTRAN execution.</text>
+
+</svg>
