@@ -1,0 +1,31 @@
+{
+  "status": "screening_calculations_not_site_calibration",
+  "generated_figures": [
+    "fig1_nearfield_concept.svg",
+    "fig2_coupling_matrix.svg",
+    "fig3_thermal_decay_temperature.svg",
+    "fig4_salinity_swelling_permeability.svg",
+    "fig5_sulfide_copper_corrosion.svg",
+    "fig6_h2_pressure_envelope.svg",
+    "fig7_radionuclide_diffusion_times.svg",
+    "fig8_scenario_matrix.svg"
+  ],
+  "key_results": {
+    "thermal_initial_delta_t_c": 36.9293,
+    "thermal_initial_surface_temp_c": 56.9293,
+    "mx80_brine_to_di_k_ratio_e_0_588": 213.6,
+    "cu_depth_100kyr_mm_at_10uM_De1e_11": 0.01279,
+    "cu_depth_100kyr_mm_at_120uM_De1e_10": 1.53471,
+    "cu_depth_100kyr_mm_at_120uM_De3e_10": 4.60414,
+    "h2_pressure_rate_mpa_yr_at_1uA_m2": 0.0004079,
+    "iodine_diffusion_time_year_25c": 38.8,
+    "pu_am_diffusion_time_year_25c": 18893.2,
+    "diffusion_time_reduction_factor_25_to_80c_free_water": 3.005
+  },
+  "limitations": [
+    "No site-specific Canadian DGR groundwater sample, borehole, fracture, or canister heat inventory was ingested.",
+    "Salinity-swelling points are normalized from literature statements and should be replaced by test data before calibration.",
+    "Corrosion envelopes assume sulfide transport control and immediate Cu2S formation.",
+    "H2 pressure curves are no-loss upper bounds; dissolution, diffusion, consumption, and two-phase escape must be added."
+  ]
+}

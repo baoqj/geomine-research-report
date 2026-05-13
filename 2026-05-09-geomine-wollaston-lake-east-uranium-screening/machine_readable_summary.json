@@ -1,0 +1,82 @@
+{
+  "report_date": "2026-05-09",
+  "research_system": "GeoMine Research",
+  "aoi": {
+    "user_expression": "Athabasca Basin margin, Saskatchewan, Canada; WallaStone Lake East",
+    "normalized_name": "Wollaston Lake East / eastern Wollaston area",
+    "normalization_note": "WallaStone is treated as a spelling variant of Wollaston. The focused screen uses the official eastern Wollaston electromagnetic map-sheet envelope rather than a claim boundary.",
+    "country": "Canada",
+    "province": "Saskatchewan",
+    "focus_envelope_wgs84": {
+      "min_longitude": -103.9167,
+      "min_latitude": 57.3667,
+      "max_longitude": -102.9167,
+      "max_latitude": 57.8333
+    },
+    "primary_nts_context": [
+      "64E/5",
+      "64E/6",
+      "64E/10",
+      "64E/11",
+      "64E/12",
+      "64E/14",
+      "64E/15"
+    ],
+    "geometry_confidence": "regional-envelope only; no authoritative polygon, claim id, or survey block supplied"
+  },
+  "commodity": "uranium",
+  "deposit_model_assessed": "Athabasca unconformity-related and shallow basement-hosted uranium",
+  "overall_screening_result": {
+    "uranium_potential": "moderate to high exploration potential at the area scale, driven by dense conductor evidence, radioactive boulder evidence, and favorable regional Athabasca/Wollaston context",
+    "confirmed_deposit_status": "not confirmed inside the selected eastern Wollaston envelope by the queried uranium deposit footprint layer",
+    "confidence": "moderate for regional target potential; low for drill-target ranking until AOI geometry, conductor quality, boulder source vectors, bedrock geology, alteration, and geochemical data are integrated"
+  },
+  "quantitative_evidence": {
+    "em_conductors_in_focus_envelope": 867,
+    "em_conductors_by_survey_type": {
+      "Airborne EM": 830,
+      "Ground EM": 37
+    },
+    "em_conductors_by_type": {
+      "VLF-EM": 767,
+      "ZTEM": 44,
+      "HLEM": 33,
+      "MK VI": 9,
+      "VTEM": 9,
+      "VTEM+": 4,
+      "Input": 1
+    },
+    "radioactive_boulder_points": 270,
+    "radioactive_boulder_cps": {
+      "min": 0.0,
+      "median": 350.0,
+      "max": 22000.0
+    },
+    "uranium_deposit_footprints_in_focus_envelope": 0,
+    "saskatchewan_analytical_rock_property_records_in_focus_envelope": 0,
+    "local_lake_water_samples_in_focus_envelope": 0
+  },
+  "assumptions": [
+    "WallaStone Lake East means Wollaston Lake East / eastern Wollaston area.",
+    "The focus envelope is based on the official NRCan/SGS eastern Wollaston electromagnetic map extents rather than a claim or property boundary.",
+    "User-reported subsurface conductivity is treated as a targeting hypothesis until source survey lines, depth slices, and conductor quality are reviewed.",
+    "EM conductors are treated as evidence for conductive bedrock or structure, not direct evidence of uranium mineralization."
+  ],
+  "data_gaps": [
+    "No authoritative polygon, claim id, or target-center coordinate was supplied.",
+    "No live CDoGS analytical data were downloaded and normalized.",
+    "No assessment reports were retrieved from SMAD for the conductor files in this run.",
+    "No drillhole, alteration, radiometric, gravity, resistivity, or lithogeochemical data were compiled.",
+    "No glacial-transport analysis was completed for radioactive boulder source tracing.",
+    "No infrastructure distance calculation was performed."
+  ],
+  "recommended_next_steps": [
+    "Define the AOI as a polygon or claim block and re-run all spatial queries in the authoritative Saskatchewan projected CRS.",
+    "Download and georeference NRCan/SGS Open File 8966 and 8967 sheets, prioritizing late-channel apparent conductivity, interpretation sheets, and magnetic derivatives.",
+    "Pull Saskatchewan assessment files 64E-0005, 64E-0015, 64E05-0035, 64E11-0029, 64E11-0027, 64E12-0043, and related records from SMAD.",
+    "Overlay conductor segments with radioactive boulders, uranium potential, bedrock domain, faults/structure, glacial drift thickness, and ice-flow indicators.",
+    "Use CDoGS surveys for background geochemical thresholds and compare only compatible sample media and analytical methods.",
+    "Rank target cells only where multiple evidence lanes coincide: conductor trend, structural complexity, radioactive boulders or geochemistry, favorable basement/cover setting, alteration, and drill support."
+  ]
+}
+

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="600" viewBox="0 0 920 600" role="img">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#172026}.small{font-size:12px;fill:#52616a}.title{font-size:18px;font-weight:700}.axis{stroke:#172026;stroke-width:1}.grid{stroke:#d7e0e5;stroke-width:1}.label{font-size:13px;fill:#172026}.legend{font-size:12px;fill:#52616a}</style>
+<rect x="0.0" y="0.0" width="920.0" height="600.0" fill="#ffffff" stroke="none" opacity="1"/>
+<text x="26.0" y="34.0" font-size="18" text-anchor="start" font-weight="700" class="title">Figure 3. Ra does not increase monotonically with sulfate because Ba/Sr and mixing state also matter</text>
+<line x1="95.0" y1="70.0" x2="95.0" y2="508.0" stroke="#d7e0e5" stroke-width="1.0"/>
+<line x1="95.0" y1="70.0" x2="885.0" y2="70.0" stroke="#d7e0e5" stroke-width="1.0"/>
+<line x1="253.0" y1="70.0" x2="253.0" y2="508.0" stroke="#d7e0e5" stroke-width="1.0"/>
+<line x1="95.0" y1="157.6" x2="885.0" y2="157.6" stroke="#d7e0e5" stroke-width="1.0"/>
+<line x1="411.0" y1="70.0" x2="411.0" y2="508.0" stroke="#d7e0e5" stroke-width="1.0"/>
+<line x1="95.0" y1="245.2" x2="885.0" y2="245.2" stroke="#d7e0e5" stroke-width="1.0"/>
+<line x1="569.0" y1="70.0" x2="569.0" y2="508.0" stroke="#d7e0e5" stroke-width="1.0"/>
+<line x1="95.0" y1="332.8" x2="885.0" y2="332.8" stroke="#d7e0e5" stroke-width="1.0"/>
+<line x1="727.0" y1="70.0" x2="727.0" y2="508.0" stroke="#d7e0e5" stroke-width="1.0"/>
+<line x1="95.0" y1="420.4" x2="885.0" y2="420.4" stroke="#d7e0e5" stroke-width="1.0"/>
+<line x1="885.0" y1="70.0" x2="885.0" y2="508.0" stroke="#d7e0e5" stroke-width="1.0"/>
+<line x1="95.0" y1="508.0" x2="885.0" y2="508.0" stroke="#d7e0e5" stroke-width="1.0"/>
+<line x1="95.0" y1="508.0" x2="885.0" y2="508.0" stroke="#172026" stroke-width="1.2"/>
+<line x1="95.0" y1="70.0" x2="95.0" y2="508.0" stroke="#172026" stroke-width="1.2"/>
+<text x="490.0" y="568.0" font-size="13" text-anchor="middle" font-weight="400">SO4, mg/L (log10)</text>
+<text x="22.0" y="289.0" font-size="13" text-anchor="middle" font-weight="400">Ra-226, Bq/L (log10)</text>
+<text x="660.0" y="34.0" font-size="12" text-anchor="start" font-weight="400" class="small">Pearson r = -0.32 (synthetic scenarios)</text>
+<circle cx="381.5" cy="477.8" r="6.5" fill="#1f6f9f" stroke="#172026" stroke-width="0.8"/>
+<text x="390.5" y="469.8" font-size="11" text-anchor="start" font-weight="400" class="small">OX-CARB-01</text>
+<circle cx="149.5" cy="100.2" r="6.5" fill="#6f5aa7" stroke="#172026" stroke-width="0.8"/>
+<text x="158.5" y="92.2" font-size="11" text-anchor="start" font-weight="400" class="small">RED-BRINE-01</text>
+<circle cx="830.5" cy="266.3" r="6.5" fill="#c94f44" stroke="#172026" stroke-width="0.8"/>
+<text x="839.5" y="258.3" font-size="11" text-anchor="start" font-weight="400" class="small">TAIL-SO4-01</text>
+<circle cx="551.7" cy="437.8" r="6.5" fill="#249186" stroke="#172026" stroke-width="0.8"/>
+<text x="560.7" y="429.8" font-size="11" text-anchor="start" font-weight="400" class="small">MIX-TAIL-01</text>
+<circle cx="652.6" cy="392.4" r="6.5" fill="#249186" stroke="#172026" stroke-width="0.8"/>
+<circle cx="739.1" cy="338.0" r="6.5" fill="#249186" stroke="#172026" stroke-width="0.8"/>
+<circle cx="792.1" cy="297.9" r="6.5" fill="#249186" stroke="#172026" stroke-width="0.8"/>
+<circle cx="816.4" cy="278.1" r="6.5" fill="#249186" stroke="#172026" stroke-width="0.8"/>
+<circle cx="369.7" cy="365.5" r="6.5" fill="#249186" stroke="#172026" stroke-width="0.8"/>
+<text x="378.7" y="357.5" font-size="11" text-anchor="start" font-weight="400" class="small">MIX-RED-01</text>
+<circle cx="349.9" cy="277.4" r="6.5" fill="#249186" stroke="#172026" stroke-width="0.8"/>
+<circle cx="308.9" cy="193.6" r="6.5" fill="#249186" stroke="#172026" stroke-width="0.8"/>
+<circle cx="250.8" cy="139.9" r="6.5" fill="#249186" stroke="#172026" stroke-width="0.8"/>
+<circle cx="199.0" cy="114.9" r="6.5" fill="#249186" stroke="#172026" stroke-width="0.8"/>
+<circle cx="610.0" cy="528.0" r="5.0" fill="#1f6f9f" stroke="#172026" stroke-width="0.8"/>
+<text x="622.0" y="532.0" font-size="12" text-anchor="start" font-weight="400" class="legend">oxidizing carbonate</text>
+<circle cx="610.0" cy="545.0" r="5.0" fill="#6f5aa7" stroke="#172026" stroke-width="0.8"/>
+<text x="622.0" y="549.0" font-size="12" text-anchor="start" font-weight="400" class="legend">reducing brine</text>
+<circle cx="610.0" cy="562.0" r="5.0" fill="#c94f44" stroke="#172026" stroke-width="0.8"/>
+<text x="622.0" y="566.0" font-size="12" text-anchor="start" font-weight="400" class="legend">tailings sulfate</text>
+<circle cx="610.0" cy="579.0" r="5.0" fill="#249186" stroke="#172026" stroke-width="0.8"/>
+<text x="622.0" y="583.0" font-size="12" text-anchor="start" font-weight="400" class="legend">mixing path</text>
+</svg>

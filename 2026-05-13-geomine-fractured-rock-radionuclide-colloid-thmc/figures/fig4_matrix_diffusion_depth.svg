@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="710" height="430" viewBox="0 0 710 430" role="img">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#172026}.small{font-size:12px;fill:#52616a}.title{font-size:18px;font-weight:700}.axis{stroke:#172026;stroke-width:1.1}.grid{stroke:#d7e0e5;stroke-width:1}</style>
+<text x="100.0" y="44.0" font-size="18" text-anchor="start" fill="#172026" font-weight="700" class="title">Matrix diffusion depth: model envelope and Grimsel LTD targets</text>
+<line x1="100.0" y1="362.0" x2="620.0" y2="362.0" stroke="#172026" stroke-width="1.2"/>
+<line x1="100.0" y1="62.0" x2="100.0" y2="362.0" stroke="#172026" stroke-width="1.2"/>
+<text x="360.0" y="404.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="400" class="small">penetration depth (m, log scale)</text>
+<text x="46.0" y="212.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="400" class="small">radionuclide</text>
+<line x1="100.0" y1="62.0" x2="100.0" y2="362.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="100.0" y="382.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">0.0001</text>
+<line x1="257.5" y1="62.0" x2="257.5" y2="362.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="257.5" y="382.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">0.001</text>
+<line x1="415.1" y1="62.0" x2="415.1" y2="362.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="415.1" y="382.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">0.01</text>
+<line x1="525.2" y1="62.0" x2="525.2" y2="362.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="525.2" y="382.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">0.05</text>
+<line x1="572.6" y1="62.0" x2="572.6" y2="362.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="572.6" y="382.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">0.1</text>
+<text x="92.0" y="83.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">I-129</text>
+<rect x="100.0" y="74.0" width="388.8" height="14.0" rx="2.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="92.0" y="107.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Tc-99</text>
+<rect x="100.0" y="98.0" width="388.8" height="14.0" rx="2.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="92.0" y="131.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Se-79</text>
+<rect x="100.0" y="122.0" width="319.8" height="14.0" rx="2.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="92.0" y="155.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Sr-90</text>
+<rect x="100.0" y="146.0" width="242.1" height="14.0" rx="2.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="92.0" y="179.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Cs-137</text>
+<rect x="100.0" y="170.0" width="139.8" height="14.0" rx="2.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="92.0" y="203.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Ra-226</text>
+<rect x="100.0" y="194.0" width="163.5" height="14.0" rx="2.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="92.0" y="227.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">U</text>
+<rect x="100.0" y="218.0" width="242.1" height="14.0" rx="2.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="92.0" y="251.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Np</text>
+<rect x="100.0" y="242.0" width="242.1" height="14.0" rx="2.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="92.0" y="275.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Pu</text>
+<rect x="100.0" y="266.0" width="84.7" height="14.0" rx="2.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="92.0" y="299.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Am</text>
+<rect x="100.0" y="290.0" width="61.0" height="14.0" rx="2.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="92.0" y="323.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Th</text>
+<rect x="100.0" y="314.0" width="5.9" height="14.0" rx="2.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<line x1="525.2" y1="62.0" x2="525.2" y2="362.0" stroke="#5d8f3a" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="462.5" y1="62.0" x2="462.5" y2="362.0" stroke="#d08b2f" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="530.2" y="80.0" font-size="12" text-anchor="start" fill="#5d8f3a" font-weight="400">GTS Cs-137 up to 5 cm</text>
+<text x="467.5" y="100.0" font-size="12" text-anchor="start" fill="#d08b2f" font-weight="400">GTS Np-237 up to 2 cm</text>
+<text x="122.0" y="392.0" font-size="13" text-anchor="start" fill="#172026" font-weight="400" class="small">Implied Dapp over 5 yr: Cs 1.58e-11 m2/s, Np 2.54e-12 m2/s</text>
+</svg>

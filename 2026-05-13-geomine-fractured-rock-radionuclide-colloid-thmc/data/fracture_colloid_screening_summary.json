@@ -1,0 +1,44 @@
+{
+  "status": "screening_calculations_not_site_calibration",
+  "router": {
+    "scenario": [
+      "radionuclide_transport",
+      "fractured_rock_contaminant_transport",
+      "long_term_environmental_risk"
+    ],
+    "core_coupling_level": "HC",
+    "thmc_extensions": [
+      "temperature-dependent speciation/diffusion",
+      "fracture aperture/filtering evolution",
+      "mineral alteration and colloid generation"
+    ]
+  },
+  "generated_figures": [
+    "fig1_fractured_rock_concept.svg",
+    "fig2_multiscale_process_matrix.svg",
+    "fig3_kd_retardation.svg",
+    "fig4_matrix_diffusion_depth.svg",
+    "fig5_colloid_association.svg",
+    "fig6_colloid_filtration.svg",
+    "fig7_mobility_index.svg",
+    "fig8_scenario_risk_matrix.svg"
+  ],
+  "key_results": {
+    "i129_retardation": 3.65,
+    "tc99_retardation_oxidizing": 3.65,
+    "tc99_retardation_reducing": 13251.0,
+    "cs137_retardation": 5301.0,
+    "pu_retardation_reducing": 265001.0,
+    "grimsel_cs137_implied_dapp_m2_s": "1.584e-11",
+    "grimsel_np237_implied_dapp_m2_s": "2.535e-12",
+    "colloid_fraction_k1e6_1mg_l": 0.5,
+    "colloid_survival_100m_lambda_0_01": 0.3679,
+    "pu_mobility_index_with_1mg_l_colloid": 0.183977
+  },
+  "limitations": [
+    "Kd values are illustrative grouped screening values; replace with site- and mineral-specific tables before safety assessment.",
+    "The mobility index is a dimensionless ranking metric, not a breakthrough-curve prediction.",
+    "Grimsel LTD depths are field targets from public project description and are not full raw concentration profiles.",
+    "Colloid facilitation requires stable mobile colloids and weak filtration; strong filtration collapses the effect."
+  ]
+}

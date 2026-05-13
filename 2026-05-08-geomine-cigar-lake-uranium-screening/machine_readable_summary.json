@@ -1,0 +1,101 @@
+{
+  "report_date": "2026-05-08",
+  "research_system": "GeoMine Research",
+  "aoi": {
+    "original_user_expression": "Saskatchewan Cigar Lake",
+    "normalized_name": "Cigar Lake Mine",
+    "country": "Canada",
+    "province": "Saskatchewan",
+    "region": "Eastern Athabasca Basin",
+    "aoi_type": "named producing uranium mine / mineral deposit",
+    "official_occurrence_id": "SMDI 1856",
+    "official_nts_sheet": "074I02",
+    "official_coordinate_reference": "NAD83 UTM Zone 13",
+    "official_utm_easting": 527220.0,
+    "official_utm_northing": 6436470.0,
+    "approximate_screening_latitude": 58.066,
+    "approximate_screening_longitude": -104.536,
+    "geometry_confidence": "point-level only; no claim or lease polygon supplied"
+  },
+  "commodity": "uranium",
+  "deposit_model_assessed": "unconformity-related uranium",
+  "research_types": [
+    "aoi_screening",
+    "deposit_model_assessment",
+    "mineral_occurrence_context",
+    "geochemical_anomaly_interpretation",
+    "infrastructure_and_regulatory_context"
+  ],
+  "overall_result": {
+    "uranium_potential": "confirmed very high at the known mine/deposit scale",
+    "extension_potential": "moderate to high along documented near-mine trends where geophysics, structure, alteration, and drilling support follow-up",
+    "greenfield_surface_geochemistry_signal_near_point": "weak in the checked local lake-water data within 25 km",
+    "confidence": "high for known deposit presence and production; moderate for near-mine extension potential; low for any new target outside documented drill/geophysics corridors"
+  },
+  "evidence_lanes": [
+    {
+      "lane": "AOI and occurrence normalization",
+      "finding": "SMDI record 1856 identifies Cigar Lake Mine as a production uranium deposit with associated Co, Cu, Pb, Ni, and Zn.",
+      "evidence_grade": "A for occurrence identity and status; not used as NI 43-101 reserve evidence",
+      "confidence": "high"
+    },
+    {
+      "lane": "Geology and structure",
+      "finding": "Cigar Lake is located at the Athabasca Group/Wollaston Group unconformity, with graphitic pelitic basement, east-west structural control, basement-high control, and strong clay alteration.",
+      "evidence_grade": "A",
+      "confidence": "high"
+    },
+    {
+      "lane": "Deposit model fit",
+      "finding": "The deposit is explicitly described as an unconformity-related uranium deposit and matches the expected redox/unconformity, graphitic fault, clay alteration, and uraninite-pitchblende model elements.",
+      "evidence_grade": "A",
+      "confidence": "high"
+    },
+    {
+      "lane": "Geochemistry",
+      "finding": "Technical-report and SMDI evidence supports U with Ni, Co, Cu, Pb, Zn, Mo, As associations at the deposit. Local lake-water samples within 25 km show weak U values, which are not decisive for this deep covered deposit.",
+      "evidence_grade": "A for deposit geochemistry; B/C for local lake-water screening",
+      "confidence": "moderate"
+    },
+    {
+      "lane": "Geophysics and exploration",
+      "finding": "The deposit was discovered by drilling geophysical anomalies, and EM/resistivity methods remain central for near-mine exploration.",
+      "evidence_grade": "A",
+      "confidence": "high"
+    },
+    {
+      "lane": "Reserves, resources, and production",
+      "finding": "Cameco reports 2025 proven and probable reserves at 479.0 thousand tonnes grading 16.33 percent U3O8, containing 172.4 million pounds U3O8 on a 100 percent basis.",
+      "evidence_grade": "A for public company NI 43-101 style reporting; no independent audit performed in this screen",
+      "confidence": "high"
+    },
+    {
+      "lane": "Infrastructure and regulatory context",
+      "finding": "Cigar Lake is operating under a CNSC licence expiring June 30, 2031, and ore is processed at McClean Lake. MCP did not calculate infrastructure distances.",
+      "evidence_grade": "A for operating and licence status; D for uncalculated infrastructure distance",
+      "confidence": "high for status, low for distance metrics"
+    }
+  ],
+  "assumptions": [
+    "The requested AOI is the Cigar Lake mine/deposit area, not the full Waterbury property, all surrounding claims, or a new MARS disposition.",
+    "The SMDI point and approximate lat/lon are adequate for screening only, not for distance, area, tenure, or permitting conclusions.",
+    "Public official and company sources are sufficient for a first-pass screening memo; no proprietary drillhole database or mine model was accessed.",
+    "Cameco reserve and production data are treated as current to the stated effective date of December 31, 2025."
+  ],
+  "data_gaps": [
+    "No authoritative lease, claim, or mine-boundary polygon was loaded.",
+    "No live Saskatchewan GeoAtlas, SMDI API, SMAD, CDoGS, or Open Canada CKAN data were downloaded through MCP.",
+    "No raw drillhole collar, assay, alteration, geotechnical, or geophysical grids were compiled.",
+    "The CNSC licence and licence conditions handbook were not obtained.",
+    "Local lake-water geochemistry was not QA/QC audited and has limited relevance to a deep, covered deposit."
+  ],
+  "recommended_next_steps": [
+    "Resolve authoritative AOI geometry from SMDI, GeoAtlas, MARS, and mine-lease records before spatial calculations.",
+    "Download and normalize SMDI 1856, related SMAD assessment reports, and current Cameco reserve/resource PDFs.",
+    "Compile drill collars, assays, alteration, EM, resistivity, and structure into a 3D or section-based near-mine targeting model.",
+    "Separate known-mine reserve/resource review from greenfield target ranking around Cigar East, CLEXT, and surrounding Waterbury claim trends.",
+    "Review CNSC licence conditions, regulatory actions, IEMP data, and environmental monitoring obligations before any work-program recommendation.",
+    "Use projected CRS analysis for infrastructure, community, environmental, and tenure distances."
+  ]
+}
+

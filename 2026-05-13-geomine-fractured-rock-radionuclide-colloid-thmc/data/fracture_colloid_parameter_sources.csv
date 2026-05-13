@@ -1,0 +1,9 @@
+source_id,source,url,data_or_claim,use
+S1,EGU26-5127,https://doi.org/10.5194/egusphere-egu26-5127,"I, Np, Tc sorption depends on redox, ionic strength, pH, complexing ions, microorganisms; high ionic strength, high temperature, organic ligands and microorganisms are knowledge gaps",problem framing and uncertainty matrix
+S2,SKB TR-10-50,https://www.skb.com/publication/2166831,SR-Site radionuclide transport report for crystalline-rock safety assessment,far-field transport concepts and parameter-data lane
+S3,SKB R-10-48,https://skb.com/publication/2192981,Bedrock Kd data and uncertainty assessment for SR-Site geosphere transport calculations,order-of-magnitude Kd grouping; replace with table extraction for calibration
+S4,Grimsel LTD,https://www.grimsel.com/gts-projects/ltd/ltd-diffusion-processes-study,Cs-137 observed up to 5 cm into matrix; Np-237 up to 2 cm from shear zone,matrix diffusion calibration targets and figure markers
+S5,Grimsel CRR experiment,https://doi.org/10.1016/S0927-7757(02)00556-3,bentonite colloids influence in situ retardation of tri- and tetravalent actinides in fractured rock,colloid-facilitated transport scenario
+S6,RES3T,https://www.re3data.org/repository/r3d100010241,"mineral-specific SCM database with surface areas, site data, and surface complexation reactions",future surface-complexation parameter source
+S7,NEA Sorption Project,https://www.oecd-nea.org/jcms/pl_27447/sorption-project,"benchmark systems include Np-hematite, Se-goethite, U-quartz, Ni-clays, Np-montmorillonite",model validation cases for mineral-specific sorption
+S8,ThermoChimie,https://www.thermochimie-tdb.com/,"radionuclide thermodynamic database for pH 6-14, below 80 C, Eh -0.5 to +0.5 V; compatible with PHREEQC and PFLOTRAN",speciation and solubility database route

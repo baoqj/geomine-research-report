@@ -1,0 +1,99 @@
+dataset,scale,dominant_process,sensitive_radionuclides,hydrological_score,chemical_score,mechanical_score,colloid_score,nuclide,kd_oxidizing_m3_kg,kd_reducing_m3_kg,retardation_oxidizing,retardation_reducing,kd_for_screening_m3_kg,penetration_depth_m_100yr,matrix_storage_m_100yr_per_unit_concentration,penetration_depth_m_5yr,implied_dapp_m2_s,colloid_k_l_kg,colloid_mg_l,mobile_colloid_fraction,filtration_m_inv,distance_m,survival_fraction,aqueous_only_oxidizing_index,with_colloid_oxidizing_index,with_colloid_reducing_index,scenario,indicator,risk_score_1_5
+multiscale_process_matrix,fracture cm-m,advection + dispersion,"I, Tc(VII), Se(VI)",5,3,2,4,,,,,,,,,,,,,,,,,,,,,,
+multiscale_process_matrix,rim mm-cm,surface sorption + alteration,"U, Np, Cs, Sr",4,5,3,3,,,,,,,,,,,,,,,,,,,,,,
+multiscale_process_matrix,matrix um-mm,matrix diffusion + storage,"Cs, Sr, Np",3,4,4,2,,,,,,,,,,,,,,,,,,,,,,
+multiscale_process_matrix,colloid nm-um,mobile carrier + filtration,"Pu, Am, Th, U, Cs",4,4,2,5,,,,,,,,,,,,,,,,,,,,,,
+kd_retardation,,,,,,,,I-129,1e-05,1e-05,3.65,3.65,,,,,,,,,,,,,,,,,
+kd_retardation,,,,,,,,Tc-99,1e-05,0.05,3.65,13251.0,,,,,,,,,,,,,,,,,
+kd_retardation,,,,,,,,Se-79,0.0001,0.01,27.5,2651.0,,,,,,,,,,,,,,,,,
+kd_retardation,,,,,,,,Sr-90,0.001,0.001,266.0,266.0,,,,,,,,,,,,,,,,,
+kd_retardation,,,,,,,,Cs-137,0.02,0.02,5301.0,5301.0,,,,,,,,,,,,,,,,,
+kd_retardation,,,,,,,,Ra-226,0.01,0.01,2651.0,2651.0,,,,,,,,,,,,,,,,,
+kd_retardation,,,,,,,,U,0.001,0.1,266.0,26501.0,,,,,,,,,,,,,,,,,
+kd_retardation,,,,,,,,Np,0.001,0.05,266.0,13251.0,,,,,,,,,,,,,,,,,
+kd_retardation,,,,,,,,Pu,0.1,1.0,26501.0,265001.0,,,,,,,,,,,,,,,,,
+kd_retardation,,,,,,,,Am,0.2,1.0,53001.0,265001.0,,,,,,,,,,,,,,,,,
+kd_retardation,,,,,,,,Th,1.0,5.0,265001.0,1325001.0,,,,,,,,,,,,,,,,,
+matrix_diffusion,,,,,,,,I-129,,,,,1e-05,0.029404,0.001211,,,,,,,,,,,,,,
+matrix_diffusion,,,,,,,,Tc-99,,,,,1e-05,0.029404,0.001211,,,,,,,,,,,,,,
+matrix_diffusion,,,,,,,,Se-79,,,,,0.0001,0.010712,0.003324,,,,,,,,,,,,,,
+matrix_diffusion,,,,,,,,Sr-90,,,,,0.001,0.003444,0.010338,,,,,,,,,,,,,,
+matrix_diffusion,,,,,,,,Cs-137,,,,,0.02,0.000772,0.046152,,,,,,,,,,,,,,
+matrix_diffusion,,,,,,,,Ra-226,,,,,0.01,0.001091,0.032637,,,,,,,,,,,,,,
+matrix_diffusion,,,,,,,,U,,,,,0.001,0.003444,0.010338,,,,,,,,,,,,,,
+matrix_diffusion,,,,,,,,Np,,,,,0.001,0.003444,0.010338,,,,,,,,,,,,,,
+matrix_diffusion,,,,,,,,Pu,,,,,0.1,0.000345,0.10319,,,,,,,,,,,,,,
+matrix_diffusion,,,,,,,,Am,,,,,0.2,0.000244,0.145932,,,,,,,,,,,,,,
+matrix_diffusion,,,,,,,,Th,,,,,1.0,0.000109,0.32631,,,,,,,,,,,,,,
+matrix_diffusion,,,,,,,,GTS Cs-137 target,,,,,,,,0.05,1.584e-11,,,,,,,,,,,,
+matrix_diffusion,,,,,,,,GTS Np-237 target,,,,,,,,0.02,2.535e-12,,,,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,100.0,0.001,0.0,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,100.0,0.01,1e-06,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,100.0,0.1,1e-05,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,100.0,1,0.0001,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,100.0,10,0.000999,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,100.0,100,0.009901,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,10000.0,0.001,1e-05,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,10000.0,0.01,0.0001,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,10000.0,0.1,0.000999,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,10000.0,1,0.009901,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,10000.0,10,0.090909,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,10000.0,100,0.5,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,1000000.0,0.001,0.000999,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,1000000.0,0.01,0.009901,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,1000000.0,0.1,0.090909,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,1000000.0,1,0.5,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,1000000.0,10,0.909091,,,,,,,,,
+colloid_association,,,,,,,,,,,,,,,,,,1000000.0,100,0.990099,,,,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.001,0,1.0,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.001,10,0.99005,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.001,25,0.97531,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.001,50,0.951229,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.001,100,0.904837,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.001,200,0.818731,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.001,500,0.606531,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.01,0,1.0,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.01,10,0.904837,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.01,25,0.778801,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.01,50,0.606531,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.01,100,0.367879,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.01,200,0.135335,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.01,500,0.006738,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.05,0,1.0,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.05,10,0.606531,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.05,25,0.286505,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.05,50,0.082085,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.05,100,0.006738,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.05,200,4.5e-05,,,,,,
+colloid_filtration,,,,,,,,,,,,,,,,,,,,,0.05,500,0.0,,,,,,
+mobility_index,,,,,,,,I-129,,,,,,,,,,,,,,,,0.2739726,0.27400939,0.27400939,,,
+mobility_index,,,,,,,,Tc-99,,,,,,,,,,,,,,,,0.2739726,0.27761497,0.00371784,,,
+mobility_index,,,,,,,,Se-79,,,,,,,,,,,,,,,,0.03636364,0.03673115,0.00074473,,,
+mobility_index,,,,,,,,Sr-90,,,,,,,,,,,,,,,,0.0037594,0.00412691,0.00412691,,,
+mobility_index,,,,,,,,Cs-137,,,,,,,,,,,,,,,,0.00018864,0.01770671,0.01770671,,,
+mobility_index,,,,,,,,Ra-226,,,,,,,,,,,,,,,,0.00037722,0.00074473,0.00074473,,,
+mobility_index,,,,,,,,U,,,,,,,,,,,,,,,,0.0037594,0.03720298,0.03348132,,,
+mobility_index,,,,,,,,Np,,,,,,,,,,,,,,,,0.0037594,0.02127747,0.01759353,,,
+mobility_index,,,,,,,,Pu,,,,,,,,,,,,,,,,3.773e-05,0.18397746,0.18394349,,,
+mobility_index,,,,,,,,Am,,,,,,,,,,,,,,,,1.887e-05,0.18395859,0.18394349,,,
+mobility_index,,,,,,,,Th,,,,,,,,,,,,,,,,3.77e-06,0.18394349,0.18394048,,,
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,reducing low-colloid,weak anions,2
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,reducing low-colloid,redox RN,2
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,reducing low-colloid,strong actinides,1
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,reducing low-colloid,Cs/Sr,2
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,reducing low-colloid,biosphere flux,2
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,oxidizing carbonate,weak anions,5
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,oxidizing carbonate,redox RN,5
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,oxidizing carbonate,strong actinides,3
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,oxidizing carbonate,Cs/Sr,2
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,oxidizing carbonate,biosphere flux,5
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,colloid pulse,weak anions,3
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,colloid pulse,redox RN,4
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,colloid pulse,strong actinides,5
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,colloid pulse,Cs/Sr,4
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,colloid pulse,biosphere flux,4
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,filtered colloids,weak anions,3
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,filtered colloids,redox RN,3
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,filtered colloids,strong actinides,2
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,filtered colloids,Cs/Sr,3
+scenario_matrix,,,,,,,,,,,,,,,,,,,,,,,,,,,filtered colloids,biosphere flux,3

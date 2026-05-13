@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" role="img">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#172026}.small{font-size:12px;fill:#52616a}.title{font-size:18px;font-weight:700}.axis{stroke:#172026;stroke-width:1.1}.grid{stroke:#d7e0e5;stroke-width:1}</style>
+<text x="40.0" y="34.0" font-size="20" text-anchor="start" fill="#172026" font-weight="700">Multiscale process relevance matrix</text>
+<text x="112.0" y="60.0" font-size="12" text-anchor="middle" fill="#172026" font-weight="700">scale</text>
+<text x="263.0" y="60.0" font-size="12" text-anchor="middle" fill="#172026" font-weight="700">dominant process</text>
+<text x="425.0" y="60.0" font-size="12" text-anchor="middle" fill="#172026" font-weight="700">sensitive RN</text>
+<text x="530.0" y="60.0" font-size="12" text-anchor="middle" fill="#172026" font-weight="700">H</text>
+<text x="598.0" y="60.0" font-size="12" text-anchor="middle" fill="#172026" font-weight="700">C</text>
+<text x="666.0" y="60.0" font-size="12" text-anchor="middle" fill="#172026" font-weight="700">M</text>
+<text x="734.0" y="60.0" font-size="12" text-anchor="middle" fill="#172026" font-weight="700">colloid</text>
+<rect x="52.0" y="72.0" width="116.0" height="48.0" rx="3.0" fill="#eef3f5" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="58.0" y="100.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400">fracture cm-m</text>
+<rect x="172.0" y="72.0" width="178.0" height="48.0" rx="3.0" fill="#eef3f5" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="178.0" y="100.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400">advection + dispersion</text>
+<rect x="354.0" y="72.0" width="138.0" height="48.0" rx="3.0" fill="#eef3f5" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="360.0" y="100.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400">I, Tc(VII), Se(VI)</text>
+<rect x="496.0" y="72.0" width="64.0" height="48.0" rx="3.0" fill="#0f4d61" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="528.0" y="102.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">5</text>
+<rect x="564.0" y="72.0" width="64.0" height="48.0" rx="3.0" fill="#6ba9bd" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="596.0" y="102.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="632.0" y="72.0" width="64.0" height="48.0" rx="3.0" fill="#a9d0db" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="664.0" y="102.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<rect x="700.0" y="72.0" width="64.0" height="48.0" rx="3.0" fill="#247892" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="732.0" y="102.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">4</text>
+<rect x="52.0" y="130.0" width="116.0" height="48.0" rx="3.0" fill="#eef3f5" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="58.0" y="158.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400">rim mm-cm</text>
+<rect x="172.0" y="130.0" width="178.0" height="48.0" rx="3.0" fill="#eef3f5" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="178.0" y="158.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400">surface sorption + alteration</text>
+<rect x="354.0" y="130.0" width="138.0" height="48.0" rx="3.0" fill="#eef3f5" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="360.0" y="158.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400">U, Np, Cs, Sr</text>
+<rect x="496.0" y="130.0" width="64.0" height="48.0" rx="3.0" fill="#247892" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="528.0" y="160.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">4</text>
+<rect x="564.0" y="130.0" width="64.0" height="48.0" rx="3.0" fill="#0f4d61" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="596.0" y="160.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">5</text>
+<rect x="632.0" y="130.0" width="64.0" height="48.0" rx="3.0" fill="#6ba9bd" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="664.0" y="160.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="700.0" y="130.0" width="64.0" height="48.0" rx="3.0" fill="#6ba9bd" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="732.0" y="160.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="52.0" y="188.0" width="116.0" height="48.0" rx="3.0" fill="#eef3f5" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="58.0" y="216.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400">matrix um-mm</text>
+<rect x="172.0" y="188.0" width="178.0" height="48.0" rx="3.0" fill="#eef3f5" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="178.0" y="216.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400">matrix diffusion + storage</text>
+<rect x="354.0" y="188.0" width="138.0" height="48.0" rx="3.0" fill="#eef3f5" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="360.0" y="216.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400">Cs, Sr, Np</text>
+<rect x="496.0" y="188.0" width="64.0" height="48.0" rx="3.0" fill="#6ba9bd" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="528.0" y="218.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="564.0" y="188.0" width="64.0" height="48.0" rx="3.0" fill="#247892" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="596.0" y="218.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">4</text>
+<rect x="632.0" y="188.0" width="64.0" height="48.0" rx="3.0" fill="#247892" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="664.0" y="218.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">4</text>
+<rect x="700.0" y="188.0" width="64.0" height="48.0" rx="3.0" fill="#a9d0db" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="732.0" y="218.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<rect x="52.0" y="246.0" width="116.0" height="48.0" rx="3.0" fill="#eef3f5" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="58.0" y="274.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400">colloid nm-um</text>
+<rect x="172.0" y="246.0" width="178.0" height="48.0" rx="3.0" fill="#eef3f5" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="178.0" y="274.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400">mobile carrier + filtration</text>
+<rect x="354.0" y="246.0" width="138.0" height="48.0" rx="3.0" fill="#eef3f5" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="360.0" y="274.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400">Pu, Am, Th, U, Cs</text>
+<rect x="496.0" y="246.0" width="64.0" height="48.0" rx="3.0" fill="#247892" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="528.0" y="276.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">4</text>
+<rect x="564.0" y="246.0" width="64.0" height="48.0" rx="3.0" fill="#247892" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="596.0" y="276.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">4</text>
+<rect x="632.0" y="246.0" width="64.0" height="48.0" rx="3.0" fill="#a9d0db" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="664.0" y="276.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<rect x="700.0" y="246.0" width="64.0" height="48.0" rx="3.0" fill="#0f4d61" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="732.0" y="276.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">5</text>
+<text x="62.0" y="346.0" font-size="13" text-anchor="start" fill="#172026" font-weight="400" class="small">score 1-5: screening importance for long-term far-field migration</text>
+</svg>

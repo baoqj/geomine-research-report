@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="730" height="430" viewBox="0 0 730 430" role="img">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#172026}.small{font-size:12px;fill:#52616a}.title{font-size:18px;font-weight:700}.axis{stroke:#172026;stroke-width:1.1}.grid{stroke:#d7e0e5;stroke-width:1}</style>
+<text x="115.0" y="44.0" font-size="18" text-anchor="start" fill="#172026" font-weight="700" class="title">Relative mobility index: aqueous retardation vs colloid facilitation</text>
+<line x1="115.0" y1="367.0" x2="635.0" y2="367.0" stroke="#172026" stroke-width="1.2"/>
+<line x1="115.0" y1="62.0" x2="115.0" y2="367.0" stroke="#172026" stroke-width="1.2"/>
+<text x="375.0" y="409.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="400" class="small">mobility index, log scale</text>
+<text x="61.0" y="214.5" font-size="13" text-anchor="middle" fill="#172026" font-weight="400" class="small">radionuclide</text>
+<line x1="115.0" y1="62.0" x2="115.0" y2="367.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="115.0" y="387.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">1e-07</text>
+<line x1="263.6" y1="62.0" x2="263.6" y2="367.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="263.6" y="387.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">1e-05</text>
+<line x1="412.1" y1="62.0" x2="412.1" y2="367.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="412.1" y="387.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">0.001</text>
+<line x1="560.7" y1="62.0" x2="560.7" y2="367.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="560.7" y="387.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">0.1</text>
+<line x1="635.0" y1="62.0" x2="635.0" y2="367.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="635.0" y="387.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">1</text>
+<text x="107.0" y="84.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">I-129</text>
+<rect x="115.0" y="75.0" width="478.2" height="7.0" rx="1.0" fill="#5d8f3a" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="84.0" width="478.2" height="7.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="93.0" width="478.2" height="7.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="107.0" y="109.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Tc-99</text>
+<rect x="115.0" y="100.0" width="478.2" height="7.0" rx="1.0" fill="#5d8f3a" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="109.0" width="478.7" height="7.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="118.0" width="339.5" height="7.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="107.0" y="134.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Se-79</text>
+<rect x="115.0" y="125.0" width="413.1" height="7.0" rx="1.0" fill="#5d8f3a" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="134.0" width="413.4" height="7.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="143.0" width="287.6" height="7.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="107.0" y="159.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Sr-90</text>
+<rect x="115.0" y="150.0" width="339.9" height="7.0" rx="1.0" fill="#5d8f3a" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="159.0" width="342.9" height="7.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="168.0" width="342.9" height="7.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="107.0" y="184.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Cs-137</text>
+<rect x="115.0" y="175.0" width="243.3" height="7.0" rx="1.0" fill="#5d8f3a" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="184.0" width="389.9" height="7.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="193.0" width="389.9" height="7.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="107.0" y="209.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Ra-226</text>
+<rect x="115.0" y="200.0" width="265.7" height="7.0" rx="1.0" fill="#5d8f3a" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="209.0" width="287.6" height="7.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="218.0" width="287.6" height="7.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="107.0" y="234.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">U</text>
+<rect x="115.0" y="225.0" width="339.9" height="7.0" rx="1.0" fill="#5d8f3a" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="234.0" width="413.8" height="7.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="243.0" width="410.4" height="7.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="107.0" y="259.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Np</text>
+<rect x="115.0" y="250.0" width="339.9" height="7.0" rx="1.0" fill="#5d8f3a" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="259.0" width="395.8" height="7.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="268.0" width="389.7" height="7.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="107.0" y="284.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Pu</text>
+<rect x="115.0" y="275.0" width="191.4" height="7.0" rx="1.0" fill="#5d8f3a" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="284.0" width="465.4" height="7.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="293.0" width="465.4" height="7.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="107.0" y="309.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Am</text>
+<rect x="115.0" y="300.0" width="169.1" height="7.0" rx="1.0" fill="#5d8f3a" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="309.0" width="465.4" height="7.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="318.0" width="465.4" height="7.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="107.0" y="334.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Th</text>
+<rect x="115.0" y="325.0" width="117.1" height="7.0" rx="1.0" fill="#5d8f3a" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="334.0" width="465.4" height="7.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="115.0" y="343.0" width="465.4" height="7.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="430.0" y="86.0" font-size="13" text-anchor="start" fill="#5d8f3a" font-weight="700">aq only ox.</text>
+<text x="430.0" y="106.0" font-size="13" text-anchor="start" fill="#c94f44" font-weight="700">with colloids ox.</text>
+<text x="430.0" y="126.0" font-size="13" text-anchor="start" fill="#1f6f9f" font-weight="700">with colloids red.</text>
+<text x="130.0" y="390.0" font-size="13" text-anchor="start" fill="#172026" font-weight="400" class="small">Assumption: 1 mg/L colloids, Kcol by RN, filtration lambda=0.01 m-1 over 100 m</text>
+</svg>

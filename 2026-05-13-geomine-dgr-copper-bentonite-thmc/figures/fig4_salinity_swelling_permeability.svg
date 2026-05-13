@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="410" viewBox="0 0 680 410" role="img">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#172026} .small{font-size:12px;fill:#52616a}.label{font-size:14px}.title{font-size:18px;font-weight:700}.axis{stroke:#172026;stroke-width:1.1}.grid{stroke:#d7e0e5;stroke-width:1}</style>
+<text x="75.0" y="52.0" font-size="18" text-anchor="start" fill="#172026" font-weight="700" class="title">Salinity weakens swelling and raises permeability envelope</text>
+<line x1="75.0" y1="340.0" x2="595.0" y2="340.0" stroke="#172026" stroke-width="1.2"/>
+<line x1="75.0" y1="70.0" x2="75.0" y2="340.0" stroke="#172026" stroke-width="1.2"/>
+<text x="335.0" y="382.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="400" class="small">NaCl concentration (mol/L)</text>
+<text x="27.0" y="205.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="400" class="small">normalized swelling pressure</text>
+<line x1="75.0" y1="70.0" x2="595.0" y2="70.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="67.0" y="74.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400" class="small">1.00</text>
+<line x1="75.0" y1="137.5" x2="595.0" y2="137.5" stroke="#d7e0e5" stroke-width="1"/>
+<text x="67.0" y="141.5" font-size="11" text-anchor="end" fill="#172026" font-weight="400" class="small">0.75</text>
+<line x1="75.0" y1="205.0" x2="595.0" y2="205.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="67.0" y="209.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400" class="small">0.50</text>
+<line x1="75.0" y1="272.5" x2="595.0" y2="272.5" stroke="#d7e0e5" stroke-width="1"/>
+<text x="67.0" y="276.5" font-size="11" text-anchor="end" fill="#172026" font-weight="400" class="small">0.25</text>
+<line x1="75.0" y1="340.0" x2="595.0" y2="340.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="67.0" y="344.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400" class="small">0.00</text>
+<polyline points="75.0,70.0 153.1,97.0 345.2,164.5 461.9,218.5 595.0,259.0" fill="none" stroke="#249186" stroke-width="2.5"/>
+<polyline points="75.0,70.0 153.1,110.5 345.2,191.5 461.9,259.0 595.0,313.0" fill="none" stroke="#c94f44" stroke-width="2.5"/>
+<circle cx="75.0" cy="70.0" r="4.5" fill="#249186" stroke="white"/>
+<circle cx="75.0" cy="70.0" r="4.5" fill="#c94f44" stroke="white"/>
+<circle cx="153.1" cy="97.0" r="4.5" fill="#249186" stroke="white"/>
+<circle cx="153.1" cy="110.5" r="4.5" fill="#c94f44" stroke="white"/>
+<circle cx="345.2" cy="164.5" r="4.5" fill="#249186" stroke="white"/>
+<circle cx="345.2" cy="191.5" r="4.5" fill="#c94f44" stroke="white"/>
+<circle cx="461.9" cy="218.5" r="4.5" fill="#249186" stroke="white"/>
+<circle cx="461.9" cy="259.0" r="4.5" fill="#c94f44" stroke="white"/>
+<circle cx="595.0" cy="259.0" r="4.5" fill="#249186" stroke="white"/>
+<circle cx="595.0" cy="313.0" r="4.5" fill="#c94f44" stroke="white"/>
+<line x1="75.0" y1="340.0" x2="75.0" y2="345.0" stroke="#172026" stroke-width="1.0"/>
+<text x="75.0" y="362.0" font-size="11" text-anchor="middle" fill="#172026" font-weight="400" class="small">0</text>
+<line x1="153.1" y1="340.0" x2="153.1" y2="345.0" stroke="#172026" stroke-width="1.0"/>
+<text x="153.1" y="362.0" font-size="11" text-anchor="middle" fill="#172026" font-weight="400" class="small">0.01</text>
+<line x1="345.2" y1="340.0" x2="345.2" y2="345.0" stroke="#172026" stroke-width="1.0"/>
+<text x="345.2" y="362.0" font-size="11" text-anchor="middle" fill="#172026" font-weight="400" class="small">0.1</text>
+<line x1="595.0" y1="340.0" x2="595.0" y2="345.0" stroke="#172026" stroke-width="1.0"/>
+<text x="595.0" y="362.0" font-size="11" text-anchor="middle" fill="#172026" font-weight="400" class="small">1.0</text>
+<text x="365.0" y="100.0" font-size="13" text-anchor="start" fill="#249186" font-weight="700">early maximum</text>
+<text x="365.0" y="122.0" font-size="13" text-anchor="start" fill="#c94f44" font-weight="700">long-term brine state</text>
+<text x="330.0" y="316.0" font-size="12" text-anchor="start" fill="#172026" font-weight="400" class="small">MX-80 brine k / DI k at e=0.588: 214x</text>
+</svg>

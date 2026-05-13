@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="410" viewBox="0 0 720 410" role="img">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#172026} .small{font-size:12px;fill:#52616a}.label{font-size:14px}.title{font-size:18px;font-weight:700}.axis{stroke:#172026;stroke-width:1.1}.grid{stroke:#d7e0e5;stroke-width:1}</style>
+<text x="120.0" y="42.0" font-size="18" text-anchor="start" fill="#172026" font-weight="700" class="title">Buffer diffusion times with temperature effect</text>
+<line x1="120.0" y1="340.0" x2="620.0" y2="340.0" stroke="#172026" stroke-width="1.2"/>
+<line x1="120.0" y1="60.0" x2="120.0" y2="340.0" stroke="#172026" stroke-width="1.2"/>
+<text x="370.0" y="382.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="400" class="small">diffusion time (yr, log scale)</text>
+<text x="72.0" y="200.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="400" class="small">radionuclide group</text>
+<line x1="120.0" y1="60.0" x2="120.0" y2="340.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="120.0" y="362.0" font-size="11" text-anchor="middle" fill="#172026" font-weight="400" class="small">10</text>
+<line x1="245.0" y1="60.0" x2="245.0" y2="340.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="245.0" y="362.0" font-size="11" text-anchor="middle" fill="#172026" font-weight="400" class="small">100</text>
+<line x1="370.0" y1="60.0" x2="370.0" y2="340.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="370.0" y="362.0" font-size="11" text-anchor="middle" fill="#172026" font-weight="400" class="small">1000</text>
+<line x1="495.0" y1="60.0" x2="495.0" y2="340.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="495.0" y="362.0" font-size="11" text-anchor="middle" fill="#172026" font-weight="400" class="small">10000</text>
+<line x1="620.0" y1="60.0" x2="620.0" y2="340.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="620.0" y="362.0" font-size="11" text-anchor="middle" fill="#172026" font-weight="400" class="small">100000</text>
+<text x="110.0" y="119.0" font-size="12" text-anchor="end" fill="#172026" font-weight="400">I-129 / TcO4</text>
+<rect x="120.0" y="102.0" width="73.6" height="23.0" rx="2.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="120.0" y="127.0" width="13.8" height="23.0" rx="2.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="198.6" y="119.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400" class="small">39</text>
+<text x="110.0" y="177.0" font-size="12" text-anchor="end" fill="#172026" font-weight="400">Sr / Cs</text>
+<rect x="120.0" y="160.0" width="285.5" height="23.0" rx="2.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="120.0" y="185.0" width="225.8" height="23.0" rx="2.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="410.5" y="177.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400" class="small">1924</text>
+<text x="110.0" y="235.0" font-size="12" text-anchor="end" fill="#172026" font-weight="400">U / Np</text>
+<rect x="120.0" y="218.0" width="344.4" height="23.0" rx="2.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="120.0" y="243.0" width="284.7" height="23.0" rx="2.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="469.4" y="235.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400" class="small">5695</text>
+<text x="110.0" y="293.0" font-size="12" text-anchor="end" fill="#172026" font-weight="400">Pu / Am</text>
+<rect x="120.0" y="276.0" width="409.5" height="23.0" rx="2.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="120.0" y="301.0" width="349.8" height="23.0" rx="2.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="534.5" y="293.0" font-size="11" text-anchor="start" fill="#172026" font-weight="400" class="small">18893</text>
+<text x="440.0" y="92.0" font-size="13" text-anchor="start" fill="#1f6f9f" font-weight="700">25 C</text>
+<text x="440.0" y="114.0" font-size="13" text-anchor="start" fill="#c94f44" font-weight="700">80 C</text>
+</svg>

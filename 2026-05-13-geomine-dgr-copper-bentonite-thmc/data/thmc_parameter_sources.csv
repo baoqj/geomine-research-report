@@ -1,0 +1,9 @@
+source_id,parameter_or_claim,value_used,source_url,use_in_model
+S1,DGR near-field review focus,canister-bentonite interaction; corrosion; self-sealing; H2; THMC,https://doi.org/10.1016/j.jenvrad.2025.107750,scenario classification and evidence matrix
+S2,NWMO multiple barrier system and <100 C container surface design statement,engineered plus natural barriers; design avoids container surface temperatures above 100 C,https://www.nwmo.ca/Canadas-Plan/Multiple-barrier-system,Canadian DGR context and thermal reference line
+S3,MX-80 brine swelling pressure reduction,highly concentrated brine peak about 30% of DI; final about one order smaller,https://link.springer.com/article/10.1007/s11440-019-00762-5,normalized salinity-swelling screening curve
+S4,MX-80 hydraulic conductivity relationships,DI k=1e-13 e^3.74/(1+e); brine k=1e-9 e^11.86,https://link.springer.com/article/10.1007/s11440-019-00762-5,DI/brine permeability contrast at e=0.588
+S5,sulphide transport control of copper corrosion,transport-limited HS- supply to copper surface,https://doi.org/10.1080/1478422X.2017.1300363,sulfide diffusion-limited corrosion envelope
+S6,Forsmark sulphide concentration range for SR-Site,screening range 1-120 umol/L HS-,https://skb.com/publication/2155543,sulfide concentration sensitivity range; not Canadian site data
+S7,H2 production/consumption and HS- feedback in Canadian DGR model,"H2 dynamics depend on MIC, HS- supply, transport, and consumption",https://doi.org/10.1016/j.rineng.2025.106008,H2 pressure envelope caveat and process coupling
+S8,GeoMine THMC MCP local smoke tests,geomine_thmc mock: 20 tools ok; geomine_thmc_data mock: 13 tools ok,local:plugins/Code/geo-mining-research/scripts/test_thmc_mcp_tools.py,MCP workflow provenance only; not scientific measured data

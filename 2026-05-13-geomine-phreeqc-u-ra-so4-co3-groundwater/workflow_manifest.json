@@ -1,0 +1,28 @@
+{
+  "title": "U-Ra-SO4-CO3 PHREEQC screening package",
+  "generated_by": "GeoMine Research local workflow",
+  "input_type": "synthetic end-member and mixing scenarios for skill testing",
+  "phreeqc_status": {
+    "ran": true,
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "Input file: u_ra_so4_co3_screening.phr\n\nOutput file: u_ra_so4_co3_screening.out\n\nDatabase file: /Users/aibao/.local/phreeqc/phreeqc-3.5.0-14000/database/llnl.dat\n\n\nInitializing...                                                                 \nWARNING: Equivalent wt for alkalinity should be Ca.5(CO3).5. Using 50.0355 g/eq.\n\nWARNING: Equivalent wt for alkalinity should be Ca.5(CO3).5. Using 50.0355 g/eq.\n\nWARNING: Equivalent wt for alkalinity should be Ca.5(CO3).5. Using 50.0355 g/eq.\n\nWARNING: Equivalent wt for alkalinity should be Ca.5(CO3).5. Using 50.0355 g/eq.\n\nWARNING: Equivalent wt for alkalinity should be Ca.5(CO3).5. Using 50.0355 g/eq.\n\nWARNING: Equivalent wt for alkalinity should be Ca.5(CO3).5. Using 50.0355 g/eq.\n\nWARNING: Equivalent wt for alkalinity should be Ca.5(CO3).5. Using 50.0355 g/eq.\n\nWARNING: Equivalent wt for alkalinity should be Ca.5(CO3).5. Using 50.0355 g/eq.\n\nWARNING: Equivalent wt for alkalinity should be Ca.5(CO3).5. Using 50.0355 g/eq.\n\nWARNING: Equivalent wt for alkalinity should be Ca.5(CO3).5. Using 50.0355 g/eq.\n\nWARNING: Equivalent wt for alkalinity should be Ca.5(CO3).5. Using 50.0355 g/eq.\n\nWARNING: Equivalent wt for alkalinity should be Ca.5(CO3).5. Using 50.0355 g/eq.\n\nWARNING: Equivalent wt for alkalinity should be Ca.5(CO3).5. Using 50.0355 g/eq.\n\n\nEnd of Run after 1.26571 Seconds.\n",
+    "phreeqc": "/Users/aibao/.local/bin/phreeqc",
+    "database": "/Users/aibao/.local/phreeqc/phreeqc-3.5.0-14000/database/llnl.dat"
+  },
+  "sample_count": 13,
+  "figures": [
+    "fig1_correlation_matrix.svg",
+    "fig2_u_vs_alkalinity.svg",
+    "fig3_ra_vs_sulfate.svg",
+    "fig4_mechanism_scores.svg",
+    "fig5_saturation_index_heatmap.svg",
+    "fig6_u_vs_ra_decoupling.svg"
+  ],
+  "limitations": [
+    "Synthetic values are not field measurements.",
+    "PHREEQC selected output is a screening calculation, not field validation.",
+    "Ra-226 activity was converted to elemental Ra mass for PHREEQC input for workflow testing.",
+    "Database coverage and mineral equilibrium assumptions must be audited before real-site interpretation."
+  ]
+}

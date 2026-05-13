@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="710" height="430" viewBox="0 0 710 430" role="img">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#172026}.small{font-size:12px;fill:#52616a}.title{font-size:18px;font-weight:700}.axis{stroke:#172026;stroke-width:1.1}.grid{stroke:#d7e0e5;stroke-width:1}</style>
+<text x="108.0" y="44.0" font-size="18" text-anchor="start" fill="#172026" font-weight="700" class="title">Sorption Kd translated to matrix retardation factor</text>
+<line x1="108.0" y1="367.0" x2="628.0" y2="367.0" stroke="#172026" stroke-width="1.2"/>
+<line x1="108.0" y1="62.0" x2="108.0" y2="367.0" stroke="#172026" stroke-width="1.2"/>
+<text x="368.0" y="409.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="400" class="small">retardation factor R, log scale</text>
+<text x="54.0" y="214.5" font-size="13" text-anchor="middle" fill="#172026" font-weight="400" class="small">radionuclide</text>
+<line x1="108.0" y1="62.0" x2="108.0" y2="367.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="108.0" y="387.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">1</text>
+<line x1="190.5" y1="62.0" x2="190.5" y2="367.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="190.5" y="387.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">10</text>
+<line x1="273.1" y1="62.0" x2="273.1" y2="367.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="273.1" y="387.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">100</text>
+<line x1="355.6" y1="62.0" x2="355.6" y2="367.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="355.6" y="387.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">1000</text>
+<line x1="438.1" y1="62.0" x2="438.1" y2="367.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="438.1" y="387.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">10000</text>
+<line x1="520.6" y1="62.0" x2="520.6" y2="367.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="520.6" y="387.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">100000</text>
+<line x1="603.2" y1="62.0" x2="603.2" y2="367.0" stroke="#d7e0e5" stroke-width="1"/>
+<text x="603.2" y="387.0" font-size="10" text-anchor="middle" fill="#172026" font-weight="400" class="small">1e+06</text>
+<text x="100.0" y="85.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">I-129</text>
+<rect x="108.0" y="76.0" width="46.4" height="9.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="108.0" y="87.0" width="46.4" height="9.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="100.0" y="110.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Tc-99</text>
+<rect x="108.0" y="101.0" width="46.4" height="9.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="108.0" y="112.0" width="340.2" height="9.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="100.0" y="135.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Se-79</text>
+<rect x="108.0" y="126.0" width="118.8" height="9.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="108.0" y="137.0" width="282.5" height="9.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="100.0" y="160.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Sr-90</text>
+<rect x="108.0" y="151.0" width="200.1" height="9.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="108.0" y="162.0" width="200.1" height="9.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="100.0" y="185.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Cs-137</text>
+<rect x="108.0" y="176.0" width="307.4" height="9.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="108.0" y="187.0" width="307.4" height="9.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="100.0" y="210.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Ra-226</text>
+<rect x="108.0" y="201.0" width="282.5" height="9.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="108.0" y="212.0" width="282.5" height="9.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="100.0" y="235.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">U</text>
+<rect x="108.0" y="226.0" width="200.1" height="9.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="108.0" y="237.0" width="365.0" height="9.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="100.0" y="260.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Np</text>
+<rect x="108.0" y="251.0" width="200.1" height="9.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="108.0" y="262.0" width="340.2" height="9.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="100.0" y="285.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Pu</text>
+<rect x="108.0" y="276.0" width="365.0" height="9.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="108.0" y="287.0" width="447.6" height="9.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="100.0" y="310.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Am</text>
+<rect x="108.0" y="301.0" width="389.9" height="9.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="108.0" y="312.0" width="447.6" height="9.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="100.0" y="335.0" font-size="11" text-anchor="end" fill="#172026" font-weight="400">Th</text>
+<rect x="108.0" y="326.0" width="447.6" height="9.0" rx="1.0" fill="#c94f44" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<rect x="108.0" y="337.0" width="505.2" height="9.0" rx="1.0" fill="#1f6f9f" stroke="none" stroke-width="1.0" opacity="1.0"/>
+<text x="480.0" y="88.0" font-size="13" text-anchor="start" fill="#c94f44" font-weight="700">oxidizing</text>
+<text x="480.0" y="108.0" font-size="13" text-anchor="start" fill="#1f6f9f" font-weight="700">reducing</text>
+<text x="130.0" y="386.0" font-size="13" text-anchor="start" fill="#172026" font-weight="400" class="small">R = 1 + rho_b Kd / phi; phi=0.01, rho_b=2650 kg/m3</text>
+</svg>

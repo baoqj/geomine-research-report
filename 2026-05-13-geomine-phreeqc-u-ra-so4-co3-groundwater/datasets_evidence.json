@@ -1,0 +1,113 @@
+{
+  "title": "U-Ra-SO4-CO3 PHREEQC research workflow evidence registry",
+  "generated_at": "2026-05-13",
+  "status_note": "This registry separates source discovery, metadata-reviewed candidates, and locally generated synthetic workflow data.",
+  "source_candidates": [
+    {
+      "id": "nrcan-cdogs-home",
+      "name": "Canadian Database of Geochemical Surveys",
+      "url": "https://geochem.nrcan.gc.ca/cdogs/content/main/home_en.htm",
+      "jurisdiction": "Canada",
+      "evidence_type": "geochemical survey catalogue",
+      "retrieval_status": "web-metadata-reviewed",
+      "use_in_study": "Primary route for groundwater and hydrogeochemical survey discovery.",
+      "limitations": "Raw spreadsheets were not downloaded in this run; individual surveys require unit, method, detection limit, and QA/QC normalization."
+    },
+    {
+      "id": "cdogs-210422",
+      "name": "Groundwater, lake sediment and water survey, McClean Lake area, northern Saskatchewan, 1979-1980",
+      "url": "https://geochem.nrcan.gc.ca/cdogs/content/svy/svy210422_e.htm",
+      "jurisdiction": "Saskatchewan",
+      "evidence_type": "survey metadata",
+      "retrieval_status": "web-metadata-reviewed",
+      "use_in_study": "Candidate real-world source for McClean/Midwest borehole groundwater PHREEQC inputs.",
+      "limitations": "Metadata reviewed only; raw data and publications must be retrieved before quantitative interpretation."
+    },
+    {
+      "id": "cdogs-210423",
+      "name": "Groundwater, lake sediment and water survey, Key Lake area, northern Saskatchewan, 1977",
+      "url": "https://geochem.nrcan.gc.ca/cdogs/content/svy/svy210423_e.htm",
+      "jurisdiction": "Saskatchewan",
+      "evidence_type": "survey metadata",
+      "retrieval_status": "web-metadata-reviewed",
+      "use_in_study": "Candidate real-world source for U/Rn/He water survey context and drill-hole water samples.",
+      "limitations": "Metadata reviewed only; raw water chemistry table was not parsed."
+    },
+    {
+      "id": "earmp-faq",
+      "name": "Eastern Athabasca Regional Monitoring Program FAQ",
+      "url": "https://www.earmp.ca/faq",
+      "jurisdiction": "Saskatchewan",
+      "evidence_type": "environmental monitoring program description",
+      "retrieval_status": "web-reviewed",
+      "use_in_study": "Regional monitoring context for water, sediment, fish, wildlife, COPCs, and QA/QC laboratory context.",
+      "limitations": "Program-level environmental monitoring background; not a direct groundwater speciation table."
+    },
+    {
+      "id": "cnsc-uranium-mines-mills",
+      "name": "Regulatory Oversight Report - Uranium Mines and Mills",
+      "url": "https://www.cnsc-ccsn.gc.ca/eng/reactors/regulating-nuclear-reactors-power-plants/regulatory-oversight-reports/uranium-mines-and-mills/",
+      "jurisdiction": "Canada",
+      "evidence_type": "regulatory oversight reports",
+      "retrieval_status": "web-reviewed",
+      "use_in_study": "Regulatory and environmental-protection context for northern Saskatchewan uranium mines and mills.",
+      "limitations": "Oversight summaries do not substitute for complete PHREEQC-ready groundwater chemistry."
+    },
+    {
+      "id": "open-canada-cnsc",
+      "name": "CNSC Open Government datasets",
+      "url": "https://search.open.canada.ca/opendata/?search_text=cnsc",
+      "jurisdiction": "Canada",
+      "evidence_type": "open data discovery",
+      "retrieval_status": "catalogue-reviewed",
+      "use_in_study": "Candidate route for radionuclide release datasets, including uranium mines and mills direct discharge.",
+      "limitations": "Release loads/effluent records must be separated from groundwater sample chemistry."
+    },
+    {
+      "id": "usgs-phreeqc-v3",
+      "name": "PHREEQC Version 3",
+      "url": "https://www.usgs.gov/software/phreeqc-version-3",
+      "jurisdiction": "United States",
+      "evidence_type": "software documentation",
+      "retrieval_status": "web-reviewed",
+      "use_in_study": "Software capability and database context for speciation, saturation-index, batch reaction, transport, inverse modeling, SIT, and Pitzer.",
+      "limitations": "PHREEQC calculations require database-specific audit and field data validation."
+    },
+    {
+      "id": "nwmo-tr-2010-02",
+      "name": "Groundwater equilibration and radionuclide solubility calculations",
+      "url": "https://www.nwmo.ca/-/media/Reports---Reports/1793_nwmotr-2010-02_groundwater_equilibration_and_radionuclide_solubility_calculations_r0d.ashx?rev=3bf18a8c77754e97bd38044c7adede13",
+      "jurisdiction": "Canada",
+      "evidence_type": "radionuclide solubility technical report",
+      "retrieval_status": "web-reviewed",
+      "use_in_study": "Supports Ra sulfate/carbonate control hypothesis and database uncertainty framing.",
+      "limitations": "DGR groundwater solubility context; not an Athabasca mine groundwater dataset."
+    }
+  ],
+  "local_workflow_data": [
+    {
+      "id": "synthetic-endmembers",
+      "path": "data/synthetic_groundwater_endmembers.csv",
+      "evidence_type": "synthetic workflow input",
+      "retrieval_status": "locally generated",
+      "use_in_study": "PHREEQC skill validation using oxidizing carbonate, reducing brine, sulfate-rich tailings, and mixing scenarios.",
+      "limitations": "Not field measurements."
+    },
+    {
+      "id": "phreeqc-selected-output",
+      "path": "models/phreeqc/selected_output.tsv",
+      "evidence_type": "PHREEQC selected output",
+      "retrieval_status": "computed locally",
+      "use_in_study": "Speciation, ionic strength, saturation-index, and mechanism-screening outputs.",
+      "limitations": "Screening calculation only; no calibration."
+    },
+    {
+      "id": "screening-results",
+      "path": "data/screening_results.csv",
+      "evidence_type": "parsed analysis table",
+      "retrieval_status": "computed locally",
+      "use_in_study": "Flat chart generation and paper results section.",
+      "limitations": "Combines synthetic inputs with PHREEQC outputs."
+    }
+  ]
+}

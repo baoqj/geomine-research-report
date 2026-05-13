@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="430" viewBox="0 0 660 430" role="img">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#172026} .small{font-size:12px;fill:#52616a}.label{font-size:14px}.title{font-size:18px;font-weight:700}.axis{stroke:#172026;stroke-width:1.1}.grid{stroke:#d7e0e5;stroke-width:1}</style>
+<text x="36.0" y="34.0" font-size="20" text-anchor="start" fill="#172026" font-weight="700">THMC coupling intensity matrix</text>
+<text x="169.0" y="52.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">to T</text>
+<text x="110.0" y="114.0" font-size="13" text-anchor="end" fill="#172026" font-weight="700">from T</text>
+<text x="247.0" y="52.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">to H</text>
+<text x="110.0" y="192.0" font-size="13" text-anchor="end" fill="#172026" font-weight="700">from H</text>
+<text x="325.0" y="52.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">to M</text>
+<text x="110.0" y="270.0" font-size="13" text-anchor="end" fill="#172026" font-weight="700">from M</text>
+<text x="403.0" y="52.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">to C</text>
+<text x="110.0" y="348.0" font-size="13" text-anchor="end" fill="#172026" font-weight="700">from C</text>
+<rect x="130.0" y="70.0" width="74.0" height="74.0" rx="3.0" fill="#f5f7f8" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="167.0" y="115.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">-</text>
+<rect x="208.0" y="70.0" width="74.0" height="74.0" rx="3.0" fill="#6ba9bd" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="245.0" y="115.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="286.0" y="70.0" width="74.0" height="74.0" rx="3.0" fill="#a9d0db" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="323.0" y="115.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<rect x="364.0" y="70.0" width="74.0" height="74.0" rx="3.0" fill="#247892" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="401.0" y="115.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">4</text>
+<rect x="130.0" y="148.0" width="74.0" height="74.0" rx="3.0" fill="#a9d0db" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="167.0" y="193.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<rect x="208.0" y="148.0" width="74.0" height="74.0" rx="3.0" fill="#f5f7f8" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="245.0" y="193.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">-</text>
+<rect x="286.0" y="148.0" width="74.0" height="74.0" rx="3.0" fill="#247892" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="323.0" y="193.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">4</text>
+<rect x="364.0" y="148.0" width="74.0" height="74.0" rx="3.0" fill="#0f4d61" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="401.0" y="193.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">5</text>
+<rect x="130.0" y="226.0" width="74.0" height="74.0" rx="3.0" fill="#dbe9ef" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="167.0" y="271.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">1</text>
+<rect x="208.0" y="226.0" width="74.0" height="74.0" rx="3.0" fill="#0f4d61" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="245.0" y="271.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">5</text>
+<rect x="286.0" y="226.0" width="74.0" height="74.0" rx="3.0" fill="#f5f7f8" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="323.0" y="271.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">-</text>
+<rect x="364.0" y="226.0" width="74.0" height="74.0" rx="3.0" fill="#6ba9bd" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="401.0" y="271.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="130.0" y="304.0" width="74.0" height="74.0" rx="3.0" fill="#dbe9ef" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="167.0" y="349.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">1</text>
+<rect x="208.0" y="304.0" width="74.0" height="74.0" rx="3.0" fill="#6ba9bd" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="245.0" y="349.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="286.0" y="304.0" width="74.0" height="74.0" rx="3.0" fill="#6ba9bd" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="323.0" y="349.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="364.0" y="304.0" width="74.0" height="74.0" rx="3.0" fill="#f5f7f8" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="401.0" y="349.0" font-size="18" text-anchor="middle" fill="#172026" font-weight="700">-</text>
+<text x="492.0" y="116.0" font-size="13" text-anchor="start" fill="#172026" font-weight="400" class="small">0 none</text>
+<text x="492.0" y="146.0" font-size="13" text-anchor="start" fill="#172026" font-weight="400" class="small">3 material feedback</text>
+<text x="492.0" y="176.0" font-size="13" text-anchor="start" fill="#172026" font-weight="400" class="small">5 first-order control</text>
+</svg>

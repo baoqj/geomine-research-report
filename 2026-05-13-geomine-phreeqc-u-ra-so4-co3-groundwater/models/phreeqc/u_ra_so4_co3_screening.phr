@@ -1,0 +1,266 @@
+TITLE U-Ra-SO4-CO3 groundwater screening package
+SELECTED_OUTPUT 1
+  -file selected_output.tsv
+  -reset false
+  -simulation true
+  -solution true
+  -state true
+  -pH true
+  -pe true
+  -temperature true
+  -alkalinity true
+  -ionic_strength true
+  -charge_balance true
+  -percent_error true
+  -water true
+  -totals U Ra Ba Sr Ca Mg Na K Cl S C Fe Mn
+  -saturation_indices Calcite Dolomite Barite Celestite Gypsum Uraninite Coffinite Goethite Manganite Pyrolusite RaSO4
+  -molalities UO2+2 UO2CO3 UO2(CO3)2-2 UO2(CO3)3-4 Ra+2 Ba+2 Sr+2 SO4-2 HCO3-
+END
+SOLUTION 1 OX-CARB-01
+  temp 10
+  units mg/L
+  pH 7.85
+  pe 8
+  Alkalinity 245 as CaCO3
+  Ca 72
+  Mg 24
+  Na 58
+  K 3.2
+  Cl 34
+  S(6) 42 as SO4
+  Ba 0.025
+  Sr 0.42
+  Fe 0.015
+  Mn 0.008
+  U 0.085
+  Ra 2.18722797128e-09
+END
+SOLUTION 2 RED-BRINE-01
+  temp 18
+  units mg/L
+  pH 7.25
+  pe -3
+  Alkalinity 155 as CaCO3
+  Ca 185
+  Mg 78
+  Na 820
+  K 18
+  Cl 1450
+  S(6) 8 as SO4
+  Ba 0.18
+  Sr 3.8
+  Fe 1.6
+  Mn 0.42
+  U 0.0015
+  Ra 2.5973332159e-08
+END
+SOLUTION 3 TAIL-SO4-01
+  temp 12
+  units mg/L
+  pH 6.75
+  pe 4.2
+  Alkalinity 88 as CaCO3
+  Ca 285
+  Mg 112
+  Na 135
+  K 8.4
+  Cl 165
+  S(6) 1040 as SO4
+  Ba 0.018
+  Sr 2.6
+  Fe 0.34
+  Mn 0.23
+  U 0.044
+  Ra 8.74891188514e-09
+END
+SOLUTION 4 MIX-TAIL-01
+  temp 10.2
+  units mg/L
+  pH 7.74
+  pe 7.62
+  Alkalinity 229.3 as CaCO3
+  Ca 93.3
+  Mg 32.8
+  Na 65.7
+  K 3.72
+  Cl 47.1
+  S(6) 141.8 as SO4
+  Ba 0.0243
+  Sr 0.638
+  Fe 0.0475
+  Mn 0.0302
+  U 0.0809
+  Ra 2.84339636267e-09
+END
+SOLUTION 5 MIX-TAIL-02
+  temp 10.5
+  units mg/L
+  pH 7.575
+  pe 7.05
+  Alkalinity 205.75 as CaCO3
+  Ca 125.25
+  Mg 46
+  Na 77.25
+  K 4.5
+  Cl 66.75
+  S(6) 291.5 as SO4
+  Ba 0.02325
+  Sr 0.965
+  Fe 0.09625
+  Mn 0.0635
+  U 0.07475
+  Ra 3.82764894975e-09
+END
+SOLUTION 6 MIX-TAIL-03
+  temp 11
+  units mg/L
+  pH 7.3
+  pe 6.1
+  Alkalinity 166.5 as CaCO3
+  Ca 178.5
+  Mg 68
+  Na 96.5
+  K 5.8
+  Cl 99.5
+  S(6) 541 as SO4
+  Ba 0.0215
+  Sr 1.51
+  Fe 0.1775
+  Mn 0.119
+  U 0.0645
+  Ra 5.46806992821e-09
+END
+SOLUTION 7 MIX-TAIL-04
+  temp 11.5
+  units mg/L
+  pH 7.025
+  pe 5.15
+  Alkalinity 127.25 as CaCO3
+  Ca 231.75
+  Mg 90
+  Na 115.75
+  K 7.1
+  Cl 132.25
+  S(6) 790.5 as SO4
+  Ba 0.01975
+  Sr 2.055
+  Fe 0.25875
+  Mn 0.1745
+  U 0.05425
+  Ra 7.10849090667e-09
+END
+SOLUTION 8 MIX-TAIL-05
+  temp 11.8
+  units mg/L
+  pH 6.86
+  pe 4.58
+  Alkalinity 103.7 as CaCO3
+  Ca 263.7
+  Mg 103.2
+  Na 127.3
+  K 7.88
+  Cl 151.9
+  S(6) 940.2 as SO4
+  Ba 0.0187
+  Sr 2.382
+  Fe 0.3075
+  Mn 0.2078
+  U 0.0481
+  Ra 8.09274349375e-09
+END
+SOLUTION 9 MIX-RED-01
+  temp 10.8
+  units mg/L
+  pH 7.79
+  pe 6.9
+  Alkalinity 236 as CaCO3
+  Ca 83.3
+  Mg 29.4
+  Na 134.2
+  K 4.68
+  Cl 175.6
+  S(6) 38.6 as SO4
+  Ba 0.0405
+  Sr 0.758
+  Fe 0.1735
+  Mn 0.0492
+  U 0.07665
+  Ra 4.56583839006e-09
+END
+SOLUTION 10 MIX-RED-02
+  temp 12
+  units mg/L
+  pH 7.7
+  pe 5.25
+  Alkalinity 222.5 as CaCO3
+  Ca 100.25
+  Mg 37.5
+  Na 248.5
+  K 6.9
+  Cl 388
+  S(6) 33.5 as SO4
+  Ba 0.06375
+  Sr 1.265
+  Fe 0.41125
+  Mn 0.111
+  U 0.064125
+  Ra 8.13375401821e-09
+END
+SOLUTION 11 MIX-RED-03
+  temp 14
+  units mg/L
+  pH 7.55
+  pe 2.5
+  Alkalinity 200 as CaCO3
+  Ca 128.5
+  Mg 51
+  Na 439
+  K 10.6
+  Cl 742
+  S(6) 25 as SO4
+  Ba 0.1025
+  Sr 2.11
+  Fe 0.8075
+  Mn 0.214
+  U 0.04325
+  Ra 1.40802800651e-08
+END
+SOLUTION 12 MIX-RED-04
+  temp 16
+  units mg/L
+  pH 7.4
+  pe -0.25
+  Alkalinity 177.5 as CaCO3
+  Ca 156.75
+  Mg 64.5
+  Na 629.5
+  K 14.3
+  Cl 1096
+  S(6) 16.5 as SO4
+  Ba 0.14125
+  Sr 2.955
+  Fe 1.20375
+  Mn 0.317
+  U 0.022375
+  Ra 2.00268061121e-08
+END
+SOLUTION 13 MIX-RED-05
+  temp 17.2
+  units mg/L
+  pH 7.31
+  pe -1.9
+  Alkalinity 164 as CaCO3
+  Ca 173.7
+  Mg 72.6
+  Na 743.8
+  K 16.52
+  Cl 1308.4
+  S(6) 11.4 as SO4
+  Ba 0.1645
+  Sr 3.462
+  Fe 1.4415
+  Mn 0.3788
+  U 0.00985
+  Ra 2.35947217402e-08
+END

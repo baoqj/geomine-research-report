@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="400" viewBox="0 0 700 400" role="img">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#172026} .small{font-size:12px;fill:#52616a}.label{font-size:14px}.title{font-size:18px;font-weight:700}.axis{stroke:#172026;stroke-width:1.1}.grid{stroke:#d7e0e5;stroke-width:1}</style>
+<text x="38.0" y="34.0" font-size="20" text-anchor="start" fill="#172026" font-weight="700">Scenario-to-performance indicator matrix</text>
+<text x="198.0" y="66.0" font-size="12" text-anchor="middle" fill="#172026" font-weight="700">swelling</text>
+<text x="290.0" y="66.0" font-size="12" text-anchor="middle" fill="#172026" font-weight="700">Cu corrosion</text>
+<text x="382.0" y="66.0" font-size="12" text-anchor="middle" fill="#172026" font-weight="700">gas</text>
+<text x="474.0" y="66.0" font-size="12" text-anchor="middle" fill="#172026" font-weight="700">nuclide flux</text>
+<text x="566.0" y="66.0" font-size="12" text-anchor="middle" fill="#172026" font-weight="700">fracture flow</text>
+<text x="142.0" y="113.0" font-size="12" text-anchor="end" fill="#172026" font-weight="400">high salinity</text>
+<rect x="152.0" y="82.0" width="88.0" height="44.0" rx="3.0" fill="#c94f44" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="196.0" y="112.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">5</text>
+<rect x="244.0" y="82.0" width="88.0" height="44.0" rx="3.0" fill="#b9dbdf" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="288.0" y="112.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<rect x="336.0" y="82.0" width="88.0" height="44.0" rx="3.0" fill="#e0eff1" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="380.0" y="112.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">1</text>
+<rect x="428.0" y="82.0" width="88.0" height="44.0" rx="3.0" fill="#8ac1c7" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="472.0" y="112.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="520.0" y="82.0" width="88.0" height="44.0" rx="3.0" fill="#b9dbdf" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="564.0" y="112.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<text x="142.0" y="161.0" font-size="12" text-anchor="end" fill="#172026" font-weight="400">sulfide pulse</text>
+<rect x="152.0" y="130.0" width="88.0" height="44.0" rx="3.0" fill="#e0eff1" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="196.0" y="160.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">1</text>
+<rect x="244.0" y="130.0" width="88.0" height="44.0" rx="3.0" fill="#c94f44" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="288.0" y="160.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">5</text>
+<rect x="336.0" y="130.0" width="88.0" height="44.0" rx="3.0" fill="#8ac1c7" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="380.0" y="160.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="428.0" y="130.0" width="88.0" height="44.0" rx="3.0" fill="#b9dbdf" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="472.0" y="160.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<rect x="520.0" y="130.0" width="88.0" height="44.0" rx="3.0" fill="#b9dbdf" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="564.0" y="160.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<text x="142.0" y="209.0" font-size="12" text-anchor="end" fill="#172026" font-weight="400">H2 build-up</text>
+<rect x="152.0" y="178.0" width="88.0" height="44.0" rx="3.0" fill="#b9dbdf" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="196.0" y="208.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<rect x="244.0" y="178.0" width="88.0" height="44.0" rx="3.0" fill="#b9dbdf" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="288.0" y="208.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<rect x="336.0" y="178.0" width="88.0" height="44.0" rx="3.0" fill="#c94f44" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="380.0" y="208.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">5</text>
+<rect x="428.0" y="178.0" width="88.0" height="44.0" rx="3.0" fill="#b9dbdf" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="472.0" y="208.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<rect x="520.0" y="178.0" width="88.0" height="44.0" rx="3.0" fill="#e2b968" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="564.0" y="208.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">4</text>
+<text x="142.0" y="257.0" font-size="12" text-anchor="end" fill="#172026" font-weight="400">thermal peak</text>
+<rect x="152.0" y="226.0" width="88.0" height="44.0" rx="3.0" fill="#8ac1c7" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="196.0" y="256.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="244.0" y="226.0" width="88.0" height="44.0" rx="3.0" fill="#8ac1c7" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="288.0" y="256.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="336.0" y="226.0" width="88.0" height="44.0" rx="3.0" fill="#b9dbdf" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="380.0" y="256.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<rect x="428.0" y="226.0" width="88.0" height="44.0" rx="3.0" fill="#e2b968" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="472.0" y="256.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">4</text>
+<rect x="520.0" y="226.0" width="88.0" height="44.0" rx="3.0" fill="#b9dbdf" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="564.0" y="256.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<text x="142.0" y="305.0" font-size="12" text-anchor="end" fill="#172026" font-weight="400">glacial boundary</text>
+<rect x="152.0" y="274.0" width="88.0" height="44.0" rx="3.0" fill="#8ac1c7" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="196.0" y="304.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="244.0" y="274.0" width="88.0" height="44.0" rx="3.0" fill="#8ac1c7" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="288.0" y="304.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">3</text>
+<rect x="336.0" y="274.0" width="88.0" height="44.0" rx="3.0" fill="#b9dbdf" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="380.0" y="304.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">2</text>
+<rect x="428.0" y="274.0" width="88.0" height="44.0" rx="3.0" fill="#e2b968" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="472.0" y="304.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">4</text>
+<rect x="520.0" y="274.0" width="88.0" height="44.0" rx="3.0" fill="#c94f44" stroke="#ffffff" stroke-width="1.0" opacity="1.0"/>
+<text x="564.0" y="304.0" font-size="13" text-anchor="middle" fill="#172026" font-weight="700">5</text>
+<text x="142.0" y="365.0" font-size="13" text-anchor="start" fill="#172026" font-weight="400" class="small">1 low direct leverage; 5 first-order sensitivity under screening assumptions</text>
+</svg>

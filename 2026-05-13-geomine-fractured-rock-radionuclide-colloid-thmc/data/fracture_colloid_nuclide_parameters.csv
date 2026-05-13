@@ -1,0 +1,12 @@
+name,group,dominant_forms_oxidizing,dominant_forms_reducing,kd_oxidizing_m3_kg,kd_reducing_m3_kg,colloid_k_l_kg,redox_sensitive,mineral_affinity,retardation_oxidizing_phi_0_01,retardation_reducing_phi_0_01,colloid_fraction_1mg_l,mobility_index_oxidizing_1mg_l_lambda_0_01_100m
+I-129,high-mobility anion,"I-, IO3-",I-,1e-05,1e-05,100.0,1,low; organic matter may matter,3.65,3.65,0.0001,0.27400939
+Tc-99,redox-sensitive anion,TcO4-,Tc(IV) solids/complexes,1e-05,0.05,10000.0,5,"Fe oxides, reducing phases",3.65,13251.0,0.009901,0.27761497
+Se-79,mobile anion,SeO4--/SeO3--,Se(0)/Se(-II) controls,0.0001,0.01,1000.0,4,"Fe oxides, sulfides",27.5,2651.0,0.000999,0.03673115
+Sr-90,fission product cation,Sr++,Sr++,0.001,0.001,1000.0,1,"calcite, clays, ion exchange",266.0,266.0,0.000999,0.00412691
+Cs-137,fission product cation,Cs+,Cs+,0.02,0.02,50000.0,1,"biotite, illite/frayed-edge sites",5301.0,5301.0,0.047619,0.01770671
+Ra-226,decay-series cation,Ra++,Ra++,0.01,0.01,1000.0,1,"barite/calcite co-precipitation, clays",2651.0,2651.0,0.000999,0.00074473
+U,actinide / decay-series,U(VI)-carbonate,U(IV),0.001,0.1,100000.0,5,"Fe oxides, chlorite, clay, organic colloids",266.0,26501.0,0.090909,0.03720298
+Np,actinide,Np(V),Np(IV),0.001,0.05,50000.0,5,"hematite, montmorillonite, altered minerals",266.0,13251.0,0.047619,0.02127747
+Pu,actinide,"Pu(IV/V/VI), hydrolysis",Pu(III/IV),0.1,1.0,1000000.0,5,"Fe-Mn oxides, clays, organic colloids",26501.0,265001.0,0.5,0.18397746
+Am,trivalent actinide,Am(III),Am(III),0.2,1.0,1000000.0,2,"clays, Fe oxides, organic colloids",53001.0,265001.0,0.5,0.18395859
+Th,tetravalent actinide,Th(IV),Th(IV),1.0,5.0,1000000.0,1,"Fe oxides, clay, organic colloids",265001.0,1325001.0,0.5,0.18394349
