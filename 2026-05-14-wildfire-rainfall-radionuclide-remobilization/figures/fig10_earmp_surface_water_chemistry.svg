@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="760" viewBox="0 0 1180 760">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#222">EARMP surface-water chemistry, 2011-2023</text>
+<text x="40.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#555">Late-season regional monitoring provides current/recent water-chemistry bounds, but not first-flush event chemistry.</text>
+<text x="72.0" y="97.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#222">Surface-water pH</text>
+<rect x="72" y="115" width="1020" height="170" fill="#fbfbfb" stroke="#ddd"/>
+<line x1="72" y1="285.0" x2="1092" y2="285.0" stroke="#e8e8e8"/>
+<text x="64.0" y="289.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">5.2</text>
+<line x1="72" y1="242.5" x2="1092" y2="242.5" stroke="#e8e8e8"/>
+<text x="64.0" y="246.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">5.975</text>
+<line x1="72" y1="200.0" x2="1092" y2="200.0" stroke="#e8e8e8"/>
+<text x="64.0" y="204.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">6.75</text>
+<line x1="72" y1="157.5" x2="1092" y2="157.5" stroke="#e8e8e8"/>
+<text x="64.0" y="161.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">7.525</text>
+<line x1="72" y1="115.0" x2="1092" y2="115.0" stroke="#e8e8e8"/>
+<text x="64.0" y="119.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">8.3</text>
+<circle cx="72.0" cy="172.0" r="4.2" fill="#3d7ea6" stroke="#fff"/>
+<text x="72.0" y="303.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2011</text>
+<circle cx="157.0" cy="173.1" r="4.2" fill="#3d7ea6" stroke="#fff"/>
+<circle cx="242.0" cy="165.5" r="4.2" fill="#3d7ea6" stroke="#fff"/>
+<circle cx="327.0" cy="191.8" r="4.2" fill="#3d7ea6" stroke="#fff"/>
+<text x="327.0" y="303.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2014</text>
+<circle cx="582.0" cy="165.2" r="4.2" fill="#3d7ea6" stroke="#fff"/>
+<text x="582.0" y="303.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2017</text>
+<circle cx="667.0" cy="157.2" r="4.2" fill="#3d7ea6" stroke="#fff"/>
+<circle cx="752.0" cy="178.6" r="4.2" fill="#3d7ea6" stroke="#fff"/>
+<circle cx="837.0" cy="178.6" r="4.2" fill="#3d7ea6" stroke="#fff"/>
+<text x="837.0" y="303.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2020</text>
+<circle cx="922.0" cy="175.0" r="4.2" fill="#3d7ea6" stroke="#fff"/>
+<circle cx="1007.0" cy="177.0" r="4.2" fill="#3d7ea6" stroke="#fff"/>
+<circle cx="1092.0" cy="210.1" r="4.2" fill="#3d7ea6" stroke="#fff"/>
+<text x="1092.0" y="303.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2023</text>
+<polyline points="72.0,172.0 157.0,173.1 242.0,165.5 327.0,191.8 582.0,165.2 667.0,157.2 752.0,178.6 837.0,178.6 922.0,175.0 1007.0,177.0 1092.0,210.1" fill="none" stroke="#3d7ea6" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="72.0" y="329.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#222">U max, ug/L</text>
+<rect x="72" y="347" width="1020" height="170" fill="#fbfbfb" stroke="#ddd"/>
+<line x1="72" y1="517.0" x2="1092" y2="517.0" stroke="#e8e8e8"/>
+<text x="64.0" y="521.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">0</text>
+<line x1="72" y1="474.5" x2="1092" y2="474.5" stroke="#e8e8e8"/>
+<text x="64.0" y="478.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">0.95</text>
+<line x1="72" y1="432.0" x2="1092" y2="432.0" stroke="#e8e8e8"/>
+<text x="64.0" y="436.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">1.9</text>
+<line x1="72" y1="389.5" x2="1092" y2="389.5" stroke="#e8e8e8"/>
+<text x="64.0" y="393.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">2.85</text>
+<line x1="72" y1="347.0" x2="1092" y2="347.0" stroke="#e8e8e8"/>
+<text x="64.0" y="351.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">3.8</text>
+<circle cx="72.0" cy="512.5" r="4.2" fill="#7a4ea3" stroke="#fff"/>
+<text x="72.0" y="535.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2011</text>
+<circle cx="157.0" cy="512.5" r="4.2" fill="#7a4ea3" stroke="#fff"/>
+<circle cx="242.0" cy="512.5" r="4.2" fill="#7a4ea3" stroke="#fff"/>
+<circle cx="327.0" cy="512.5" r="4.2" fill="#7a4ea3" stroke="#fff"/>
+<text x="327.0" y="535.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2014</text>
+<circle cx="582.0" cy="512.5" r="4.2" fill="#7a4ea3" stroke="#fff"/>
+<text x="582.0" y="535.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2017</text>
+<circle cx="667.0" cy="512.5" r="4.2" fill="#7a4ea3" stroke="#fff"/>
+<circle cx="752.0" cy="512.5" r="4.2" fill="#7a4ea3" stroke="#fff"/>
+<circle cx="837.0" cy="512.5" r="4.2" fill="#7a4ea3" stroke="#fff"/>
+<text x="837.0" y="535.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2020</text>
+<circle cx="922.0" cy="512.5" r="4.2" fill="#7a4ea3" stroke="#fff"/>
+<circle cx="1007.0" cy="512.5" r="4.2" fill="#7a4ea3" stroke="#fff"/>
+<circle cx="1092.0" cy="512.5" r="4.2" fill="#7a4ea3" stroke="#fff"/>
+<text x="1092.0" y="535.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2023</text>
+<polyline points="72.0,512.5 157.0,512.5 242.0,512.5 327.0,512.5 582.0,512.5 667.0,512.5 752.0,512.5 837.0,512.5 922.0,512.5 1007.0,512.5 1092.0,512.5" fill="none" stroke="#7a4ea3" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="72.0" y="561.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#222">Ra-226 max, Bq/L</text>
+<rect x="72" y="579" width="1020" height="170" fill="#fbfbfb" stroke="#ddd"/>
+<line x1="72" y1="749.0" x2="1092" y2="749.0" stroke="#e8e8e8"/>
+<text x="64.0" y="753.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">0</text>
+<line x1="72" y1="706.5" x2="1092" y2="706.5" stroke="#e8e8e8"/>
+<text x="64.0" y="710.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">0.003</text>
+<line x1="72" y1="664.0" x2="1092" y2="664.0" stroke="#e8e8e8"/>
+<text x="64.0" y="668.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">0.006</text>
+<line x1="72" y1="621.5" x2="1092" y2="621.5" stroke="#e8e8e8"/>
+<text x="64.0" y="625.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">0.009</text>
+<line x1="72" y1="579.0" x2="1092" y2="579.0" stroke="#e8e8e8"/>
+<text x="64.0" y="583.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#666">0.012</text>
+<circle cx="72.0" cy="678.2" r="4.2" fill="#a64242" stroke="#fff"/>
+<text x="72.0" y="767.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2011</text>
+<circle cx="157.0" cy="621.5" r="4.2" fill="#a64242" stroke="#fff"/>
+<circle cx="242.0" cy="678.2" r="4.2" fill="#a64242" stroke="#fff"/>
+<circle cx="327.0" cy="678.2" r="4.2" fill="#a64242" stroke="#fff"/>
+<text x="327.0" y="767.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2014</text>
+<circle cx="582.0" cy="678.2" r="4.2" fill="#a64242" stroke="#fff"/>
+<text x="582.0" y="767.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2017</text>
+<circle cx="667.0" cy="678.2" r="4.2" fill="#a64242" stroke="#fff"/>
+<circle cx="752.0" cy="678.2" r="4.2" fill="#a64242" stroke="#fff"/>
+<circle cx="837.0" cy="678.2" r="4.2" fill="#a64242" stroke="#fff"/>
+<text x="837.0" y="767.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2020</text>
+<circle cx="922.0" cy="678.2" r="4.2" fill="#a64242" stroke="#fff"/>
+<circle cx="1007.0" cy="671.1" r="4.2" fill="#a64242" stroke="#fff"/>
+<circle cx="1092.0" cy="678.2" r="4.2" fill="#a64242" stroke="#fff"/>
+<text x="1092.0" y="767.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#666">2023</text>
+<polyline points="72.0,678.2 157.0,621.5 242.0,678.2 327.0,678.2 582.0,678.2 667.0,678.2 752.0,678.2 837.0,678.2 922.0,678.2 1007.0,671.1 1092.0,678.2" fill="none" stroke="#a64242" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="72.0" y="718.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#555">Censoring note: many U and Ra observations are reported at or below detection limits; values are treated as reported upper-bound screen values.</text>
+</svg>

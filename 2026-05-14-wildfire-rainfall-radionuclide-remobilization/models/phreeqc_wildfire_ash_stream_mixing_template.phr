@@ -1,0 +1,65 @@
+TITLE Wildfire ash leachate and stream-water mixing screen for uranium-mine settings
+# Database recommendation: llnl.dat or minteq.v4.dat for uranium trace species,
+# after verifying thermodynamic coverage and surface-complexation constants.
+# This is a template: measured chemistry is required before execution is treated
+# as evidence.
+
+SOLUTION 1 Stream_water_baseline
+    temp      <temperature_C>
+    pH        <stream_pH>
+    pe        <stream_pe_or_Eh_converted>
+    units     mg/L
+    Alkalinity <alkalinity_as_CaCO3_mg_L>
+    Ca        <Ca_mg_L>
+    Mg        <Mg_mg_L>
+    Na        <Na_mg_L>
+    K         <K_mg_L>
+    S(6)      <SO4_mg_L> as SO4
+    C(4)      <DIC_mg_L> as HCO3
+    U         <U_ug_L> ug/L
+END
+
+SOLUTION 2 Ash_leachate_or_tailings_runoff
+    temp      <temperature_C>
+    pH        <ash_leachate_pH>
+    pe        <ash_leachate_pe_or_Eh_converted>
+    units     mg/L
+    Alkalinity <ash_alkalinity_as_CaCO3_mg_L>
+    Ca        <Ca_mg_L>
+    Mg        <Mg_mg_L>
+    Na        <Na_mg_L>
+    K         <K_mg_L>
+    S(6)      <SO4_mg_L> as SO4
+    C(4)      <DIC_mg_L> as HCO3
+    U         <U_ug_L> ug/L
+    Ra        <Ra_Bq_L_or_mol_basis> # verify database species and units
+END
+
+MIX 10 First_flush_mixing_series
+    1 0.95
+    2 0.05
+SAVE solution 10
+END
+
+MIX 11 First_flush_mixing_series
+    1 0.75
+    2 0.25
+SAVE solution 11
+END
+
+MIX 12 First_flush_mixing_series
+    1 0.50
+    2 0.50
+SAVE solution 12
+END
+
+SELECTED_OUTPUT
+    -file wildfire_ash_mixing_selected.tsv
+    -reset false
+    -pH true
+    -pe true
+    -alkalinity true
+    -ionic_strength true
+    -totals U Ra S(6) C(4) Ca Ba Sr Fe Mn
+    -saturation_indices Calcite Gypsum Barite Uraninite
+END

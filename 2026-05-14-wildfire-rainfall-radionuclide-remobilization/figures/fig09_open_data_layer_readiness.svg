@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="650" viewBox="0 0 1180 650">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#222">Open-data layer readiness for northern uranium-mining wildfire risk screening</text>
+<text x="40.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#555">Score: 3 downloaded/parsed, 2 metadata/catalog queried, 1 identified gap, 0 field data required.</text>
+<line x1="370.0" y1="88" x2="370.0" y2="577" stroke="#e0e0e0"/>
+<text x="370.0" y="80.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#666">0</text>
+<line x1="556.7" y1="88" x2="556.7" y2="577" stroke="#e0e0e0"/>
+<text x="556.7" y="80.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#666">1</text>
+<line x1="743.3" y1="88" x2="743.3" y2="577" stroke="#e0e0e0"/>
+<text x="743.3" y="80.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#666">2</text>
+<line x1="930.0" y1="88" x2="930.0" y2="577" stroke="#e0e0e0"/>
+<text x="930.0" y="80.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#666">3</text>
+<text x="40.0" y="127.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">NBAC burned-area/fire perimeter</text>
+<rect x="370" y="110" width="560" height="18" fill="#f3f3f3" stroke="#ddd"/>
+<rect x="370" y="110" width="560.0" height="18" fill="#4c956c"/>
+<text x="946.0" y="124.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#333">downloaded_parsed</text>
+<text x="40.0" y="169.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">Fire burn severity</text>
+<rect x="370" y="152" width="560" height="18" fill="#f3f3f3" stroke="#ddd"/>
+<rect x="370" y="152" width="186.7" height="18" fill="#f2b35d"/>
+<text x="946.0" y="166.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#333">gap_for_northern_saskatchewan</text>
+<text x="40.0" y="211.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">MRDEM/CDEM elevation</text>
+<rect x="370" y="194" width="560" height="18" fill="#f3f3f3" stroke="#ddd"/>
+<rect x="370" y="194" width="373.3" height="18" fill="#77aadd"/>
+<text x="946.0" y="208.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#333">metadata_queried</text>
+<text x="40.0" y="253.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">CHN hydrography</text>
+<rect x="370" y="236" width="560" height="18" fill="#f3f3f3" stroke="#ddd"/>
+<rect x="370" y="236" width="373.3" height="18" fill="#77aadd"/>
+<text x="946.0" y="250.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#333">metadata_queried_limited_coverage</text>
+<text x="40.0" y="295.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">NHN hydrography</text>
+<rect x="370" y="278" width="560" height="18" fill="#f3f3f3" stroke="#ddd"/>
+<rect x="370" y="278" width="373.3" height="18" fill="#77aadd"/>
+<text x="946.0" y="292.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#333">catalog_queried</text>
+<text x="40.0" y="337.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">WSC hydrometric stations and discharge</text>
+<rect x="370" y="320" width="560" height="18" fill="#f3f3f3" stroke="#ddd"/>
+<rect x="370" y="320" width="560.0" height="18" fill="#4c956c"/>
+<text x="946.0" y="334.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#333">downloaded_parsed</text>
+<text x="40.0" y="379.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">ECCC climate daily precipitation</text>
+<rect x="370" y="362" width="560" height="18" fill="#f3f3f3" stroke="#ddd"/>
+<rect x="370" y="362" width="560.0" height="18" fill="#4c956c"/>
+<text x="946.0" y="376.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#333">downloaded_parsed</text>
+<text x="40.0" y="421.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">CNSC uranium mine radionuclide releases</text>
+<rect x="370" y="404" width="560" height="18" fill="#f3f3f3" stroke="#ddd"/>
+<rect x="370" y="404" width="560.0" height="18" fill="#4c956c"/>
+<text x="946.0" y="418.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#333">downloaded_parsed</text>
+<text x="40.0" y="463.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">EARMP surface water and country-food chemistry</text>
+<rect x="370" y="446" width="560" height="18" fill="#f3f3f3" stroke="#ddd"/>
+<rect x="370" y="446" width="560.0" height="18" fill="#4c956c"/>
+<text x="946.0" y="460.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#333">downloaded_parsed</text>
+<text x="40.0" y="505.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">Indigenous community infrastructure</text>
+<rect x="370" y="488" width="560" height="18" fill="#f3f3f3" stroke="#ddd"/>
+<rect x="370" y="488" width="373.3" height="18" fill="#77aadd"/>
+<text x="946.0" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#333">metadata_queried</text>
+<text x="40.0" y="547.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">Lake/wetland sediment cores</text>
+<rect x="370" y="530" width="560" height="18" fill="#f3f3f3" stroke="#ddd"/>
+<rect x="370" y="530" width="0.0" height="18" fill="#bdbdbd"/>
+<text x="946.0" y="544.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#333">field_data_required</text>
+<text x="40.0" y="605.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#555">Main design implication: burn severity, receptor intake points, and sediment cores are the limiting layers for moving from screening to prediction.</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="520" viewBox="0 0 1180 520">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#222">Integrated causal workflow: screening -&gt; first flush chemistry -&gt; long-term secondary source</text>
+<text x="40.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#555">The present water-chemistry state is the bridge variable used to predict longer-term sediment and wetland risk.</text>
+<rect x="60" y="120" width="285" height="190" rx="8" fill="#e8f2ff" stroke="#1f5f99" stroke-width="2"/>
+<text x="78.0" y="152.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#1f5f99">Analysis I</text>
+<text x="78.0" y="178.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="start" fill="#222">Open-data disturbance screening</text>
+<text x="88.0" y="212.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#333">- NBAC + burn severity</text>
+<text x="88.0" y="240.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#333">- DEM + NHN/CHN routing</text>
+<text x="88.0" y="268.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#333">- source term + receptor proximity</text>
+<rect x="445" y="120" width="285" height="190" rx="8" fill="#fff3dd" stroke="#9a5b00" stroke-width="2"/>
+<text x="463.0" y="152.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#9a5b00">Analysis II</text>
+<text x="463.0" y="178.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="start" fill="#222">Post-fire first flush chemistry</text>
+<text x="473.0" y="212.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#333">- ash/soil/runoff/water/TSS</text>
+<text x="473.0" y="240.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#333">- U-Ra-Pb-Po phase split</text>
+<text x="473.0" y="268.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#333">- PHREEQC speciation and SI</text>
+<rect x="830" y="120" width="285" height="190" rx="8" fill="#eaf7e9" stroke="#23733a" stroke-width="2"/>
+<text x="848.0" y="152.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#23733a">Analysis III</text>
+<text x="848.0" y="178.0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="start" fill="#222">Lake/wetland secondary source</text>
+<text x="858.0" y="212.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#333">- sediment cores + grain size</text>
+<text x="858.0" y="240.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#333">- Fe-Mn/organic binding</text>
+<text x="858.0" y="268.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#333">- resuspension + burial</text>
+<line x1="345" y1="215" x2="445" y2="215" stroke="#333" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="730" y1="215" x2="830" y2="215" stroke="#333" stroke-width="2.2" marker-end="url(#arrow)"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L8,3 z" fill="#333"/></marker></defs>
+<rect x="190" y="365" width="800" height="80" rx="8" fill="#f7f7f7" stroke="#999"/>
+<text x="590.0" y="392.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">Prediction merge</text>
+<text x="590.0" y="418.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#333">Current post-fire water chemistry constrains dissolved mobility; sediment inventory constrains chronic resuspension.</text>
+<path d="M972,310 C990,350 980,365 925,365" fill="none" stroke="#23733a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M590,365 C555,330 555,315 590,310" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>

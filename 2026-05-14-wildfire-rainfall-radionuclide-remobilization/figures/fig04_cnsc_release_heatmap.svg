@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="450" viewBox="0 0 980 450">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="30.0" y="34.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start" fill="#222">Figure 4. 2024 CNSC direct-discharge source-term matrix</text>
+<text x="30.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#555">Values are normalized by substance for color; U is kg, decay-series radionuclides are MBq.</text>
+<text x="244.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#222">Uranium</text>
+<text x="244.0" y="82.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#6b7280">kg</text>
+<text x="372.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#222">Thorium
+230</text>
+<text x="372.0" y="82.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#6b7280">MBq</text>
+<text x="500.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#222">Radium
+226</text>
+<text x="500.0" y="82.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#6b7280">MBq</text>
+<text x="628.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#222">Lead
+210</text>
+<text x="628.0" y="82.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#6b7280">MBq</text>
+<text x="756.0" y="68.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#222">Polonium
+210</text>
+<text x="756.0" y="82.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#6b7280">MBq</text>
+<text x="166.0" y="116.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">Cigar Lake</text>
+<rect x="180.0" y="86.0" width="124" height="44" fill="rgb(253,242,232)" stroke="#ffffff"/>
+<text x="242.0" y="115.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">0.056</text>
+<rect x="308.0" y="86.0" width="124" height="44" fill="rgb(233,193,173)" stroke="#ffffff"/>
+<text x="370.0" y="115.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">4.309</text>
+<rect x="436.0" y="86.0" width="124" height="44" fill="rgb(234,195,175)" stroke="#ffffff"/>
+<text x="498.0" y="115.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">3.17</text>
+<rect x="564.0" y="86.0" width="124" height="44" fill="rgb(220,161,134)" stroke="#ffffff"/>
+<text x="626.0" y="115.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">7.636</text>
+<rect x="692.0" y="86.0" width="124" height="44" fill="rgb(224,171,146)" stroke="#ffffff"/>
+<text x="754.0" y="115.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">7.838</text>
+<text x="166.0" y="164.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">Key Lake</text>
+<rect x="180.0" y="134.0" width="124" height="44" fill="rgb(194,98,57)" stroke="#ffffff"/>
+<text x="242.0" y="163.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">25.34</text>
+<rect x="308.0" y="134.0" width="124" height="44" fill="rgb(185,75,30)" stroke="#ffffff"/>
+<text x="370.0" y="163.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">259.096</text>
+<rect x="436.0" y="134.0" width="124" height="44" fill="rgb(203,120,84)" stroke="#ffffff"/>
+<text x="498.0" y="163.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">36.9</text>
+<rect x="564.0" y="134.0" width="124" height="44" fill="rgb(195,101,61)" stroke="#ffffff"/>
+<text x="626.0" y="163.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">39.8609</text>
+<rect x="692.0" y="134.0" width="124" height="44" fill="rgb(185,75,30)" stroke="#ffffff"/>
+<text x="754.0" y="163.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">157.451</text>
+<text x="166.0" y="212.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">McArthur River</text>
+<rect x="180.0" y="182.0" width="124" height="44" fill="rgb(194,99,59)" stroke="#ffffff"/>
+<text x="242.0" y="211.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">24.6478</text>
+<rect x="308.0" y="182.0" width="124" height="44" fill="rgb(212,142,111)" stroke="#ffffff"/>
+<text x="370.0" y="211.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">27.49</text>
+<rect x="436.0" y="182.0" width="124" height="44" fill="rgb(185,75,30)" stroke="#ffffff"/>
+<text x="498.0" y="211.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">140.05</text>
+<rect x="564.0" y="182.0" width="124" height="44" fill="rgb(185,75,30)" stroke="#ffffff"/>
+<text x="626.0" y="211.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">79.17</text>
+<rect x="692.0" y="182.0" width="124" height="44" fill="rgb(194,97,57)" stroke="#ffffff"/>
+<text x="754.0" y="211.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">79.17</text>
+<text x="166.0" y="260.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">McClean Lake</text>
+<rect x="180.0" y="230.0" width="124" height="44" fill="rgb(230,185,162)" stroke="#ffffff"/>
+<text x="242.0" y="259.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">2.8</text>
+<rect x="308.0" y="230.0" width="124" height="44" fill="rgb(222,165,138)" stroke="#ffffff"/>
+<text x="370.0" y="259.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">12.6</text>
+<rect x="436.0" y="230.0" width="124" height="44" fill="rgb(217,154,126)" stroke="#ffffff"/>
+<text x="498.0" y="259.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">12.8</text>
+<rect x="564.0" y="230.0" width="124" height="44" fill="rgb(202,118,82)" stroke="#ffffff"/>
+<text x="626.0" y="259.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">25.2</text>
+<rect x="692.0" y="230.0" width="124" height="44" fill="rgb(221,162,135)" stroke="#ffffff"/>
+<text x="754.0" y="259.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">10.7</text>
+<text x="166.0" y="308.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">Rabbit Lake</text>
+<rect x="180.0" y="278.0" width="124" height="44" fill="rgb(185,75,30)" stroke="#ffffff"/>
+<text x="242.0" y="307.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">43</text>
+<rect x="308.0" y="278.0" width="124" height="44" fill="rgb(203,120,85)" stroke="#ffffff"/>
+<text x="370.0" y="307.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">57.4</text>
+<rect x="436.0" y="278.0" width="124" height="44" fill="rgb(213,145,114)" stroke="#ffffff"/>
+<text x="498.0" y="307.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">17.2</text>
+<rect x="564.0" y="278.0" width="124" height="44" fill="rgb(190,87,44)" stroke="#ffffff"/>
+<text x="626.0" y="307.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">57.4</text>
+<rect x="692.0" y="278.0" width="124" height="44" fill="rgb(209,134,101)" stroke="#ffffff"/>
+<text x="754.0" y="307.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">25.8</text>
+</svg>

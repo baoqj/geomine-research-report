@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="460" viewBox="0 0 980 460">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="30.0" y="34.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start" fill="#222">Figure 5. Multi-source remobilization screening index</text>
+<text x="30.0" y="56.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#555">Index = source score x climate-trigger score; designed for research prioritization, not dose or compliance assessment.</text>
+<text x="62.0" y="115.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">Rabbit Lake</text>
+<rect x="76" y="92" width="828" height="34" fill="#f1f5f9"/>
+<rect x="76" y="92" width="828.0" height="34" fill="#7c3aed" fill-opacity="0.82"/>
+<text x="912.0" y="115.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">0.456</text>
+<text x="76.0" y="142.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#64748b">S=0.890 F=0.735 P=0.276 H=0.424; nearest recent fire 3.813 km</text>
+<text x="62.0" y="175.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">McArthur River</text>
+<rect x="76" y="152" width="828" height="34" fill="#f1f5f9"/>
+<rect x="76" y="152" width="759.0" height="34" fill="#7c3aed" fill-opacity="0.82"/>
+<text x="843.0" y="175.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">0.418</text>
+<text x="76.0" y="202.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#64748b">S=0.903 F=0.552 P=0.371 H=0.424; nearest recent fire 12.996 km</text>
+<text x="62.0" y="235.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">Key Lake</text>
+<rect x="76" y="212" width="828" height="34" fill="#f1f5f9"/>
+<rect x="76" y="212" width="468.5" height="34" fill="#7c3aed" fill-opacity="0.82"/>
+<text x="552.5" y="235.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">0.258</text>
+<text x="76.0" y="262.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#64748b">S=0.946 F=0.268 P=0.174 H=0.460; nearest recent fire 7.935 km</text>
+<text x="62.0" y="295.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">McClean Lake</text>
+<rect x="76" y="272" width="828" height="34" fill="#f1f5f9"/>
+<rect x="76" y="272" width="406.7" height="34" fill="#7c3aed" fill-opacity="0.82"/>
+<text x="490.7" y="295.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">0.224</text>
+<text x="76.0" y="322.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#64748b">S=0.541 F=0.441 P=0.371 H=0.427; nearest recent fire 5.962 km</text>
+<text x="62.0" y="355.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">Cigar Lake</text>
+<rect x="76" y="332" width="828" height="34" fill="#f1f5f9"/>
+<rect x="76" y="332" width="394.0" height="34" fill="#7c3aed" fill-opacity="0.82"/>
+<text x="478.0" y="355.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">0.217</text>
+<text x="76.0" y="382.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#64748b">S=0.313 F=0.978 P=0.474 H=0.432; nearest recent fire 0.558 km</text>
+</svg>

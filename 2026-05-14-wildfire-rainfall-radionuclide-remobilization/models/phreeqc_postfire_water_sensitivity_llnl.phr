@@ -1,0 +1,55 @@
+TITLE Post-fire water chemistry sensitivity screen for EARMP-like surface water
+# Purpose: illustrative PHREEQC sensitivity setup, not calibrated field evidence.
+# Database used in the run manifest: llnl.dat.
+# Measured anchors from EARMP 2023 surface water: pH range 5.43-7.08,
+# U mostly <=0.1 ug/L, Ra-226 mostly <=0.005 Bq/L.
+# Missing measured inputs: alkalinity, Ca, Mg, Na, K, Cl, sulfate, DOC, Eh/pe,
+# TSS, Pb-210, Po-210, Fe/Mn, dissolved oxygen and charge balance.
+
+SOLUTION 1 EARMP_2023_low_alkalinity_upper_bound
+    units mg/L
+    temp 10
+    pH 6.59
+    pe 4
+    Alkalinity 5 as CaCO3
+    Ca 2
+    Mg 1
+    Na 2
+    K 0.5
+    Cl 2
+    S(6) 2 as SO4
+    U(6) 0.0001
+    Ra 1.35e-10
+    Pb 0.0001
+
+SOLUTION 2 Ash_alkalinity_pulse_upper_bound
+    units mg/L
+    temp 10
+    pH 8.20
+    pe 4
+    Alkalinity 50 as CaCO3
+    Ca 20
+    Mg 3
+    Na 5
+    K 3
+    Cl 3
+    S(6) 5 as SO4
+    U(6) 0.0001
+    Ra 1.35e-10
+    Pb 0.0001
+
+SELECTED_OUTPUT 1
+    -file phreeqc_postfire_water_sensitivity_llnl.sel
+    -reset false
+    -simulation true
+    -state true
+    -solution true
+    -pH true
+    -pe true
+    -ionic_strength true
+    -charge_balance true
+    -alkalinity true
+    -totals C Ca S(6) U Ra Pb
+    -saturation_indices Calcite Gypsum Barite RaSO4 UO2CO3 UO2(OH)2(beta) UO2(am) Cerussite Anglesite
+    -molalities UO2+2 UO2CO3 UO2(CO3)2-2 UO2(CO3)3-4 Ra+2 RaSO4 Pb+2 PbCO3 Pb(CO3)2-2
+END
