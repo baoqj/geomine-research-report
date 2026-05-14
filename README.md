@@ -1,114 +1,206 @@
 # GeoMine Research Report Index
 
-本仓库汇总 GeoMine Research 生成的地球化学、矿产勘查、矿权筛选、天然氢与辐射化学研究报告。报告以 Markdown 和部分 PDF 形式保存，每个研究项目使用独立子目录。
+Default language: English. For Chinese, see [README.zh-CN.md](./README.zh-CN.md).
 
-> 说明：这些报告用于研究、筛选和方法论论证，不构成投资建议、法律意见、Qualified Person opinion、NI 43-101 技术报告、资源量/储量估算、开采可行性结论或矿权法律意见。涉及矿权 staking、并购、工程、环境、核安全或披露时，应以官方登记系统、合格专业人士和法律顾问复核为准。
+This repository collects GeoMine Research outputs for geoscience, mining exploration, hydrogeochemistry, radiochemistry, THMC modeling, PHREEQC/PFLOTRAN workflow design, and research-method documentation. Most dated folders are self-contained research packages with Markdown papers, PDF exports, provenance notes, machine-readable summaries, data tables, figures, and local scripts.
 
-## 快速目录
+Research boundary: these materials are for scientific exploration, screening, workflow design, and methodological reasoning. They are not investment advice, legal advice, Qualified Person opinions, NI 43-101 technical reports, resource or reserve estimates, mining feasibility studies, environmental permits, nuclear-safety conclusions, or field-validated site assessments. Claim status, regulatory conclusions, water quality, radiation dose, engineering safety, and disclosure decisions must be checked against official systems and qualified professionals.
 
-### 铀—钍—钾放射性衰变驱动的深部 H2 生成：以 Revell Batholith 与 Athabasca Basin 基底岩为例
+## Current Inventory
 
-2026-05-11
+- 18 dated research packages, ordered newest to oldest below.
+- 4 top-level skill capability or methodology guides.
+- Main deliverable types: Markdown papers, PDF exports, figure packages, provenance notes, JSON/CSV data products, PHREEQC/PFLOTRAN model artifacts, and local analysis scripts.
+- Newly indexed since the older README: all 2026-05-12, 2026-05-13, and 2026-05-14 research packages, plus the THMC, PHREEQC, PFLOTRAN, and geochemistry paper-architecture guides.
 
-- 研究目的：研究 U-Th-K 放射性衰变驱动深部水辐解生成 H2 的机制，以 Revell Batholith 和 Athabasca Basin 基底岩为案例，结合地球化学、地下水、核素迁移和长期热反应。
-- 简要结论：Revell 是低孔低渗结晶岩辐解 H2 的安全边界模型，产氢量极低，更重要的是深部生物圈和核废料库气体/氧化还原风险；Athabasca 基底可作为富 U 红氧化端元，适合研究 radiolytic redox halo、H2-sulfate 平衡和 U 迁移反馈。
-- [铀—钍—钾放射性衰变驱动的深部 H2 生成：以 Revell Batholith 与 Athabasca Basin 基底岩为例](https://github.com/baoqj/geomine-research-report/blob/main/2026-05-11-geomine-radiolytic-natural-hydrogen-revell-athabasca/radiolytic_natural_hydrogen_revell_athabasca_research_report_zh.md)
+## Directory Convention
 
-### Patterson Lake Corridor：面向未 Claim / 近期失效地块的铀-金-关键矿物潜力筛选报告
+- Date-prefixed folders are research packages: `YYYY-MM-DD-topic-slug/`.
+- A mature package should include a package `README.md`, one or more main papers, PDF exports when available, `mcp_provenance.md` when tools or public sources were used, and a clear `data/`, `figures/`, `models/`, or `scripts/` layout when needed.
+- Files ending in `.normalized.md` or `.normalized.pdf` are usually export-normalized versions for math, chemistry notation, Mermaid, or figure rendering.
+- Top-level `GeoMine_*.md` files are capability guides and methodology documents rather than individual research papers.
 
-2026-05-11
+## Research Packages and Papers
 
-- 研究目的：聚焦 Saskatchewan 西南 Athabasca Basin 边缘 Patterson Lake Corridor，结合官方矿权、钻孔、SMDI、岩石样和成矿模型，寻找未 claim 或近期过期地块线索。
-- 简要结论：地质最强的 JR-Broach-Minto-Smart Lake、Hook-Spitfire-Bow、Triple R-Arrow flanks 大多已被 active tenure 覆盖；真正适合立即做 full tenure subtraction 的是 PNR / Cache Lake lapsed cluster。外围 open grids 成本低但证据弱，应作为低成本 grassroots option。
-- [Patterson Lake Corridor：面向未 Claim / 近期失效地块的铀-金-关键矿物潜力筛选报告](https://github.com/baoqj/geomine-research-report/blob/main/2026-05-11-geomine-patterson-lake-corridor-claim-gap/patterson_lake_corridor_claim_gap_research_report_zh.md)
+### 2026-05-14
 
-### 利用核辐射、多孔半导体与粘土材料提升电解水制氢效能的可能性：理论推导、研究路径与产业化判断
+#### [Wildfire and Extreme Rainfall Radionuclide Remobilization](./2026-05-14-wildfire-rainfall-radionuclide-remobilization/)
 
-2026-05-10
+- Main papers:
+  - [Wildfire_Extreme_Rainfall_Radionuclide_Remobilization_Athabasca.zh.md](./2026-05-14-wildfire-rainfall-radionuclide-remobilization/Wildfire_Extreme_Rainfall_Radionuclide_Remobilization_Athabasca.zh.md)
+  - [Wildfire_Postfire_Water_Chemistry_Long_Term_Risk_Phase2.zh.md](./2026-05-14-wildfire-rainfall-radionuclide-remobilization/Wildfire_Postfire_Water_Chemistry_Long_Term_Risk_Phase2.zh.md)
+- PDFs: phase-1 and phase-2 normalized PDF exports are included in the package.
+- Supporting files: [figure_package.md](./2026-05-14-wildfire-rainfall-radionuclide-remobilization/figure_package.md), [mcp_provenance.md](./2026-05-14-wildfire-rainfall-radionuclide-remobilization/mcp_provenance.md), `data/`, `figures/`, `models/`, and `scripts/`.
+- Focus: a public-data research framework for wildfire, extreme rainfall, first-flush chemistry, sediment secondary sources, PHREEQC sensitivity, and radionuclide remobilization around Athabasca uranium districts.
+- Boundary: screening and research-design output only; not a dose assessment, site compliance judgment, or regulatory conclusion.
 
-- 研究目的：探讨核辐射、多孔半导体和粘土材料是否能显著提升电解水制氢效率，并从能量守恒、G 值、半导体载流子和产业化角度推导。
-- 简要结论：若把辐射能计入总能耗，单纯辐解水难以大幅超过现代电解水；若辐射为废辐射或近场副产能量，则可研究为 radiation-assisted electrolysis。粘土更适合作为多孔载体和界面调控材料，而不是单独的高效半导体。
-- [利用核辐射、多孔半导体与粘土材料提升电解水制氢效能的可能性：理论推导、研究路径与产业化判断](https://github.com/baoqj/geomine-research-report/blob/main/2026-05-10-radiolysis-assisted-hydrogen-production/radiolysis_assisted_hydrogen_industrial_feasibility_report.md)
+### 2026-05-13
 
-### 多孔介质中水辐解、电子迁移与 G 值变化：简要文献综述与控制方程推导
+#### [PFLOTRAN Tailings Uranium Radionuclide Paper](./2026-05-13-geomine-pflotran-tailings-uranium-radionuclide/)
 
-2026-05-10
+- Main paper: [PFLOTRAN_Tailings_Uranium_Radionuclide_Paper.zh.md](./2026-05-13-geomine-pflotran-tailings-uranium-radionuclide/PFLOTRAN_Tailings_Uranium_Radionuclide_Paper.zh.md)
+- Modeling package: [PFLOTRAN_Modeling_Package.md](./2026-05-13-geomine-pflotran-tailings-uranium-radionuclide/PFLOTRAN_Modeling_Package.md)
+- Figure package: [PFLOTRAN_Tailings_Uranium_Figure_Package.md](./2026-05-13-geomine-pflotran-tailings-uranium-radionuclide/PFLOTRAN_Tailings_Uranium_Figure_Package.md)
+- Supporting files: PFLOTRAN input template, run manifests, validation JSON, CSV screening tables, and publication figures in PNG/SVG.
+- Focus: PFLOTRAN-style reactive transport package for uranium tailings seepage, sulfate, pH buffering, retardation, sensitivity ranking, and paper-ready figure generation.
 
-- 研究目的：综述多孔介质中水辐解、初级产物复合、电子迁移、电场分离和长寿命产物 G 值变化，并推导控制方程。
-- 简要结论：多孔介质可通过限域、表面吸附、电双层、电场和矿物表面反应改变 H2/H2O2 等产物的净 G 值；电场不必然单调提高 H2，结果取决于电子是否被有效分离并转化为 H2，还是被孔壁/缺陷/金属离子捕获。
-- [多孔介质中水辐解、电子迁移与 G 值变化：简要文献综述与控制方程推导](https://github.com/baoqj/geomine-research-report/blob/main/2026-05-10-radiolysis-porous-media-review/radiolysis_porous_media_chinese_review.md)
+#### [PHREEQC U-Ra-SO4-CO3 Groundwater Workflow](./2026-05-13-geomine-phreeqc-u-ra-so4-co3-groundwater/)
 
-### GeoMine Research: NWT 与 Nunavut 矿业公司较少的原因、进入风险收益与 SWOT
+- Main paper: [u_ra_so4_co3_phreeqc_groundwater_academic_paper_zh.md](./2026-05-13-geomine-phreeqc-u-ra-so4-co3-groundwater/u_ra_so4_co3_phreeqc_groundwater_academic_paper_zh.md)
+- PDFs: original and normalized PDF exports are included.
+- Supporting files: `models/phreeqc/`, [workflow_manifest.json](./2026-05-13-geomine-phreeqc-u-ra-so4-co3-groundwater/workflow_manifest.json), [datasets_evidence.json](./2026-05-13-geomine-phreeqc-u-ra-so4-co3-groundwater/datasets_evidence.json), figures, scripts, and provenance.
+- Focus: PHREEQC-based uranium/radium/sulfate/carbonate speciation, saturation index, geochemical control, and groundwater migration-risk screening workflow.
+- Boundary: demonstrates a research chain with placeholder or synthetic endmembers where real monitored chemistry is unavailable.
 
-2026-05-10
+#### [Fractured Rock Radionuclide Sorption, Matrix Diffusion, and Colloid THMC](./2026-05-13-geomine-fractured-rock-radionuclide-colloid-thmc/)
 
-- 研究目的：分析为什么 Northwest Territories 矿业公司较少，并评估 NWT 与 Nunavut 的机会、风险、外资进入渠道、合作公司和法律限制。
-- 简要结论：NWT 和 Nunavut 地质潜力强，但基础设施、能源、运输、季节窗口、监管、Indigenous consultation、融资周期和社区许可显著提高进入门槛。机会集中在高品位、关键矿物、金矿/铀矿和可形成 JV/并购的项目，但必须以合规和本地合作为前提。
-- [GeoMine Research: NWT 与 Nunavut 矿业公司较少的原因、进入风险收益与 SWOT](https://github.com/baoqj/geomine-research-report/blob/main/2026-05-10-geomine-northern-canada-mining-market-entry/nwt_nunavut_mining_market_entry_swot_report.md)
+- Main paper: [Fractured_Rock_Radionuclide_Sorption_Diffusion_Colloid_THMC_Model.zh.md](./2026-05-13-geomine-fractured-rock-radionuclide-colloid-thmc/Fractured_Rock_Radionuclide_Sorption_Diffusion_Colloid_THMC_Model.zh.md)
+- PDFs: original and normalized PDF exports are included.
+- Supporting files: parameter/source CSVs, screening results, summary JSON, SVG figures, scripts, and provenance.
+- Focus: conceptual THMC screening of radionuclide mobility in fractured crystalline rock, including sorption, matrix diffusion, colloid association, and scenario ranking.
 
-### South Rae / Hearne margin south of MacKay 结论解释
+#### [DGR Copper-Bentonite-Crystalline Rock THMC Model](./2026-05-13-geomine-dgr-copper-bentonite-thmc/)
 
-2026-05-10
+- Main paper: [DGR_Copper_Bentonite_Crystalline_Rock_THMC_Model.zh.md](./2026-05-13-geomine-dgr-copper-bentonite-thmc/DGR_Copper_Bentonite_Crystalline_Rock_THMC_Model.zh.md)
+- PDFs: original and normalized PDF exports are included.
+- Supporting files: THMC parameter/source tables, screening outputs, SVG figure set, scripts, and provenance.
+- Focus: copper canister, bentonite buffer, crystalline host rock, groundwater ingress, thermal decay, salinity, swelling/permeability, sulfide corrosion, hydrogen generation, and radionuclide diffusion.
 
-- 研究目的：专门解释 “South Rae / Hearne margin south of MacKay 最适合立即做 claim-gap 跟进” 的原因、计算口径、证据和限制。
-- 简要结论：该结论来自“先矿权、后地质”的逻辑：窗口内 active tenure 覆盖率低、open-ground 面积大、强 Au till cluster 与 active tenure 不重合。但报告强调 open-ground 仍需官方矿权系统当日复核。
-- [South Rae / Hearne margin south of MacKay 结论解释](https://github.com/baoqj/geomine-research-report/blob/main/2026-05-10-geomine-nwt-gold-phase2-tenure-subtraction/south_rae_claim_gap_explanation.md)
+#### [Tailings Seepage THMC Groundwater Paper](./2026-05-13-geomine-tailings-seepage-thmc-groundwater/)
 
-### GeoMine Research Phase 2: NWT 金矿矿权扣减、异常源追踪与优先地块筛选
+- Main paper: [Tailings_Seepage_THMC_Groundwater_Paper.zh.md](./2026-05-13-geomine-tailings-seepage-thmc-groundwater/Tailings_Seepage_THMC_Groundwater_Paper.zh.md)
+- PDF: [Tailings_Seepage_THMC_Groundwater_Paper.pdf](./2026-05-13-geomine-tailings-seepage-thmc-groundwater/Tailings_Seepage_THMC_Groundwater_Paper.pdf)
+- Supporting files: package README and MCP provenance notes.
+- Focus: sulfide tailings oxidation, acid generation, carbonate neutralization, secondary mineral precipitation, metal retardation, seasonal groundwater movement, and THMC model selection.
 
-2026-05-10
+### 2026-05-12
 
-- 研究目的：对 South Rae、East Slave、Central Slave 三个窗口下载 GNWT active claims/leases/permits geometry，执行 exact tenure subtraction 和 tenure-clear 网格排序。
-- 简要结论：South Rae / Hearne margin south of MacKay 最适合立即做 claim-gap 跟进，open-ground 占比高且顶级 till Au cluster 不在 active tenure polygon 内；East Slave 异常最强但需以矿权为第一过滤器；Central Slave 应避开 known project cores，寻找 parallel sill、BIF contacts 和二级结构。
-- [GeoMine Research Phase 2: NWT 金矿矿权扣减、异常源追踪与优先地块筛选](https://github.com/baoqj/geomine-research-report/blob/main/2026-05-10-geomine-nwt-gold-phase2-tenure-subtraction/nwt_gold_phase2_tenure_subtraction_report.md)
+#### [Saskatchewan Uranium Decay-Series Groundwater Academic Paper](./2026-05-12-geomine-saskatchewan-uranium-decay-series-groundwater/)
 
-### GeoMine Research: 加拿大西北地区金矿潜力与 claim-gap 筛选
+- Main paper: [saskatchewan_uranium_decay_series_groundwater_academic_paper_zh.md](./2026-05-12-geomine-saskatchewan-uranium-decay-series-groundwater/saskatchewan_uranium_decay_series_groundwater_academic_paper_zh.md)
+- PDFs: original and normalized PDF exports are included.
+- Supporting files: package README and datasets evidence JSON.
+- Focus: uranium decay-series groundwater geochemistry, radionuclide mobility, data-source evidence, and academic-paper style synthesis.
 
-2026-05-10
+#### [Revell Batholith Radiolysis Geochemical Framework](./2026-05-12-geomine-revell-batholith-radiolysis-geochemical-framework/)
 
-- 研究目的：综合 NTGS mineral showings、till Au geochemistry、矿权压力、钻孔/项目披露和成矿模型，筛选 NWT 金矿找空档窗口。
-- 简要结论：South Rae / Hearne margin south of MacKay 是最适合先做 claim-gap 跟进的窗口；East Slave 地球化学最强但矿权压力高；Central Slave 适合作为 belt-extension portfolio；Yellowknife 更适合做模型类比而非大面积找空地。
-- [GeoMine Research: 加拿大西北地区金矿潜力与 claim-gap 筛选](https://github.com/baoqj/geomine-research-report/blob/main/2026-05-10-geomine-nwt-gold-prospectivity/nwt_gold_prospectivity_report.md)
+- Main papers:
+  - [revell_batholith_radiolysis_geochemical_framework_zh.md](./2026-05-12-geomine-revell-batholith-radiolysis-geochemical-framework/revell_batholith_radiolysis_geochemical_framework_zh.md)
+  - [revell_batholith_radiolysis_academic_paper_zh.md](./2026-05-12-geomine-revell-batholith-radiolysis-geochemical-framework/revell_batholith_radiolysis_academic_paper_zh.md)
+- PDFs: original and normalized PDF exports are included for both papers.
+- Supporting files: [datasets_evidence.json](./2026-05-12-geomine-revell-batholith-radiolysis-geochemical-framework/datasets_evidence.json)
+- Focus: Revell Batholith deep groundwater chemistry, natural radiolytic hydrogen, sulfate/microbial redox coupling, and THMC interface for crystalline-rock DGR safety research.
 
-### Wollaston Lake East Uranium Potential: Expanded GeoMine Research Screening
+#### [Porous Media Radiolysis-Electrolysis Frontier](./2026-05-12-geomine-porous-radiolysis-electrolysis-frontier/)
 
-2026-05-09
+- Main paper: [porous_media_radiolysis_electrolysis_research_report_zh.md](./2026-05-12-geomine-porous-radiolysis-electrolysis-frontier/porous_media_radiolysis_electrolysis_research_report_zh.md)
+- PDFs: original, normalized, and export-test PDFs are included.
+- Supporting files: [mcp_provenance.md](./2026-05-12-geomine-porous-radiolysis-electrolysis-frontier/mcp_provenance.md), normalized Markdown, and math conversion support.
+- Focus: porous media water radiolysis, radiation-assisted electrolysis, carrier separation, G-value boundaries, engineering feasibility, geochemistry, and nuclear-waste relevance.
 
-- 研究目的：围绕 Wollaston Lake East 的导电体、Wollaston metasedimentary package、放射性漂砾、SMDI、钻孔和 GSC 地球化学数据做扩展筛选。
-- 简要结论：区域到靶区生成尺度为中等至局部较高优先级；最有价值的假说是浅部 basement-hosted 或 basement-proximal uranium，沿导电 Wollaston 变沉积岩组合寻找。需要对 GSC lake sediment、漂砾来源和 EM 导体做进一步 QA/QC 与源区回溯。
-- [Wollaston Lake East Uranium Potential: Expanded GeoMine Research Screening](https://github.com/baoqj/geomine-research-report/blob/main/2026-05-09-geomine-wollaston-lake-east-uranium-screening/wollaston_lake_east_expanded_research_report.md)
+### 2026-05-11
 
-### GeoMine AOI Screening: Wollaston Lake East Uranium Potential
+#### [Radiolytic Natural Hydrogen in Revell Batholith and Athabasca Basement](./2026-05-11-geomine-radiolytic-natural-hydrogen-revell-athabasca/)
 
-2026-05-09
+- Main paper: [radiolytic_natural_hydrogen_revell_athabasca_research_report_zh.md](./2026-05-11-geomine-radiolytic-natural-hydrogen-revell-athabasca/radiolytic_natural_hydrogen_revell_athabasca_research_report_zh.md)
+- PDF: [radiolytic_natural_hydrogen_revell_athabasca_research_report_zh.pdf](./2026-05-11-geomine-radiolytic-natural-hydrogen-revell-athabasca/radiolytic_natural_hydrogen_revell_athabasca_research_report_zh.pdf)
+- Supporting files: evidence matrix and machine-readable summary.
+- Focus: U-Th-K decay, deep-water radiolysis, H2 production, redox halo formation, sulfate balance, and radionuclide-migration feedbacks.
 
-- 研究目的：对用户提出的 Wollaston Lake East / Athabasca margin AOI 做第一轮 GeoMine AOI screening。
-- 简要结论：初筛确认该区的地下导电体、放射性漂砾和 Wollaston 域背景具有铀矿靶区生成意义，但缺少足够的 assay、QA/QC、矿权和工程层数据，不能直接证明矿化或经济性。
-- [GeoMine AOI Screening: Wollaston Lake East Uranium Potential](https://github.com/baoqj/geomine-research-report/blob/main/2026-05-09-geomine-wollaston-lake-east-uranium-screening/wollaston_lake_east_uranium_screening_report.md)
+#### [Patterson Lake Corridor Claim-Gap Screening](./2026-05-11-geomine-patterson-lake-corridor-claim-gap/)
 
-### GeoMine AOI Screening: Cigar Lake Uranium Potential
+- Main paper: [patterson_lake_corridor_claim_gap_research_report_zh.md](./2026-05-11-geomine-patterson-lake-corridor-claim-gap/patterson_lake_corridor_claim_gap_research_report_zh.md)
+- PDF: [patterson_lake_corridor_claim_gap_research_report_zh.pdf](./2026-05-11-geomine-patterson-lake-corridor-claim-gap/patterson_lake_corridor_claim_gap_research_report_zh.pdf)
+- Supporting files: evidence matrix, machine-readable summary, data tables, and screening script.
+- Focus: Saskatchewan Patterson Lake Corridor uranium/gold/critical-mineral claim-gap screening using official tenure, geology, mineral occurrence, and exploration evidence.
 
-2026-05-08
+### 2026-05-10
 
-- 研究目的：以 GeoMine evidence lanes 复核 Saskatchewan Cigar Lake 的铀矿潜力、矿床模型、生产状态、地球化学和监管背景。
-- 简要结论：Cigar Lake 是已知生产中的高品位 Athabasca unconformity-related uranium deposit，铀潜力为已证实强阳性；后续价值主要在近矿延伸、卫星靶区和已知结构/导体带验证，不是普通 grassroots 空地筛选。
-- [GeoMine AOI Screening: Cigar Lake Uranium Potential](https://github.com/baoqj/geomine-research-report/blob/main/2026-05-08-geomine-cigar-lake-uranium-screening/cigar_lake_uranium_screening_report.md)
+#### [NWT and Nunavut Mining Market Entry SWOT](./2026-05-10-geomine-northern-canada-mining-market-entry/)
 
-## 研究方法说明
+- Main paper: [nwt_nunavut_mining_market_entry_swot_report.md](./2026-05-10-geomine-northern-canada-mining-market-entry/nwt_nunavut_mining_market_entry_swot_report.md)
+- Focus: why NWT and Nunavut host fewer mining companies, what makes northern projects difficult, and where gold, uranium, and critical-mineral opportunities may still justify disciplined entry.
 
-这些报告通常采用 GeoMine evidence lanes：
+#### [NWT Gold Phase-2 Tenure Subtraction](./2026-05-10-geomine-nwt-gold-phase2-tenure-subtraction/)
 
-- AOI / CRS / GIS 标准化；
-- 官方地质、地球化学、地球物理和矿产点数据；
-- 矿权 / tenure / claim-gap 筛选；
-- 钻孔、历史勘探和公司披露资料；
-- 成矿模型或反应-迁移模型；
-- 证据矩阵、假设、数据缺口和下一步工作计划；
-- NI 43-101、矿权法律、工程和环境边界提示。
+- Main paper: [nwt_gold_phase2_tenure_subtraction_report.md](./2026-05-10-geomine-nwt-gold-phase2-tenure-subtraction/nwt_gold_phase2_tenure_subtraction_report.md)
+- Companion note: [south_rae_claim_gap_explanation.md](./2026-05-10-geomine-nwt-gold-phase2-tenure-subtraction/south_rae_claim_gap_explanation.md)
+- PDF: [nwt_gold_phase2_tenure_subtraction_report.pdf](./2026-05-10-geomine-nwt-gold-phase2-tenure-subtraction/nwt_gold_phase2_tenure_subtraction_report.pdf)
+- Focus: exact active-tenure subtraction, open-ground grid ranking, anomaly-source tracing, and South Rae/Hearne margin prioritization.
 
-## 数据与复核边界
+#### [NWT Gold Prospectivity and Claim-Gap Screening](./2026-05-10-geomine-nwt-gold-prospectivity/)
 
-- 矿权状态具有时效性，必须以相关省/地区官方登记系统当日结果为准。
-- 公司披露资料用于项目背景和模型类比，不替代官方矿权、技术报告或 QP 审查。
-- 地球化学异常不是矿化证明，必须结合样品介质、分析方法、检测限、QA/QC、冰流方向、构造和岩性解释。
-- 放射性、核废料、天然氢和电解制氢相关内容为科研推导，具体工程或安全判断需由持证专业团队复核。
+- Main paper: [nwt_gold_prospectivity_report.md](./2026-05-10-geomine-nwt-gold-prospectivity/nwt_gold_prospectivity_report.md)
+- PDF: [nwt_gold_prospectivity_report.pdf](./2026-05-10-geomine-nwt-gold-prospectivity/nwt_gold_prospectivity_report.pdf)
+- Focus: mineral showings, till-gold geochemistry, tenure pressure, deposit models, and follow-up windows in Northwest Territories gold belts.
+
+#### [Radiolysis-Assisted Hydrogen Production Feasibility](./2026-05-10-radiolysis-assisted-hydrogen-production/)
+
+- Main paper: [radiolysis_assisted_hydrogen_industrial_feasibility_report.md](./2026-05-10-radiolysis-assisted-hydrogen-production/radiolysis_assisted_hydrogen_industrial_feasibility_report.md)
+- PDF: [radiolysis_assisted_hydrogen_industrial_feasibility_report.pdf](./2026-05-10-radiolysis-assisted-hydrogen-production/radiolysis_assisted_hydrogen_industrial_feasibility_report.pdf)
+- Focus: whether radiation, porous semiconductors, or clay composites could improve water electrolysis for hydrogen production under realistic energy and G-value constraints.
+
+#### [Porous Media Radiolysis Literature Review](./2026-05-10-radiolysis-porous-media-review/)
+
+- Main paper: [radiolysis_porous_media_chinese_review.md](./2026-05-10-radiolysis-porous-media-review/radiolysis_porous_media_chinese_review.md)
+- PDF: [radiolysis_porous_media_chinese_review.pdf](./2026-05-10-radiolysis-porous-media-review/radiolysis_porous_media_chinese_review.pdf)
+- Focus: water radiolysis in porous media, electron migration, electric-field effects, reaction networks, and control-equation derivation.
+
+### 2026-05-09
+
+#### [Wollaston Lake East Uranium Screening](./2026-05-09-geomine-wollaston-lake-east-uranium-screening/)
+
+- First-pass paper: [wollaston_lake_east_uranium_screening_report.md](./2026-05-09-geomine-wollaston-lake-east-uranium-screening/wollaston_lake_east_uranium_screening_report.md)
+- Expanded paper: [wollaston_lake_east_expanded_research_report.md](./2026-05-09-geomine-wollaston-lake-east-uranium-screening/wollaston_lake_east_expanded_research_report.md)
+- PDFs: Chinese PDF exports are included for both papers.
+- Supporting files: evidence matrix and machine-readable summary.
+- Focus: Athabasca margin uranium screening using conductors, Wollaston metasedimentary rocks, radioactive boulders, SMDI records, drillholes, and geochemical lanes.
+
+### 2026-05-08
+
+#### [Cigar Lake Uranium Screening](./2026-05-08-geomine-cigar-lake-uranium-screening/)
+
+- Main paper: [cigar_lake_uranium_screening_report.md](./2026-05-08-geomine-cigar-lake-uranium-screening/cigar_lake_uranium_screening_report.md)
+- PDFs: English and Chinese PDF exports are included.
+- Supporting files: package README, machine-readable summary, and MCP provenance notes.
+- Focus: Cigar Lake as a high-grade Athabasca unconformity-related uranium deposit, including deposit-model fit, production status, geochemistry, geophysics, infrastructure, and regulatory context.
+
+## Skill Capability and Methodology Guides
+
+### 2026-05-14
+
+#### [GeoMine Research Geochemistry Paper Architecture Skill Methodology](./GeoMine_Research_Geochemistry_Paper_Architecture_Skill_Methodology.md)
+
+- Focus: a method document for upgrading GeoMine paper writing from report-style summaries to problem-driven, data-constrained, method-transparent, mechanism-oriented geochemistry papers.
+
+### 2026-05-13
+
+#### [GeoMine PFLOTRAN Modeling Skill Guide](./GeoMine_PFLOTRAN_Modeling_Skill_Guide_zh.md)
+
+- Focus: design purpose, architecture, boundaries, triggers, THMC connections, MCP design, local scripts, use cases, and paper-writing value for the PFLOTRAN modeling skill family.
+
+#### [GeoMine PHREEQC Skill Capability Guide](./GeoMine_PHREEQC_Skill_Capability_Guide.md)
+
+- Focus: PHREEQC skill purpose, model types, input audit, database selection, keyword planning, selected output, reproducibility, examples, and limitations.
+
+### 2026-05-12
+
+#### [GeoMine THMC Skill Family Guide](./GeoMine_THMC_Skill_Family_Guide.md)
+
+- Focus: THMC skill-family positioning, coupling levels, child skill responsibilities, modeling-package output structure, router behavior, reaction-network references, templates, and validation expectations.
+
+## Recommended Reading Paths
+
+- Mining exploration and claim screening: Cigar Lake, Wollaston Lake East, NWT gold prospectivity, NWT phase-2 tenure subtraction, Patterson Lake Corridor.
+- Radiolysis and natural hydrogen: porous media radiolysis review, radiolysis-assisted hydrogen production, Revell/Athabasca radiolytic hydrogen, porous radiolysis-electrolysis frontier, Revell Batholith geochemical framework.
+- Groundwater and radionuclide geochemistry: Saskatchewan uranium decay-series groundwater, PHREEQC U-Ra-SO4-CO3 workflow, wildfire/rainfall radionuclide remobilization.
+- THMC and reactive transport modeling: tailings seepage THMC, DGR copper-bentonite THMC, fractured-rock radionuclide/colloid THMC, PFLOTRAN tailings uranium workflow.
+- GeoMine plugin methodology: THMC guide, PHREEQC guide, PFLOTRAN guide, geochemistry paper architecture guide.
+
+## Data and Review Boundaries
+
+- Tenure and claim status are time-sensitive. Always re-check official provincial or territorial registries before staking, acquisition, or disclosure.
+- Company disclosures and historical reports are background evidence. They do not replace official tenure checks, technical reports, QP review, or field validation.
+- Geochemical anomalies are not proof of mineralization. Interpret them with sample medium, analytical method, detection limits, QA/QC, transport direction, lithology, structure, and alteration context.
+- PHREEQC/PFLOTRAN/THMC artifacts are research workflows and screening models unless calibrated against field data.
+- Radiation, radionuclide, nuclear-waste, groundwater, and hydrogen conclusions require qualified technical review before engineering, regulatory, or safety use.
