@@ -1,0 +1,9 @@
+parameter,sample_type,n,years,stations,unit,left_censored_n,mean_half_dl,max_upper_bound,min_upper_bound,iemp_guideline_or_screening,max_upper_to_iemp_screening_ratio,interpretation
+Lead-210,Water,16,2020;2024,CL01;CL02;CL03;CL04,Bq/L,15,0.010625,0.02,0.02,0.2,0.1,below IEMP screening under conservative upper-bound treatment
+Polonium-210,Water,16,2020;2024,CL01;CL02;CL03;CL04,Bq/L,14,0.003812,0.02,0.005,0.1,0.2,below IEMP screening under conservative upper-bound treatment
+Radium-226,Water,16,2020;2024,CL01;CL02;CL03;CL04,Bq/L,16,0.0025,0.005,0.005,0.5,0.01,below IEMP screening under conservative upper-bound treatment
+Thorium-230,Water,16,2020;2024,CL01;CL02;CL03;CL04,Bq/L,16,0.005,0.01,0.01,0.6,0.016667,below IEMP screening under conservative upper-bound treatment
+Total Suspended Solids,Water,16,2020;2024,CL01;CL02;CL03;CL04,mg/L,1,1.96875,3.0,1.0,,,no numeric screening ratio
+Total hardness,Water,16,2020;2024,CL01;CL02;CL03;CL04,mg/L,0,9.625,17.0,7.0,,,no numeric screening ratio
+Uranium,Water,16,2020;2024,CL01;CL02;CL03;CL04,ug/L,16,0.05,0.1,0.1,15.0,0.006667,below IEMP screening under conservative upper-bound treatment
+pH,Water,16,2020;2024,CL01;CL02;CL03;CL04,pH,0,7.051875,7.23,6.6,,,no numeric screening ratio

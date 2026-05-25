@@ -1,0 +1,61 @@
+{
+  "aqueous_state": [
+    "pH",
+    "pe_or_Eh",
+    "alkalinity",
+    "DIC",
+    "sulfate",
+    "chloride",
+    "ionic_strength",
+    "Ca",
+    "Mg",
+    "Ba",
+    "Sr",
+    "Fe_total",
+    "Mn_total",
+    "DOC"
+  ],
+  "hydrogeology": [
+    "porosity",
+    "bulk_density",
+    "fracture_aperture",
+    "hydraulic_gradient",
+    "groundwater_velocity",
+    "residence_time",
+    "dispersivity"
+  ],
+  "radionuclides": [
+    "U238",
+    "U234",
+    "Ra226",
+    "Ra228",
+    "Rn222",
+    "Pb210",
+    "Po210",
+    "Th230"
+  ],
+  "solid_sinks": [
+    "ferrihydrite",
+    "birnessite_or_Mn_oxide",
+    "barite",
+    "celestite",
+    "calcite",
+    "organic_matter",
+    "sulfides",
+    "clay_exchange_sites"
+  ],
+  "dose_pathways": [
+    "drinking_water_ingestion",
+    "radon_outgassing_inhalation",
+    "fish_or_country_food_ingestion",
+    "sediment_resuspension_or_scale_release"
+  ],
+  "uncertainty_parameters": [
+    "Kd_by_nuclide",
+    "emanation_coefficient",
+    "barite_coprecipitation_rate",
+    "colloid_fraction",
+    "left_censored_substitution_rule",
+    "seasonal_variability"
+  ]
+}

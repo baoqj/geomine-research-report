@@ -1,0 +1,8 @@
+radionuclide,n_or_detection,range_min_mBq_L,range_max_mBq_L,mean_mBq_L,sd_mBq_L,median_mBq_L,iqr_mBq_L,dose_rank,note,source
+210Po,>90% detected,0.2,1410,100,300,6,30,3,"For wells with >150 mBq/L, Po may contribute 50-90% of indicative dose.",PineroGarcia2025_Sweden_wells
+210Pb,all samples detected,,,,,,,1,Mean dose contribution ranked first; source page did not expose a machine-readable numeric activity table.,PineroGarcia2025_Sweden_wells
+226Ra,all 56 detected,0.8,598,40,100,10,40,4,Radium is chemically decoupled from uranium and controlled by alkaline-earth/sulfate chemistry.,PineroGarcia2025_Sweden_wells
+228Ra,about 85% detected,1,258,30,50,10,30,2,"Despite lower mean activity than U isotopes, dose rank is high because of dose coefficient.",PineroGarcia2025_Sweden_wells
+238U,55 samples,0.2,2300,120,240,10,110,6,Seven wells exceeded Swedish chemical uranium threshold of 30 ug/L.,PineroGarcia2025_Sweden_wells
+234U,56 samples,,,200,410,20,220,5,"Higher mean activity than Ra, but lower mean dose rank.",PineroGarcia2025_Sweden_wells
+Indicative dose,56 wells,,,,,,,,"ID ranged 3-1474 uSv/y, mean 130 uSv/y, and about 40% exceeded the 100 uSv/y Swedish/Euratom reference.",PineroGarcia2025_Sweden_wells

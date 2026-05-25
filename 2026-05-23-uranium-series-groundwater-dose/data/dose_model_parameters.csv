@@ -1,0 +1,6 @@
+analyte,reference_concentration_Bq_L,annual_intake_L_y,reference_dose_Sv_y,mac_equivalent_dose_coefficient_Sv_Bq,note
+Lead-210,2.0,558.45,0.001,8.953353e-07,"Back-calculated from Health Canada reference concentration; use for screening-index comparison, not as a substitute for ICRP age-specific coefficients."
+Radium-226,5.0,558.45,0.001,3.581341e-07,"Back-calculated from Health Canada reference concentration; use for screening-index comparison, not as a substitute for ICRP age-specific coefficients."
+Radium-228,2.0,558.45,0.001,8.953353e-07,"Back-calculated from Health Canada reference concentration; use for screening-index comparison, not as a substitute for ICRP age-specific coefficients."
+Polonium-210,1.0,558.45,0.001,1.790671e-06,"Back-calculated from Health Canada reference concentration; use for screening-index comparison, not as a substitute for ICRP age-specific coefficients."
+Radon-222,2000.0,558.45,0.001,8.953353e-10,"Back-calculated from Health Canada reference concentration; use for screening-index comparison, not as a substitute for ICRP age-specific coefficients."

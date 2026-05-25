@@ -1,0 +1,34 @@
+{
+  "package": "revell-batholith-radiolysis-thmc",
+  "created": "2026-05-23",
+  "skills": [
+    "geomine-research-router-skill",
+    "academic-geochemistry-paper-architect",
+    "thmc-groundwater-router-skill",
+    "natural-analogue-thmc-dgr-modeling-skill",
+    "academic-paper-research-writer",
+    "geomine-paper-pdf-export-skill"
+  ],
+  "status": "L1 methods protocol with screening calculations",
+  "main_markdown": "Revell_Batholith_Radiolysis_THMC_Paper.zh.md",
+  "data_files": [
+    "derived_radiolysis_screening.csv",
+    "equation_registry.csv",
+    "groundwater_depth_framework.csv",
+    "lithology_radioelements.csv",
+    "revell_public_parameters.csv",
+    "scenario_matrix.csv"
+  ],
+  "figures": [
+    "fig01_radioelements_heat_h2.svg",
+    "fig02_energy_partition_attenuation.svg",
+    "fig03_groundwater_depth_framework.svg",
+    "fig04_h2_closed_system_pressure.svg",
+    "fig05_thmc_reaction_network.svg"
+  ],
+  "models": [
+    "comsol_thmc_variable_map.json",
+    "pinn_training_spec.json",
+    "revell_phreeqc_screening_template.phr"
+  ]
+}

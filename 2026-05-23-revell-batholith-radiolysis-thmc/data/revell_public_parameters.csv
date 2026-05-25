@@ -1,0 +1,16 @@
+parameter,value,unit,source,status,interpretation
+Revell Batholith mapped area,455,km2,nwmo_mapping_2017,public compiled value,Regional scale is large enough that site-scale fracture and hydrochemical heterogeneity must not be inferred from one borehole alone.
+Batholith length,40,km,nwmo_mapping_2017; villamizar_2024_arma,public compiled value,Regional pluton-scale model domain boundary.
+Batholith width,15,km,nwmo_mapping_2017,public compiled value,Regional pluton-scale model domain boundary.
+Repository-depth host-rock interval,500-800,m below ground surface,nwmo_2022_confidence_revell; villamizar_2024_arma,public design-depth range,Depth window for hydrochemical and THMC screening.
+Borehole whole-rock U,2.081,ppm,villamizar_2024_arma,public compiled borehole mean,Reference U concentration for heat and radiolysis source-term calculation.
+Borehole whole-rock Th,5.247,ppm,villamizar_2024_arma,public compiled borehole mean,Reference Th concentration for heat and radiolysis source-term calculation.
+Borehole whole-rock K,2.079,wt%,villamizar_2024_arma,public compiled borehole mean,Reference K concentration for heat and radiolysis source-term calculation.
+Borehole density,2.66,g cm-3,villamizar_2024_arma,public compiled borehole mean,Density term for radiogenic heat production.
+Borehole heat production,1.08,microW m-3,villamizar_2024_arma,public compiled borehole mean,Reference energy source for water radiolysis screening.
+Connected porosity,0.45,%,nwmo_2023_confidence_revell_update,public compiled value,"Controls water-accessible radiolysis, diffusion capacity and gas storage in intact crystalline rock."
+Total porosity,1.32,%,nwmo_2023_confidence_revell_update,public compiled value,Upper bound on pore volume; connected porosity is the more conservative transport-relevant input.
+Effective porous-medium hydraulic conductivity at 500-800 m,1e-13 to 1e-12,m s-1,nwmo_2023_confidence_revell_update,public compiled value,Supports a diffusion-dominated safety model but does not remove discrete-fracture uncertainty.
+Discrete flowing-fracture hydraulic conductivity,1e-12 to 1e-6,m s-1,nwmo_2023_confidence_revell_update,public compiled value,Fracture pathways define the key uncertainty lane for advection and gas migration.
+Sulphide concentration boundary,<0.02,mg L-1,nwmo_2023_confidence_revell_update,public detection-boundary statement,"Low measured sulphide reduces immediate sulphide-corrosion concern, but sulfate reduction remains scenario-dependent."
+Revell radiolytic H2 production,1.6,nmol m-3 rock yr-1,higgins_2025_radiolysis,public model result / article abstract value,Central calibration point for screening H2 generation in low-porosity Revell crystalline rock.

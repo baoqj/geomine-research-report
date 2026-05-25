@@ -1,0 +1,6 @@
+unit,occurrence_count,occurrence_pct,K_wt_pct_mean,K_wt_pct_sd,U_ppm_mean,U_ppm_sd,Th_ppm_mean,Th_ppm_sd,source,notes
+Granodiorite,142,55,2.1,0.58,1.56,1.07,7.05,3.49,nwmo_mapping_2017,Dominant surface intrusive lithology; mapped Revell-area statistics.
+Tonalite,98,36,1.43,0.31,1.33,1.14,6.14,2.53,nwmo_mapping_2017,Common granitoid lithology in Revell mapping.
+Granite,46,18,3.2,0.47,2.67,1.87,12.2,4.68,nwmo_mapping_2017,Higher U-Th-K felsic end-member; useful sensitivity case.
+Diorite-quartz diorite,9,4,0.91,0.22,0.83,0.42,4.6,2.06,nwmo_mapping_2017,Mafic-intermediate intrusive sensitivity case.
+Revell borehole mean,93,97,2.079,,2.081,,5.247,,villamizar_2024_arma,Whole-rock borehole mean used as the reference heat-production and radiolysis calibration case.

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="520" viewBox="0 0 950 520">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="35.0" y="36.0" font-size="19" font-family="Arial, sans-serif" fill="#102030" text-anchor="start" font-weight="700">2025 瑞典井水证据：平均活度与剂量排序并不等价</text>
+<text x="90.0" y="60.0" font-size="14" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="700">平均活度（mBq/L）</text>
+<text x="82.0" y="101.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">210Po</text>
+<rect x="90" y="80" width="180.0" height="28" fill="#4b79a8"/>
+<text x="278.0" y="100.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">100</text>
+<text x="82.0" y="153.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">226Ra</text>
+<rect x="90" y="132" width="72.0" height="28" fill="#4b79a8"/>
+<text x="170.0" y="152.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">40</text>
+<text x="82.0" y="205.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">228Ra</text>
+<rect x="90" y="184" width="54.0" height="28" fill="#4b79a8"/>
+<text x="152.0" y="204.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">30</text>
+<text x="82.0" y="257.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">238U</text>
+<rect x="90" y="236" width="216.0" height="28" fill="#4b79a8"/>
+<text x="314.0" y="256.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">120</text>
+<text x="82.0" y="309.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">234U</text>
+<rect x="90" y="288" width="360.0" height="28" fill="#4b79a8"/>
+<text x="458.0" y="308.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">200</text>
+<text x="560.0" y="60.0" font-size="14" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="700">平均剂量贡献排序（1=最高）</text>
+<circle cx="582" cy="92" r="15" fill="#b96f36"/>
+<text x="582.0" y="97.0" font-size="12" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">1</text>
+<text x="610.0" y="97.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">210Pb</text>
+<circle cx="582" cy="137" r="15" fill="#b96f36"/>
+<text x="582.0" y="142.0" font-size="12" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+<text x="610.0" y="142.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">228Ra</text>
+<circle cx="582" cy="182" r="15" fill="#b96f36"/>
+<text x="582.0" y="187.0" font-size="12" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">3</text>
+<text x="610.0" y="187.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">210Po</text>
+<circle cx="582" cy="227" r="15" fill="#b96f36"/>
+<text x="582.0" y="232.0" font-size="12" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">4</text>
+<text x="610.0" y="232.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">226Ra</text>
+<circle cx="582" cy="272" r="15" fill="#b96f36"/>
+<text x="582.0" y="277.0" font-size="12" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">5</text>
+<text x="610.0" y="277.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">234U</text>
+<circle cx="582" cy="317" r="15" fill="#b96f36"/>
+<text x="582.0" y="322.0" font-size="12" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">6</text>
+<text x="610.0" y="322.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">238U</text>
+<text x="85.0" y="440.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">关键对齐：U-234 与 U-238 的平均活度不低，但剂量排序低于 Pb-210、Ra-228、Po-210 与 Ra-226。</text>
+<text x="85.0" y="465.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">解释：剂量由活度、摄入量与核素剂量系数共同决定；迁移由各元素化学行为控制，而非由总 U 单变量决定。</text>
+</svg>

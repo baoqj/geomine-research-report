@@ -1,0 +1,11 @@
+id,name,equation,use
+E1,Radioactive decay,"$N_i(t)=N_{i,0}e^{-\lambda_i t}$; $A_i=\lambda_iN_i$",nuclide inventory and activity
+E2,Radiogenic heat production,$A_h=10^{-2}\rho(9.52C_U+2.56C_{Th}+3.48C_K)$,"microW m^-3, rho in g cm^-3, U/Th ppm, K wt%"
+E3,Radiolytic H2 generation,$R_{H_2}=G_{H_2}\epsilon_w A_h10^{-6}t_y$,mol m^-3 yr^-1
+E4,H2 mass balance,$\partial_t(\phi C_{H_2})=\nabla\cdot(D_e\nabla C_{H_2})-\nabla\cdot(qC_{H_2})+R_{H_2}-R_{bio}-R_{min}-R_{gas}$,reactive transport source-sink form
+E5,Sulfate from sulfide oxidation,$\mathrm{FeS_2}+3.75\mathrm{O_2}+3.5\mathrm{H_2O}\rightarrow\mathrm{Fe(OH)_3}+2\mathrm{SO_4^{2-}}+4\mathrm{H^+}$,oxidant-to-sulfate pathway
+E6,Microbial sulfate reduction,$4\mathrm{H_2}+\mathrm{SO_4^{2-}}+\mathrm{H^+}\rightarrow\mathrm{HS^-}+4\mathrm{H_2O}$,H2 electron donor pathway
+E7,Gas pressure screening,$P=nRT/V_g$,closed-gas-volume upper-bound screen
+E8,Henry equilibrium,$C_{H_2}=k_HP_{H_2}$,dissolved H2 pressure equivalent
+E9,Sorption-retarded transport,$R_f\partial_t C=D_e\nabla^2 C-v\nabla C-\lambda C+S$; $R_f=1+\rho_bK_d/\phi$,radionuclide transport
+E10,THMC state vector,"$\mathbf{y}=[T,p_l,S_l,\sigma,\phi,k,pH,Eh,\mathbf{c},C_{H_2},p_g]$",coupled model state variables

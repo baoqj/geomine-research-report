@@ -1,0 +1,4 @@
+parameter,symbol,value_h-1,half_time_h,source,interpretation
+colloid_attachment_to_fracture_filling,k_cs,0.054,12.836058899258246,NAGRA_NTB_16_06 Fig. 17-18 text,reversible colloid attachment calibrated for Run 10-01
+colloid_detachment_from_fracture_filling,k_sc,0.108,6.418029449629123,NAGRA_NTB_16_06 Fig. 17-18 text,reversible detachment calibrated for Run 10-01
+irreversible_colloid_filtration,k_cs_irr,0.01,69.31471805599453,NAGRA_NTB_16_06 Fig. 17-18 text,additional irreversible filtration; important for long pathways

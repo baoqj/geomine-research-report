@@ -1,0 +1,5 @@
+test,outflow_ml_min,inflow_ml_min,travel_or_observation_time_h,conservative_recovery_pct,colloid_recovery_pct,interpretation,source
+08-01/08-02,160/165,10,8-200 range,99,near 99 in table context; report notes multiple analyses,shorter/high-flow dipole; conservative tracer nearly fully recovered,NAGRA_NTB_16_06 Tab. 3 and Tab. 11
+10-01,48,--,8-200 range,84,53/47 (LIBD-dependent),colloid recovery below conservative recovery; reversible plus irreversible filtration needed,"NAGRA_NTB_16_06 Tab. 3, Fig. 17-18, Tab. 11"
+10-03,10,--,8-200 range,60,41,"lower flow/longer interaction; colloid recovery decreases, consistent with filtration","NAGRA_NTB_16_06 Tab. 3, Fig. 16, Tab. 11"
+12-02,25,0.33,8-200 range,80,54,colloid-associated radionuclide breakthrough observed; Am/Pu fitted after field data release,NAGRA_NTB_16_06 Tab. 3 and Tab. 11

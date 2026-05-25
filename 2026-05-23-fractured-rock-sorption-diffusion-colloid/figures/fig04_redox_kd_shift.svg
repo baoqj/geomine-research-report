@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="360" viewBox="0 0 820 360">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="45.0" y="38.0" font-size="20" font-family="Arial, sans-serif" fill="#102030" text-anchor="start" font-weight="700">氧化还原转换导致 Kd 数量级突变</text>
+<line x1="230.0" y1="70" x2="230.0" y2="230" stroke="#e6e9ec"/>
+<text x="230.0" y="260.0" font-size="10" font-family="Arial, sans-serif" fill="#666" text-anchor="middle" font-weight="400">10^0</text>
+<line x1="305.0" y1="70" x2="305.0" y2="230" stroke="#e6e9ec"/>
+<text x="305.0" y="260.0" font-size="10" font-family="Arial, sans-serif" fill="#666" text-anchor="middle" font-weight="400">10^1</text>
+<line x1="380.0" y1="70" x2="380.0" y2="230" stroke="#e6e9ec"/>
+<text x="380.0" y="260.0" font-size="10" font-family="Arial, sans-serif" fill="#666" text-anchor="middle" font-weight="400">10^2</text>
+<line x1="455.0" y1="70" x2="455.0" y2="230" stroke="#e6e9ec"/>
+<text x="455.0" y="260.0" font-size="10" font-family="Arial, sans-serif" fill="#666" text-anchor="middle" font-weight="400">10^3</text>
+<line x1="530.0" y1="70" x2="530.0" y2="230" stroke="#e6e9ec"/>
+<text x="530.0" y="260.0" font-size="10" font-family="Arial, sans-serif" fill="#666" text-anchor="middle" font-weight="400">10^4</text>
+<line x1="605.0" y1="70" x2="605.0" y2="230" stroke="#e6e9ec"/>
+<text x="605.0" y="260.0" font-size="10" font-family="Arial, sans-serif" fill="#666" text-anchor="middle" font-weight="400">10^5</text>
+<line x1="680.0" y1="70" x2="680.0" y2="230" stroke="#e6e9ec"/>
+<text x="680.0" y="260.0" font-size="10" font-family="Arial, sans-serif" fill="#666" text-anchor="middle" font-weight="400">10^6</text>
+<text x="215.0" y="115.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">U(IV)/U(VI)</text>
+<rect x="230" y="95" width="202.4" height="26" fill="#8c4f6f"/>
+<text x="441.4" y="114.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">499</text>
+<text x="215.0" y="170.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">Np(IV)/Np(V)</text>
+<rect x="230" y="150" width="158.1" height="26" fill="#8c4f6f"/>
+<text x="397.1" y="169.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">128</text>
+<text x="215.0" y="225.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">Tc(IV)/Tc(VII)</text>
+<rect x="230" y="205" width="450.0" height="26" fill="#8c4f6f"/>
+<text x="689.0" y="224.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">&gt;=1e6</text>
+<text x="65.0" y="310.0" font-size="12" font-family="Arial, sans-serif" fill="#445" text-anchor="start" font-weight="400">Tc(VII) 的 Kd=0，图中用 1e6 下限表示“由非吸附到强吸附”的有效突变；模型必须显式求解 Eh/pe。</text>
+</svg>

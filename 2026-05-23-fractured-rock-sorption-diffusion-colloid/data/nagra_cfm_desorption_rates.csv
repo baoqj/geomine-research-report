@@ -1,0 +1,11 @@
+test,species,valence_proxy,model,kmca_h-1,source,desorption_half_life_h
+10-01,Th,tetravalent,1-site,0.0253,NAGRA_NTB_16_06 Tab. 9,27.39712176126266
+10-01,Hf,tetravalent,1-site,0.0368,NAGRA_NTB_16_06 Tab. 9,18.83552121086808
+10-01,Tb,trivalent,1-site,0.074,NAGRA_NTB_16_06 Tab. 9,9.366853791350612
+10-01,Eu,trivalent,1-site,0.086,NAGRA_NTB_16_06 Tab. 9,8.059850936743551
+10-03,Th,tetravalent,1-site,0.003,NAGRA_NTB_16_06 Tab. 9,231.04906018664843
+10-03,Hf,tetravalent,1-site,0.0021,NAGRA_NTB_16_06 Tab. 9,330.07008598092636
+10-03,Tb,trivalent,1-site,0.0415,NAGRA_NTB_16_06 Tab. 9,16.702341700239643
+10-03,Eu,trivalent,1-site,0.026,NAGRA_NTB_16_06 Tab. 9,26.65950694461328
+12-02,Am,trivalent actinide,1-site,0.0163,NAGRA_NTB_16_06 Tab. 9,42.52436690551812
+12-02,Pu,tetravalent/actinide,1-site,0.0077,NAGRA_NTB_16_06 Tab. 9,90.01911435843445

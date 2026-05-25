@@ -1,0 +1,16 @@
+species,nuclide_group,charge_class,best_kd_m3_kg,lower_kd_m3_kg,upper_kd_m3_kg,log10_m,log10_s,source
+U(IV),U,tetravalent actinide,0.0529,0.00284,0.984,-1.28,0.65,SKB_R_10_48 Table 6-1 Forsmark
+U(VI),U,uranyl oxycation/carbonate complexes,0.000106,5.53e-06,0.00205,-3.97,0.66,SKB_R_10_48 Table 6-1 Forsmark
+Ra(II),Ra,alkaline-earth cation,0.000242,3.87e-05,0.00151,-3.62,0.41,SKB_R_10_48 Table 6-1 Forsmark
+Th(IV),Th,tetravalent actinide,0.0529,0.00284,0.984,-1.28,0.65,SKB_R_10_48 Table 6-1 Forsmark
+Np(IV),Np,tetravalent actinide,0.0529,0.00284,0.984,-1.28,0.65,SKB_R_10_48 Table 6-1 Forsmark
+Np(V),Np,pentavalent actinyl,0.000413,1.48e-05,0.0115,-3.38,0.74,SKB_R_10_48 Table 6-1 Forsmark
+Pu(III),Pu,trivalent actinide,0.0148,0.000574,0.383,-1.83,0.72,SKB_R_10_48 Table 6-1 Forsmark
+Pu(IV),Pu,tetravalent actinide,0.0529,0.00284,0.984,-1.28,0.65,SKB_R_10_48 Table 6-1 Forsmark
+Am(III),Am,trivalent actinide,0.0148,0.000574,0.383,-1.83,0.72,SKB_R_10_48 Table 6-1 Forsmark
+I(-I),I-129,weakly sorbing anion,0.0,0.0,0.0,,,SKB_R_10_48 Table 6-1 Forsmark
+Tc(IV),Tc-99,reduced tetravalent Tc,0.0529,0.00284,0.984,-1.28,0.65,SKB_R_10_48 Table 6-1 Forsmark
+Tc(VII),Tc-99,pertechnetate oxyanion,0.0,0.0,0.0,,,SKB_R_10_48 Table 6-1 Forsmark
+Se(-II/IV/VI),Se-79,redox-sensitive chalcogen/oxyanions,0.000295,2.5e-05,0.00348,-3.53,0.55,SKB_R_10_48 Table 6-1 Forsmark
+Cs(I),Cs-137,alkali cation,0.000349,3.46e-05,0.00352,-3.46,0.51,SKB_R_10_48 Table 6-1 Forsmark
+Sr(II),Sr-90,alkaline-earth cation,3.42e-06,3.84e-08,0.000305,-5.47,0.99,SKB_R_10_48 Table 6-1 Forsmark

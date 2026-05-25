@@ -1,0 +1,31 @@
+sample_description,parameter,n,years,unit,left_censored_n,mean_half_dl,max_upper_bound,iemp_screening,max_upper_to_iemp_screening_ratio
+Blueberries (wild),Lead-210,7,2020;2024,Bq/kg fresh weight,3,0.195286,0.48,16.9,0.028402
+Blueberries (wild),Polonium-210,7,2020;2024,Bq/kg fresh weight,0,0.169914,0.249,12.4,0.020081
+Blueberries (wild),Radium-226,7,2020;2024,Bq/kg fresh weight,0,0.210143,0.2848,40.2,0.007085
+Blueberries (wild),Thorium-230,7,2020;2024,Bq/kg fresh weight,7,0.0395,0.089,133.9,0.000665
+Blueberries (wild),Uranium,7,2020;2024,ug/g fresh weight,5,0.001229,0.00356,0.3,0.011867
+Fish - Lake Whitefish,Lead-210,12,2020;2024,Bq/kg fresh weight,12,0.5,1.0,2.12,0.471698
+Fish - Lake Whitefish,Polonium-210,12,2020;2024,Bq/kg fresh weight,2,1.058333,3.8,1.22,3.114754
+Fish - Lake Whitefish,Radium-226,12,2020;2024,Bq/kg fresh weight,12,0.03375,0.1,5.24,0.019084
+Fish - Lake Whitefish,Thorium-230,12,2020;2024,Bq/kg fresh weight,12,0.058333,0.2,6.98,0.028653
+Fish - Lake Whitefish,Uranium,12,2020;2024,ug/g fresh weight,12,0.0005,0.001,0.02,0.05
+Fish - Northern Pike,Lead-210,12,2020;2024,Bq/kg fresh weight,12,0.5,1.0,2.12,0.471698
+Fish - Northern Pike,Polonium-210,12,2020;2024,Bq/kg fresh weight,0,2.35,3.6,1.22,2.95082
+Fish - Northern Pike,Radium-226,12,2020;2024,Bq/kg fresh weight,12,0.031667,0.09,5.24,0.017176
+Fish - Northern Pike,Thorium-230,12,2020;2024,Bq/kg fresh weight,12,0.054167,0.2,6.98,0.028653
+Fish - Northern Pike,Uranium,12,2020;2024,ug/g fresh weight,10,0.000583,0.001,0.02,0.05
+Fish - Trout,Lead-210,12,2020;2024,Bq/kg fresh weight,12,0.5,1.0,2.12,0.471698
+Fish - Trout,Polonium-210,12,2020;2024,Bq/kg fresh weight,11,0.108333,0.2,1.22,0.163934
+Fish - Trout,Radium-226,12,2020;2024,Bq/kg fresh weight,12,0.035,0.09,5.24,0.017176
+Fish - Trout,Thorium-230,12,2020;2024,Bq/kg fresh weight,12,0.070833,0.2,6.98,0.028653
+Fish - Trout,Uranium,12,2020;2024,ug/g fresh weight,12,0.0005,0.001,0.02,0.05
+Labrador Tea,Lead-210,2,2020,Bq/kg fresh weight,0,7.32,7.71,353.0,0.021841
+Labrador Tea,Polonium-210,2,2020,Bq/kg fresh weight,0,2.22,2.6,203.0,0.012808
+Labrador Tea,Radium-226,2,2020,Bq/kg fresh weight,0,2.505,2.84,870.0,0.003264
+Labrador Tea,Thorium-230,2,2020,Bq/kg fresh weight,2,0.1,0.24,1160.0,0.000207
+Labrador Tea,Uranium,2,2020,ug/g fresh weight,1,0.00275,0.004,3.8,0.001053
+Labrador tea,Lead-210,2,2024,Bq/kg fresh weight,0,7.153,7.936,352.9,0.022488
+Labrador tea,Polonium-210,2,2024,Bq/kg fresh weight,0,3.448,3.92,202.9,0.01932
+Labrador tea,Radium-226,2,2024,Bq/kg fresh weight,0,5.331,6.448,869.8,0.007413
+Labrador tea,Thorium-230,2,2024,Bq/kg fresh weight,2,0.12325,0.248,1159.7,0.000214
+Labrador tea,Uranium,2,2024,ug/g fresh weight,1,0.00369,0.00496,3.8,0.001305

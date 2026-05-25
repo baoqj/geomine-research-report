@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="45.0" y="40.0" font-size="20" font-family="Arial, sans-serif" fill="#102030" text-anchor="start" font-weight="700">裂隙流动—矿物吸附—基质扩散—胶体携带四过程耦合模型</text>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#465a69"/></marker></defs>
+<rect x="70" y="110" width="790" height="65" fill="#e9f2f7" stroke="#7592a3"/>
+<text x="465.0" y="150.0" font-size="18" font-family="Arial, sans-serif" fill="#102030" text-anchor="middle" font-weight="700">流动裂隙：对流 + 弥散 + 胶体迁移</text>
+<rect x="95" y="205" width="130" height="72" rx="7" fill="#f7f8fa" stroke="#5f7d4f" stroke-width="1.6"/>
+<text x="160.0" y="238.0" font-size="12" font-family="Arial, sans-serif" fill="#5f7d4f" text-anchor="middle" font-weight="700">黑云母/绿泥石</text>
+<text x="160.0" y="258.0" font-size="11" font-family="Arial, sans-serif" fill="#344" text-anchor="middle" font-weight="400">吸附/过滤位点</text>
+<line x1="160" y1="205" x2="160" y2="176" stroke="#5f7d4f" marker-end="url(#arr)"/>
+<rect x="265" y="205" width="130" height="72" rx="7" fill="#f7f8fa" stroke="#9b4d3a" stroke-width="1.6"/>
+<text x="330.0" y="238.0" font-size="12" font-family="Arial, sans-serif" fill="#9b4d3a" text-anchor="middle" font-weight="700">赤铁矿/磁铁矿</text>
+<text x="330.0" y="258.0" font-size="11" font-family="Arial, sans-serif" fill="#344" text-anchor="middle" font-weight="400">吸附/过滤位点</text>
+<line x1="330" y1="205" x2="330" y2="176" stroke="#9b4d3a" marker-end="url(#arr)"/>
+<rect x="435" y="205" width="130" height="72" rx="7" fill="#f7f8fa" stroke="#6e8fb5" stroke-width="1.6"/>
+<text x="500.0" y="238.0" font-size="12" font-family="Arial, sans-serif" fill="#6e8fb5" text-anchor="middle" font-weight="700">方解石</text>
+<text x="500.0" y="258.0" font-size="11" font-family="Arial, sans-serif" fill="#344" text-anchor="middle" font-weight="400">吸附/过滤位点</text>
+<line x1="500" y1="205" x2="500" y2="176" stroke="#6e8fb5" marker-end="url(#arr)"/>
+<rect x="580" y="205" width="130" height="72" rx="7" fill="#f7f8fa" stroke="#7b5fa8" stroke-width="1.6"/>
+<text x="645.0" y="238.0" font-size="12" font-family="Arial, sans-serif" fill="#7b5fa8" text-anchor="middle" font-weight="700">黏土/Fe-Mn氧化物</text>
+<text x="645.0" y="258.0" font-size="11" font-family="Arial, sans-serif" fill="#344" text-anchor="middle" font-weight="400">吸附/过滤位点</text>
+<line x1="645" y1="205" x2="645" y2="176" stroke="#7b5fa8" marker-end="url(#arr)"/>
+<rect x="765" y="205" width="130" height="72" rx="7" fill="#f7f8fa" stroke="#bd8b36" stroke-width="1.6"/>
+<text x="830.0" y="238.0" font-size="12" font-family="Arial, sans-serif" fill="#bd8b36" text-anchor="middle" font-weight="700">有机/微生物胶体</text>
+<text x="830.0" y="258.0" font-size="11" font-family="Arial, sans-serif" fill="#344" text-anchor="middle" font-weight="400">吸附/过滤位点</text>
+<line x1="830" y1="205" x2="830" y2="176" stroke="#bd8b36" marker-end="url(#arr)"/>
+<rect x="115" y="325" width="680" height="95" fill="#f5f8fb" stroke="#8da4b2" stroke-dasharray="6 4"/>
+<text x="455.0" y="360.0" font-size="16" font-family="Arial, sans-serif" fill="#102030" text-anchor="middle" font-weight="700">低渗透岩石基质：Fick 扩散 + Kd/表面络合储存</text>
+<text x="455.0" y="388.0" font-size="12" font-family="Arial, sans-serif" fill="#405060" text-anchor="middle" font-weight="400">峰值削减、尾迹拉长；强吸附核素的扩散前缘浅但容量大</text>
+<text x="130.0" y="475.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">状态变量：C_dissolved, C_colloid, S_surface, C_matrix(z), pH, Eh, I, carbonate/sulfate/chloride, DOC, colloid size/stability</text>
+</svg>

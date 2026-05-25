@@ -9,9 +9,9 @@ Research boundary: these materials are for scientific exploration, screening, wo
 ## Current Inventory
 
 - 18 dated research packages, ordered newest to oldest below.
-- 4 top-level skill capability or methodology guides.
+- 5 top-level skill capability or methodology guides.
 - Main deliverable types: Markdown papers, PDF exports, figure packages, provenance notes, JSON/CSV data products, PHREEQC/PFLOTRAN model artifacts, and local analysis scripts.
-- Newly indexed since the older README: all 2026-05-12, 2026-05-13, and 2026-05-14 research packages, plus the THMC, PHREEQC, PFLOTRAN, and geochemistry paper-architecture guides.
+- Newly indexed since the older README: all 2026-05-12, 2026-05-13, and 2026-05-14 research packages, plus the THMC, PHREEQC, PFLOTRAN, material behavior modeling, and geochemistry paper-architecture guides.
 
 ## Directory Convention
 
@@ -166,6 +166,12 @@ Research boundary: these materials are for scientific exploration, screening, wo
 - Focus: Cigar Lake as a high-grade Athabasca unconformity-related uranium deposit, including deposit-model fit, production status, geochemistry, geophysics, infrastructure, and regulatory context.
 
 ## Skill Capability and Methodology Guides
+
+### 2026-05-15
+
+#### [GeoMine Material Behavior Modeling Skill Family Design](./GeoMine_Material_Behavior_Modeling_Skill_Family_Design_zh.md)
+
+- Focus: design purpose, architecture, routing triggers, DGR natural-analogue topic gate, readiness levels, THMC/PHREEQC/PFLOTRAN handoff, and implementation status for mechanism-oriented, engineering-oriented, numerical-simulation GeoMine papers.
 
 ### 2026-05-14
 

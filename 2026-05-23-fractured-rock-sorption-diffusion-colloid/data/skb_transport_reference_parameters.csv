@@ -1,0 +1,5 @@
+parameter,symbol,value,unit,source_value,source,note
+diffusion_available_porosity,theta_m,0.0018,fraction,0.18%,SKB_TR_10_50 Section 2.5.1,Flowpath average porosity reduced for possible drilling/core-damage bias.
+bulk_density,rho_b,2700.0,kg/m3,assumed crystalline-rock density,screening assumption,Used only for derived retardation screening.
+effective_diffusivity_cation_neutral,D_e+,1.9952623149688828e-14,m2/s,log10 De = -13.7 +/- 0.25,SKB_TR_10_50 Section 2.5.2,Converted also to m2/y in derived outputs.
+effective_diffusivity_anion,D_e-,6.309573444801943e-15,m2/s,log10 De = -14.2 +/- 0.25,SKB_TR_10_50 Section 2.5.2,Anions have lower recommended effective diffusivity.

@@ -1,0 +1,5 @@
+axis,reported_state,interpretation,source
+radionuclides,"I, Np, Tc selected as safety-relevant representatives","Use I-129, Np redox states and Tc-99/Tc redox states as gap-sensitive model tests.",EGU26_5127
+studied domain,neutral to slightly alkaline pH and low to moderate ionic strength extensively studied,"Base-case crystalline groundwater can be parameterized, but extrapolation needs uncertainty.",EGU26_5127
+knowledge gaps,"high ionic strength >1 M, temperature >25 C, organic ligands, microorganisms","Scenario matrix must include salinity, thermal pulse, organics and microbial colloids.",EGU26_5127
+process statement,sorption on mineral surfaces constrains radionuclide migration to biosphere,"Kd/surface complexation should be a first-order safety-relevant process, not a secondary correction.",EGU26_5127

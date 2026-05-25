@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="40.0" y="38.0" font-size="20" font-family="Arial, sans-serif" fill="#102030" text-anchor="start" font-weight="700">Grimsel CFM：胶体携带核素的解吸半衰期</text>
+<text x="176.0" y="98.0" font-size="11" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">10-01/Th</text>
+<rect x="190" y="80" width="50.6" height="22" fill="#9b4d3a"/>
+<text x="247.6" y="97.0" font-size="10" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">27.4 h</text>
+<text x="176.0" y="140.0" font-size="11" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">10-01/Hf</text>
+<rect x="190" y="122" width="34.8" height="22" fill="#9b4d3a"/>
+<text x="231.8" y="139.0" font-size="10" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">18.8 h</text>
+<text x="176.0" y="182.0" font-size="11" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">10-01/Tb</text>
+<rect x="190" y="164" width="17.3" height="22" fill="#7b5fa8"/>
+<text x="214.3" y="181.0" font-size="10" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">9.4 h</text>
+<text x="176.0" y="224.0" font-size="11" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">10-01/Eu</text>
+<rect x="190" y="206" width="14.9" height="22" fill="#7b5fa8"/>
+<text x="211.9" y="223.0" font-size="10" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">8.1 h</text>
+<text x="176.0" y="266.0" font-size="11" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">10-03/Th</text>
+<rect x="190" y="248" width="427.0" height="22" fill="#9b4d3a"/>
+<text x="624.0" y="265.0" font-size="10" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">231.0 h</text>
+<text x="176.0" y="308.0" font-size="11" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">10-03/Hf</text>
+<rect x="190" y="290" width="610.0" height="22" fill="#9b4d3a"/>
+<text x="807.0" y="307.0" font-size="10" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">330.1 h</text>
+<text x="176.0" y="350.0" font-size="11" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">10-03/Tb</text>
+<rect x="190" y="332" width="30.9" height="22" fill="#7b5fa8"/>
+<text x="227.9" y="349.0" font-size="10" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">16.7 h</text>
+<text x="176.0" y="392.0" font-size="11" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">10-03/Eu</text>
+<rect x="190" y="374" width="49.3" height="22" fill="#7b5fa8"/>
+<text x="246.3" y="391.0" font-size="10" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">26.7 h</text>
+<text x="176.0" y="434.0" font-size="11" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">12-02/Am</text>
+<rect x="190" y="416" width="78.6" height="22" fill="#7b5fa8"/>
+<text x="275.6" y="433.0" font-size="10" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">42.5 h</text>
+<text x="176.0" y="476.0" font-size="11" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">12-02/Pu</text>
+<rect x="190" y="458" width="166.4" height="22" fill="#9b4d3a"/>
+<text x="363.4" y="475.0" font-size="10" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">90.0 h</text>
+<text x="70.0" y="525.0" font-size="12" font-family="Arial, sans-serif" fill="#445" text-anchor="start" font-weight="400">解吸越慢，核素越可能保持胶体结合并绕过裂隙壁面强吸附位点；但胶体本身还受过滤控制。</text>
+</svg>

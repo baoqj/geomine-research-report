@@ -1,0 +1,54 @@
+[
+  {
+    "id": "nwmo_2022_confidence_revell",
+    "title": "Confidence in Safety: Revell Site",
+    "organization": "Nuclear Waste Management Organization",
+    "year": 2022,
+    "url": "https://www.nwmo.ca/-/media/Reports-MASTER/Technical-reports/NWMO-TR-2022-14-Confidence-in-Safety-Revell-Site-2022-03.ashx?rev=7e56d8a81d714d70a8d6004b1c2cce49&sc_lang=en",
+    "local_file": "sources/NWMO-TR-2022-14-Confidence-in-Safety-Revell-Site.pdf",
+    "used_for": "Revell site investigation context, boreholes, hydrogeochemistry depth framework, low-permeability crystalline-rock safety context."
+  },
+  {
+    "id": "nwmo_2023_confidence_revell_update",
+    "title": "Confidence in Safety: Revell Site - 2023 Update",
+    "organization": "Nuclear Waste Management Organization",
+    "year": 2023,
+    "url": "https://www.nwmo.ca/-/media/Reports-MASTER/Technical-reports/NWMO-TR-2023-07-Confidence-in-Safety---Revell-Site---2023-Update.ashx?rev=6180a2f1bd95498f96d4dec51c8e406c&sc_lang=en",
+    "local_file": "sources/NWMO-TR-2023-07-Confidence-in-Safety-Revell-Update.pdf",
+    "used_for": "Public Revell update values for lithology, porosity, hydrochemistry zones, hydraulic conductivity and sulphide detection boundary."
+  },
+  {
+    "id": "villamizar_2024_arma",
+    "title": "Developing a coupled thermal-hydraulic-mechanical-chemical model for the Revell Batholith, Ontario, Canada",
+    "organization": "ARMA / Villamizar et al.",
+    "year": 2024,
+    "url": "https://armarocks.net/papers/379.pdf",
+    "local_file": "sources/ARMA-24-379-Revell-thermal-model.pdf",
+    "used_for": "Borehole-scale U-Th-K, density, heat production, temperature gradient and repository-depth THMC model context."
+  },
+  {
+    "id": "nwmo_mapping_2017",
+    "title": "Phase 2 Geological Mapping: Township of Ignace and Area, Ontario",
+    "organization": "Nuclear Waste Management Organization",
+    "year": 2017,
+    "url": "https://www.nwmo.ca/-/media/Reports---Reports/APM-REP-01332-0225-Phase-2-Geological-Mapping-Township-of-Ignace-and-Area-11-17.ashx?hash=2B490F4795C7E3BB59C39AB3EAB296CF&rev=a36ce8c7c16e4020b5896e539fdce61e&sc_lang=en",
+    "local_file": "sources/NWMO-Phase2-Geological-Mapping-Ignace-Revell.pdf",
+    "used_for": "Surface lithology and U-Th-K summary statistics for Revell-area crystalline rocks."
+  },
+  {
+    "id": "higgins_2025_radiolysis",
+    "title": "Natural H2 and Sulfate Production via Radiolysis in Low Porosity and Permeability Crystalline Rocks",
+    "organization": "Higgins et al.",
+    "year": 2025,
+    "url": "https://doi.org/10.1021/acsearthspacechem.5c00072",
+    "used_for": "Revell Batholith H2 production rate, Kidd Creek comparison, and sulfate-production contrast."
+  },
+  {
+    "id": "usgs_phreeqc_v3",
+    "title": "PHREEQC Version 3 documentation",
+    "organization": "USGS",
+    "year": 2024,
+    "url": "https://water.usgs.gov/water-resources/software/PHREEQC/documentation/phreeqc3-html/phreeqc3.htm",
+    "used_for": "PHREEQC speciation, reaction, transport and inverse-modeling workflow boundary."
+  }
+]

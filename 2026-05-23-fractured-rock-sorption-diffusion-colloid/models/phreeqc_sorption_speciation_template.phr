@@ -1,0 +1,29 @@
+TITLE PHREEQC speciation and sorption prototype for crystalline-rock fracture water
+# Non-executed draft. Use ThermoChimie/SIT/NEA-style database where radionuclide species are available.
+
+SOLUTION 1 Generic reduced crystalline groundwater
+    temp 15
+    pH 8 charge
+    pe -3
+    units mol/kgw
+    Na 0.1
+    Ca 0.01
+    Cl 0.12
+    C(4) 1e-3
+    S(6) 1e-4
+
+SURFACE 1 FeMn_oxide_sites
+    Hfo_wOH 1e-5 600 0.09
+
+EXCHANGE 1 Clay_biotite_chlorite_exchange
+    X 1e-4
+
+# Add radionuclide total concentrations only when validated source terms are supplied.
+# Add SURFACE_MASTER_SPECIES/SURFACE_SPECIES for U, Np, Pu, Am, Cs, Sr if database supports them.
+# For I- and TcO4-, test non-sorbing conservative behavior under oxic conditions.
+SELECTED_OUTPUT
+    -file selected_speciation_sorption.out
+    -pH true
+    -pe true
+    -totals U Np Pu Am I Tc Se Cs Sr Ra Th
+END

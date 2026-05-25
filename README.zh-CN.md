@@ -9,9 +9,9 @@
 ## 当前目录概况
 
 - 18 个日期化研究包，下方按由新到旧排列。
-- 4 份顶层 skill 能力或方法论文档。
+- 5 份顶层 skill 能力或方法论文档。
 - 主要交付物类型：Markdown 论文、PDF 导出、图表包、provenance 记录、JSON/CSV 数据产品、PHREEQC/PFLOTRAN 模型产物和本地分析脚本。
-- 相比旧版 README，本次补充索引了 2026-05-12、2026-05-13、2026-05-14 的所有新增研究包，以及 THMC、PHREEQC、PFLOTRAN 和地球化学论文架构方法文档。
+- 相比旧版 README，本次补充索引了 2026-05-12、2026-05-13、2026-05-14 的所有新增研究包，以及 THMC、PHREEQC、PFLOTRAN、Material Behavior Modeling 和地球化学论文架构方法文档。
 
 ## 目录规范
 
@@ -167,6 +167,12 @@
 
 ## Skill 能力与方法论文档
 
+### 2026-05-15
+
+#### [GeoMine Material Behavior Modeling Skill Family 设计说明](./GeoMine_Material_Behavior_Modeling_Skill_Family_Design_zh.md)
+
+- 重点：面向机制型、工程型和数值模拟型 GeoMine 论文，说明设计目的、架构、触发条件、DGR natural analogue 选题闸门、readiness levels、THMC/PHREEQC/PFLOTRAN 衔接和实施状态。
+
 ### 2026-05-14
 
 #### [GeoMine Research 地球化学论文架构 Skill 方法论](./GeoMine_Research_Geochemistry_Paper_Architecture_Skill_Methodology.md)
@@ -195,7 +201,7 @@
 - 辐解与天然氢：多孔介质辐解综述、辐解辅助制氢、Revell/Athabasca 辐解天然氢、多孔介质辐解-电解前沿、Revell Batholith 地球化学框架。
 - 地下水与放射性核素地球化学：Saskatchewan 铀衰变系地下水、PHREEQC U-Ra-SO4-CO3 工作流、野火/降雨驱动的核素再迁移。
 - THMC 与反应运移建模：尾矿渗滤 THMC、DGR 铜-膨润土 THMC、裂隙岩核素/胶体 THMC、PFLOTRAN 尾矿铀工作流。
-- GeoMine 插件方法论：THMC 指南、PHREEQC 指南、PFLOTRAN 指南、地球化学论文架构指南。
+- GeoMine 插件方法论：THMC 指南、PHREEQC 指南、PFLOTRAN 指南、Material Behavior Modeling 设计说明、地球化学论文架构指南。
 
 ## 数据与复核边界
 

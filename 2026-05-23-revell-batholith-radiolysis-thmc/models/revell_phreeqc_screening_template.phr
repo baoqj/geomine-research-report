@@ -1,0 +1,50 @@
+TITLE Revell Batholith groundwater-radiolysis screening template
+# Purpose:
+#   Placeholder PHREEQC structure for shallow, mixed and deep Revell groundwater end-members.
+#   Replace every FIXME value with measured sample chemistry before execution.
+# Database:
+#   Use phreeqc.dat for simple carbonate/redox screening or llnl.dat/ThermoChimie-style
+#   databases after uranium/copper/sulfide species are audited.
+
+SOLUTION 1 Shallow_Ca_HCO3_placeholder
+  temp      FIXME
+  pH        FIXME charge
+  pe        FIXME
+  units     mg/L
+  Ca        FIXME
+  Na        FIXME
+  K         FIXME
+  Mg        FIXME
+  Cl        FIXME
+  S(6)      FIXME as SO4
+  Alkalinity FIXME as HCO3
+  O(0)      FIXME
+
+SOLUTION 2 Deep_Ca_Na_Cl_placeholder
+  temp      FIXME
+  pH        FIXME charge
+  pe        FIXME
+  units     mg/L
+  Ca        FIXME
+  Na        FIXME
+  K         FIXME
+  Mg        FIXME
+  Cl        FIXME
+  S(6)      FIXME as SO4
+  Alkalinity FIXME as HCO3
+  Fe        FIXME
+  U         FIXME
+
+GAS_PHASE 1 H2_screen
+  -fixed_pressure
+  -pressure FIXME
+  H2(g) FIXME
+
+SELECTED_OUTPUT 1
+  -file revell_selected_output.csv
+  -pH true
+  -pe true
+  -ionic_strength true
+  -saturation_indices Calcite Gypsum Pyrite FeS
+  -molalities H2 UO2+2 UO2CO3 UO2(CO3)2-2 UO2(CO3)3-4 HS- SO4-2
+END

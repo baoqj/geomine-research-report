@@ -1,0 +1,22 @@
+[
+  {
+    "id": "fig01",
+    "file": "figures/fig01_radioelements_heat_h2.svg"
+  },
+  {
+    "id": "fig02",
+    "file": "figures/fig02_energy_partition_attenuation.svg"
+  },
+  {
+    "id": "fig03",
+    "file": "figures/fig03_groundwater_depth_framework.svg"
+  },
+  {
+    "id": "fig04",
+    "file": "figures/fig04_h2_closed_system_pressure.svg"
+  },
+  {
+    "id": "fig05",
+    "file": "figures/fig05_thmc_reaction_network.svg"
+  }
+]

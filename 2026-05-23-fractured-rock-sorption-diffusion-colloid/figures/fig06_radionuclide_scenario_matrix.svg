@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="45.0" y="38.0" font-size="20" font-family="Arial, sans-serif" fill="#102030" text-anchor="start" font-weight="700">核素迁移情景矩阵：吸附强度 vs 胶体相关性</text>
+<rect x="85" y="105" width="680" height="330" fill="#f7f9fb" stroke="#ccd5dc"/>
+<text x="425.0" y="475.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="700">矿物吸附强度 / Kd class</text>
+<text x="35.0" y="280.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="700">胶体相关性</text>
+<text x="120.0" y="455.0" font-size="10" font-family="Arial, sans-serif" fill="#334" text-anchor="middle" font-weight="400">weak/non-sorbing</text>
+<line x1="120" y1="105" x2="120" y2="435" stroke="#e1e6ea"/>
+<text x="220.0" y="455.0" font-size="10" font-family="Arial, sans-serif" fill="#334" text-anchor="middle" font-weight="400">very weak</text>
+<line x1="220" y1="105" x2="220" y2="435" stroke="#e1e6ea"/>
+<text x="335.0" y="455.0" font-size="10" font-family="Arial, sans-serif" fill="#334" text-anchor="middle" font-weight="400">weak-to-moderate</text>
+<line x1="335" y1="105" x2="335" y2="435" stroke="#e1e6ea"/>
+<text x="475.0" y="455.0" font-size="10" font-family="Arial, sans-serif" fill="#334" text-anchor="middle" font-weight="400">moderate</text>
+<line x1="475" y1="105" x2="475" y2="435" stroke="#e1e6ea"/>
+<text x="620.0" y="455.0" font-size="10" font-family="Arial, sans-serif" fill="#334" text-anchor="middle" font-weight="400">strong</text>
+<line x1="620" y1="105" x2="620" y2="435" stroke="#e1e6ea"/>
+<text x="795.0" y="195.0" font-size="12" font-family="Arial, sans-serif" fill="#6e5aa8" text-anchor="start" font-weight="400">Pu/Am/Th/U(IV)/Tc(IV)</text>
+<text x="795.0" y="400.0" font-size="12" font-family="Arial, sans-serif" fill="#697782" text-anchor="start" font-weight="400">I/Tc(VII)/Sr/Ra/Se</text>
+<circle cx="584" cy="190" r="15" fill="#6e5aa8" opacity="0.9"/>
+<text x="584.0" y="194.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">U</text>
+<circle cx="299" cy="190" r="15" fill="#b7834f" opacity="0.9"/>
+<text x="299.0" y="194.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">U</text>
+<circle cx="299" cy="395" r="15" fill="#b7834f" opacity="0.9"/>
+<text x="299.0" y="399.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">Ra</text>
+<circle cx="608" cy="190" r="15" fill="#6e5aa8" opacity="0.9"/>
+<text x="608.0" y="194.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">Th</text>
+<circle cx="632" cy="190" r="15" fill="#6e5aa8" opacity="0.9"/>
+<text x="632.0" y="194.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">Np</text>
+<circle cx="323" cy="190" r="15" fill="#b7834f" opacity="0.9"/>
+<text x="323.0" y="194.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">Np</text>
+<circle cx="656" cy="190" r="15" fill="#6e5aa8" opacity="0.9"/>
+<text x="656.0" y="194.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">Pu</text>
+<circle cx="584" cy="212" r="15" fill="#6e5aa8" opacity="0.9"/>
+<text x="584.0" y="216.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">Pu</text>
+<circle cx="608" cy="212" r="15" fill="#6e5aa8" opacity="0.9"/>
+<text x="608.0" y="216.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">Am</text>
+<circle cx="84" cy="395" r="15" fill="#8ba6b3" opacity="0.9"/>
+<text x="84.0" y="399.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">I</text>
+<circle cx="632" cy="212" r="15" fill="#6e5aa8" opacity="0.9"/>
+<text x="632.0" y="216.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">Tc</text>
+<circle cx="108" cy="395" r="15" fill="#8ba6b3" opacity="0.9"/>
+<text x="108.0" y="399.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">Tc</text>
+<circle cx="323" cy="395" r="15" fill="#b7834f" opacity="0.9"/>
+<text x="323.0" y="399.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">Se-79</text>
+<circle cx="347" cy="190" r="15" fill="#b7834f" opacity="0.9"/>
+<text x="347.0" y="194.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">Cs</text>
+<circle cx="184" cy="395" r="15" fill="#9fb386" opacity="0.9"/>
+<text x="184.0" y="399.0" font-size="9" font-family="Arial, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">Sr</text>
+<text x="110.0" y="132.0" font-size="12" font-family="Arial, sans-serif" fill="#445" text-anchor="start" font-weight="400">胶体增强迁移域：强吸附 + 胶体稳定 + 过滤弱 + 解吸慢</text>
+<text x="110.0" y="420.0" font-size="12" font-family="Arial, sans-serif" fill="#445" text-anchor="start" font-weight="400">水相高迁移域：非吸附/弱吸附阴离子；主要受裂隙连通性和源项控制</text>
+</svg>

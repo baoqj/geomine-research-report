@@ -1,0 +1,24 @@
+# PFLOTRAN conceptual input skeleton: fractured-rock radionuclide migration
+# This file is a non-executed template. It requires a mesh, flow field, chemistry database,
+# sorption parameters, redox reactions, colloid module implementation or external coupling.
+
+SIMULATION
+  SIMULATION_TYPE SUBSURFACE
+  PROCESS_MODELS
+    SUBSURFACE_FLOW flow
+      MODE RICHARDS
+    /
+    SUBSURFACE_TRANSPORT transport
+      MODE GIRT
+    /
+  /
+END
+
+SUBSURFACE
+  # FLOW_CONDITION, TRANSPORT_CONDITION, MATERIAL_PROPERTY and REGION blocks go here.
+  # Mobile aqueous species: I-, TcO4-, Se oxyanions, U/Np/Pu/Am hydrolysis-carbonate species.
+  # Immobile/sorbed terms: Kd or surface-complexation proxies by mineral assemblage.
+  # Matrix diffusion can be represented through multi-rate mass transfer or dual-continuum regions.
+  # Colloids require either a mobile pseudo-component with attachment/detachment/filtration
+  # or coupling to a custom reactive-transport kernel.
+END_SUBSURFACE

@@ -1,0 +1,821 @@
+Facility Name,Station ID,Sample Code,Latitude,Longitude,Year,Sample Type,Sample Description,Parameter,Result,Guideline/Screening Levels
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Arsenic,0.01 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Copper,0.35 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Lead,<0.002 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Selenium,0.28 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Zinc,5.6 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Polonium-210,2.4 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Arsenic,<0.01 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Copper,0.16 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Lead,0.004 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Selenium,0.22 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Zinc,5.4 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Polonium-210,3.1 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Arsenic,<0.01 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Copper,0.13 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Lead,<0.002 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Selenium,0.23 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Uranium,0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Zinc,3.9 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Polonium-210,3.6 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2020.0,Food,Fish - Northern Pike,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Arsenic,0.01 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Copper,0.14 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Lead,<0.002 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Selenium,0.81 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Zinc,2.6 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Polonium-210,1.9 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Arsenic,0.02 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Copper,0.22 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Lead,<0.002 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Selenium,0.62 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Zinc,3 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Polonium-210,3.8 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Arsenic,0.02 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Copper,0.28 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Lead,<0.002 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Selenium,0.48 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Zinc,3.5 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Polonium-210,0.4 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2020.0,Food,Fish - Lake Whitefish,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2020.0,Food,Fish - Trout,Arsenic,0.01 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2020.0,Food,Fish - Trout,Copper,0.28 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2020.0,Food,Fish - Trout,Lead,0.002 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2020.0,Food,Fish - Trout,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2020.0,Food,Fish - Trout,Nickel,0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2020.0,Food,Fish - Trout,Selenium,0.3 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2020.0,Food,Fish - Trout,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2020.0,Food,Fish - Trout,Zinc,3.6 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2020.0,Food,Fish - Trout,Polonium-210,0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2020.0,Food,Fish - Trout,Radium-226,<0.08 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2020.0,Food,Fish - Trout,Thorium-230,<0.2 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2020.0,Food,Fish - Trout,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2020.0,Food,Fish - Trout,Arsenic,0.04 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2020.0,Food,Fish - Trout,Copper,0.51 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2020.0,Food,Fish - Trout,Lead,<0.002 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2020.0,Food,Fish - Trout,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2020.0,Food,Fish - Trout,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2020.0,Food,Fish - Trout,Selenium,0.24 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2020.0,Food,Fish - Trout,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2020.0,Food,Fish - Trout,Zinc,3.4 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2020.0,Food,Fish - Trout,Polonium-210,<0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2020.0,Food,Fish - Trout,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2020.0,Food,Fish - Trout,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2020.0,Food,Fish - Trout,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2020.0,Food,Fish - Trout,Arsenic,0.04 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2020.0,Food,Fish - Trout,Copper,0.69 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2020.0,Food,Fish - Trout,Lead,<0.002 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2020.0,Food,Fish - Trout,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2020.0,Food,Fish - Trout,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2020.0,Food,Fish - Trout,Selenium,0.71 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2020.0,Food,Fish - Trout,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2020.0,Food,Fish - Trout,Zinc,4.5 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2020.0,Food,Fish - Trout,Polonium-210,<0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2020.0,Food,Fish - Trout,Radium-226,<0.08 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2020.0,Food,Fish - Trout,Thorium-230,<0.2 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2020.0,Food,Fish - Trout,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Arsenic,0.1 µg/L,5 µg/L
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Copper,<0.2 µg/L,2 - 4 µg/L
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Lead,<0.1 µg/L,1 - 7 µg/L
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Molybdenum,0.8 µg/L,"31,000 µg/L"
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Nickel,<0.1 µg/L,25 - 150 µg/L
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Selenium,<0.1 µg/L,1 µg/L
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Zinc,0.9 µg/L,30 µg/L
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Ammonia,<0.01 mg/L,0.3 mg/L
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Total Hardness,"8,000 µg/L",N/A
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),Total Suspended Solids,"2,000 µg/L",N/A
+Cigar Lake Operation,CL01,CL01-W01A,58.058,-104.405,2020.0,Water,Lake (surface),pH,7.09,6.5 - 9.0
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Arsenic,<0.1 µg/L,5 µg/L
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Copper,<0.2 µg/L,2 - 4 µg/L
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Lead,<0.1 µg/L,1 - 7 µg/L
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Molybdenum,0.8 µg/L,"31,000 µg/L"
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Nickel,<0.1 µg/L,25 - 150 µg/L
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Selenium,<0.1 µg/L,1 µg/L
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Zinc,<0.5 µg/L,30 µg/L
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Ammonia,<0.01 mg/L,0.3 mg/L
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Total Hardness,"8,000 µg/L",N/A
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),Total Suspended Solids,"1,000 µg/L",N/A
+Cigar Lake Operation,CL01,CL01-W01B,58.058,-104.405,2020.0,Water,Lake (surface),pH,7.14,6.5 - 9.0
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Arsenic,<0.1 µg/L,5 µg/L
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Copper,<0.2 µg/L,2 - 4 µg/L
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Lead,<0.1 µg/L,1 - 7 µg/L
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Molybdenum,0.8 µg/L,"31,000 µg/L"
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Nickel,<0.1 µg/L,25 - 150 µg/L
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Selenium,<0.1 µg/L,1 µg/L
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Zinc,<0.5 µg/L,30 µg/L
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Ammonia,<0.01 mg/L,0.3 mg/L
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Total Hardness,"8,000 µg/L",N/A
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),Total Suspended Solids,"2,000 µg/L",N/A
+Cigar Lake Operation,CL01,CL01-W01C,58.058,-104.405,2020.0,Water,Lake (surface),pH,7.15,6.5 - 9.0
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Arsenic,0.04 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Copper,0.19 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Lead,0.003 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Selenium,0.38 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Zinc,4 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Polonium-210,2.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Arsenic,0.04 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Copper,0.26 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Lead,0.004 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Selenium,0.31 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Zinc,8.2 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Polonium-210,1.1 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Radium-226,<0.05 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Arsenic,0.02 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Copper,0.09 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Lead,0.004 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Selenium,0.24 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Zinc,3.8 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Polonium-210,1.7 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2020.0,Food,Fish - Northern Pike,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Arsenic,0.06 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Copper,0.24 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Lead,0.004 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Selenium,0.28 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Zinc,3.2 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Polonium-210,0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Arsenic,0.01 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Copper,0.14 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Lead,<0.002 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Selenium,0.42 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Zinc,3 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Polonium-210,1.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Arsenic,0.04 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Copper,0.2 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Lead,<0.002 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Selenium,0.53 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Zinc,3.2 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Polonium-210,<0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2020.0,Food,Fish - Lake Whitefish,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Arsenic,0.4 µg/L,5 µg/L
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Copper,<0.2 µg/L,2 - 4 µg/L
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Lead,<0.1 µg/L,1 - 7 µg/L
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Molybdenum,1 µg/L,"31,000 µg/L"
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Nickel,<0.1 µg/L,25 - 150 µg/L
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Selenium,<0.1 µg/L,1 µg/L
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Zinc,1.4 µg/L,30 µg/L
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Ammonia,<0.01 mg/L,0.3 mg/L
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Total Hardness,"14,000 µg/L",N/A
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),Total Suspended Solids,"1,000 µg/L",N/A
+Cigar Lake Operation,CL02,CL02-W02A,58.081,-104.501,2020.0,Water,Lake (surface),pH,7.14,6.5 - 9.0
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Arsenic,0.3 µg/L,5 µg/L
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Copper,<0.2 µg/L,2 - 4 µg/L
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Lead,<0.1 µg/L,1 - 7 µg/L
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Molybdenum,0.9 µg/L,"31,000 µg/L"
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Nickel,<0.1 µg/L,25 - 150 µg/L
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Selenium,<0.1 µg/L,1 µg/L
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Zinc,0.7 µg/L,30 µg/L
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Ammonia,<0.01 mg/L,0.3 mg/L
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Total Hardness,"14,000 µg/L",N/A
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Lead-210,0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),Total Suspended Solids,"2,000 µg/L",N/A
+Cigar Lake Operation,CL02,CL02-W02B,58.081,-104.501,2020.0,Water,Lake (surface),pH,7.14,6.5 - 9.0
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Arsenic,0.4 µg/L,5 µg/L
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Copper,<0.2 µg/L,2 - 4 µg/L
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Lead,<0.1 µg/L,1 - 7 µg/L
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Molybdenum,0.9 µg/L,"31,000 µg/L"
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Nickel,<0.1 µg/L,25 - 150 µg/L
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Selenium,<0.1 µg/L,1 µg/L
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Zinc,0.7 µg/L,30 µg/L
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Ammonia,<0.01 mg/L,0.3 mg/L
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Total Hardness,"14,000 µg/L",N/A
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Polonium-210,0.006 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),Total Suspended Solids,"2,000 µg/L",N/A
+Cigar Lake Operation,CL02,CL02-W02C,58.081,-104.501,2020.0,Water,Lake (surface),pH,7.15,6.5 - 9.0
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Arsenic,<0.1 µg/L,5 µg/L
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Copper,<0.2 µg/L,2 - 4 µg/L
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Lead,<0.1 µg/L,1 - 7 µg/L
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Molybdenum,0.8 µg/L,"31,000 µg/L"
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Nickel,<0.1 µg/L,25 - 150 µg/L
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Selenium,<0.1 µg/L,1 µg/L
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Zinc,<0.5 µg/L,30 µg/L
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Ammonia,<0.01 mg/L,0.3 mg/L
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Total Hardness,"8,000 µg/L",N/A
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),Total Suspended Solids,"3,000 µg/L",N/A
+Cigar Lake Operation,CL03,CL03-W03A,58.14,-104.443,2020.0,Water,Lake (surface),pH,7.22,6.5 - 9.0
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Arsenic,<0.1 µg/L,5 µg/L
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Copper,<0.2 µg/L,2 - 4 µg/L
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Lead,<0.1 µg/L,1 - 7 µg/L
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Molybdenum,0.8 µg/L,"31,000 µg/L"
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Nickel,<0.1 µg/L,25 - 150 µg/L
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Selenium,<0.1 µg/L,1 µg/L
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Zinc,<0.5 µg/L,30 µg/L
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Ammonia,<0.01 mg/L,0.3 mg/L
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Total Hardness,"8,000 µg/L",N/A
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),Total Suspended Solids,"2,000 µg/L",N/A
+Cigar Lake Operation,CL03,CL03-W03B,58.14,-104.443,2020.0,Water,Lake (surface),pH,7.23,6.5 - 9.0
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Arsenic,<0.1 µg/L,5 µg/L
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Copper,<0.2 µg/L,2 - 4 µg/L
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Lead,<0.1 µg/L,1 - 7 µg/L
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Molybdenum,0.8 µg/L,"31,000 µg/L"
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Nickel,<0.1 µg/L,25 - 150 µg/L
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Selenium,<0.1 µg/L,1 µg/L
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Zinc,<0.5 µg/L,30 µg/L
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Ammonia,<0.01 mg/L,0.3 mg/L
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Total Hardness,"8,000 µg/L",N/A
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),Total Suspended Solids,"2,000 µg/L",N/A
+Cigar Lake Operation,CL03,CL03-W03C,58.14,-104.443,2020.0,Water,Lake (surface),pH,7.23,6.5 - 9.0
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Arsenic,0.1 µg/L,5 µg/L
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Copper,<0.2 µg/L,2 - 4 µg/L
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Lead,<0.1 µg/L,1 - 7 µg/L
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Molybdenum,0.7 µg/L,"31,000 µg/L"
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Nickel,<0.1 µg/L,25 - 150 µg/L
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Selenium,<0.1 µg/L,1 µg/L
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Zinc,0.6 µg/L,30 µg/L
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Ammonia,<0.01 mg/L,0.3 mg/L
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Total Hardness,"8,000 µg/L",N/A
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),Total Suspended Solids,"3,000 µg/L",N/A
+Cigar Lake Operation,CL04,CL04-W04A,58.081,-104.523,2020.0,Water,Lake (surface),pH,7.17,6.5 - 9.0
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Arsenic,0.1 µg/L,5 µg/L
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Copper,<0.2 µg/L,2 - 4 µg/L
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Lead,<0.1 µg/L,1 - 7 µg/L
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Molybdenum,0.7 µg/L,"31,000 µg/L"
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Nickel,<0.1 µg/L,25 - 150 µg/L
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Selenium,<0.1 µg/L,1 µg/L
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Zinc,<0.5 µg/L,30 µg/L
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Ammonia,<0.01 mg/L,0.3 mg/L
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Total Hardness,"8,000 µg/L",N/A
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),Total Suspended Solids,"2,000 µg/L",N/A
+Cigar Lake Operation,CL04,CL04-W04B,58.081,-104.523,2020.0,Water,Lake (surface),pH,7.21,6.5 - 9.0
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Arsenic,<0.1 µg/L,5 µg/L
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Copper,<0.2 µg/L,2 - 4 µg/L
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Lead,<0.1 µg/L,1 - 7 µg/L
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Molybdenum,0.7 µg/L,"31,000 µg/L"
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Nickel,<0.1 µg/L,25 - 150 µg/L
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Selenium,<0.1 µg/L,1 µg/L
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Zinc,<0.5 µg/L,30 µg/L
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Ammonia,<0.01 mg/L,0.3 mg/L
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Total Hardness,"8,000 µg/L",N/A
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Polonium-210,0.02 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),Total Suspended Solids,"3,000 µg/L",N/A
+Cigar Lake Operation,CL04,CL04-W04C,58.081,-104.523,2020.0,Water,Lake (surface),pH,7.21,6.5 - 9.0
+Cigar Lake Operation,CL05,CL05-F03A,58.108,-104.465,2020.0,Food,Fish - Trout,Arsenic,0.02 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03A,58.108,-104.465,2020.0,Food,Fish - Trout,Copper,0.14 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03A,58.108,-104.465,2020.0,Food,Fish - Trout,Lead,<0.002 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03A,58.108,-104.465,2020.0,Food,Fish - Trout,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03A,58.108,-104.465,2020.0,Food,Fish - Trout,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL05,CL05-F03A,58.108,-104.465,2020.0,Food,Fish - Trout,Selenium,0.19 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03A,58.108,-104.465,2020.0,Food,Fish - Trout,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03A,58.108,-104.465,2020.0,Food,Fish - Trout,Zinc,2.6 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03A,58.108,-104.465,2020.0,Food,Fish - Trout,Polonium-210,<0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03A,58.108,-104.465,2020.0,Food,Fish - Trout,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL05,CL05-F03A,58.108,-104.465,2020.0,Food,Fish - Trout,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03A,58.108,-104.465,2020.0,Food,Fish - Trout,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03B,58.108,-104.465,2020.0,Food,Fish - Trout,Arsenic,0.01 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03B,58.108,-104.465,2020.0,Food,Fish - Trout,Copper,0.11 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03B,58.108,-104.465,2020.0,Food,Fish - Trout,Lead,<0.002 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03B,58.108,-104.465,2020.0,Food,Fish - Trout,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03B,58.108,-104.465,2020.0,Food,Fish - Trout,Nickel,<0.01 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL05,CL05-F03B,58.108,-104.465,2020.0,Food,Fish - Trout,Selenium,0.17 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03B,58.108,-104.465,2020.0,Food,Fish - Trout,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03B,58.108,-104.465,2020.0,Food,Fish - Trout,Zinc,2.6 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03B,58.108,-104.465,2020.0,Food,Fish - Trout,Polonium-210,<0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03B,58.108,-104.465,2020.0,Food,Fish - Trout,Radium-226,<0.05 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL05,CL05-F03B,58.108,-104.465,2020.0,Food,Fish - Trout,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03B,58.108,-104.465,2020.0,Food,Fish - Trout,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03C,58.108,-104.465,2020.0,Food,Fish - Trout,Arsenic,0.02 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03C,58.108,-104.465,2020.0,Food,Fish - Trout,Copper,0.27 mg/kg fresh weight,5.32 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03C,58.108,-104.465,2020.0,Food,Fish - Trout,Lead,<0.002 mg/kg fresh weight,0.07 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03C,58.108,-104.465,2020.0,Food,Fish - Trout,Molybdenum,<0.02 mg/kg fresh weight,0.11 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03C,58.108,-104.465,2020.0,Food,Fish - Trout,Nickel,0.05 mg/kg fresh weight,0.42 mg/kg fresh weight 
+Cigar Lake Operation,CL05,CL05-F03C,58.108,-104.465,2020.0,Food,Fish - Trout,Selenium,0.2 mg/kg fresh weight,0.22 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03C,58.108,-104.465,2020.0,Food,Fish - Trout,Uranium,<0.001 mg/kg fresh weight,0.02 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03C,58.108,-104.465,2020.0,Food,Fish - Trout,Zinc,2.9 mg/kg fresh weight,21.65 mg/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03C,58.108,-104.465,2020.0,Food,Fish - Trout,Polonium-210,<0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03C,58.108,-104.465,2020.0,Food,Fish - Trout,Radium-226,<0.05 Bq/kg fresh weight,5.24 Bq/kg fresh weight 
+Cigar Lake Operation,CL05,CL05-F03C,58.108,-104.465,2020.0,Food,Fish - Trout,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL05,CL05-F03C,58.108,-104.465,2020.0,Food,Fish - Trout,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL06,CL06-F04,58.095,-104.368,2020.0,Food,Blueberries (wild),Arsenic,<0.007 mg/kg fresh weight,0.8 mg/kg fresh weight
+Cigar Lake Operation,CL06,CL06-F04,58.095,-104.368,2020.0,Food,Blueberries (wild),Copper,0.63 mg/kg fresh weight,49 mg/kg fresh weight
+Cigar Lake Operation,CL06,CL06-F04,58.095,-104.368,2020.0,Food,Blueberries (wild),Lead,<0.001 mg/kg fresh weight,0.8 mg/kg fresh weight
+Cigar Lake Operation,CL06,CL06-F04,58.095,-104.368,2020.0,Food,Blueberries (wild),Molybdenum,<0.01 mg/kg fresh weight,1 mg/kg fresh weight
+Cigar Lake Operation,CL06,CL06-F04,58.095,-104.368,2020.0,Food,Blueberries (wild),Nickel,0.11 mg/kg fresh weight,4.9 mg/kg fresh weight
+Cigar Lake Operation,CL06,CL06-F04,58.095,-104.368,2020.0,Food,Blueberries (wild),Selenium,<0.007 mg/kg fresh weight,2.8 mg/kg fresh weight
+Cigar Lake Operation,CL06,CL06-F04,58.095,-104.368,2020.0,Food,Blueberries (wild),Uranium,<0.001 mg/kg fresh weight,0.3 mg/kg fresh weight
+Cigar Lake Operation,CL06,CL06-F04,58.095,-104.368,2020.0,Food,Blueberries (wild),Zinc,1.14 mg/kg fresh weight,214 mg/kg fresh weight
+Cigar Lake Operation,CL06,CL06-F04,58.095,-104.368,2020.0,Food,Blueberries (wild),Polonium-210,0.09 Bq/kg fresh weight,12.4 Bq/kg fresh weight
+Cigar Lake Operation,CL06,CL06-F04,58.095,-104.368,2020.0,Food,Blueberries (wild),Radium-226,0.19 Bq/kg fresh weight,40.2 Bq/kg fresh weight
+Cigar Lake Operation,CL06,CL06-F04,58.095,-104.368,2020.0,Food,Blueberries (wild),Thorium-230,<0.07 Bq/kg fresh weight,134 Bq/kg fresh weight
+Cigar Lake Operation,CL06,CL06-F04,58.095,-104.368,2020.0,Food,Blueberries (wild),Lead-210,0.15 Bq/kg fresh weight,16.9 Bq/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2020.0,Food,Labrador Tea,Arsenic,<0.02 mg/kg fresh weight,11.6 mg/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2020.0,Food,Labrador Tea,Copper,1.78 mg/kg fresh weight,884 mg/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2020.0,Food,Labrador Tea,Lead,<0.004 mg/kg fresh weight,11.4 mg/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2020.0,Food,Labrador Tea,Molybdenum,<0.04 mg/kg fresh weight,17.7 mg/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2020.0,Food,Labrador Tea,Nickel,0.03 mg/kg fresh weight,69.4 mg/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2020.0,Food,Labrador Tea,Selenium,<0.02 mg/kg fresh weight,36 mg/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2020.0,Food,Labrador Tea,Uranium,0.004 mg/kg fresh weight,3.8 mg/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2020.0,Food,Labrador Tea,Zinc,7.71 mg/kg fresh weight,"3,597 mg/kg fresh weight"
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2020.0,Food,Labrador Tea,Polonium-210,2.6 Bq/kg fresh weight,203 Bq/kg fresh weight 
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2020.0,Food,Labrador Tea,Radium-226,2.84 Bq/kg fresh weight,870 Bq/kg fresh weight 
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2020.0,Food,Labrador Tea,Thorium-230,<0.24 Bq/kg fresh weight,"1,160 Bq/kg fresh weight "
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2020.0,Food,Labrador Tea,Lead-210,7.71 Bq/kg fresh weight,353 Bq/kg fresh weight 
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2020.0,Food,Blueberries (wild),Arsenic,<0.007 mg/kg fresh weight,0.8 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2020.0,Food,Blueberries (wild),Copper,0.5 mg/kg fresh weight,49 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2020.0,Food,Blueberries (wild),Lead,0.001 mg/kg fresh weight,0.8 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2020.0,Food,Blueberries (wild),Molybdenum,<0.01 mg/kg fresh weight,1 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2020.0,Food,Blueberries (wild),Nickel,0.07 mg/kg fresh weight,4.9 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2020.0,Food,Blueberries (wild),Selenium,<0.007 mg/kg fresh weight,2.8 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2020.0,Food,Blueberries (wild),Uranium,<0.001 mg/kg fresh weight,0.3 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2020.0,Food,Blueberries (wild),Zinc,0.98 mg/kg fresh weight,214 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2020.0,Food,Blueberries (wild),Polonium-210,0.14 Bq/kg fresh weight,12.4 Bq/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2020.0,Food,Blueberries (wild),Radium-226,0.17 Bq/kg fresh weight,40.2 Bq/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2020.0,Food,Blueberries (wild),Thorium-230,<0.07 Bq/kg fresh weight,134 Bq/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2020.0,Food,Blueberries (wild),Lead-210,<0.15 Bq/kg fresh weight,16.9 Bq/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2020.0,Food,Labrador Tea,Arsenic,<0.01 mg/kg fresh weight,11.6 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2020.0,Food,Labrador Tea,Copper,1.32 mg/kg fresh weight,884 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2020.0,Food,Labrador Tea,Lead,0.003 mg/kg fresh weight,11.4 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2020.0,Food,Labrador Tea,Molybdenum,<0.03 mg/kg fresh weight,17.7 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2020.0,Food,Labrador Tea,Nickel,0.2 mg/kg fresh weight,69.4 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2020.0,Food,Labrador Tea,Selenium,<0.01 mg/kg fresh weight,36 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2020.0,Food,Labrador Tea,Uranium,<0.003 mg/kg fresh weight,3.8 mg/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2020.0,Food,Labrador Tea,Zinc,6.6 mg/kg fresh weight,"3,597 mg/kg fresh weight"
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2020.0,Food,Labrador Tea,Polonium-210,1.84 Bq/kg fresh weight,203 Bq/kg fresh weight 
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2020.0,Food,Labrador Tea,Radium-226,2.17 Bq/kg fresh weight,870 Bq/kg fresh weight 
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2020.0,Food,Labrador Tea,Thorium-230,<0.16 Bq/kg fresh weight,"1,160 Bq/kg fresh weight "
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2020.0,Food,Labrador Tea,Lead-210,6.93 Bq/kg fresh weight,353 Bq/kg fresh weight 
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Arsenic,0.02 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Copper,0.11 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Nickel,0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Selenium,0.22 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Zinc,5 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Polonium-210,1.8 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01A,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Arsenic,0.02 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Copper,0.17 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Selenium,0.2 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Zinc,6.4 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Polonium-210,3.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Radium-226,<0.09 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Thorium-230,<0.2 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01B,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Arsenic,0.01 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Copper,0.09 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Selenium,0.2 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Zinc,4.2 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Polonium-210,2.3 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F01C,58.058,-104.405,2024.0,Food,Fish - Northern Pike,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Arsenic,0.01 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Copper,0.11 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Selenium,0.25 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Zinc,3.7 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Polonium-210,0.3 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02A,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Arsenic,<0.01 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Copper,0.12 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Selenium,0.78 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Zinc,2.7 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Polonium-210,1.3 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Radium-226,<0.07 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02B,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Arsenic,0.02 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Copper,0.15 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Selenium,0.31 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Zinc,4.4 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Polonium-210,1.5 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Radium-226,<0.08 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Thorium-230,<0.2 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F02C,58.058,-104.405,2024.0,Food,Fish - Lake Whitefish,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2024.0,Food,Fish - Trout,Arsenic,0.02 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2024.0,Food,Fish - Trout,Copper,0.43 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2024.0,Food,Fish - Trout,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2024.0,Food,Fish - Trout,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2024.0,Food,Fish - Trout,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2024.0,Food,Fish - Trout,Selenium,0.32 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2024.0,Food,Fish - Trout,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2024.0,Food,Fish - Trout,Zinc,3.8 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2024.0,Food,Fish - Trout,Polonium-210,<0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2024.0,Food,Fish - Trout,Radium-226,<0.09 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2024.0,Food,Fish - Trout,Thorium-230,<0.2 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03A,58.058,-104.405,2024.0,Food,Fish - Trout,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2024.0,Food,Fish - Trout,Arsenic,0.03 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2024.0,Food,Fish - Trout,Copper,0.28 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2024.0,Food,Fish - Trout,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2024.0,Food,Fish - Trout,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2024.0,Food,Fish - Trout,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2024.0,Food,Fish - Trout,Selenium,0.19 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2024.0,Food,Fish - Trout,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2024.0,Food,Fish - Trout,Zinc,4.1 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2024.0,Food,Fish - Trout,Polonium-210,<0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2024.0,Food,Fish - Trout,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2024.0,Food,Fish - Trout,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03B,58.058,-104.405,2024.0,Food,Fish - Trout,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2024.0,Food,Fish - Trout,Arsenic,0.03 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2024.0,Food,Fish - Trout,Copper,0.19 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2024.0,Food,Fish - Trout,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2024.0,Food,Fish - Trout,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2024.0,Food,Fish - Trout,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2024.0,Food,Fish - Trout,Selenium,0.28 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2024.0,Food,Fish - Trout,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2024.0,Food,Fish - Trout,Zinc,3.4 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2024.0,Food,Fish - Trout,Polonium-210,<0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2024.0,Food,Fish - Trout,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2024.0,Food,Fish - Trout,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-F03C,58.058,-104.405,2024.0,Food,Fish - Trout,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Arsenic,0.2 µg/L,5 µg/L
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Copper,<0.0002 mg/L,0.002 mg/L
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Lead,<0.0001 mg/L,0.001 mg/L
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Molybdenum,0.0012 mg/L,31 mg/L
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Nickel,<0.0001 mg/L,0.025 mg/L
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Selenium,<0.0001 mg/L,0.001 mg/L
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Zinc,0.0006 mg/L,0.03 mg/L
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Ammonia,0.03 mg/L,0.3 mg/L
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Total hardness,8 mg/L,N/A
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),Total Suspended Solids,2 mg/L,N/A
+Cigar Lake Operation,CL01,CL01-W01,58.058,-104.405,2024.0,Water,Lake (surface),pH,6.6,6.5 - 9.0 
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Arsenic,0.03 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Copper,0.12 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Selenium,0.25 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Zinc,3.5 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Polonium-210,2.1 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Radium-226,<0.07 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01A,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Arsenic,0.02 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Copper,0.09 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Selenium,0.21 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Zinc,3.4 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Polonium-210,2.6 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Radium-226,<0.06 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01B,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Arsenic,0.03 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Copper,0.1 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Selenium,0.23 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Uranium,0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Zinc,3.3 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Polonium-210,2.1 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Radium-226,<0.07 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F01C,58.081,-104.501,2024.0,Food,Fish - Northern Pike,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Arsenic,0.03 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Copper,0.13 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Selenium,0.61 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Zinc,3.8 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Polonium-210,0.4 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Radium-226,<0.07 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02A,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Arsenic,0.03 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Copper,0.17 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Selenium,0.39 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Zinc,7.2 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Polonium-210,1.5 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Radium-226,<0.07 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02B,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Arsenic,0.06 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Copper,0.12 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Selenium,0.26 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Zinc,3.4 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Polonium-210,<0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Radium-226,<0.1 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Thorium-230,<0.2 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-F02C,58.081,-104.501,2024.0,Food,Fish - Lake Whitefish,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Arsenic,0.5 µg/L,5 µg/L
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Copper,<0.0002 mg/L,0.002 mg/L
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Lead,<0.0001 mg/L,0.001 mg/L
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Molybdenum,0.001 mg/L,31 mg/L
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Nickel,<0.0001 mg/L,0.025 mg/L
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Selenium,<0.0001 mg/L,0.001 mg/L
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Zinc,0.0006 mg/L,0.03 mg/L
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Ammonia,0.01 mg/L,0.3 mg/L
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Total hardness,17 mg/L,N/A
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),Total Suspended Solids,1 mg/L,N/A
+Cigar Lake Operation,CL02,CL02-W02,58.081,-104.501,2024.0,Water,Lake (surface),pH,6.63,6.5 - 9.0 
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Arsenic,0.1 µg/L,5 µg/L
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Copper,<0.0002 mg/L,0.002 mg/L
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Lead,<0.0001 mg/L,0.001 mg/L
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Molybdenum,0.0007 mg/L,31 mg/L
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Nickel,<0.0001 mg/L,0.025 mg/L
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Selenium,<0.0001 mg/L,0.001 mg/L
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Zinc,0.0005 mg/L,0.03 mg/L
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Ammonia,0.04 mg/L,0.3 mg/L
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Total hardness,7 mg/L,N/A
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),Total Suspended Solids,<1 mg/L,N/A
+Cigar Lake Operation,CL03,CL03-W03,58.14,-104.443,2024.0,Water,Lake (surface),pH,6.76,6.5 - 9.0 
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Arsenic,0.2 µg/L,5 µg/L
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Copper,<0.0002 mg/L,0.002 mg/L
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Lead,<0.0001 mg/L,0.001 mg/L
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Molybdenum,0.0008 mg/L,31 mg/L
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Nickel,<0.0001 mg/L,0.025 mg/L
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Selenium,<0.0001 mg/L,0.001 mg/L
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Uranium,<0.1 µg/L,15 µg/L
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Zinc,0.001 mg/L,0.03 mg/L
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Ammonia,0.02 mg/L,0.3 mg/L
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Total hardness,8 mg/L,N/A
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Lead-210,<0.02 Bq/L,0.2 Bq/L
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Polonium-210,<0.005 Bq/L,0.1 Bq/L
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Radium-226,<0.005 Bq/L,0.5 Bq/L
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Thorium-230,<0.01 Bq/L,0.6 Bq/L
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),Total Suspended Solids,3 mg/L,N/A
+Cigar Lake Operation,CL04,CL04-W04,58.081,-104.523,2024.0,Water,Lake (surface),pH,6.76,6.5 - 9.0 
+Cigar Lake Operation,CL07,CL07-F04,58.141,-104.446,2024.0,Food,Blueberries (wild),Arsenic,<0.0089 µg/g fresh weight,0.8 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F04,58.141,-104.446,2024.0,Food,Blueberries (wild),Copper,0.4094 µg/g fresh weight,49 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F04,58.141,-104.446,2024.0,Food,Blueberries (wild),Lead,0.00178 µg/g fresh weight,0.8 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F04,58.141,-104.446,2024.0,Food,Blueberries (wild),Molybdenum,0.0178 µg/g fresh weight,1 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F04,58.141,-104.446,2024.0,Food,Blueberries (wild),Nickel,0.07654 µg/g fresh weight,4.9 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F04,58.141,-104.446,2024.0,Food,Blueberries (wild),Selenium,<0.0089 µg/g fresh weight,2.8 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F04,58.141,-104.446,2024.0,Food,Blueberries (wild),Uranium,0.00356 µg/g fresh weight,0.3 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F04,58.141,-104.446,2024.0,Food,Blueberries (wild),Zinc,0.8544 µg/g fresh weight,214 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F04,58.141,-104.446,2024.0,Food,Blueberries (wild),Polonium-210,0.1958 Bq/kg fresh weight,12.4 Bq/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F04,58.141,-104.446,2024.0,Food,Blueberries (wild),Radium-226,0.2848 Bq/kg fresh weight,40.2 Bq/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F04,58.141,-104.446,2024.0,Food,Blueberries (wild),Thorium-230,<0.089 Bq/kg fresh weight,133.9 Bq/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F04,58.141,-104.446,2024.0,Food,Blueberries (wild),Lead-210,<0.178 Bq/kg fresh weight,16.9 Bq/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2024.0,Food,Labrador tea,Arsenic,<0.0248 µg/g fresh weight,11.6 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2024.0,Food,Labrador tea,Copper,1.4384 µg/g fresh weight,883.6 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2024.0,Food,Labrador tea,Lead,0.01488 µg/g fresh weight,11.4 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2024.0,Food,Labrador tea,Molybdenum,<0.0496 µg/g fresh weight,17.7 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2024.0,Food,Labrador tea,Nickel,0.13888 µg/g fresh weight,69.4 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2024.0,Food,Labrador tea,Selenium,<0.0248 µg/g fresh weight,36 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2024.0,Food,Labrador tea,Uranium,<0.00496 µg/g fresh weight,3.8 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2024.0,Food,Labrador tea,Zinc,7.936 µg/g fresh weight,3597.3 µg/g fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2024.0,Food,Labrador tea,Polonium-210,2.976 Bq/kg fresh weight,202.9 Bq/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2024.0,Food,Labrador tea,Radium-226,6.448 Bq/kg fresh weight,869.8 Bq/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2024.0,Food,Labrador tea,Thorium-230,<0.248 Bq/kg fresh weight,1159.7 Bq/kg fresh weight
+Cigar Lake Operation,CL07,CL07-F05,58.141,-104.446,2024.0,Food,Labrador tea,Lead-210,7.936 Bq/kg fresh weight,352.9 Bq/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2024.0,Food,Blueberries (wild),Arsenic,<0.008 µg/g fresh weight,0.8 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2024.0,Food,Blueberries (wild),Copper,0.48 µg/g fresh weight,49 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2024.0,Food,Blueberries (wild),Lead,0.008 µg/g fresh weight,0.8 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2024.0,Food,Blueberries (wild),Molybdenum,0.016 µg/g fresh weight,1 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2024.0,Food,Blueberries (wild),Nickel,0.072 µg/g fresh weight,4.9 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2024.0,Food,Blueberries (wild),Selenium,<0.008 µg/g fresh weight,2.8 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2024.0,Food,Blueberries (wild),Uranium,0.0016 µg/g fresh weight,0.3 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2024.0,Food,Blueberries (wild),Zinc,0.832 µg/g fresh weight,214 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2024.0,Food,Blueberries (wild),Polonium-210,0.096 Bq/kg fresh weight,12.4 Bq/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2024.0,Food,Blueberries (wild),Radium-226,0.272 Bq/kg fresh weight,40.2 Bq/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2024.0,Food,Blueberries (wild),Thorium-230,<0.08 Bq/kg fresh weight,133.9 Bq/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F04,58.053,-104.399,2024.0,Food,Blueberries (wild),Lead-210,0.16 Bq/kg fresh weight,16.9 Bq/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2024.0,Food,Labrador tea,Arsenic,<0.0245 µg/g fresh weight,11.6 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2024.0,Food,Labrador tea,Copper,1.617 µg/g fresh weight,883.6 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2024.0,Food,Labrador tea,Lead,0.0392 µg/g fresh weight,11.4 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2024.0,Food,Labrador tea,Molybdenum,<0.049 µg/g fresh weight,17.7 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2024.0,Food,Labrador tea,Nickel,0.1568 µg/g fresh weight,69.4 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2024.0,Food,Labrador tea,Selenium,<0.0245 µg/g fresh weight,36 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2024.0,Food,Labrador tea,Uranium,0.0049 µg/g fresh weight,3.8 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2024.0,Food,Labrador tea,Zinc,7.84 µg/g fresh weight,3597.3 µg/g fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2024.0,Food,Labrador tea,Polonium-210,3.92 Bq/kg fresh weight,202.9 Bq/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2024.0,Food,Labrador tea,Radium-226,4.214 Bq/kg fresh weight,869.8 Bq/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2024.0,Food,Labrador tea,Thorium-230,<0.245 Bq/kg fresh weight,1159.7 Bq/kg fresh weight
+Cigar Lake Operation,CL08,CL08-F05,58.053,-104.399,2024.0,Food,Labrador tea,Lead-210,6.37 Bq/kg fresh weight,352.9 Bq/kg fresh weight
+Cigar Lake Operation,CL09,CL09-F03A,58.130953,-104.414661,2024.0,Food,Fish - Trout,Arsenic,0.02 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03A,58.130953,-104.414661,2024.0,Food,Fish - Trout,Copper,0.22 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03A,58.130953,-104.414661,2024.0,Food,Fish - Trout,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03A,58.130953,-104.414661,2024.0,Food,Fish - Trout,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03A,58.130953,-104.414661,2024.0,Food,Fish - Trout,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03A,58.130953,-104.414661,2024.0,Food,Fish - Trout,Selenium,0.18 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03A,58.130953,-104.414661,2024.0,Food,Fish - Trout,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03A,58.130953,-104.414661,2024.0,Food,Fish - Trout,Zinc,3.9 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03A,58.130953,-104.414661,2024.0,Food,Fish - Trout,Polonium-210,<0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL09,CL09-F03A,58.130953,-104.414661,2024.0,Food,Fish - Trout,Radium-226,<0.09 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL09,CL09-F03A,58.130953,-104.414661,2024.0,Food,Fish - Trout,Thorium-230,<0.2 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL09,CL09-F03A,58.130953,-104.414661,2024.0,Food,Fish - Trout,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL09,CL09-F03B,58.130953,-104.414661,2024.0,Food,Fish - Trout,Arsenic,0.02 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03B,58.130953,-104.414661,2024.0,Food,Fish - Trout,Copper,0.28 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03B,58.130953,-104.414661,2024.0,Food,Fish - Trout,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03B,58.130953,-104.414661,2024.0,Food,Fish - Trout,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03B,58.130953,-104.414661,2024.0,Food,Fish - Trout,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03B,58.130953,-104.414661,2024.0,Food,Fish - Trout,Selenium,0.17 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03B,58.130953,-104.414661,2024.0,Food,Fish - Trout,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03B,58.130953,-104.414661,2024.0,Food,Fish - Trout,Zinc,3.9 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03B,58.130953,-104.414661,2024.0,Food,Fish - Trout,Polonium-210,<0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL09,CL09-F03B,58.130953,-104.414661,2024.0,Food,Fish - Trout,Radium-226,<0.07 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL09,CL09-F03B,58.130953,-104.414661,2024.0,Food,Fish - Trout,Thorium-230,<0.1 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL09,CL09-F03B,58.130953,-104.414661,2024.0,Food,Fish - Trout,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL09,CL09-F03C,58.130953,-104.414661,2024.0,Food,Fish - Trout,Arsenic,0.02 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03C,58.130953,-104.414661,2024.0,Food,Fish - Trout,Copper,0.21 µg/g fresh weight,5.32 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03C,58.130953,-104.414661,2024.0,Food,Fish - Trout,Lead,<0.002 µg/g fresh weight,0.07 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03C,58.130953,-104.414661,2024.0,Food,Fish - Trout,Molybdenum,<0.02 µg/g fresh weight,0.11 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03C,58.130953,-104.414661,2024.0,Food,Fish - Trout,Nickel,<0.01 µg/g fresh weight,0.42 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03C,58.130953,-104.414661,2024.0,Food,Fish - Trout,Selenium,0.15 µg/g fresh weight,0.22 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03C,58.130953,-104.414661,2024.0,Food,Fish - Trout,Uranium,<0.001 µg/g fresh weight,0.02 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03C,58.130953,-104.414661,2024.0,Food,Fish - Trout,Zinc,2.1 µg/g fresh weight,21.65 µg/g fresh weight
+Cigar Lake Operation,CL09,CL09-F03C,58.130953,-104.414661,2024.0,Food,Fish - Trout,Polonium-210,<0.2 Bq/kg fresh weight,1.22 Bq/kg fresh weight
+Cigar Lake Operation,CL09,CL09-F03C,58.130953,-104.414661,2024.0,Food,Fish - Trout,Radium-226,<0.09 Bq/kg fresh weight,5.24 Bq/kg fresh weight
+Cigar Lake Operation,CL09,CL09-F03C,58.130953,-104.414661,2024.0,Food,Fish - Trout,Thorium-230,<0.2 Bq/kg fresh weight,6.98 Bq/kg fresh weight
+Cigar Lake Operation,CL09,CL09-F03C,58.130953,-104.414661,2024.0,Food,Fish - Trout,Lead-210,<1 Bq/kg fresh weight,2.12 Bq/kg fresh weight
+Cigar Lake Operation,CL10,CL10-F04,58.077931,-104.545082,2024.0,Food,Blueberries (wild),Arsenic,<0.0083 µg/g fresh weight,0.8 µg/g fresh weight
+Cigar Lake Operation,CL10,CL10-F04,58.077931,-104.545082,2024.0,Food,Blueberries (wild),Copper,0.332 µg/g fresh weight,49 µg/g fresh weight
+Cigar Lake Operation,CL10,CL10-F04,58.077931,-104.545082,2024.0,Food,Blueberries (wild),Lead,0.00332 µg/g fresh weight,0.8 µg/g fresh weight
+Cigar Lake Operation,CL10,CL10-F04,58.077931,-104.545082,2024.0,Food,Blueberries (wild),Molybdenum,0.0332 µg/g fresh weight,1 µg/g fresh weight
+Cigar Lake Operation,CL10,CL10-F04,58.077931,-104.545082,2024.0,Food,Blueberries (wild),Nickel,0.07304 µg/g fresh weight,4.9 µg/g fresh weight
+Cigar Lake Operation,CL10,CL10-F04,58.077931,-104.545082,2024.0,Food,Blueberries (wild),Selenium,<0.0083 µg/g fresh weight,2.8 µg/g fresh weight
+Cigar Lake Operation,CL10,CL10-F04,58.077931,-104.545082,2024.0,Food,Blueberries (wild),Uranium,<0.00166 µg/g fresh weight,0.3 µg/g fresh weight
+Cigar Lake Operation,CL10,CL10-F04,58.077931,-104.545082,2024.0,Food,Blueberries (wild),Zinc,0.8632 µg/g fresh weight,214 µg/g fresh weight
+Cigar Lake Operation,CL10,CL10-F04,58.077931,-104.545082,2024.0,Food,Blueberries (wild),Polonium-210,0.249 Bq/kg fresh weight,12.4 Bq/kg fresh weight
+Cigar Lake Operation,CL10,CL10-F04,58.077931,-104.545082,2024.0,Food,Blueberries (wild),Radium-226,0.2158 Bq/kg fresh weight,40.2 Bq/kg fresh weight
+Cigar Lake Operation,CL10,CL10-F04,58.077931,-104.545082,2024.0,Food,Blueberries (wild),Thorium-230,<0.083 Bq/kg fresh weight,133.9 Bq/kg fresh weight
+Cigar Lake Operation,CL10,CL10-F04,58.077931,-104.545082,2024.0,Food,Blueberries (wild),Lead-210,0.332 Bq/kg fresh weight,16.9 Bq/kg fresh weight
+Cigar Lake Operation,CL11,CL11-F04,58.073316,-104.543635,2024.0,Food,Blueberries (wild),Arsenic,<0.008 µg/g fresh weight,0.8 µg/g fresh weight
+Cigar Lake Operation,CL11,CL11-F04,58.073316,-104.543635,2024.0,Food,Blueberries (wild),Copper,0.304 µg/g fresh weight,49 µg/g fresh weight
+Cigar Lake Operation,CL11,CL11-F04,58.073316,-104.543635,2024.0,Food,Blueberries (wild),Lead,0.0048 µg/g fresh weight,0.8 µg/g fresh weight
+Cigar Lake Operation,CL11,CL11-F04,58.073316,-104.543635,2024.0,Food,Blueberries (wild),Molybdenum,0.048 µg/g fresh weight,1 µg/g fresh weight
+Cigar Lake Operation,CL11,CL11-F04,58.073316,-104.543635,2024.0,Food,Blueberries (wild),Nickel,0.0608 µg/g fresh weight,4.9 µg/g fresh weight
+Cigar Lake Operation,CL11,CL11-F04,58.073316,-104.543635,2024.0,Food,Blueberries (wild),Selenium,<0.008 µg/g fresh weight,2.8 µg/g fresh weight
+Cigar Lake Operation,CL11,CL11-F04,58.073316,-104.543635,2024.0,Food,Blueberries (wild),Uranium,<0.0016 µg/g fresh weight,0.3 µg/g fresh weight
+Cigar Lake Operation,CL11,CL11-F04,58.073316,-104.543635,2024.0,Food,Blueberries (wild),Zinc,0.816 µg/g fresh weight,214 µg/g fresh weight
+Cigar Lake Operation,CL11,CL11-F04,58.073316,-104.543635,2024.0,Food,Blueberries (wild),Polonium-210,0.208 Bq/kg fresh weight,12.4 Bq/kg fresh weight
+Cigar Lake Operation,CL11,CL11-F04,58.073316,-104.543635,2024.0,Food,Blueberries (wild),Radium-226,0.144 Bq/kg fresh weight,40.2 Bq/kg fresh weight
+Cigar Lake Operation,CL11,CL11-F04,58.073316,-104.543635,2024.0,Food,Blueberries (wild),Thorium-230,<0.08 Bq/kg fresh weight,133.9 Bq/kg fresh weight
+Cigar Lake Operation,CL11,CL11-F04,58.073316,-104.543635,2024.0,Food,Blueberries (wild),Lead-210,0.48 Bq/kg fresh weight,16.9 Bq/kg fresh weight
+Cigar Lake Operation,CL12,CL12-F04,58.066356,-104.553295,2024.0,Food,Blueberries (wild),Arsenic,<0.0081 µg/g fresh weight,0.8 µg/g fresh weight
+Cigar Lake Operation,CL12,CL12-F04,58.066356,-104.553295,2024.0,Food,Blueberries (wild),Copper,0.3564 µg/g fresh weight,49 µg/g fresh weight
+Cigar Lake Operation,CL12,CL12-F04,58.066356,-104.553295,2024.0,Food,Blueberries (wild),Lead,0.00324 µg/g fresh weight,0.8 µg/g fresh weight
+Cigar Lake Operation,CL12,CL12-F04,58.066356,-104.553295,2024.0,Food,Blueberries (wild),Molybdenum,0.0324 µg/g fresh weight,1 µg/g fresh weight
+Cigar Lake Operation,CL12,CL12-F04,58.066356,-104.553295,2024.0,Food,Blueberries (wild),Nickel,0.06804 µg/g fresh weight,4.9 µg/g fresh weight
+Cigar Lake Operation,CL12,CL12-F04,58.066356,-104.553295,2024.0,Food,Blueberries (wild),Selenium,<0.0081 µg/g fresh weight,2.8 µg/g fresh weight
+Cigar Lake Operation,CL12,CL12-F04,58.066356,-104.553295,2024.0,Food,Blueberries (wild),Uranium,<0.00162 µg/g fresh weight,0.3 µg/g fresh weight
+Cigar Lake Operation,CL12,CL12-F04,58.066356,-104.553295,2024.0,Food,Blueberries (wild),Zinc,0.9234 µg/g fresh weight,214 µg/g fresh weight
+Cigar Lake Operation,CL12,CL12-F04,58.066356,-104.553295,2024.0,Food,Blueberries (wild),Polonium-210,0.2106 Bq/kg fresh weight,12.4 Bq/kg fresh weight
+Cigar Lake Operation,CL12,CL12-F04,58.066356,-104.553295,2024.0,Food,Blueberries (wild),Radium-226,0.1944 Bq/kg fresh weight,40.2 Bq/kg fresh weight
+Cigar Lake Operation,CL12,CL12-F04,58.066356,-104.553295,2024.0,Food,Blueberries (wild),Thorium-230,<0.081 Bq/kg fresh weight,133.9 Bq/kg fresh weight
+Cigar Lake Operation,CL12,CL12-F04,58.066356,-104.553295,2024.0,Food,Blueberries (wild),Lead-210,<0.162 Bq/kg fresh weight,16.9 Bq/kg fresh weight

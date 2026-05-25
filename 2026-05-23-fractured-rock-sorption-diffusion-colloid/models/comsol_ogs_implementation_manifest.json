@@ -1,0 +1,30 @@
+{
+  "mesh": "2D fracture plus perpendicular 1D matrix columns, or 3D discrete-fracture network with dual-continuum matrix zones",
+  "primary_unknowns": [
+    "hydraulic_head",
+    "aqueous_concentration_i",
+    "matrix_concentration_i",
+    "colloid_concentration",
+    "colloid_bound_radionuclide_i"
+  ],
+  "boundary_conditions": [
+    "source pulse at engineered-barrier interface",
+    "advective outlet",
+    "no-flux symmetry in matrix far boundary or finite matrix depth",
+    "specified groundwater chemistry zones"
+  ],
+  "calibration_targets": [
+    "conservative tracer breakthrough",
+    "sorbing tracer breakthrough",
+    "colloid recovery",
+    "desorption tailing",
+    "matrix diffusion profiles"
+  ],
+  "verification_tests": [
+    "mass conservation",
+    "analytical 1D advection-dispersion comparison",
+    "matrix diffusion semi-infinite solution",
+    "Kd retardation benchmark",
+    "colloid filtration first-order benchmark"
+  ]
+}

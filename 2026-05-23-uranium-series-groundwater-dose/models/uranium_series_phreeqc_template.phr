@@ -1,0 +1,40 @@
+TITLE U-Ra-Rn-Po-Pb decay-series groundwater conceptual PHREEQC template
+# This is a conceptual input deck. It requires site-specific groundwater chemistry,
+# thermodynamic database choices, and validated sorption/solid-solution parameters
+# before quantitative use.
+
+SOLUTION 1 Oxic carbonate uranium-bearing groundwater
+    temp      10
+    pH        7.5
+    pe        6
+    units     mg/L
+    Ca        30
+    Mg        10
+    Na        20
+    K         2
+    S(6)      20 as SO4
+    C(4)      150 as HCO3
+    U         0.02
+    Ba        0.05
+    Sr        0.2
+
+EQUILIBRIUM_PHASES 1
+    Barite    0 0
+    Celestite 0 0
+    Calcite   0 0
+    Ferrihydrite 0 0
+
+# Representative reactions to be parameterized:
+# UO2+2 + 3CO3-2 = UO2(CO3)3-4
+# Ca+2 + UO2(CO3)3-4 = CaUO2(CO3)3-2
+# Ra+2 + SO4-2 = RaSO4(aq or solid-solution proxy)
+# X-Na + Ra+2 exchange requires EXCHANGE block and selectivity constants.
+# Pb/Po sorption requires SURFACE blocks for Fe/Mn oxides and organic matter.
+
+SELECTED_OUTPUT
+    -file selected_u_ra_pb_po.out
+    -pH true
+    -pe true
+    -totals U Ba Sr S(6) C(4)
+    -si Barite Celestite Calcite
+END

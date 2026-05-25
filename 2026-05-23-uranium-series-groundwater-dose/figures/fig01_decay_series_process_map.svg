@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40.0" y="40.0" font-size="20" font-family="Arial, sans-serif" fill="#102030" text-anchor="start" font-weight="700">U-238 衰变链地下水迁移控制图</text>
+<rect x="60" y="120" width="96" height="74" rx="7" fill="#f5f8fb" stroke="#46627f" stroke-width="1.2"/>
+<text x="108.0" y="144.0" font-size="18" font-family="Arial, sans-serif" fill="#102030" text-anchor="middle" font-weight="700">238U</text>
+<text x="108.0" y="163.0" font-size="11" font-family="Arial, sans-serif" fill="#4d5b66" text-anchor="middle" font-weight="400">4.468e9 y</text>
+<text x="108.0" y="179.0" font-size="10" font-family="Arial, sans-serif" fill="#394b59" text-anchor="middle" font-weight="400">U(VI)/U(IV)</text>
+<text x="108.0" y="192.0" font-size="10" font-family="Arial, sans-serif" fill="#394b59" text-anchor="middle" font-weight="400">carbonate/redox</text>
+<line x1="156" y1="157" x2="190" y2="157" stroke="#8c3f2b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="190" y="120" width="96" height="74" rx="7" fill="#f5f8fb" stroke="#46627f" stroke-width="1.2"/>
+<text x="238.0" y="144.0" font-size="18" font-family="Arial, sans-serif" fill="#102030" text-anchor="middle" font-weight="700">234U</text>
+<text x="238.0" y="163.0" font-size="11" font-family="Arial, sans-serif" fill="#4d5b66" text-anchor="middle" font-weight="400">2.455e5 y</text>
+<text x="238.0" y="179.0" font-size="10" font-family="Arial, sans-serif" fill="#394b59" text-anchor="middle" font-weight="400">recoil disequilibrium</text>
+<line x1="286" y1="157" x2="320" y2="157" stroke="#8c3f2b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="320" y="120" width="96" height="74" rx="7" fill="#f5f8fb" stroke="#46627f" stroke-width="1.2"/>
+<text x="368.0" y="144.0" font-size="18" font-family="Arial, sans-serif" fill="#102030" text-anchor="middle" font-weight="700">230Th</text>
+<text x="368.0" y="163.0" font-size="11" font-family="Arial, sans-serif" fill="#4d5b66" text-anchor="middle" font-weight="400">7.54e4 y</text>
+<text x="368.0" y="179.0" font-size="10" font-family="Arial, sans-serif" fill="#394b59" text-anchor="middle" font-weight="400">particle reactive</text>
+<line x1="416" y1="157" x2="450" y2="157" stroke="#8c3f2b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="450" y="120" width="96" height="74" rx="7" fill="#f5f8fb" stroke="#46627f" stroke-width="1.2"/>
+<text x="498.0" y="144.0" font-size="18" font-family="Arial, sans-serif" fill="#102030" text-anchor="middle" font-weight="700">226Ra</text>
+<text x="498.0" y="163.0" font-size="11" font-family="Arial, sans-serif" fill="#4d5b66" text-anchor="middle" font-weight="400">1600 y</text>
+<text x="498.0" y="179.0" font-size="10" font-family="Arial, sans-serif" fill="#394b59" text-anchor="middle" font-weight="400">Ba/Sr/SO4</text>
+<text x="498.0" y="192.0" font-size="10" font-family="Arial, sans-serif" fill="#394b59" text-anchor="middle" font-weight="400">ion exchange</text>
+<line x1="546" y1="157" x2="580" y2="157" stroke="#8c3f2b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="580" y="120" width="96" height="74" rx="7" fill="#f5f8fb" stroke="#46627f" stroke-width="1.2"/>
+<text x="628.0" y="144.0" font-size="18" font-family="Arial, sans-serif" fill="#102030" text-anchor="middle" font-weight="700">222Rn</text>
+<text x="628.0" y="163.0" font-size="11" font-family="Arial, sans-serif" fill="#4d5b66" text-anchor="middle" font-weight="400">3.82 d</text>
+<text x="628.0" y="179.0" font-size="10" font-family="Arial, sans-serif" fill="#394b59" text-anchor="middle" font-weight="400">fracture gas</text>
+<text x="628.0" y="192.0" font-size="10" font-family="Arial, sans-serif" fill="#394b59" text-anchor="middle" font-weight="400">residence time</text>
+<line x1="676" y1="157" x2="710" y2="157" stroke="#8c3f2b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="710" y="120" width="96" height="74" rx="7" fill="#f5f8fb" stroke="#46627f" stroke-width="1.2"/>
+<text x="758.0" y="144.0" font-size="18" font-family="Arial, sans-serif" fill="#102030" text-anchor="middle" font-weight="700">210Pb</text>
+<text x="758.0" y="163.0" font-size="11" font-family="Arial, sans-serif" fill="#4d5b66" text-anchor="middle" font-weight="400">22.2 y</text>
+<text x="758.0" y="179.0" font-size="10" font-family="Arial, sans-serif" fill="#394b59" text-anchor="middle" font-weight="400">Fe/Mn oxides</text>
+<text x="758.0" y="192.0" font-size="10" font-family="Arial, sans-serif" fill="#394b59" text-anchor="middle" font-weight="400">scale/colloid</text>
+<line x1="806" y1="157" x2="840" y2="157" stroke="#8c3f2b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="840" y="120" width="96" height="74" rx="7" fill="#f5f8fb" stroke="#46627f" stroke-width="1.2"/>
+<text x="888.0" y="144.0" font-size="18" font-family="Arial, sans-serif" fill="#102030" text-anchor="middle" font-weight="700">210Po</text>
+<text x="888.0" y="163.0" font-size="11" font-family="Arial, sans-serif" fill="#4d5b66" text-anchor="middle" font-weight="400">138.3 d</text>
+<text x="888.0" y="179.0" font-size="10" font-family="Arial, sans-serif" fill="#394b59" text-anchor="middle" font-weight="400">organic/sulfide</text>
+<text x="888.0" y="192.0" font-size="10" font-family="Arial, sans-serif" fill="#394b59" text-anchor="middle" font-weight="400">biota hotspot</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#8c3f2b"/></marker></defs>
+<text x="80.0" y="245.0" font-size="14" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">关键推论：同一衰变链中的核素具有不同化学形态；因此活度平衡、迁移性与剂量贡献不会自动随总 U 同步变化。</text>
+<text x="80.0" y="278.0" font-size="14" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">模型入口：Bateman 生成项 + 水化学反应项 + 裂隙迁移/滞留项 + 摄入/吸入剂量项。</text>
+</svg>

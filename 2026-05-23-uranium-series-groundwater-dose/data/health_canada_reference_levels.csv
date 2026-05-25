@@ -1,0 +1,9 @@
+analyte,value,unit,basis,source
+Gross alpha,0.5,Bq/L,initial screening criterion,HealthCanada2025_Radiological_DWQ
+Gross beta,1.0,Bq/L,initial screening criterion,HealthCanada2025_Radiological_DWQ
+Lead-210,2.0,Bq/L,MAC from 1 mSv/y reference dose,HealthCanada2025_Radiological_DWQ
+Radium-226,5.0,Bq/L,MAC from 1 mSv/y reference dose,HealthCanada2025_Radiological_DWQ
+Radium-228,2.0,Bq/L,MAC from 1 mSv/y reference dose,HealthCanada2025_Radiological_DWQ
+Polonium-210,1.0,Bq/L,Appendix C reference concentration from 1 mSv/y,HealthCanada2025_Radiological_DWQ
+Radon-222,2000.0,Bq/L,Appendix C reference concentration; inhalation from indoor air remains primary management pathway,HealthCanada2025_Radiological_DWQ
+Total natural uranium,20.0,ug/L,MAC based primarily on chemical toxicity,HealthCanada2019_Uranium_DWQ

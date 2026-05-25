@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="460" viewBox="0 0 980 460">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="35.0" y="36.0" font-size="19" font-family="Arial, sans-serif" fill="#102030" text-anchor="start" font-weight="700">CNSC Cigar Lake IEMP 水样：保守上限 / IEMP 筛选值</text>
+<line x1="220" y1="375" x2="840" y2="375" stroke="#333"/>
+<line x1="220.0" y1="85" x2="220.0" y2="375" stroke="#e4e7ea"/>
+<text x="220.0" y="399.0" font-size="11" font-family="Arial, sans-serif" fill="#555" text-anchor="middle" font-weight="400">0.001</text>
+<line x1="426.7" y1="85" x2="426.7" y2="375" stroke="#e4e7ea"/>
+<text x="426.7" y="399.0" font-size="11" font-family="Arial, sans-serif" fill="#555" text-anchor="middle" font-weight="400">0.01</text>
+<line x1="633.3" y1="85" x2="633.3" y2="375" stroke="#e4e7ea"/>
+<text x="633.3" y="399.0" font-size="11" font-family="Arial, sans-serif" fill="#555" text-anchor="middle" font-weight="400">0.1</text>
+<line x1="840.0" y1="85" x2="840.0" y2="375" stroke="#e4e7ea"/>
+<text x="840.0" y="399.0" font-size="11" font-family="Arial, sans-serif" fill="#555" text-anchor="middle" font-weight="400">1</text>
+<line x1="840" y1="85" x2="840" y2="375" stroke="#9b3f4e" stroke-dasharray="6 5"/>
+<text x="206.0" y="130.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">Lead-210</text>
+<rect x="220" y="110" width="413.3" height="28" fill="#2f6f73"/>
+<text x="641.3" y="130.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">0.1</text>
+<text x="206.0" y="180.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">Polonium-210</text>
+<rect x="220" y="160" width="475.5" height="28" fill="#7b4f9f"/>
+<text x="703.5" y="180.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">0.2</text>
+<text x="206.0" y="230.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">Radium-226</text>
+<rect x="220" y="210" width="206.7" height="28" fill="#b96f36"/>
+<text x="434.7" y="230.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">0.01</text>
+<text x="206.0" y="280.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">Thorium-230</text>
+<rect x="220" y="260" width="252.5" height="28" fill="#4b79a8"/>
+<text x="480.5" y="280.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">0.01667</text>
+<text x="206.0" y="330.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="end" font-weight="400">Uranium</text>
+<rect x="220" y="310" width="170.3" height="28" fill="#9b3f4e"/>
+<text x="398.3" y="330.0" font-size="12" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">0.006667</text>
+<text x="220.0" y="430.0" font-size="12" font-family="Arial, sans-serif" fill="#445" text-anchor="start" font-weight="400">左删失处理：上限比值使用检出限本身；均值另用 0.5*检出限。所有图示水样指标低于 IEMP 筛选值。</text>
+</svg>

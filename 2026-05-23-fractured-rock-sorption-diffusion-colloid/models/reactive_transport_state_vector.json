@@ -1,0 +1,53 @@
+{
+  "title": "fracture-sorption-matrix-diffusion-colloid conceptual model",
+  "coupling_level": "HC with optional THC/THMC extensions",
+  "state_variables": {
+    "mobile_fracture": [
+      "C_dissolved_i",
+      "C_colloid_particle",
+      "C_colloid_bound_i",
+      "pH",
+      "Eh_or_pe",
+      "ionic_strength",
+      "carbonate",
+      "sulfate",
+      "chloride",
+      "DOC"
+    ],
+    "fracture_surface": [
+      "S_mineral_i",
+      "site_density_biotite",
+      "site_density_chlorite",
+      "site_density_hematite",
+      "site_density_magnetite",
+      "site_density_calcite",
+      "site_density_clay",
+      "site_density_FeMn_oxide"
+    ],
+    "rock_matrix": [
+      "C_matrix_i(z)",
+      "theta_m",
+      "D_e_i",
+      "Kd_i",
+      "porosity_accessible_depth"
+    ],
+    "colloid": [
+      "particle_size_distribution",
+      "zeta_potential",
+      "attachment_rate",
+      "detachment_rate",
+      "irreversible_filtration_rate",
+      "radionuclide_desorption_rate"
+    ]
+  },
+  "governing_processes": [
+    "advection_dispersion",
+    "surface_complexation_or_Kd",
+    "matrix_diffusion",
+    "radioactive_decay",
+    "redox_speciation",
+    "colloid_attachment_detachment_filtration",
+    "colloid_radionuclide_desorption"
+  ],
+  "source_status": "parameterized from public reports; no site-specific calibration or safety-case execution"
+}

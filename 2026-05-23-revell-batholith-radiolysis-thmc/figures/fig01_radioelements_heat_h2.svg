@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="620" viewBox="0 0 1180 620">
+  <rect width="1180" height="620" fill="#ffffff"/>
+  <text x="36" y="42" font-size="24" font-weight="700" fill="#172033">Revell U-Th-K heat production and calibrated H2 source</text>
+  <line x1="95" y1="456" x2="1075" y2="456" stroke="#334155" stroke-width="1.5"/>
+  <line x1="95" y1="96" x2="95" y2="456" stroke="#334155" stroke-width="1.5"/>
+  <text x="95" y="528" font-size="15" fill="#475569">Heat production bars use public U-Th-K data; H2 line uses Higgins Revell calibration.</text>
+  <line x1="89" y1="456.0" x2="1075" y2="456.0" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="34" y="461.0" font-size="12" fill="#475569">0.00</text>
+  <line x1="89" y1="366.0" x2="1075" y2="366.0" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="34" y="371.0" font-size="12" fill="#475569">0.45</text>
+  <line x1="89" y1="276.0" x2="1075" y2="276.0" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="34" y="281.0" font-size="12" fill="#475569">0.90</text>
+  <line x1="89" y1="186.0" x2="1075" y2="186.0" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="34" y="191.0" font-size="12" fill="#475569">1.35</text>
+  <line x1="89" y1="96.0" x2="1075" y2="96.0" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="34" y="101.0" font-size="12" fill="#475569">1.80</text>
+  <rect x="163.6" y="242.46761002206932" width="58.8" height="213.53238997793068" fill="#2563eb" opacity="0.82"/>
+  <text x="193.0" y="478" text-anchor="middle" font-size="12" fill="#172033">Granodiorite</text>
+  <text x="193.0" y="234.46761002206932" text-anchor="middle" font-size="12" fill="#1e3a8a">1.07</text>
+  <rect x="359.6" y="278.8508373361028" width="58.8" height="177.1491626638972" fill="#2563eb" opacity="0.82"/>
+  <text x="389.0" y="478" text-anchor="middle" font-size="12" fill="#172033">Tonalite</text>
+  <text x="389.0" y="270.8508373361028" text-anchor="middle" font-size="12" fill="#1e3a8a">0.89</text>
+  <rect x="555.6" y="96.00000000000006" width="58.8" height="359.99999999999994" fill="#2563eb" opacity="0.82"/>
+  <text x="585.0" y="478" text-anchor="middle" font-size="12" fill="#172033">Granite</text>
+  <text x="585.0" y="88.00000000000006" text-anchor="middle" font-size="12" fill="#1e3a8a">1.80</text>
+  <rect x="751.6" y="334.67796490151414" width="58.8" height="121.32203509848584" fill="#2563eb" opacity="0.82"/>
+  <text x="781.0" y="478" text-anchor="middle" font-size="12" fill="#172033">Diorite-quartz diorite</text>
+  <text x="781.0" y="326.67796490151414" text-anchor="middle" font-size="12" fill="#1e3a8a">0.61</text>
+  <rect x="947.6" y="241.0275335465521" width="58.8" height="214.9724664534479" fill="#2563eb" opacity="0.82"/>
+  <text x="977.0" y="478" text-anchor="middle" font-size="12" fill="#172033">Borehole mean</text>
+  <text x="977.0" y="233.0275335465521" text-anchor="middle" font-size="12" fill="#1e3a8a">1.08</text>
+  <polyline points="193.0,242.5 389.0,278.9 585.0,96.0 781.0,334.7 977.0,241.0" fill="none" stroke="#b45309" stroke-width="3"/>
+  <circle cx="193.0" cy="242.46761002206932" r="5" fill="#f59e0b" stroke="#92400e" stroke-width="1"/>
+  <circle cx="389.0" cy="278.8508373361028" r="5" fill="#f59e0b" stroke="#92400e" stroke-width="1"/>
+  <circle cx="585.0" cy="96.0" r="5" fill="#f59e0b" stroke="#92400e" stroke-width="1"/>
+  <circle cx="781.0" cy="334.67796490151414" r="5" fill="#f59e0b" stroke="#92400e" stroke-width="1"/>
+  <circle cx="977.0" cy="241.02753354655212" r="5" fill="#f59e0b" stroke="#92400e" stroke-width="1"/>
+  <rect x="820" y="74" width="320" height="64" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <rect x="840" y="94" width="24" height="12" fill="#2563eb" opacity="0.82"/>
+  <text x="874" y="105" font-size="13" fill="#172033">Heat production, microW m-3</text>
+  <line x1="840" y1="122" x2="864" y2="122" stroke="#b45309" stroke-width="3"/>
+  <text x="874" y="126" font-size="13" fill="#172033">Calibrated H2, nmol m-3 yr-1</text>
+</svg>

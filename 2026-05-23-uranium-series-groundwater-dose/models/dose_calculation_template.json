@@ -1,0 +1,27 @@
+{
+  "drinking_water_ingestion": {
+    "equation": "D_ing = sum_i C_i * I * e_i",
+    "units": {
+      "C_i": "Bq/L",
+      "I": "L/y",
+      "e_i": "Sv/Bq",
+      "D_ing": "Sv/y"
+    },
+    "health_canada_reference": {
+      "I_L_per_day": 1.53,
+      "reference_dose_mSv_per_y": 1.0
+    },
+    "swedish_well_study": {
+      "I_L_per_y": 730,
+      "ID_unit": "uSv/y"
+    }
+  },
+  "screening_index": {
+    "equation": "SI = sum_i C_i / MAC_i",
+    "interpretation": "SI <= 1 satisfies the additive Health Canada MAC criterion for listed radionuclides."
+  },
+  "radon_water_to_air": {
+    "equation": "C_air_add = T_wa * C_water, followed by indoor-air radon dose model",
+    "note": "Health Canada recommends measuring radon in air rather than extrapolating from water alone."
+  }
+}

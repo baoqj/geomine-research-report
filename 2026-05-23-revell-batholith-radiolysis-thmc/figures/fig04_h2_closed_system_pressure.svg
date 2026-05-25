@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="585" viewBox="0 0 1180 585">
+  <rect width="1180" height="585" fill="#ffffff"/>
+  <text x="36" y="42" font-size="24" font-weight="700" fill="#172033">Closed-system H2 accumulation screen from host-rock radiolysis</text>
+  <line x1="95" y1="472" x2="1005" y2="472" stroke="#172033"/>
+  <line x1="95" y1="92" x2="95" y2="472" stroke="#172033"/>
+  <line x1="95.0" y1="472" x2="95.0" y2="479" stroke="#172033"/>
+  <text x="95.0" y="500" text-anchor="middle" font-size="12" fill="#475569">1e3</text>
+  <line x1="277.0" y1="472" x2="277.0" y2="479" stroke="#172033"/>
+  <text x="277.0" y="500" text-anchor="middle" font-size="12" fill="#475569">1e4</text>
+  <line x1="459.0" y1="472" x2="459.0" y2="479" stroke="#172033"/>
+  <text x="459.0" y="500" text-anchor="middle" font-size="12" fill="#475569">1e5</text>
+  <line x1="641.0" y1="472" x2="641.0" y2="479" stroke="#172033"/>
+  <text x="641.0" y="500" text-anchor="middle" font-size="12" fill="#475569">1e6</text>
+  <line x1="823.0" y1="472" x2="823.0" y2="479" stroke="#172033"/>
+  <text x="823.0" y="500" text-anchor="middle" font-size="12" fill="#475569">1e7</text>
+  <line x1="1005.0" y1="472" x2="1005.0" y2="479" stroke="#172033"/>
+  <text x="1005.0" y="500" text-anchor="middle" font-size="12" fill="#475569">1e8</text>
+  <line x1="89" y1="472.0" x2="1005" y2="472.0" stroke="#e2e8f0"/>
+  <text x="30" y="477.0" font-size="12" fill="#475569">0.0</text>
+  <line x1="89" y1="377.0" x2="1005" y2="377.0" stroke="#e2e8f0"/>
+  <text x="30" y="382.0" font-size="12" fill="#475569">11.4</text>
+  <line x1="89" y1="282.0" x2="1005" y2="282.0" stroke="#e2e8f0"/>
+  <text x="30" y="287.0" font-size="12" fill="#475569">22.8</text>
+  <line x1="89" y1="187.0" x2="1005" y2="187.0" stroke="#e2e8f0"/>
+  <text x="30" y="192.0" font-size="12" fill="#475569">34.2</text>
+  <line x1="89" y1="92.0" x2="1005" y2="92.0" stroke="#e2e8f0"/>
+  <text x="30" y="97.0" font-size="12" fill="#475569">45.6</text>
+  <polyline points="95.0,472.0 277.0,472.0 459.0,471.6 641.0,468.2 823.0,434.0 1005.0,92.0" fill="none" stroke="#7c2d12" stroke-width="3"/>
+  <polyline points="95.0,472.0 277.0,472.0 459.0,472.0 641.0,471.9 823.0,471.3 1005.0,465.0" fill="none" stroke="#0369a1" stroke-width="3"/>
+  <circle cx="95.0" cy="471.9962" r="4" fill="#ea580c"/>
+  <circle cx="277.0" cy="471.962" r="4" fill="#ea580c"/>
+  <circle cx="459.0" cy="471.62" r="4" fill="#ea580c"/>
+  <circle cx="641.0" cy="468.2" r="4" fill="#ea580c"/>
+  <circle cx="823.0" cy="434.0" r="4" fill="#ea580c"/>
+  <circle cx="1005.0" cy="92.00000000000006" r="4" fill="#ea580c"/>
+  <circle cx="95.0" cy="471.99993022032373" r="4" fill="#0284c7"/>
+  <circle cx="277.0" cy="471.9993022032372" r="4" fill="#0284c7"/>
+  <circle cx="459.0" cy="471.9930220323724" r="4" fill="#0284c7"/>
+  <circle cx="641.0" cy="471.9302203237239" r="4" fill="#0284c7"/>
+  <circle cx="823.0" cy="471.30220323723904" r="4" fill="#0284c7"/>
+  <circle cx="1005.0" cy="465.02203237239024" r="4" fill="#0284c7"/>
+  <rect x="704" y="90" width="390" height="78" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <line x1="728" y1="115" x2="758" y2="115" stroke="#7c2d12" stroke-width="3"/>
+  <text x="770" y="120" font-size="13" fill="#172033">Dissolved-equilibrium P_H2, atm</text>
+  <line x1="728" y1="145" x2="758" y2="145" stroke="#0369a1" stroke-width="3"/>
+  <text x="770" y="150" font-size="13" fill="#172033">Closed gas-volume pressure, bar</text>
+  <text x="96" y="530" font-size="14" fill="#475569">Closed-system screen uses phi_conn=0.45%; real systems also include diffusion, fracture flow, microbial and mineral sinks.</text>
+</svg>

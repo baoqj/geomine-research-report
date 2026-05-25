@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="560" viewBox="0 0 1180 560">
+  <rect width="1180" height="560" fill="#ffffff"/>
+  <text x="36" y="42" font-size="24" font-weight="700" fill="#172033">Safety-relevant reaction pathway map</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker></defs>
+  <line x1="147" y1="138" x2="302" y2="138" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="377" y1="138" x2="532" y2="138" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="607" y1="138" x2="762" y2="138" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="837" y1="138" x2="972" y2="98" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="837" y1="138" x2="972" y2="183" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1047" y1="183" x2="302" y2="333" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="837" y1="138" x2="302" y2="333" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="377" y1="333" x2="532" y2="333" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="607" y1="333" x2="762" y2="333" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="837" y1="138" x2="762" y2="333" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1047" y1="183" x2="762" y2="333" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="72" y="110" width="150" height="56" rx="7" fill="#fef3c7" stroke="#334155" stroke-width="1.3"/>
+  <text x="147" y="134" text-anchor="middle" font-size="13" fill="#172033">U-Th-K minerals</text>
+  <rect x="302" y="110" width="150" height="56" rx="7" fill="#dbeafe" stroke="#334155" stroke-width="1.3"/>
+  <text x="377" y="134" text-anchor="middle" font-size="13" fill="#172033">radiogenic energy</text>
+  <rect x="532" y="110" width="150" height="56" rx="7" fill="#e0f2fe" stroke="#334155" stroke-width="1.3"/>
+  <text x="607" y="134" text-anchor="middle" font-size="13" fill="#172033">water radiolysis</text>
+  <rect x="762" y="110" width="150" height="56" rx="7" fill="#dcfce7" stroke="#334155" stroke-width="1.3"/>
+  <text x="837" y="134" text-anchor="middle" font-size="13" fill="#172033">H2 + oxidants</text>
+  <rect x="972" y="70" width="150" height="56" rx="7" fill="#fef3c7" stroke="#334155" stroke-width="1.3"/>
+  <text x="1047" y="94" text-anchor="middle" font-size="13" fill="#172033">microbial energy</text>
+  <rect x="972" y="155" width="150" height="56" rx="7" fill="#fee2e2" stroke="#334155" stroke-width="1.3"/>
+  <text x="1047" y="179" text-anchor="middle" font-size="13" fill="#172033">sulfate / sulfide</text>
+  <rect x="302" y="305" width="150" height="56" rx="7" fill="#fee2e2" stroke="#334155" stroke-width="1.3"/>
+  <text x="377" y="329" text-anchor="middle" font-size="13" fill="#172033">Cu corrosion</text>
+  <rect x="532" y="305" width="150" height="56" rx="7" fill="#f8fafc" stroke="#334155" stroke-width="1.3"/>
+  <text x="607" y="329" text-anchor="middle" font-size="13" fill="#172033">bentonite</text>
+  <text x="607" y="346" text-anchor="middle" font-size="13" fill="#172033">evolution</text>
+  <rect x="762" y="305" width="150" height="56" rx="7" fill="#ede9fe" stroke="#334155" stroke-width="1.3"/>
+  <text x="837" y="329" text-anchor="middle" font-size="13" fill="#172033">radionuclide</text>
+  <text x="837" y="346" text-anchor="middle" font-size="13" fill="#172033">transport</text>
+  <text x="72" y="505" font-size="14" fill="#475569">The network is a screening map: arrows indicate process coupling, not a validated kinetic model.</text>
+</svg>

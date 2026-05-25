@@ -1,0 +1,16 @@
+species,nuclide_group,sorption_class,redox_sensitivity,colloid_relevance,expected_migration_scenario
+U(IV),U,strong,yes,medium/high for actinides or Cs under favorable colloid stability,strong sorption - matrix/mineral retention unless colloid-bound
+U(VI),U,weak-to-moderate,yes,medium/high for actinides or Cs under favorable colloid stability,redox/speciation-sensitive intermediate mobility
+Ra(II),Ra,weak-to-moderate,limited,low,cation exchange / mineral-specific sorption
+Th(IV),Th,strong,limited,medium/high for actinides or Cs under favorable colloid stability,strong sorption - matrix/mineral retention unless colloid-bound
+Np(IV),Np,strong,yes,medium/high for actinides or Cs under favorable colloid stability,strong sorption - matrix/mineral retention unless colloid-bound
+Np(V),Np,weak-to-moderate,yes,medium/high for actinides or Cs under favorable colloid stability,redox/speciation-sensitive intermediate mobility
+Pu(III),Pu,strong,yes,medium/high for actinides or Cs under favorable colloid stability,strong sorption - matrix/mineral retention unless colloid-bound
+Pu(IV),Pu,strong,yes,medium/high for actinides or Cs under favorable colloid stability,strong sorption - matrix/mineral retention unless colloid-bound
+Am(III),Am,strong,limited,medium/high for actinides or Cs under favorable colloid stability,strong sorption - matrix/mineral retention unless colloid-bound
+I(-I),I-129,weak/non-sorbing,limited,low,weak sorption - high fracture-flow mobility
+Tc(IV),Tc-99,strong,yes,medium/high for actinides or Cs under favorable colloid stability,strong sorption - matrix/mineral retention unless colloid-bound
+Tc(VII),Tc-99,weak/non-sorbing,yes,low,weak sorption - high fracture-flow mobility
+Se(-II/IV/VI),Se-79,weak-to-moderate,yes,low,redox/speciation-sensitive intermediate mobility
+Cs(I),Cs-137,weak-to-moderate,limited,medium/high for actinides or Cs under favorable colloid stability,cation exchange / mineral-specific sorption
+Sr(II),Sr-90,very weak,limited,low,cation exchange / mineral-specific sorption

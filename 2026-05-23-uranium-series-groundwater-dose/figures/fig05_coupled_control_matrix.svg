@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="570" viewBox="0 0 980 570">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="35.0" y="36.0" font-size="19" font-family="Arial, sans-serif" fill="#102030" text-anchor="start" font-weight="700">U-Ra-Rn-Po-Pb 迁移控制矩阵与评价入口</text>
+<rect x="70" y="95" width="190" height="180" rx="7" fill="#f7f9fb" stroke="#4b79a8" stroke-width="2"/>
+<text x="165.0" y="129.0" font-size="22" font-family="Arial, sans-serif" fill="#4b79a8" text-anchor="middle" font-weight="700">U</text>
+<text x="165.0" y="167.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">Eh-pH</text>
+<text x="165.0" y="192.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">碳酸盐</text>
+<text x="165.0" y="217.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">Ca/Mg络合</text>
+<text x="165.0" y="242.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">Fe/Mn吸附</text>
+<line x1="165.0" y1="275" x2="165.0" y2="330" stroke="#4b79a8" stroke-width="2" marker-end="url(#arrow2)"/>
+<rect x="295" y="95" width="190" height="180" rx="7" fill="#f7f9fb" stroke="#2f6f73" stroke-width="2"/>
+<text x="390.0" y="129.0" font-size="22" font-family="Arial, sans-serif" fill="#2f6f73" text-anchor="middle" font-weight="700">Ra</text>
+<text x="390.0" y="167.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">Ba/Sr竞争</text>
+<text x="390.0" y="192.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">SO4/重晶石</text>
+<text x="390.0" y="217.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">离子强度</text>
+<text x="390.0" y="242.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">阳离子交换</text>
+<line x1="390.0" y1="275" x2="390.0" y2="330" stroke="#2f6f73" stroke-width="2" marker-end="url(#arrow2)"/>
+<rect x="520" y="95" width="190" height="180" rx="7" fill="#f7f9fb" stroke="#b96f36" stroke-width="2"/>
+<text x="615.0" y="129.0" font-size="22" font-family="Arial, sans-serif" fill="#b96f36" text-anchor="middle" font-weight="700">Rn</text>
+<text x="615.0" y="167.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">Ra源项</text>
+<text x="615.0" y="192.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">裂隙开度</text>
+<text x="615.0" y="217.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">停留时间</text>
+<text x="615.0" y="242.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">逸散</text>
+<line x1="615.0" y1="275" x2="615.0" y2="330" stroke="#b96f36" stroke-width="2" marker-end="url(#arrow2)"/>
+<rect x="745" y="95" width="190" height="180" rx="7" fill="#f7f9fb" stroke="#7b4f9f" stroke-width="2"/>
+<text x="840.0" y="129.0" font-size="22" font-family="Arial, sans-serif" fill="#7b4f9f" text-anchor="middle" font-weight="700">Pb/Po</text>
+<text x="840.0" y="167.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">Fe/Mn氧化物</text>
+<text x="840.0" y="192.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">有机质/硫化物</text>
+<text x="840.0" y="217.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">胶体/颗粒</text>
+<text x="840.0" y="242.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="middle" font-weight="400">沉积累积</text>
+<line x1="840.0" y1="275" x2="840.0" y2="330" stroke="#7b4f9f" stroke-width="2" marker-end="url(#arrow2)"/>
+<defs><marker id="arrow2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker></defs>
+<rect x="70" y="350" width="190" height="105" rx="7" fill="#fff" stroke="#9aa7b3"/>
+<text x="165.0" y="382.0" font-size="15" font-family="Arial, sans-serif" fill="#102030" text-anchor="middle" font-weight="700">反应地球化学</text>
+<text x="165.0" y="415.0" font-size="11" font-family="Arial, sans-serif" fill="#344" text-anchor="middle" font-weight="400">PHREEQC: 络合、饱和指数、吸附/共沉淀</text>
+<rect x="295" y="350" width="190" height="105" rx="7" fill="#fff" stroke="#9aa7b3"/>
+<text x="390.0" y="382.0" font-size="15" font-family="Arial, sans-serif" fill="#102030" text-anchor="middle" font-weight="700">裂隙迁移</text>
+<text x="390.0" y="415.0" font-size="11" font-family="Arial, sans-serif" fill="#344" text-anchor="middle" font-weight="400">对流-弥散-滞留 + Bateman 生成/衰变</text>
+<rect x="520" y="350" width="190" height="105" rx="7" fill="#fff" stroke="#9aa7b3"/>
+<text x="615.0" y="382.0" font-size="15" font-family="Arial, sans-serif" fill="#102030" text-anchor="middle" font-weight="700">剂量评价</text>
+<text x="615.0" y="415.0" font-size="11" font-family="Arial, sans-serif" fill="#344" text-anchor="middle" font-weight="400">饮水摄入、释氡吸入、食物/沉积累积</text>
+<rect x="745" y="350" width="190" height="105" rx="7" fill="#fff" stroke="#9aa7b3"/>
+<text x="840.0" y="382.0" font-size="15" font-family="Arial, sans-serif" fill="#102030" text-anchor="middle" font-weight="700">不确定性</text>
+<text x="840.0" y="415.0" font-size="11" font-family="Arial, sans-serif" fill="#344" text-anchor="middle" font-weight="400">左删失、季节性、K_d、停留时间、端元混合</text>
+<text x="70.0" y="515.0" font-size="13" font-family="Arial, sans-serif" fill="#223" text-anchor="start" font-weight="400">论文观点：安全评价应把衰变链核素作为耦合系统处理；总 U 只能描述一个源项维度，不能替代 Ra/Rn/Pb/Po 的剂量与迁移评价。</text>
+</svg>

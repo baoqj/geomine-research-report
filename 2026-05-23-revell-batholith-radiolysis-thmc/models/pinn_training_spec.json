@@ -1,0 +1,35 @@
+{
+  "status": "loss-function-specification-only",
+  "inputs": [
+    "x",
+    "y",
+    "z",
+    "t",
+    "lithology",
+    "fracture_indicator"
+  ],
+  "outputs": [
+    "T",
+    "head",
+    "Cl",
+    "SO4",
+    "H2",
+    "pH",
+    "Eh",
+    "radionuclide_concentration"
+  ],
+  "physics_losses": [
+    "heat equation residual",
+    "groundwater flow residual",
+    "reactive-transport residual",
+    "decay-sorption residual",
+    "nonnegative concentration constraint"
+  ],
+  "data_losses": [
+    "borehole temperature",
+    "water chemistry samples",
+    "packer tests",
+    "lab diffusion/sorption tests"
+  ],
+  "warning": "Do not train or claim prediction without measured sample tables and train/test split."
+}

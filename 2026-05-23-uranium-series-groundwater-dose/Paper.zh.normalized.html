@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="GeoMine Research / OpenMiner" />
+  <meta name="dcterms.date" content="2026-05-23" />
+  <title>Paper.zh.normalized</title>
+  <style>
+
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+</style>
+  <style type="text/css">@page {
+size: A4;
+margin: 18mm 16mm;
+}
+body {
+color: #172026;
+font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+"Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif;
+font-size: 10.5pt;
+line-height: 1.65;
+max-width: 920px;
+margin: 0 auto;
+}
+h1, h2, h3, h4 {
+color: #0f2f3d;
+font-weight: 700;
+line-height: 1.25;
+page-break-after: avoid;
+}
+h1 {
+font-size: 24pt;
+margin: 0 0 16pt;
+border-bottom: 2px solid #d7e4ea;
+padding-bottom: 10pt;
+}
+h2 { font-size: 17pt; margin: 24pt 0 9pt; }
+h3 { font-size: 13pt; margin: 18pt 0 7pt; }
+h4 { font-size: 11pt; margin: 14pt 0 6pt; }
+p { margin: 0 0 8pt; }
+a { color: #0b63a3; text-decoration: none; }
+table {
+border-collapse: collapse;
+width: 100%;
+margin: 10pt 0 14pt;
+page-break-inside: auto;
+font-size: 9.2pt;
+}
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; page-break-after: auto; }
+th, td {
+border: 1px solid #b8c7cf;
+padding: 5pt 6pt;
+vertical-align: top;
+overflow-wrap: anywhere;
+}
+th {
+background: #e9f1f4;
+color: #102b36;
+font-weight: 700;
+}
+blockquote {
+margin: 12pt 0;
+padding: 8pt 12pt;
+border-left: 4px solid #8ab4c6;
+background: #f4f8fa;
+}
+code {
+font-family: "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+font-size: 0.92em;
+background: #f3f6f8;
+border-radius: 3px;
+padding: 0.08em 0.25em;
+}
+pre {
+background: #f3f6f8;
+border: 1px solid #d7e0e5;
+border-radius: 6px;
+padding: 9pt;
+overflow-wrap: anywhere;
+white-space: pre-wrap;
+page-break-inside: avoid;
+}
+pre code { background: transparent; padding: 0; }
+ul, ol { padding-left: 20pt; margin: 0 0 9pt; }
+li { margin: 2pt 0; }
+img { max-width: 100%; height: auto; }
+.geomine-mermaid-figure {
+margin: 13pt 0 16pt;
+page-break-inside: avoid;
+text-align: center;
+}
+.geomine-mermaid-figure svg {
+display: block;
+max-width: 100%;
+height: auto;
+margin: 0 auto;
+}
+.geomine-mermaid-caption {
+margin-top: 5pt;
+color: #52616a;
+font-size: 8.8pt;
+text-align: center;
+}
+math[display="block"] {
+display: block math;
+margin: 10pt 0 12pt;
+overflow-x: auto;
+overflow-y: hidden;
+font-size: 10.5pt;
+}
+math[display="inline"] {
+display: inline math;
+margin: 0 0.04em;
+overflow: visible;
+font-size: 1em;
+vertical-align: -0.12em;
+}
+span.math { white-space: nowrap; }
+@media print {
+body { max-width: none; }
+}
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Paper.zh.normalized</h1>
+<p class="subtitle">从衰变链生成、水化学迁移到饮用水和矿区环境风险的耦合分析</p>
+<p class="author">GeoMine Research / OpenMiner</p>
+<p class="date">2026-05-23</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#摘要" id="toc-摘要">摘要</a></li>
+<li><a href="#研究问题与判据" id="toc-研究问题与判据">1.
+研究问题与判据</a></li>
+<li><a href="#数据源采集与可复现性" id="toc-数据源采集与可复现性">2.
+数据源、采集与可复现性</a>
+<ul>
+<li><a href="#公开数据源" id="toc-公开数据源">2.1 公开数据源</a></li>
+<li><a href="#左删失数据处理" id="toc-左删失数据处理">2.2
+左删失数据处理</a></li>
+</ul></li>
+<li><a href="#理论框架与公式推导" id="toc-理论框架与公式推导">3.
+理论框架与公式推导</a>
+<ul>
+<li><a href="#放射性衰变链与非平衡" id="toc-放射性衰变链与非平衡">3.1
+放射性衰变链与非平衡</a></li>
+<li><a href="#铀eh-ph-与碳酸盐络合控制" id="toc-铀eh-ph-与碳酸盐络合控制">3.2 铀：Eh-pH
+与碳酸盐络合控制</a></li>
+<li><a href="#镭basr硫酸盐离子强度与交换位点" id="toc-镭basr硫酸盐离子强度与交换位点">3.3
+镭：Ba/Sr、硫酸盐、离子强度与交换位点</a></li>
+<li><a href="#氡短半衰期气体裂隙与停留时间" id="toc-氡短半衰期气体裂隙与停留时间">3.4
+氡：短半衰期气体、裂隙与停留时间</a></li>
+<li><a href="#pbpo表面反应胶体和长期累积" id="toc-pbpo表面反应胶体和长期累积">3.5
+Pb/Po：表面反应、胶体和长期累积</a></li>
+<li><a href="#剂量公式与筛选指数" id="toc-剂量公式与筛选指数">3.6
+剂量公式与筛选指数</a></li>
+</ul></li>
+<li><a href="#数据分析结果" id="toc-数据分析结果">4. 数据分析结果</a>
+<ul>
+<li><a href="#加拿大饮用水基准" id="toc-加拿大饮用水基准">4.1
+加拿大饮用水基准</a></li>
+<li><a href="#年瑞典井水研究活度高低与剂量排序分离" id="toc-年瑞典井水研究活度高低与剂量排序分离">4.2 2025
+年瑞典井水研究：活度高低与剂量排序分离</a></li>
+<li><a href="#cigar-lake-iemp-公开数据矿区地表水低于筛选值" id="toc-cigar-lake-iemp-公开数据矿区地表水低于筛选值">4.3 Cigar Lake
+IEMP 公开数据：矿区地表水低于筛选值</a></li>
+<li><a href="#popb-的生态介质信号" id="toc-popb-的生态介质信号">4.4
+Po/Pb 的生态介质信号</a></li>
+</ul></li>
+<li><a href="#机制解释为何-urarnpopb-不同步" id="toc-机制解释为何-urarnpopb-不同步">5. 机制解释：为何
+U、Ra、Rn、Po/Pb 不同步</a>
+<ul>
+<li><a href="#u-高不必然-ra-高" id="toc-u-高不必然-ra-高">5.1 U 高不必然
+Ra 高</a></li>
+<li><a href="#ra-高不必然-rn-高rn-高也不必然-u-高" id="toc-ra-高不必然-rn-高rn-高也不必然-u-高">5.2 Ra 高不必然 Rn 高，Rn
+高也不必然 U 高</a></li>
+<li><a href="#popb-适合长期风险和累积风险评价" id="toc-popb-适合长期风险和累积风险评价">5.3 Po/Pb
+适合长期风险和累积风险评价</a></li>
+</ul></li>
+<li><a href="#与预设命题的对齐" id="toc-与预设命题的对齐">6.
+与预设命题的对齐</a></li>
+<li><a href="#面向-phreeqccomsolpinn-的模型框架" id="toc-面向-phreeqccomsolpinn-的模型框架">7. 面向 PHREEQC/COMSOL/PINN
+的模型框架</a>
+<ul>
+<li><a href="#反应网络" id="toc-反应网络">7.1 反应网络</a></li>
+<li><a href="#计算流程" id="toc-计算流程">7.2 计算流程</a></li>
+</ul></li>
+<li><a href="#局限性" id="toc-局限性">8. 局限性</a></li>
+<li><a href="#结论与论文最终观点" id="toc-结论与论文最终观点">9.
+结论与论文最终观点</a></li>
+<li><a href="#数据与文件清单" id="toc-数据与文件清单">数据与文件清单</a></li>
+<li><a href="#参考文献" id="toc-参考文献">参考文献</a></li>
+</ul>
+</nav>
+<h1 id="摘要">摘要</h1>
+<p>铀矿区和富铀地质背景区的地下水风险不能由总铀浓度单独刻画。铀、镭、氡、铅、钋虽属于
+U/Th
+衰变系列，但它们在地下水中的化学形态、源项生成机制、滞留过程、迁移距离和人体剂量系数显著不同。本文围绕“U
+高不必然 Ra/Rn/Po/Pb 高，Ra/Rn/Po/Pb 异常也不必然对应高
+U”的核心命题，建立一个可验证的地球化学-放射性剂量框架。研究综合了三类公开证据：第一，2025
+年瑞典私井研究的开放论文数据摘要，覆盖 56 口井的
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>210</mn></msup><annotation encoding="application/x-tex">^{210}</annotation></semantics></math>Po、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>210</mn></msup><annotation encoding="application/x-tex">^{210}</annotation></semantics></math>Pb、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>226</mn></msup><annotation encoding="application/x-tex">^{226}</annotation></semantics></math>Ra、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>228</mn></msup><annotation encoding="application/x-tex">^{228}</annotation></semantics></math>Ra、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>238</mn></msup><annotation encoding="application/x-tex">^{238}</annotation></semantics></math>U
+和
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>234</mn></msup><annotation encoding="application/x-tex">^{234}</annotation></semantics></math>U；第二，Health
+Canada 2025 饮用水放射性参数指南和 2019 铀饮用水指南；第三，CNSC
+Independent Environmental Monitoring Program (IEMP) Cigar Lake Operation
+2020/2024 公开 CSV 数据。结果显示，瑞典井水中平均剂量贡献排序为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>210</mn></msup><annotation encoding="application/x-tex">^{210}</annotation></semantics></math>Pb
+&gt;
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>228</mn></msup><annotation encoding="application/x-tex">^{228}</annotation></semantics></math>Ra
+&gt;
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>210</mn></msup><annotation encoding="application/x-tex">^{210}</annotation></semantics></math>Po
+&gt;
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>226</mn></msup><annotation encoding="application/x-tex">^{226}</annotation></semantics></math>Ra
+&gt;
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>234</mn></msup><annotation encoding="application/x-tex">^{234}</annotation></semantics></math>U
+&gt;
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>238</mn></msup><annotation encoding="application/x-tex">^{238}</annotation></semantics></math>U，尽管
+U 同位素平均活度并不最低；约 40% 的井水指示剂量超过 100
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>μ</mi><annotation encoding="application/x-tex">\mu</annotation></semantics></math>Sv/y。相反，Cigar
+Lake IEMP
+地表水样在保守左删失上限处理下，U、Pb-210、Po-210、Ra-226、Th-230 均低于
+IEMP
+筛选值。这种对比说明：铀矿环境表层水监测“低于筛选值”与私井/裂隙地下水“强变异性”并不矛盾，二者反映不同水文地球化学域。</p>
+<p>本文的最终观点是：铀矿区地下水安全评价应从“总 U
+单指标”升级为“衰变链核素系统评价”。实际评价中至少应同步纳入 U
+同位素、Ra-226/Ra-228、Rn-222、Pb-210、Po-210 以及
+pH-Eh、碱度、硫酸盐、Ba/Sr、离子强度、Fe/Mn
+氧化物、有机质、裂隙结构和地下水停留时间。Po/Pb
+更适合作为长期放射性剂量和沉积/生物累积风险指标，Ra
+更适合识别碱土金属-硫酸盐-离子交换控制，Rn
+更适合识别裂隙连通性和短停留时间气体迁移。</p>
+<p><strong>关键词</strong>：铀矿区地下水；镭；氡；铅-210；钋-210；U
+decay series；剂量评价；PHREEQC；反应迁移</p>
+<h1 id="研究问题与判据">1. 研究问题与判据</h1>
+<p>本文研究对象是铀矿区、富铀结晶岩/砂岩含水层、私井和矿区周边环境水体中的
+U-Ra-Rn-Po-Pb
+衰变系列核素。论文不把任一公开监测结果直接外推为某个矿区的健康结论，而是建立可复核的解释框架，回答三个问题：</p>
+<ol type="1">
+<li><strong>分布问题</strong>：<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>238</mn></msup><annotation encoding="application/x-tex">^{238}</annotation></semantics></math>U、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>234</mn></msup><annotation encoding="application/x-tex">^{234}</annotation></semantics></math>U、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>226</mn></msup><annotation encoding="application/x-tex">^{226}</annotation></semantics></math>Ra、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>228</mn></msup><annotation encoding="application/x-tex">^{228}</annotation></semantics></math>Ra、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>222</mn></msup><annotation encoding="application/x-tex">^{222}</annotation></semantics></math>Rn、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>210</mn></msup><annotation encoding="application/x-tex">^{210}</annotation></semantics></math>Pb、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>210</mn></msup><annotation encoding="application/x-tex">^{210}</annotation></semantics></math>Po
+在地下水和矿区环境水中是否同步变化？</li>
+<li><strong>迁移问题</strong>：Eh-pH、碳酸盐络合、硫酸盐、Ba/Sr
+共沉淀、离子强度、Fe/Mn
+氧化物吸附、裂隙发育和停留时间如何分别控制这些核素？</li>
+<li><strong>剂量问题</strong>：饮水摄入、释氡吸入、矿区排水/尾矿渗滤液和长期沉积累积中，哪类核素更可能支配剂量或风险解释？</li>
+</ol>
+<p>判据上，本文采用“双基准”而非单一阈值：加拿大饮用水侧使用 Health
+Canada 的放射性参数 MAC/参考浓度和铀化学毒性 MAC；矿区环境侧使用 CNSC
+IEMP 数据自带筛选值，并保留其 0.1 mSv/y
+筛选逻辑。两个基准的剂量水平和适用场景不同，因此只做结构化对比，不将
+IEMP 筛选值替代饮用水 MAC。</p>
+<figure>
+<img role="img" aria-label="衰变链过程图" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAwIiBoZWlnaHQ9IjMzMCIgdmlld0JveD0iMCAwIDEwMDAgMzMwIj4KPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iI2ZmZmZmZiIvPgo8dGV4dCB4PSI0MC4wIiB5PSI0MC4wIiBmb250LXNpemU9IjIwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMxMDIwMzAiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udC13ZWlnaHQ9IjcwMCI+VS0yMzgg6KGw5Y+Y6ZO+5Zyw5LiL5rC06L+B56e75o6n5Yi25Zu+PC90ZXh0Pgo8cmVjdCB4PSI2MCIgeT0iMTIwIiB3aWR0aD0iOTYiIGhlaWdodD0iNzQiIHJ4PSI3IiBmaWxsPSIjZjVmOGZiIiBzdHJva2U9IiM0NjYyN2YiIHN0cm9rZS13aWR0aD0iMS4yIi8+Cjx0ZXh0IHg9IjEwOC4wIiB5PSIxNDQuMCIgZm9udC1zaXplPSIxOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMTAyMDMwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNzAwIj4yMzhVPC90ZXh0Pgo8dGV4dCB4PSIxMDguMCIgeT0iMTYzLjAiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzRkNWI2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+NC40NjhlOSB5PC90ZXh0Pgo8dGV4dCB4PSIxMDguMCIgeT0iMTc5LjAiIGZvbnQtc2l6ZT0iMTAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzM5NGI1OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+VShWSSkvVShJVik8L3RleHQ+Cjx0ZXh0IHg9IjEwOC4wIiB5PSIxOTIuMCIgZm9udC1zaXplPSIxMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMzk0YjU5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj5jYXJib25hdGUvcmVkb3g8L3RleHQ+CjxsaW5lIHgxPSIxNTYiIHkxPSIxNTciIHgyPSIxOTAiIHkyPSIxNTciIHN0cm9rZT0iIzhjM2YyYiIgc3Ryb2tlLXdpZHRoPSIyIiBtYXJrZXItZW5kPSJ1cmwoI2Fycm93KSIvPgo8cmVjdCB4PSIxOTAiIHk9IjEyMCIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijc0IiByeD0iNyIgZmlsbD0iI2Y1ZjhmYiIgc3Ryb2tlPSIjNDY2MjdmIiBzdHJva2Utd2lkdGg9IjEuMiIvPgo8dGV4dCB4PSIyMzguMCIgeT0iMTQ0LjAiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzEwMjAzMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjcwMCI+MjM0VTwvdGV4dD4KPHRleHQgeD0iMjM4LjAiIHk9IjE2My4wIiBmb250LXNpemU9IjExIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiM0ZDViNjYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPjIuNDU1ZTUgeTwvdGV4dD4KPHRleHQgeD0iMjM4LjAiIHk9IjE3OS4wIiBmb250LXNpemU9IjEwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMzOTRiNTkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPnJlY29pbCBkaXNlcXVpbGlicml1bTwvdGV4dD4KPGxpbmUgeDE9IjI4NiIgeTE9IjE1NyIgeDI9IjMyMCIgeTI9IjE1NyIgc3Ryb2tlPSIjOGMzZjJiIiBzdHJva2Utd2lkdGg9IjIiIG1hcmtlci1lbmQ9InVybCgjYXJyb3cpIi8+CjxyZWN0IHg9IjMyMCIgeT0iMTIwIiB3aWR0aD0iOTYiIGhlaWdodD0iNzQiIHJ4PSI3IiBmaWxsPSIjZjVmOGZiIiBzdHJva2U9IiM0NjYyN2YiIHN0cm9rZS13aWR0aD0iMS4yIi8+Cjx0ZXh0IHg9IjM2OC4wIiB5PSIxNDQuMCIgZm9udC1zaXplPSIxOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMTAyMDMwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNzAwIj4yMzBUaDwvdGV4dD4KPHRleHQgeD0iMzY4LjAiIHk9IjE2My4wIiBmb250LXNpemU9IjExIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiM0ZDViNjYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPjcuNTRlNCB5PC90ZXh0Pgo8dGV4dCB4PSIzNjguMCIgeT0iMTc5LjAiIGZvbnQtc2l6ZT0iMTAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzM5NGI1OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+cGFydGljbGUgcmVhY3RpdmU8L3RleHQ+CjxsaW5lIHgxPSI0MTYiIHkxPSIxNTciIHgyPSI0NTAiIHkyPSIxNTciIHN0cm9rZT0iIzhjM2YyYiIgc3Ryb2tlLXdpZHRoPSIyIiBtYXJrZXItZW5kPSJ1cmwoI2Fycm93KSIvPgo8cmVjdCB4PSI0NTAiIHk9IjEyMCIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijc0IiByeD0iNyIgZmlsbD0iI2Y1ZjhmYiIgc3Ryb2tlPSIjNDY2MjdmIiBzdHJva2Utd2lkdGg9IjEuMiIvPgo8dGV4dCB4PSI0OTguMCIgeT0iMTQ0LjAiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzEwMjAzMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjcwMCI+MjI2UmE8L3RleHQ+Cjx0ZXh0IHg9IjQ5OC4wIiB5PSIxNjMuMCIgZm9udC1zaXplPSIxMSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjNGQ1YjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj4xNjAwIHk8L3RleHQ+Cjx0ZXh0IHg9IjQ5OC4wIiB5PSIxNzkuMCIgZm9udC1zaXplPSIxMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMzk0YjU5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj5CYS9Tci9TTzQ8L3RleHQ+Cjx0ZXh0IHg9IjQ5OC4wIiB5PSIxOTIuMCIgZm9udC1zaXplPSIxMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMzk0YjU5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj5pb24gZXhjaGFuZ2U8L3RleHQ+CjxsaW5lIHgxPSI1NDYiIHkxPSIxNTciIHgyPSI1ODAiIHkyPSIxNTciIHN0cm9rZT0iIzhjM2YyYiIgc3Ryb2tlLXdpZHRoPSIyIiBtYXJrZXItZW5kPSJ1cmwoI2Fycm93KSIvPgo8cmVjdCB4PSI1ODAiIHk9IjEyMCIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijc0IiByeD0iNyIgZmlsbD0iI2Y1ZjhmYiIgc3Ryb2tlPSIjNDY2MjdmIiBzdHJva2Utd2lkdGg9IjEuMiIvPgo8dGV4dCB4PSI2MjguMCIgeT0iMTQ0LjAiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzEwMjAzMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjcwMCI+MjIyUm48L3RleHQ+Cjx0ZXh0IHg9IjYyOC4wIiB5PSIxNjMuMCIgZm9udC1zaXplPSIxMSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjNGQ1YjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj4zLjgyIGQ8L3RleHQ+Cjx0ZXh0IHg9IjYyOC4wIiB5PSIxNzkuMCIgZm9udC1zaXplPSIxMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMzk0YjU5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj5mcmFjdHVyZSBnYXM8L3RleHQ+Cjx0ZXh0IHg9IjYyOC4wIiB5PSIxOTIuMCIgZm9udC1zaXplPSIxMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMzk0YjU5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj5yZXNpZGVuY2UgdGltZTwvdGV4dD4KPGxpbmUgeDE9IjY3NiIgeTE9IjE1NyIgeDI9IjcxMCIgeTI9IjE1NyIgc3Ryb2tlPSIjOGMzZjJiIiBzdHJva2Utd2lkdGg9IjIiIG1hcmtlci1lbmQ9InVybCgjYXJyb3cpIi8+CjxyZWN0IHg9IjcxMCIgeT0iMTIwIiB3aWR0aD0iOTYiIGhlaWdodD0iNzQiIHJ4PSI3IiBmaWxsPSIjZjVmOGZiIiBzdHJva2U9IiM0NjYyN2YiIHN0cm9rZS13aWR0aD0iMS4yIi8+Cjx0ZXh0IHg9Ijc1OC4wIiB5PSIxNDQuMCIgZm9udC1zaXplPSIxOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMTAyMDMwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNzAwIj4yMTBQYjwvdGV4dD4KPHRleHQgeD0iNzU4LjAiIHk9IjE2My4wIiBmb250LXNpemU9IjExIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiM0ZDViNjYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPjIyLjIgeTwvdGV4dD4KPHRleHQgeD0iNzU4LjAiIHk9IjE3OS4wIiBmb250LXNpemU9IjEwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMzOTRiNTkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPkZlL01uIG94aWRlczwvdGV4dD4KPHRleHQgeD0iNzU4LjAiIHk9IjE5Mi4wIiBmb250LXNpemU9IjEwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMzOTRiNTkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPnNjYWxlL2NvbGxvaWQ8L3RleHQ+CjxsaW5lIHgxPSI4MDYiIHkxPSIxNTciIHgyPSI4NDAiIHkyPSIxNTciIHN0cm9rZT0iIzhjM2YyYiIgc3Ryb2tlLXdpZHRoPSIyIiBtYXJrZXItZW5kPSJ1cmwoI2Fycm93KSIvPgo8cmVjdCB4PSI4NDAiIHk9IjEyMCIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijc0IiByeD0iNyIgZmlsbD0iI2Y1ZjhmYiIgc3Ryb2tlPSIjNDY2MjdmIiBzdHJva2Utd2lkdGg9IjEuMiIvPgo8dGV4dCB4PSI4ODguMCIgeT0iMTQ0LjAiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzEwMjAzMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjcwMCI+MjEwUG88L3RleHQ+Cjx0ZXh0IHg9Ijg4OC4wIiB5PSIxNjMuMCIgZm9udC1zaXplPSIxMSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjNGQ1YjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj4xMzguMyBkPC90ZXh0Pgo8dGV4dCB4PSI4ODguMCIgeT0iMTc5LjAiIGZvbnQtc2l6ZT0iMTAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzM5NGI1OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+b3JnYW5pYy9zdWxmaWRlPC90ZXh0Pgo8dGV4dCB4PSI4ODguMCIgeT0iMTkyLjAiIGZvbnQtc2l6ZT0iMTAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzM5NGI1OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+YmlvdGEgaG90c3BvdDwvdGV4dD4KPGRlZnM+PG1hcmtlciBpZD0iYXJyb3ciIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzhjM2YyYiIvPjwvbWFya2VyPjwvZGVmcz4KPHRleHQgeD0iODAuMCIgeT0iMjQ1LjAiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9InN0YXJ0IiBmb250LXdlaWdodD0iNDAwIj7lhbPplK7mjqjorrrvvJrlkIzkuIDoobDlj5jpk77kuK3nmoTmoLjntKDlhbfmnInkuI3lkIzljJblrablvaLmgIHvvJvlm6DmraTmtLvluqblubPooaHjgIHov4Hnp7vmgKfkuI7liYLph4/otKHnjK7kuI3kvJroh6rliqjpmo/mgLsgVSDlkIzmraXlj5jljJbjgII8L3RleHQ+Cjx0ZXh0IHg9IjgwLjAiIHk9IjI3OC4wIiBmb250LXNpemU9IjE0IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udC13ZWlnaHQ9IjQwMCI+5qih5Z6L5YWl5Y+j77yaQmF0ZW1hbiDnlJ/miJDpobkgKyDmsLTljJblrablj43lupTpobkgKyDoo4Lpmpnov4Hnp7sv5rue55WZ6aG5ICsg5pGE5YWlL+WQuOWFpeWJgumHj+mhueOAgjwvdGV4dD4KPC9zdmc+Cg==" alt="衰变链过程图" />
+<figcaption aria-hidden="true">衰变链过程图</figcaption>
+</figure>
+<h1 id="数据源采集与可复现性">2. 数据源、采集与可复现性</h1>
+<h2 id="公开数据源">2.1 公开数据源</h2>
+<p>本文使用的公开源如下。</p>
+<ul>
+<li>Vengosh et al. (2022) 对 U/Th
+衰变链核素地下水赋存进行了综述，明确指出 U、Ra、Rn、Pb、Po
+的地下水浓度由“生成/反冲/溶出”与“吸附/沉淀/离子交换/滞留”的净平衡控制，而非由铀含量单变量决定。来源：<a href="https://www.sciencedirect.com/science/article/pii/S0048969721069904" class="uri">https://www.sciencedirect.com/science/article/pii/S0048969721069904</a>。</li>
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi mathvariant="normal">Π</mi><annotation encoding="application/x-tex">\Pi</annotation></semantics></math>ñero-García
+et al. (2025) 瑞典井水开放论文研究了 56 口井的
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>210</mn></msup><annotation encoding="application/x-tex">^{210}</annotation></semantics></math>Po、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>210</mn></msup><annotation encoding="application/x-tex">^{210}</annotation></semantics></math>Pb、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>226</mn></msup><annotation encoding="application/x-tex">^{226}</annotation></semantics></math>Ra、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>228</mn></msup><annotation encoding="application/x-tex">^{228}</annotation></semantics></math>Ra、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>238</mn></msup><annotation encoding="application/x-tex">^{238}</annotation></semantics></math>U、<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>234</mn></msup><annotation encoding="application/x-tex">^{234}</annotation></semantics></math>U，并给出指示剂量公式和剂量排序。来源：<a href="https://www.sciencedirect.com/science/article/pii/S0147651324015562" class="uri">https://www.sciencedirect.com/science/article/pii/S0147651324015562</a>
+与 PubMed <a href="https://pubmed.ncbi.nlm.nih.gov/39644567/" class="uri">https://pubmed.ncbi.nlm.nih.gov/39644567/</a>。</li>
+<li>Health Canada (2025) 放射性饮用水指南给出 Pb-210、Ra-226、Ra-228 的
+MAC、Po-210/Rn-222 参考浓度、gross alpha/beta 筛选值，并说明 MAC 由 1
+mSv/y 参考剂量和 1.53 L/day 饮水量推导。来源：<a href="https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-drinking-water-quality-radiological-parameters.html" class="uri">https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-drinking-water-quality-radiological-parameters.html</a>。</li>
+<li>Health Canada (2019) 铀饮用水指南给出总天然铀 0.02 mg/L (20 ug/L)
+MAC，且该值主要基于化学毒性。来源：<a href="https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-canadian-drinking-water-quality-guideline-technical-document-uranium.html" class="uri">https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-canadian-drinking-water-quality-guideline-technical-document-uranium.html</a>。</li>
+<li>CNSC IEMP Cigar Lake Operation 页面和 CSV 给出 2020/2024
+年水样、鱼、蓝莓和 Labrador tea 中的 U、Pb-210、Po-210、Ra-226、Th-230
+等监测结果。来源：<a href="https://www.cnsc-ccsn.gc.ca/eng/resources/maps-of-nuclear-facilities/iemp/cigar-lake/" class="uri">https://www.cnsc-ccsn.gc.ca/eng/resources/maps-of-nuclear-facilities/iemp/cigar-lake/</a>。</li>
+</ul>
+<p>原始
+CSV、网页快照、整理后的中间表、图件和模型模板均保存在本报告目录。CNSC
+原始 CSV 共 820 行；本文水样汇总使用 128
+个参数-样品记录，食物/生物介质汇总使用 235 个记录。</p>
+<h2 id="左删失数据处理">2.2 左删失数据处理</h2>
+<p>公开监测数据中大量结果以“&lt;检出限”给出。本文采用两个并行量：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover><mi>C</mi><mo accent="true">‾</mo></mover><mrow><mn>1</mn><mi>/</mi><mn>2</mn><mi>D</mi><mi>L</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><munder><mo>∑</mo><mi>j</mi></munder><mrow><mo stretchy="true" form="prefix">{</mo><mtable><mtr><mtd columnalign="left" style="text-align: left"><msub><mi>C</mi><mi>j</mi></msub><mo>,</mo></mtd><mtd columnalign="left" style="text-align: left"><msub><mi>C</mi><mi>j</mi></msub><mrow><mspace width="0.333em"></mspace><mtext mathvariant="normal"> 为检出值</mtext></mrow></mtd></mtr><mtr><mtd columnalign="left" style="text-align: left"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>D</mi><msub><mi>L</mi><mi>j</mi></msub><mo>,</mo></mtd><mtd columnalign="left" style="text-align: left"><msub><mi>C</mi><mi>j</mi></msub><mo>&lt;</mo><mi>D</mi><msub><mi>L</mi><mi>j</mi></msub></mtd></mtr></mtable></mrow></mrow><annotation encoding="application/x-tex">
+\bar C_{1/2DL}=\frac1n\sum_j
+\begin{cases}
+C_j, &amp; C_j \text{ 为检出值}\\
+\frac12DL_j, &amp; C_j&lt;DL_j
+\end{cases}
+</annotation></semantics></math></p>
+<p>用于描述性均值；筛选比值使用保守上限：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mrow><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>=</mo><munder><mi mathvariant="normal">max</mi><mi>j</mi></munder><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mrow><mo stretchy="true" form="prefix">{</mo><mtable><mtr><mtd columnalign="left" style="text-align: left"><msub><mi>C</mi><mi>j</mi></msub><mo>,</mo></mtd><mtd columnalign="left" style="text-align: left"><msub><mi>C</mi><mi>j</mi></msub><mrow><mspace width="0.333em"></mspace><mtext mathvariant="normal"> 为检出值</mtext></mrow></mtd></mtr><mtr><mtd columnalign="left" style="text-align: left"><mi>D</mi><msub><mi>L</mi><mi>j</mi></msub><mo>,</mo></mtd><mtd columnalign="left" style="text-align: left"><msub><mi>C</mi><mi>j</mi></msub><mo>&lt;</mo><mi>D</mi><msub><mi>L</mi><mi>j</mi></msub></mtd></mtr></mtable></mrow><msub><mi>C</mi><mrow><mi>s</mi><mi>c</mi><mi>r</mi><mi>e</mi><mi>e</mi><mi>n</mi></mrow></msub></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mi>.</mi></mrow><annotation encoding="application/x-tex">
+R_{max}=\max_j\left(\frac{
+\begin{cases}
+C_j, &amp; C_j \text{ 为检出值}\\
+DL_j, &amp; C_j&lt;DL_j
+\end{cases}}{C_{screen}}\right).
+</annotation></semantics></math></p>
+<p>这种处理不会把未检出值解释为零，也不会把保守上限误用为真实均值。</p>
+<h1 id="理论框架与公式推导">3. 理论框架与公式推导</h1>
+<h2 id="放射性衰变链与非平衡">3.1 放射性衰变链与非平衡</h2>
+<p>单核素衰变满足：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mi>d</mi><msub><mi>N</mi><mi>i</mi></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>−</mi><msub><mi>λ</mi><mi>i</mi></msub><msub><mi>N</mi><mi>i</mi></msub><mo>,</mo><mspace width="2.0em"></mspace><msub><mi>λ</mi><mi>i</mi></msub><mo>=</mo><mfrac><mrow><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mn>2</mn></mrow><msub><mi>T</mi><mrow><mn>1</mn><mi>/</mi><mn>2</mn><mo>,</mo><mi>i</mi></mrow></msub></mfrac><mo>,</mo><mspace width="2.0em"></mspace><msub><mi>A</mi><mi>i</mi></msub><mo>=</mo><msub><mi>λ</mi><mi>i</mi></msub><msub><mi>N</mi><mi>i</mi></msub><mi>.</mi></mrow><annotation encoding="application/x-tex">
+\frac{dN_i}{dt}=-\lambda_i N_i,\qquad
+\lambda_i=\frac{\ln 2}{T_{1/2,i}},\qquad
+A_i=\lambda_iN_i .
+</annotation></semantics></math></p>
+<p>连续衰变链
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>→</mo><mn>2</mn><mo>→</mo><mi>⋯</mi><mo>→</mo><mi>k</mi></mrow><annotation encoding="application/x-tex">1\rightarrow2\rightarrow\cdots\rightarrow k</annotation></semantics></math>
+在初始仅有母体
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">N_1(0)</annotation></semantics></math>
+的理想封闭条件下，Bateman 解为：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mi>k</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msub><mi>N</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo><mrow><mo stretchy="true" form="prefix">(</mo><munderover><mo>∏</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>k</mi><mo>−</mo><mn>1</mn></mrow></munderover><msub><mi>λ</mi><mi>j</mi></msub><mo stretchy="true" form="postfix">)</mo></mrow><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mi>k</mi></munderover><mfrac><msup><mi>e</mi><mrow><mi>−</mi><msub><mi>λ</mi><mi>j</mi></msub><mi>t</mi></mrow></msup><mrow><munderover><mo>∏</mo><mrow><mi>m</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>m</mi><mo>≠</mo><mi>j</mi></mrow><mi>k</mi></munderover><mo stretchy="false" form="prefix">(</mo><msub><mi>λ</mi><mi>m</mi></msub><mo>−</mo><msub><mi>λ</mi><mi>j</mi></msub><mo stretchy="false" form="postfix">)</mo></mrow></mfrac><mi>.</mi></mrow><annotation encoding="application/x-tex">
+N_k(t)=N_1(0)\left(\prod_{j=1}^{k-1}\lambda_j\right)
+\sum_{j=1}^k
+\frac{e^{-\lambda_jt}}{\prod_{m=1,m\ne j}^k(\lambda_m-\lambda_j)} .
+</annotation></semantics></math></p>
+<p>若母体半衰期远大于子体，且体系封闭，则经历若干子体半衰期后可趋于长期平衡：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mn>1</mn></msub><mo>≈</mo><msub><mi>A</mi><mn>2</mn></msub><mo>≈</mo><mi>⋯</mi><mo>≈</mo><msub><mi>A</mi><mi>k</mi></msub><mi>.</mi></mrow><annotation encoding="application/x-tex">
+A_1\approx A_2\approx\cdots\approx A_k .
+</annotation></semantics></math></p>
+<p>但地下水不是封闭体系。水-岩反应、吸附、沉淀、反冲、对流、弥散、脱气和抽水会打破活度平衡。对第
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math>
+个核素，含迁移和滞留的反应迁移式可写为：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mi>i</mi></msub><mfrac><mrow><mi>∂</mi><msub><mi>C</mi><mi>i</mi></msub></mrow><mrow><mi>∂</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>∇</mi><mo>⋅</mo><mo stretchy="false" form="prefix">(</mo><msub><mi>D</mi><mi>i</mi></msub><mi>∇</mi><msub><mi>C</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo><mo>−</mo><mi>∇</mi><mo>⋅</mo><mo stretchy="false" form="prefix">(</mo><mi mathvariant="bold-italic">𝒗</mi><msub><mi>C</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo><mo>+</mo><msub><mi>λ</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><msub><mi>R</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><msub><mi>C</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>−</mo><msub><mi>λ</mi><mi>i</mi></msub><msub><mi>R</mi><mi>i</mi></msub><msub><mi>C</mi><mi>i</mi></msub><mo>+</mo><msub><mi>S</mi><mi>i</mi></msub><mo>−</mo><msub><mi>k</mi><mi>i</mi></msub><msub><mi>C</mi><mi>i</mi></msub><mi>.</mi></mrow><annotation encoding="application/x-tex">
+R_i\frac{\partial C_i}{\partial t}
+=\nabla\cdot(D_i\nabla C_i)-\nabla\cdot(\mathbf v C_i)
++\lambda_{i-1}R_{i-1}C_{i-1}
+-\lambda_iR_iC_i
++S_i-k_iC_i .
+</annotation></semantics></math></p>
+<p>其中
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>C</mi><mi>i</mi></msub><annotation encoding="application/x-tex">C_i</annotation></semantics></math>
+为水相活度浓度，<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>R</mi><mi>i</mi></msub><annotation encoding="application/x-tex">R_i</annotation></semantics></math>
+为迟滞因子，<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>D</mi><mi>i</mi></msub><annotation encoding="application/x-tex">D_i</annotation></semantics></math>
+为水动力弥散张量，<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi mathvariant="bold-italic">𝒗</mi><annotation encoding="application/x-tex">\mathbf v</annotation></semantics></math>
+为孔隙水速度，<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>S</mi><mi>i</mi></msub><annotation encoding="application/x-tex">S_i</annotation></semantics></math>
+包含矿物溶出、反冲和外部输入，<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>k</mi><mi>i</mi></msub><annotation encoding="application/x-tex">k_i</annotation></semantics></math>
+代表沉淀、不可逆吸附或脱气等一阶损失。线性吸附近似下：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mi>i</mi></msub><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mrow><msub><mi>ρ</mi><mi>b</mi></msub><msub><mi>K</mi><mrow><mi>d</mi><mo>,</mo><mi>i</mi></mrow></msub></mrow><mi>θ</mi></mfrac><mo>,</mo></mrow><annotation encoding="application/x-tex">
+R_i=1+\frac{\rho_bK_{d,i}}{\theta},
+</annotation></semantics></math></p>
+<p>其中
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ρ</mi><mi>b</mi></msub><annotation encoding="application/x-tex">\rho_b</annotation></semantics></math>
+为介质干密度，<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>θ</mi><annotation encoding="application/x-tex">\theta</annotation></semantics></math>
+为有效孔隙度，<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>K</mi><mi>d</mi></msub><annotation encoding="application/x-tex">K_d</annotation></semantics></math>
+为分配系数。不同核素
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>K</mi><mi>d</mi></msub><annotation encoding="application/x-tex">K_d</annotation></semantics></math>
+差异很大，意味着同一衰变链中的子体不会按同一速度迁移。</p>
+<h2 id="铀eh-ph-与碳酸盐络合控制">3.2 铀：Eh-pH 与碳酸盐络合控制</h2>
+<p>铀在天然水中主要以 U(IV) 和 U(VI)
+两类价态控制迁移。氧化、中性至弱碱性、富碳酸盐水中，U(VI) 以 uranyl
+碳酸盐络合物存在：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">U</mi><msubsup><mi mathvariant="normal">O</mi><mn mathvariant="normal">2</mn><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">+</mo></mrow></msubsup><mo mathvariant="normal">+</mo><mn mathvariant="normal">2</mn><mi mathvariant="normal">C</mi><msubsup><mi mathvariant="normal">O</mi><mn mathvariant="normal">3</mn><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">−</mo></mrow></msubsup><mo mathvariant="normal">⇌</mo><mi mathvariant="normal">U</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">2</mn></msub><mo stretchy="false" form="prefix" mathvariant="normal">(</mo><mi mathvariant="normal">C</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">3</mn></msub><msubsup><mo stretchy="false" form="postfix" mathvariant="normal">)</mo><mn mathvariant="normal">2</mn><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">−</mo></mrow></msubsup></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">
+\mathrm{UO_2^{2+}+2CO_3^{2-}\rightleftharpoons UO_2(CO_3)_2^{2-}},
+</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">U</mi><msubsup><mi mathvariant="normal">O</mi><mn mathvariant="normal">2</mn><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">+</mo></mrow></msubsup><mo mathvariant="normal">+</mo><mn mathvariant="normal">3</mn><mi mathvariant="normal">C</mi><msubsup><mi mathvariant="normal">O</mi><mn mathvariant="normal">3</mn><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">−</mo></mrow></msubsup><mo mathvariant="normal">⇌</mo><mi mathvariant="normal">U</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">2</mn></msub><mo stretchy="false" form="prefix" mathvariant="normal">(</mo><mi mathvariant="normal">C</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">3</mn></msub><msubsup><mo stretchy="false" form="postfix" mathvariant="normal">)</mo><mn mathvariant="normal">3</mn><mrow><mn mathvariant="normal">4</mn><mo mathvariant="normal">−</mo></mrow></msubsup></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">
+\mathrm{UO_2^{2+}+3CO_3^{2-}\rightleftharpoons UO_2(CO_3)_3^{4-}},
+</annotation></semantics></math></p>
+<p>并可形成 Ca-U-carbonate 络合物：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">C</mi><msup><mi mathvariant="normal">a</mi><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">+</mo></mrow></msup><mo mathvariant="normal">+</mo><mi mathvariant="normal">U</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">2</mn></msub><mo stretchy="false" form="prefix" mathvariant="normal">(</mo><mi mathvariant="normal">C</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">3</mn></msub><msubsup><mo stretchy="false" form="postfix" mathvariant="normal">)</mo><mn mathvariant="normal">3</mn><mrow><mn mathvariant="normal">4</mn><mo mathvariant="normal">−</mo></mrow></msubsup><mo mathvariant="normal">⇌</mo><mi mathvariant="normal">C</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">U</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">2</mn></msub><mo stretchy="false" form="prefix" mathvariant="normal">(</mo><mi mathvariant="normal">C</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">3</mn></msub><msubsup><mo stretchy="false" form="postfix" mathvariant="normal">)</mo><mn mathvariant="normal">3</mn><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">−</mo></mrow></msubsup></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">
+\mathrm{Ca^{2+}+UO_2(CO_3)_3^{4-}\rightleftharpoons CaUO_2(CO_3)_3^{2-}},
+</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mn mathvariant="normal">2</mn><mi mathvariant="normal">C</mi><msup><mi mathvariant="normal">a</mi><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">+</mo></mrow></msup><mo mathvariant="normal">+</mo><mi mathvariant="normal">U</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">2</mn></msub><mo stretchy="false" form="prefix" mathvariant="normal">(</mo><mi mathvariant="normal">C</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">3</mn></msub><msubsup><mo stretchy="false" form="postfix" mathvariant="normal">)</mo><mn mathvariant="normal">3</mn><mrow><mn mathvariant="normal">4</mn><mo mathvariant="normal">−</mo></mrow></msubsup><mo mathvariant="normal">⇌</mo><mi mathvariant="normal">C</mi><msub><mi mathvariant="normal">a</mi><mn mathvariant="normal">2</mn></msub><mi mathvariant="normal">U</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">2</mn></msub><mo stretchy="false" form="prefix" mathvariant="normal">(</mo><mi mathvariant="normal">C</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">3</mn></msub><msub><mo stretchy="false" form="postfix" mathvariant="normal">)</mo><mn mathvariant="normal">3</mn></msub><mo stretchy="false" form="prefix" mathvariant="normal">(</mo><mi mathvariant="normal">a</mi><mi mathvariant="normal">q</mi><mo stretchy="false" form="postfix" mathvariant="normal">)</mo></mrow><mi>.</mi></mrow><annotation encoding="application/x-tex">
+\mathrm{2Ca^{2+}+UO_2(CO_3)_3^{4-}\rightleftharpoons Ca_2UO_2(CO_3)_3(aq)} .
+</annotation></semantics></math></p>
+<p>这些络合物提高溶解度并降低部分矿物表面吸附。还原条件下：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">U</mi><msubsup><mi mathvariant="normal">O</mi><mn mathvariant="normal">2</mn><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">+</mo></mrow></msubsup><mo mathvariant="normal">+</mo><mn mathvariant="normal">2</mn><msup><mi mathvariant="normal">e</mi><mo mathvariant="normal">−</mo></msup><mo mathvariant="normal">+</mo><mn mathvariant="normal">4</mn><msup><mi mathvariant="normal">H</mi><mo mathvariant="normal">+</mo></msup><mo mathvariant="normal">⇌</mo><mi mathvariant="normal">U</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">2</mn></msub><mo stretchy="false" form="prefix" mathvariant="normal">(</mo><mi mathvariant="normal">s</mi><mo stretchy="false" form="postfix" mathvariant="normal">)</mo><mo mathvariant="normal">+</mo><mn mathvariant="normal">2</mn><msub><mi mathvariant="normal">H</mi><mn mathvariant="normal">2</mn></msub><mi mathvariant="normal">O</mi></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">
+\mathrm{UO_2^{2+}+2e^-+4H^+\rightleftharpoons UO_2(s)+2H_2O},
+</annotation></semantics></math></p>
+<p>U(VI) 可转化为低溶解度 U(IV) 固相。Nernst 形式说明 Eh、pH
+与溶解铀之间的耦合：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>E</mi><mi>h</mi></msub><mo>=</mo><msup><mi>E</mi><mn>0</mn></msup><mo>−</mo><mfrac><mrow><mi>R</mi><mi>T</mi></mrow><mrow><mn>2</mn><mi>F</mi></mrow></mfrac><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mrow><msub><mi>a</mi><mrow><mi mathvariant="normal">U</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">2</mn></msub><mo stretchy="false" form="prefix" mathvariant="normal">(</mo><mi mathvariant="normal">s</mi><mo stretchy="false" form="postfix" mathvariant="normal">)</mo></mrow></msub><msubsup><mi>a</mi><mrow><msub><mi>H</mi><mn>2</mn></msub><mi>O</mi></mrow><mn>2</mn></msubsup></mrow><mrow><msub><mi>a</mi><mrow><mi mathvariant="normal">U</mi><msubsup><mi mathvariant="normal">O</mi><mn mathvariant="normal">2</mn><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">+</mo></mrow></msubsup></mrow></msub><msubsup><mi>a</mi><msup><mi>H</mi><mo>+</mo></msup><mn>4</mn></msubsup></mrow></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mi>.</mi></mrow><annotation encoding="application/x-tex">
+E_h=E^0-\frac{RT}{2F}\ln
+\left(\frac{a_{\mathrm{UO_2(s)}}a_{H_2O}^2}{a_{\mathrm{UO_2^{2+}}}a_{H^+}^4}\right).
+</annotation></semantics></math></p>
+<p>因此，U 高常对应氧化-碳酸盐环境或局部酸性淋滤，但这并不必然提高
+Ra、Rn、Po、Pb。</p>
+<h2 id="镭basr硫酸盐离子强度与交换位点">3.3
+镭：Ba/Sr、硫酸盐、离子强度与交换位点</h2>
+<p>Ra-226 是 U-238 系列子体，Ra-228 来自 Th-232
+系列。两者水化学行为近似碱土金属二价阳离子，而非铀的 uranyl
+碳酸盐体系。镭的核心反应包括阳离子交换：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mn mathvariant="normal">2</mn><mi mathvariant="normal">X</mi><mo mathvariant="normal">−</mo><mi mathvariant="normal">N</mi><mi mathvariant="normal">a</mi><mo mathvariant="normal">+</mo><mi mathvariant="normal">R</mi><msup><mi mathvariant="normal">a</mi><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">+</mo></mrow></msup><mo mathvariant="normal">⇌</mo><msub><mi mathvariant="normal">X</mi><mn mathvariant="normal">2</mn></msub><mi mathvariant="normal">R</mi><mi mathvariant="normal">a</mi><mo mathvariant="normal">+</mo><mn mathvariant="normal">2</mn><mi mathvariant="normal">N</mi><msup><mi mathvariant="normal">a</mi><mo mathvariant="normal">+</mo></msup></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">
+\mathrm{2X{-}Na+Ra^{2+}\rightleftharpoons X_2Ra+2Na^+},
+</annotation></semantics></math></p>
+<p>以及与硫酸盐矿物的共沉淀/固溶：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">B</mi><msup><mi mathvariant="normal">a</mi><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">+</mo></mrow></msup><mo mathvariant="normal">+</mo><mi mathvariant="normal">S</mi><msubsup><mi mathvariant="normal">O</mi><mn mathvariant="normal">4</mn><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">−</mo></mrow></msubsup><mo mathvariant="normal">⇌</mo><mi mathvariant="normal">B</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">S</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">4</mn></msub><mo stretchy="false" form="prefix" mathvariant="normal">(</mo><mi mathvariant="normal">s</mi><mo stretchy="false" form="postfix" mathvariant="normal">)</mo></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">
+\mathrm{Ba^{2+}+SO_4^{2-}\rightleftharpoons BaSO_4(s)},
+</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">R</mi><msup><mi mathvariant="normal">a</mi><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">+</mo></mrow></msup><mo mathvariant="normal">+</mo><mi mathvariant="normal">S</mi><msubsup><mi mathvariant="normal">O</mi><mn mathvariant="normal">4</mn><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">−</mo></mrow></msubsup><mo mathvariant="normal">⇌</mo><mi mathvariant="normal">R</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">S</mi><msub><mi mathvariant="normal">O</mi><mn mathvariant="normal">4</mn></msub><mo stretchy="false" form="prefix" mathvariant="normal">(</mo><mi mathvariant="normal">s</mi><mo stretchy="false" form="postfix" mathvariant="normal">)</mo></mrow><mi>.</mi></mrow><annotation encoding="application/x-tex">
+\mathrm{Ra^{2+}+SO_4^{2-}\rightleftharpoons RaSO_4(s)} .
+</annotation></semantics></math></p>
+<p>若以重晶石-镭固溶体表示：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>D</mi><mrow><mi>R</mi><mi>a</mi><mi>/</mi><mi>B</mi><mi>a</mi></mrow></msub><mo>=</mo><mfrac><mrow><msub><mi>x</mi><mrow><mi>R</mi><mi>a</mi><mi>S</mi><msub><mi>O</mi><mn>4</mn></msub></mrow></msub><mi>/</mi><msub><mi>x</mi><mrow><mi>B</mi><mi>a</mi><mi>S</mi><msub><mi>O</mi><mn>4</mn></msub></mrow></msub></mrow><mrow><msub><mi>a</mi><mrow><mi>R</mi><msup><mi>a</mi><mrow><mn>2</mn><mo>+</mo></mrow></msup></mrow></msub><mi>/</mi><msub><mi>a</mi><mrow><mi>B</mi><msup><mi>a</mi><mrow><mn>2</mn><mo>+</mo></mrow></msup></mrow></msub></mrow></mfrac><mo>,</mo></mrow><annotation encoding="application/x-tex">
+D_{Ra/Ba}=
+\frac{x_{RaSO_4}/x_{BaSO_4}}{a_{Ra^{2+}}/a_{Ba^{2+}}},
+</annotation></semantics></math></p>
+<p>则水中 Ba、SO4、Sr、Ca
+和离子强度会通过活度系数、竞争交换和固溶分配共同控制溶解
+Ra。高硫酸盐并不总是提高 Ra；当 Ba 充足且重晶石过饱和时，Ra
+可被有效带入固相。相反，在低硫酸盐、高离子强度或交换位点被 Na/Ca
+竞争占据的水中，Ra 可更易释放。</p>
+<h2 id="氡短半衰期气体裂隙与停留时间">3.4
+氡：短半衰期气体、裂隙与停留时间</h2>
+<p>Rn-222 来自 Ra-226
+衰变，是惰性气体。含水裂隙中的氡可用一维近似表示：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mi>∂</mi><msub><mi>C</mi><mrow><mi>R</mi><mi>n</mi></mrow></msub></mrow><mrow><mi>∂</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>E</mi><msub><mi>ρ</mi><mi>s</mi></msub><msub><mi>A</mi><mrow><mi>R</mi><mi>a</mi></mrow></msub><msub><mi>λ</mi><mrow><mi>R</mi><mi>a</mi></mrow></msub></mrow><mi>θ</mi></mfrac><mo>−</mo><msub><mi>λ</mi><mrow><mi>R</mi><mi>n</mi></mrow></msub><msub><mi>C</mi><mrow><mi>R</mi><mi>n</mi></mrow></msub><mo>−</mo><msub><mi>k</mi><mrow><mi>d</mi><mi>e</mi><mi>g</mi></mrow></msub><msub><mi>C</mi><mrow><mi>R</mi><mi>n</mi></mrow></msub><mo>−</mo><mi>v</mi><mfrac><mrow><mi>∂</mi><msub><mi>C</mi><mrow><mi>R</mi><mi>n</mi></mrow></msub></mrow><mrow><mi>∂</mi><mi>x</mi></mrow></mfrac><mi>D</mi><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><msub><mi>C</mi><mrow><mi>R</mi><mi>n</mi></mrow></msub></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>,</mo></mrow><annotation encoding="application/x-tex">
+\frac{\partial C_{Rn}}{\partial t}
+=\frac{E\rho_s A_{Ra}\lambda_{Ra}}{\theta}
+-\lambda_{Rn}C_{Rn}
+-k_{deg}C_{Rn}
+-v\frac{\partial C_{Rn}}{\partial x}
+D\frac{\partial^2C_{Rn}}{\partial x^2},
+</annotation></semantics></math></p>
+<p>其中
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>E</mi><annotation encoding="application/x-tex">E</annotation></semantics></math>
+是 emanation
+coefficient，<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>A</mi><mrow><mi>R</mi><mi>a</mi></mrow></msub><annotation encoding="application/x-tex">A_{Ra}</annotation></semantics></math>
+是固相 Ra
+活度，<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>k</mi><mrow><mi>d</mi><mi>e</mi><mi>g</mi></mrow></msub><annotation encoding="application/x-tex">k_{deg}</annotation></semantics></math>
+是脱气损失。一维稳态、忽略弥散时：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msub><mi>C</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub><mo>+</mo><mo stretchy="false" form="prefix">(</mo><msub><mi>C</mi><mn>0</mn></msub><mo>−</mo><msub><mi>C</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub><mo stretchy="false" form="postfix">)</mo><mrow><mi mathvariant="normal">exp</mi><mo>⁡</mo></mrow><mrow><mo stretchy="true" form="prefix">[</mo><mi>−</mi><mfrac><mrow><mo stretchy="false" form="prefix">(</mo><msub><mi>λ</mi><mrow><mi>R</mi><mi>n</mi></mrow></msub><mo>+</mo><msub><mi>k</mi><mrow><mi>d</mi><mi>e</mi><mi>g</mi></mrow></msub><mo stretchy="false" form="postfix">)</mo><mi>x</mi></mrow><mi>v</mi></mfrac><mo stretchy="true" form="postfix">]</mo></mrow><mo>,</mo><mspace width="2.0em"></mspace><msub><mi>C</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub><mo>=</mo><mfrac><mrow><mi>E</mi><msub><mi>ρ</mi><mi>s</mi></msub><msub><mi>A</mi><mrow><mi>R</mi><mi>a</mi></mrow></msub><msub><mi>λ</mi><mrow><mi>R</mi><mi>a</mi></mrow></msub></mrow><mrow><mi>θ</mi><mo stretchy="false" form="prefix">(</mo><msub><mi>λ</mi><mrow><mi>R</mi><mi>n</mi></mrow></msub><mo>+</mo><msub><mi>k</mi><mrow><mi>d</mi><mi>e</mi><mi>g</mi></mrow></msub><mo stretchy="false" form="postfix">)</mo></mrow></mfrac><mi>.</mi></mrow><annotation encoding="application/x-tex">
+C(x)=C_{eq}+(C_0-C_{eq})\exp\left[-\frac{(\lambda_{Rn}+k_{deg})x}{v}\right],
+\qquad
+C_{eq}=\frac{E\rho_sA_{Ra}\lambda_{Ra}}{\theta(\lambda_{Rn}+k_{deg})} .
+</annotation></semantics></math></p>
+<p>因此 Rn 更反映固相 Ra
+分布、裂隙面面积、流速、停留时间和逸散条件。它可以高于 U
+预期，也可以在高 U 水中因强脱气或短路径而低。</p>
+<h2 id="pbpo表面反应胶体和长期累积">3.5
+Pb/Po：表面反应、胶体和长期累积</h2>
+<p>Pb-210 和 Po-210 不应只被视为“铀的后代”。Pb(II) 易与 Fe/Mn
+氧化物、碳酸盐、腐蚀垢和有机质结合：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>≡</mo><mi>S</mi><mi>O</mi><mi>H</mi><mo>+</mo><mrow><mi mathvariant="normal">P</mi><msup><mi mathvariant="normal">b</mi><mrow><mn mathvariant="normal">2</mn><mo mathvariant="normal">+</mo></mrow></msup></mrow><mo>⇌</mo><mo>≡</mo><mi>S</mi><mi>O</mi><mi>P</mi><msup><mi>b</mi><mo>+</mo></msup><mo>+</mo><msup><mi mathvariant="normal">H</mi><mo mathvariant="normal">+</mo></msup><mi>.</mi></mrow><annotation encoding="application/x-tex">
+\equiv SOH+\mathrm{Pb^{2+}}
+\rightleftharpoons
+\equiv SOPb^+ + \mathrm{H^+} .
+</annotation></semantics></math></p>
+<p>Po
+的价态和络合更复杂，但在许多环境中表现为强颗粒/有机质/硫化物亲和。用分配系数表示：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>K</mi><mi>d</mi></msub><mo>=</mo><mfrac><msub><mi>C</mi><mi>s</mi></msub><msub><mi>C</mi><mi>w</mi></msub></mfrac><mo>,</mo><mspace width="2.0em"></mspace><msub><mi>f</mi><mrow><mi>d</mi><mi>i</mi><mi>s</mi><mi>s</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msub><mi>ρ</mi><mi>b</mi></msub><msub><mi>K</mi><mi>d</mi></msub><mi>/</mi><mi>θ</mi></mrow></mfrac><mi>.</mi></mrow><annotation encoding="application/x-tex">
+K_d=\frac{C_s}{C_w},\qquad
+f_{diss}=\frac1{1+\rho_bK_d/\theta} .
+</annotation></semantics></math></p>
+<p>这意味着 Pb/Po
+在水样、悬浮颗粒、沉积物、管网垢层和生物组织之间的再分配可能支配长期剂量。若只测溶解
+U，容易漏掉 Pb/Po 的沉积-再释放风险。</p>
+<h2 id="剂量公式与筛选指数">3.6 剂量公式与筛选指数</h2>
+<p>饮水摄入剂量的一般式为：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>D</mi><mrow><mi>i</mi><mi>n</mi><mi>g</mi></mrow></msub><mo>=</mo><munder><mo>∑</mo><mi>i</mi></munder><msub><mi>C</mi><mi>i</mi></msub><mi>I</mi><msub><mi>e</mi><mi>i</mi></msub><mo>,</mo></mrow><annotation encoding="application/x-tex">
+D_{ing}=\sum_i C_i I e_i ,
+</annotation></semantics></math></p>
+<p>其中
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>C</mi><mi>i</mi></msub><annotation encoding="application/x-tex">C_i</annotation></semantics></math>
+为活度浓度
+(Bq/L)，<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>I</mi><annotation encoding="application/x-tex">I</annotation></semantics></math>
+为年饮水量
+(L/y)，<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>e</mi><mi>i</mi></msub><annotation encoding="application/x-tex">e_i</annotation></semantics></math>
+为摄入剂量系数 (Sv/Bq)。瑞典井水论文采用：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi><mi>D</mi><mo stretchy="false" form="prefix">(</mo><mi>μ</mi><mi>S</mi><mi>v</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><munder><mo>∑</mo><mi>i</mi></munder><msub><mi>a</mi><mi>i</mi></msub><mi>V</mi><msub><mi>e</mi><mi>i</mi></msub><mo>,</mo><mspace width="2.0em"></mspace><mi>V</mi><mo>=</mo><mn>730</mn><mspace width="0.278em"></mspace><mi>L</mi><mi>/</mi><mi>y</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">
+ID(\mu Sv)=\sum_i a_i V e_i,\qquad V=730\;L/y .
+</annotation></semantics></math></p>
+<p>Health Canada 的 MAC 可写成反推形式：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mi>A</mi><msub><mi>C</mi><mi>i</mi></msub><mo>=</mo><mfrac><msub><mi>D</mi><mrow><mi>r</mi><mi>e</mi><mi>f</mi></mrow></msub><mrow><mi>I</mi><msub><mi>e</mi><mi>i</mi></msub></mrow></mfrac><mo>,</mo><mspace width="2.0em"></mspace><msub><mi>D</mi><mrow><mi>r</mi><mi>e</mi><mi>f</mi></mrow></msub><mo>=</mo><mn>1</mn><mspace width="0.278em"></mspace><mi>m</mi><mi>S</mi><mi>v</mi><mi>/</mi><mi>y</mi><mo>,</mo><mspace width="1.0em"></mspace><mi>I</mi><mo>=</mo><mn>1.53</mn><mspace width="0.278em"></mspace><mi>L</mi><mi>/</mi><mi>d</mi><mi>a</mi><mi>y</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">
+MAC_i=\frac{D_{ref}}{I e_i},
+\qquad
+D_{ref}=1\;mSv/y,\quad I=1.53\;L/day .
+</annotation></semantics></math></p>
+<p>当多个核素共同存在时，Health Canada 使用加和判据：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><munder><mo>∑</mo><mi>i</mi></munder><mfrac><msub><mi>C</mi><mi>i</mi></msub><mrow><mi>M</mi><mi>A</mi><msub><mi>C</mi><mi>i</mi></msub></mrow></mfrac><mo>≤</mo><mn>1</mn><mi>.</mi></mrow><annotation encoding="application/x-tex">
+\sum_i\frac{C_i}{MAC_i}\le 1 .
+</annotation></semantics></math></p>
+<p>这个式子是风险筛选指数，不是每个场址的最终剂量模型。年龄组、饮水量、食物摄入、处理前后水样、季节性和左删失数据都会改变实际剂量估计。</p>
+<h1 id="数据分析结果">4. 数据分析结果</h1>
+<h2 id="加拿大饮用水基准">4.1 加拿大饮用水基准</h2>
+<p>Health Canada 的放射性饮用水基准显示，Pb-210、Ra-226、Ra-228
+是加拿大饮用水中最重要的天然放射性核素；Po-210 和 Rn-222
+作为特殊场景参考浓度列出；铀则主要按化学毒性给出 20 ug/L MAC。</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>analyte</th>
+<th>value</th>
+<th>unit</th>
+<th>basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gross
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>α</mi><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></td>
+<td>0.5</td>
+<td>Bq/L</td>
+<td>initial screening criterion</td>
+</tr>
+<tr>
+<td>Gross
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>β</mi><annotation encoding="application/x-tex">\beta</annotation></semantics></math></td>
+<td>1.0</td>
+<td>Bq/L</td>
+<td>initial screening criterion</td>
+</tr>
+<tr>
+<td>Lead-210</td>
+<td>2.0</td>
+<td>Bq/L</td>
+<td>MAC from 1 mSv/y reference dose</td>
+</tr>
+<tr>
+<td>Radium-226</td>
+<td>5.0</td>
+<td>Bq/L</td>
+<td>MAC from 1 mSv/y reference dose</td>
+</tr>
+<tr>
+<td>Radium-228</td>
+<td>2.0</td>
+<td>Bq/L</td>
+<td>MAC from 1 mSv/y reference dose</td>
+</tr>
+<tr>
+<td>Polonium-210</td>
+<td>1.0</td>
+<td>Bq/L</td>
+<td>Appendix C reference concentration from 1 mSv/y</td>
+</tr>
+<tr>
+<td>Radon-222</td>
+<td>2000.0</td>
+<td>Bq/L</td>
+<td>Appendix C reference concentration; inhalation from indoor air
+remains primary management pathway</td>
+</tr>
+<tr>
+<td>Total natural uranium</td>
+<td>20.0</td>
+<td>ug/L</td>
+<td>MAC based primarily on chemical toxicity</td>
+</tr>
+</tbody>
+</table>
+<figure>
+<img role="img" aria-label="Health Canada 参考浓度" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNDMwIiB2aWV3Qm94PSIwIDAgOTAwIDQzMCI+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNmZmZmZmYiLz4KPHRleHQgeD0iNDAuMCIgeT0iMzguMCIgZm9udC1zaXplPSIxOSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMTAyMDMwIiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQtd2VpZ2h0PSI3MDAiPkhlYWx0aCBDYW5hZGEg5pS+5bCE5oCn6aWu55So5rC05Y+C6ICD5rWT5bqmL01BQ++8iOWvueaVsOi9tO+8iTwvdGV4dD4KPGxpbmUgeDE9IjE3MCIgeTE9IjM0MCIgeDI9IjgxMCIgeTI9IjM0MCIgc3Ryb2tlPSIjMzMzIi8+CjxsaW5lIHgxPSIxNzAiIHkxPSI3MCIgeDI9IjE3MCIgeTI9IjM0MCIgc3Ryb2tlPSIjMzMzIi8+CjxsaW5lIHgxPSIxNzAuMCIgeTE9IjcwIiB4Mj0iMTcwLjAiIHkyPSIzNDAiIHN0cm9rZT0iI2U1ZThlYyIvPgo8dGV4dCB4PSIxNzAuMCIgeT0iMzY1LjAiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzU1NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+MTBeLTE8L3RleHQ+CjxsaW5lIHgxPSIyOTguMCIgeTE9IjcwIiB4Mj0iMjk4LjAiIHkyPSIzNDAiIHN0cm9rZT0iI2U1ZThlYyIvPgo8dGV4dCB4PSIyOTguMCIgeT0iMzY1LjAiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzU1NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+MTBeMDwvdGV4dD4KPGxpbmUgeDE9IjQyNi4wIiB5MT0iNzAiIHgyPSI0MjYuMCIgeTI9IjM0MCIgc3Ryb2tlPSIjZTVlOGVjIi8+Cjx0ZXh0IHg9IjQyNi4wIiB5PSIzNjUuMCIgZm9udC1zaXplPSIxMSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjNTU1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj4xMF4xPC90ZXh0Pgo8bGluZSB4MT0iNTU0LjAiIHkxPSI3MCIgeDI9IjU1NC4wIiB5Mj0iMzQwIiBzdHJva2U9IiNlNWU4ZWMiLz4KPHRleHQgeD0iNTU0LjAiIHk9IjM2NS4wIiBmb250LXNpemU9IjExIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiM1NTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPjEwXjI8L3RleHQ+CjxsaW5lIHgxPSI2ODIuMCIgeTE9IjcwIiB4Mj0iNjgyLjAiIHkyPSIzNDAiIHN0cm9rZT0iI2U1ZThlYyIvPgo8dGV4dCB4PSI2ODIuMCIgeT0iMzY1LjAiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzU1NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+MTBeMzwvdGV4dD4KPGxpbmUgeDE9IjgxMC4wIiB5MT0iNzAiIHgyPSI4MTAuMCIgeTI9IjM0MCIgc3Ryb2tlPSIjZTVlOGVjIi8+Cjx0ZXh0IHg9IjgxMC4wIiB5PSIzNjUuMCIgZm9udC1zaXplPSIxMSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjNTU1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj4xMF40PC90ZXh0Pgo8dGV4dCB4PSIxNTguMCIgeT0iMTE2LjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC13ZWlnaHQ9IjQwMCI+TGVhZC0yMTA8L3RleHQ+CjxyZWN0IHg9IjE3MCIgeT0iOTYiIHdpZHRoPSIxNjYuNSIgaGVpZ2h0PSIzMCIgZmlsbD0iIzJmNmY3MyIvPgo8dGV4dCB4PSIzNDQuNSIgeT0iMTE3LjAiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9InN0YXJ0IiBmb250LXdlaWdodD0iNDAwIj4yIEJxL0w8L3RleHQ+Cjx0ZXh0IHg9IjE1OC4wIiB5PSIxNjQuMCIgZm9udC1zaXplPSIxMyIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXdlaWdodD0iNDAwIj5SYWRpdW0tMjI2PC90ZXh0Pgo8cmVjdCB4PSIxNzAiIHk9IjE0NCIgd2lkdGg9IjIxNy41IiBoZWlnaHQ9IjMwIiBmaWxsPSIjN2I0ZjlmIi8+Cjx0ZXh0IHg9IjM5NS41IiB5PSIxNjUuMCIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQtd2VpZ2h0PSI0MDAiPjUgQnEvTDwvdGV4dD4KPHRleHQgeD0iMTU4LjAiIHk9IjIxMi4wIiBmb250LXNpemU9IjEzIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtd2VpZ2h0PSI0MDAiPlJhZGl1bS0yMjg8L3RleHQ+CjxyZWN0IHg9IjE3MCIgeT0iMTkyIiB3aWR0aD0iMTY2LjUiIGhlaWdodD0iMzAiIGZpbGw9IiNiOTZmMzYiLz4KPHRleHQgeD0iMzQ0LjUiIHk9IjIxMy4wIiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udC13ZWlnaHQ9IjQwMCI+MiBCcS9MPC90ZXh0Pgo8dGV4dCB4PSIxNTguMCIgeT0iMjYwLjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC13ZWlnaHQ9IjQwMCI+UG9sb25pdW0tMjEwPC90ZXh0Pgo8cmVjdCB4PSIxNzAiIHk9IjI0MCIgd2lkdGg9IjEyOC4wIiBoZWlnaHQ9IjMwIiBmaWxsPSIjNGI3OWE4Ii8+Cjx0ZXh0IHg9IjMwNi4wIiB5PSIyNjEuMCIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQtd2VpZ2h0PSI0MDAiPjEgQnEvTDwvdGV4dD4KPHRleHQgeD0iMTU4LjAiIHk9IjMwOC4wIiBmb250LXNpemU9IjEzIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtd2VpZ2h0PSI0MDAiPlJhZG9uLTIyMjwvdGV4dD4KPHJlY3QgeD0iMTcwIiB5PSIyODgiIHdpZHRoPSI1NTAuNSIgaGVpZ2h0PSIzMCIgZmlsbD0iIzliM2Y0ZSIvPgo8dGV4dCB4PSI3MjguNSIgeT0iMzA5LjAiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9InN0YXJ0IiBmb250LXdlaWdodD0iNDAwIj4yMDAwIEJxL0w8L3RleHQ+Cjx0ZXh0IHg9IjQwLjAiIHk9IjM5NS4wIiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiM0NDUiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udC13ZWlnaHQ9IjQwMCI+5rOo77yaVSDnmoQgMjAgdWcvTCDkuLrljJblrabmr5LmgKfln7rlh4bvvIzkuI3kuI4gQnEvTCDlm77lkIzovbTnu5jliLbvvJtSbi0yMjIg5Y+C6ICD5rWT5bqm5Li76KaB55So5LqO6Kej6YeK5rC05ZCR5a6k5YaF56m65rCU6YeK5rCh5Zy65pmv44CCPC90ZXh0Pgo8L3N2Zz4K" alt="Health Canada 参考浓度" />
+<figcaption aria-hidden="true">Health Canada 参考浓度</figcaption>
+</figure>
+<p>这一基准本身已经支持一个重要判断：铀不是饮水放射性剂量的唯一核心。Health
+Canada 明确将 U 作为弱放射性、以化学毒性为主的参数处理，而
+Pb-210、Ra-226、Ra-228 构成放射性 MAC
+主体。对矿区地下水而言，这意味着“总 U
+达标”不能推出“放射性剂量达标”，尤其在 Ra/Pb/Po 未测时。</p>
+<h2 id="年瑞典井水研究活度高低与剂量排序分离">4.2 2025
+年瑞典井水研究：活度高低与剂量排序分离</h2>
+<p>瑞典研究的 56
+口井展示了典型的私井/裂隙地下水强变异性。开放页面给出的关键统计如下。</p>
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr>
+<th>radionuclide</th>
+<th>n_or_detection</th>
+<th>range_min_mBq_L</th>
+<th>range_max_mBq_L</th>
+<th>mean_mBq_L</th>
+<th>median_mBq_L</th>
+<th>dose_rank</th>
+<th>note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>210Po</td>
+<td>&gt;90% detected</td>
+<td>0.2</td>
+<td>1410</td>
+<td>100</td>
+<td>6</td>
+<td>3</td>
+<td>For wells with &gt;150 mBq/L, Po may contribute 50-90% of indicative
+dose.</td>
+</tr>
+<tr>
+<td>210Pb</td>
+<td>all samples detected</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>Mean dose contribution ranked first; source page did not expose a
+machine-readable numeric activity table.</td>
+</tr>
+<tr>
+<td>226Ra</td>
+<td>all 56 detected</td>
+<td>0.8</td>
+<td>598</td>
+<td>40</td>
+<td>10</td>
+<td>4</td>
+<td>Radium is chemically decoupled from uranium and controlled by
+alkaline-earth/sulfate chemistry.</td>
+</tr>
+<tr>
+<td>228Ra</td>
+<td>about 85% detected</td>
+<td>1</td>
+<td>258</td>
+<td>30</td>
+<td>10</td>
+<td>2</td>
+<td>Despite lower mean activity than U isotopes, dose rank is high
+because of dose coefficient.</td>
+</tr>
+<tr>
+<td>238U</td>
+<td>55 samples</td>
+<td>0.2</td>
+<td>2300</td>
+<td>120</td>
+<td>10</td>
+<td>6</td>
+<td>Seven wells exceeded Swedish chemical uranium threshold of 30
+ug/L.</td>
+</tr>
+<tr>
+<td>234U</td>
+<td>56 samples</td>
+<td></td>
+<td></td>
+<td>200</td>
+<td>20</td>
+<td>5</td>
+<td>Higher mean activity than Ra, but lower mean dose rank.</td>
+</tr>
+<tr>
+<td>Indicative dose</td>
+<td>56 wells</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ID ranged 3-1474 uSv/y, mean 130 uSv/y, and about 40% exceeded the
+100 uSv/y Swedish/Euratom reference.</td>
+</tr>
+</tbody>
+</table>
+<figure>
+<img role="img" aria-label="瑞典井水平均活度与剂量排序" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NTAiIGhlaWdodD0iNTIwIiB2aWV3Qm94PSIwIDAgOTUwIDUyMCI+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNmZmZmZmYiLz4KPHRleHQgeD0iMzUuMCIgeT0iMzYuMCIgZm9udC1zaXplPSIxOSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMTAyMDMwIiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQtd2VpZ2h0PSI3MDAiPjIwMjUg55Ge5YW45LqV5rC06K+B5o2u77ya5bmz5Z2H5rS75bqm5LiO5YmC6YeP5o6S5bqP5bm25LiN562J5Lu3PC90ZXh0Pgo8dGV4dCB4PSI5MC4wIiB5PSI2MC4wIiBmb250LXNpemU9IjE0IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udC13ZWlnaHQ9IjcwMCI+5bmz5Z2H5rS75bqm77yIbUJxL0zvvIk8L3RleHQ+Cjx0ZXh0IHg9IjgyLjAiIHk9IjEwMS4wIiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtd2VpZ2h0PSI0MDAiPjIxMFBvPC90ZXh0Pgo8cmVjdCB4PSI5MCIgeT0iODAiIHdpZHRoPSIxODAuMCIgaGVpZ2h0PSIyOCIgZmlsbD0iIzRiNzlhOCIvPgo8dGV4dCB4PSIyNzguMCIgeT0iMTAwLjAiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9InN0YXJ0IiBmb250LXdlaWdodD0iNDAwIj4xMDA8L3RleHQ+Cjx0ZXh0IHg9IjgyLjAiIHk9IjE1My4wIiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtd2VpZ2h0PSI0MDAiPjIyNlJhPC90ZXh0Pgo8cmVjdCB4PSI5MCIgeT0iMTMyIiB3aWR0aD0iNzIuMCIgaGVpZ2h0PSIyOCIgZmlsbD0iIzRiNzlhOCIvPgo8dGV4dCB4PSIxNzAuMCIgeT0iMTUyLjAiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9InN0YXJ0IiBmb250LXdlaWdodD0iNDAwIj40MDwvdGV4dD4KPHRleHQgeD0iODIuMCIgeT0iMjA1LjAiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC13ZWlnaHQ9IjQwMCI+MjI4UmE8L3RleHQ+CjxyZWN0IHg9IjkwIiB5PSIxODQiIHdpZHRoPSI1NC4wIiBoZWlnaHQ9IjI4IiBmaWxsPSIjNGI3OWE4Ii8+Cjx0ZXh0IHg9IjE1Mi4wIiB5PSIyMDQuMCIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQtd2VpZ2h0PSI0MDAiPjMwPC90ZXh0Pgo8dGV4dCB4PSI4Mi4wIiB5PSIyNTcuMCIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXdlaWdodD0iNDAwIj4yMzhVPC90ZXh0Pgo8cmVjdCB4PSI5MCIgeT0iMjM2IiB3aWR0aD0iMjE2LjAiIGhlaWdodD0iMjgiIGZpbGw9IiM0Yjc5YTgiLz4KPHRleHQgeD0iMzE0LjAiIHk9IjI1Ni4wIiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udC13ZWlnaHQ9IjQwMCI+MTIwPC90ZXh0Pgo8dGV4dCB4PSI4Mi4wIiB5PSIzMDkuMCIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXdlaWdodD0iNDAwIj4yMzRVPC90ZXh0Pgo8cmVjdCB4PSI5MCIgeT0iMjg4IiB3aWR0aD0iMzYwLjAiIGhlaWdodD0iMjgiIGZpbGw9IiM0Yjc5YTgiLz4KPHRleHQgeD0iNDU4LjAiIHk9IjMwOC4wIiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udC13ZWlnaHQ9IjQwMCI+MjAwPC90ZXh0Pgo8dGV4dCB4PSI1NjAuMCIgeT0iNjAuMCIgZm9udC1zaXplPSIxNCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQtd2VpZ2h0PSI3MDAiPuW5s+Wdh+WJgumHj+i0oeeMruaOkuW6j++8iDE95pyA6auY77yJPC90ZXh0Pgo8Y2lyY2xlIGN4PSI1ODIiIGN5PSI5MiIgcj0iMTUiIGZpbGw9IiNiOTZmMzYiLz4KPHRleHQgeD0iNTgyLjAiIHk9Ijk3LjAiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjcwMCI+MTwvdGV4dD4KPHRleHQgeD0iNjEwLjAiIHk9Ijk3LjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9InN0YXJ0IiBmb250LXdlaWdodD0iNDAwIj4yMTBQYjwvdGV4dD4KPGNpcmNsZSBjeD0iNTgyIiBjeT0iMTM3IiByPSIxNSIgZmlsbD0iI2I5NmYzNiIvPgo8dGV4dCB4PSI1ODIuMCIgeT0iMTQyLjAiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjcwMCI+MjwvdGV4dD4KPHRleHQgeD0iNjEwLjAiIHk9IjE0Mi4wIiBmb250LXNpemU9IjEzIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udC13ZWlnaHQ9IjQwMCI+MjI4UmE8L3RleHQ+CjxjaXJjbGUgY3g9IjU4MiIgY3k9IjE4MiIgcj0iMTUiIGZpbGw9IiNiOTZmMzYiLz4KPHRleHQgeD0iNTgyLjAiIHk9IjE4Ny4wIiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI3MDAiPjM8L3RleHQ+Cjx0ZXh0IHg9IjYxMC4wIiB5PSIxODcuMCIgZm9udC1zaXplPSIxMyIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQtd2VpZ2h0PSI0MDAiPjIxMFBvPC90ZXh0Pgo8Y2lyY2xlIGN4PSI1ODIiIGN5PSIyMjciIHI9IjE1IiBmaWxsPSIjYjk2ZjM2Ii8+Cjx0ZXh0IHg9IjU4Mi4wIiB5PSIyMzIuMCIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNzAwIj40PC90ZXh0Pgo8dGV4dCB4PSI2MTAuMCIgeT0iMjMyLjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9InN0YXJ0IiBmb250LXdlaWdodD0iNDAwIj4yMjZSYTwvdGV4dD4KPGNpcmNsZSBjeD0iNTgyIiBjeT0iMjcyIiByPSIxNSIgZmlsbD0iI2I5NmYzNiIvPgo8dGV4dCB4PSI1ODIuMCIgeT0iMjc3LjAiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjcwMCI+NTwvdGV4dD4KPHRleHQgeD0iNjEwLjAiIHk9IjI3Ny4wIiBmb250LXNpemU9IjEzIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udC13ZWlnaHQ9IjQwMCI+MjM0VTwvdGV4dD4KPGNpcmNsZSBjeD0iNTgyIiBjeT0iMzE3IiByPSIxNSIgZmlsbD0iI2I5NmYzNiIvPgo8dGV4dCB4PSI1ODIuMCIgeT0iMzIyLjAiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjcwMCI+NjwvdGV4dD4KPHRleHQgeD0iNjEwLjAiIHk9IjMyMi4wIiBmb250LXNpemU9IjEzIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udC13ZWlnaHQ9IjQwMCI+MjM4VTwvdGV4dD4KPHRleHQgeD0iODUuMCIgeT0iNDQwLjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9InN0YXJ0IiBmb250LXdlaWdodD0iNDAwIj7lhbPplK7lr7npvZDvvJpVLTIzNCDkuI4gVS0yMzgg55qE5bmz5Z2H5rS75bqm5LiN5L2O77yM5L2G5YmC6YeP5o6S5bqP5L2O5LqOIFBiLTIxMOOAgVJhLTIyOOOAgVBvLTIxMCDkuI4gUmEtMjI244CCPC90ZXh0Pgo8dGV4dCB4PSI4NS4wIiB5PSI0NjUuMCIgZm9udC1zaXplPSIxMyIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQtd2VpZ2h0PSI0MDAiPuino+mHiu+8muWJgumHj+eUsea0u+W6puOAgeaRhOWFpemHj+S4juaguOe0oOWJgumHj+ezu+aVsOWFseWQjOWGs+Wumu+8m+i/geenu+eUseWQhOWFg+e0oOWMluWtpuihjOS4uuaOp+WItu+8jOiAjOmdnueUseaAuyBVIOWNleWPmOmHj+WGs+WumuOAgjwvdGV4dD4KPC9zdmc+Cg==" alt="瑞典井水平均活度与剂量排序" />
+<figcaption aria-hidden="true">瑞典井水平均活度与剂量排序</figcaption>
+</figure>
+<p>这组结果对本文命题非常关键。U-234 的平均活度约 200 mBq/L，U-238 约
+120 mBq/L，高于 Ra-226 和 Ra-228 的平均活度量级；然而平均剂量贡献排序中
+U-234 和 U-238 位居第五、第六。相反，Pb-210
+虽然开放页面没有给出可机读平均活度表，却在平均剂量贡献中居首；Ra-228
+平均活度约 30 mBq/L，却居第二；Po-210 在高值井中可贡献 50%-90%
+指示剂量。由此可见：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="normal">剂量重要性</mtext><mo>≠</mo><mtext mathvariant="normal">活度浓度排序</mtext><mo>≠</mo><mtext mathvariant="normal">总 U 浓度排序</mtext><mi>.</mi></mrow><annotation encoding="application/x-tex">
+\text{剂量重要性}\ne\text{活度浓度排序}\ne\text{总 U 浓度排序} .
+</annotation></semantics></math></p>
+<p>这种分离来自两个因素。第一，核素摄入剂量系数不同；第二，子体核素在地下水中处于非平衡状态。U
+的碳酸盐迁移、Ra 的碱土金属交换/共沉淀、Pb/Po
+的颗粒表面反应相互独立，导致同一口井中各核素可能不相关甚至反相关。</p>
+<h2 id="cigar-lake-iemp-公开数据矿区地表水低于筛选值">4.3 Cigar Lake
+IEMP 公开数据：矿区地表水低于筛选值</h2>
+<p>CNSC IEMP Cigar Lake CSV
+是真实公开监测数据。本文仅将其作为“铀矿环境地表水/食物监测”证据，不把它等同于深部地下水。水样关键汇总如下。</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr>
+<th>parameter</th>
+<th>n</th>
+<th>years</th>
+<th>unit</th>
+<th>left_censored_n</th>
+<th>mean_half_dl</th>
+<th>max_upper_bound</th>
+<th>iemp_guideline_or_screening</th>
+<th>max_upper_to_iemp_screening_ratio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lead-210</td>
+<td>16</td>
+<td>2020;2024</td>
+<td>Bq/L</td>
+<td>15</td>
+<td>0.010625</td>
+<td>0.02</td>
+<td>0.2</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>Polonium-210</td>
+<td>16</td>
+<td>2020;2024</td>
+<td>Bq/L</td>
+<td>14</td>
+<td>0.003812</td>
+<td>0.02</td>
+<td>0.1</td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>Radium-226</td>
+<td>16</td>
+<td>2020;2024</td>
+<td>Bq/L</td>
+<td>16</td>
+<td>0.0025</td>
+<td>0.005</td>
+<td>0.5</td>
+<td>0.01</td>
+</tr>
+<tr>
+<td>Thorium-230</td>
+<td>16</td>
+<td>2020;2024</td>
+<td>Bq/L</td>
+<td>16</td>
+<td>0.005</td>
+<td>0.01</td>
+<td>0.6</td>
+<td>0.016667</td>
+</tr>
+<tr>
+<td>Total hardness</td>
+<td>16</td>
+<td>2020;2024</td>
+<td>mg/L</td>
+<td>0</td>
+<td>9.625</td>
+<td>17.0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Uranium</td>
+<td>16</td>
+<td>2020;2024</td>
+<td>ug/L</td>
+<td>16</td>
+<td>0.05</td>
+<td>0.1</td>
+<td>15.0</td>
+<td>0.006667</td>
+</tr>
+<tr>
+<td>pH</td>
+<td>16</td>
+<td>2020;2024</td>
+<td>pH</td>
+<td>0</td>
+<td>7.051875</td>
+<td>7.23</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<figure>
+<img role="img" aria-label="Cigar Lake IEMP 水样筛选比值" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5ODAiIGhlaWdodD0iNDYwIiB2aWV3Qm94PSIwIDAgOTgwIDQ2MCI+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNmZmZmZmYiLz4KPHRleHQgeD0iMzUuMCIgeT0iMzYuMCIgZm9udC1zaXplPSIxOSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMTAyMDMwIiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQtd2VpZ2h0PSI3MDAiPkNOU0MgQ2lnYXIgTGFrZSBJRU1QIOawtOagt++8muS/neWuiOS4iumZkCAvIElFTVAg562b6YCJ5YC8PC90ZXh0Pgo8bGluZSB4MT0iMjIwIiB5MT0iMzc1IiB4Mj0iODQwIiB5Mj0iMzc1IiBzdHJva2U9IiMzMzMiLz4KPGxpbmUgeDE9IjIyMC4wIiB5MT0iODUiIHgyPSIyMjAuMCIgeTI9IjM3NSIgc3Ryb2tlPSIjZTRlN2VhIi8+Cjx0ZXh0IHg9IjIyMC4wIiB5PSIzOTkuMCIgZm9udC1zaXplPSIxMSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjNTU1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj4wLjAwMTwvdGV4dD4KPGxpbmUgeDE9IjQyNi43IiB5MT0iODUiIHgyPSI0MjYuNyIgeTI9IjM3NSIgc3Ryb2tlPSIjZTRlN2VhIi8+Cjx0ZXh0IHg9IjQyNi43IiB5PSIzOTkuMCIgZm9udC1zaXplPSIxMSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjNTU1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj4wLjAxPC90ZXh0Pgo8bGluZSB4MT0iNjMzLjMiIHkxPSI4NSIgeDI9IjYzMy4zIiB5Mj0iMzc1IiBzdHJva2U9IiNlNGU3ZWEiLz4KPHRleHQgeD0iNjMzLjMiIHk9IjM5OS4wIiBmb250LXNpemU9IjExIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiM1NTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPjAuMTwvdGV4dD4KPGxpbmUgeDE9Ijg0MC4wIiB5MT0iODUiIHgyPSI4NDAuMCIgeTI9IjM3NSIgc3Ryb2tlPSIjZTRlN2VhIi8+Cjx0ZXh0IHg9Ijg0MC4wIiB5PSIzOTkuMCIgZm9udC1zaXplPSIxMSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjNTU1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj4xPC90ZXh0Pgo8bGluZSB4MT0iODQwIiB5MT0iODUiIHgyPSI4NDAiIHkyPSIzNzUiIHN0cm9rZT0iIzliM2Y0ZSIgc3Ryb2tlLWRhc2hhcnJheT0iNiA1Ii8+Cjx0ZXh0IHg9IjIwNi4wIiB5PSIxMzAuMCIgZm9udC1zaXplPSIxMyIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXdlaWdodD0iNDAwIj5MZWFkLTIxMDwvdGV4dD4KPHJlY3QgeD0iMjIwIiB5PSIxMTAiIHdpZHRoPSI0MTMuMyIgaGVpZ2h0PSIyOCIgZmlsbD0iIzJmNmY3MyIvPgo8dGV4dCB4PSI2NDEuMyIgeT0iMTMwLjAiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9InN0YXJ0IiBmb250LXdlaWdodD0iNDAwIj4wLjE8L3RleHQ+Cjx0ZXh0IHg9IjIwNi4wIiB5PSIxODAuMCIgZm9udC1zaXplPSIxMyIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXdlaWdodD0iNDAwIj5Qb2xvbml1bS0yMTA8L3RleHQ+CjxyZWN0IHg9IjIyMCIgeT0iMTYwIiB3aWR0aD0iNDc1LjUiIGhlaWdodD0iMjgiIGZpbGw9IiM3YjRmOWYiLz4KPHRleHQgeD0iNzAzLjUiIHk9IjE4MC4wIiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udC13ZWlnaHQ9IjQwMCI+MC4yPC90ZXh0Pgo8dGV4dCB4PSIyMDYuMCIgeT0iMjMwLjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC13ZWlnaHQ9IjQwMCI+UmFkaXVtLTIyNjwvdGV4dD4KPHJlY3QgeD0iMjIwIiB5PSIyMTAiIHdpZHRoPSIyMDYuNyIgaGVpZ2h0PSIyOCIgZmlsbD0iI2I5NmYzNiIvPgo8dGV4dCB4PSI0MzQuNyIgeT0iMjMwLjAiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9InN0YXJ0IiBmb250LXdlaWdodD0iNDAwIj4wLjAxPC90ZXh0Pgo8dGV4dCB4PSIyMDYuMCIgeT0iMjgwLjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC13ZWlnaHQ9IjQwMCI+VGhvcml1bS0yMzA8L3RleHQ+CjxyZWN0IHg9IjIyMCIgeT0iMjYwIiB3aWR0aD0iMjUyLjUiIGhlaWdodD0iMjgiIGZpbGw9IiM0Yjc5YTgiLz4KPHRleHQgeD0iNDgwLjUiIHk9IjI4MC4wIiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udC13ZWlnaHQ9IjQwMCI+MC4wMTY2NzwvdGV4dD4KPHRleHQgeD0iMjA2LjAiIHk9IjMzMC4wIiBmb250LXNpemU9IjEzIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtd2VpZ2h0PSI0MDAiPlVyYW5pdW08L3RleHQ+CjxyZWN0IHg9IjIyMCIgeT0iMzEwIiB3aWR0aD0iMTcwLjMiIGhlaWdodD0iMjgiIGZpbGw9IiM5YjNmNGUiLz4KPHRleHQgeD0iMzk4LjMiIHk9IjMzMC4wIiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udC13ZWlnaHQ9IjQwMCI+MC4wMDY2Njc8L3RleHQ+Cjx0ZXh0IHg9IjIyMC4wIiB5PSI0MzAuMCIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjNDQ1IiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQtd2VpZ2h0PSI0MDAiPuW3puWIoOWkseWkhOeQhu+8muS4iumZkOavlOWAvOS9v+eUqOajgOWHuumZkOacrOi6q++8m+Wdh+WAvOWPpueUqCAwLjUq5qOA5Ye66ZmQ44CC5omA5pyJ5Zu+56S65rC05qC35oyH5qCH5L2O5LqOIElFTVAg562b6YCJ5YC844CCPC90ZXh0Pgo8L3N2Zz4K" alt="Cigar Lake IEMP 水样筛选比值" />
+<figcaption aria-hidden="true">Cigar Lake IEMP 水样筛选比值</figcaption>
+</figure>
+<p>保守上限分析表明，水样 U、Pb-210、Po-210、Ra-226、Th-230 均低于 IEMP
+筛选值。页面正文亦说明 2024
+年水样放射性和非放射性污染物处于自然背景水平并低于适用指南。这一结果与瑞典井水的高变异性并不冲突：IEMP
+数据是湖泊表层水和生态介质监测，受稀释、曝气、短停留时间和区域背景控制；私井/裂隙地下水则长期接触富
+U/Th 岩石，可积累衰变链核素并形成局部非平衡。</p>
+<h2 id="popb-的生态介质信号">4.4 Po/Pb 的生态介质信号</h2>
+<p>CNSC 食物/生物介质数据中，Po-210 是最需要解释的核素之一。CSV 汇总中
+Po-210 的样品类型结果如下。</p>
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr>
+<th>sample_description</th>
+<th>n</th>
+<th>years</th>
+<th>unit</th>
+<th>mean_half_dl</th>
+<th>max_upper_bound</th>
+<th>iemp_screening</th>
+<th>max_upper_to_iemp_screening_ratio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blueberries (wild)</td>
+<td>7</td>
+<td>2020;2024</td>
+<td>Bq/kg fresh weight</td>
+<td>0.169914</td>
+<td>0.249</td>
+<td>12.4</td>
+<td>0.020081</td>
+</tr>
+<tr>
+<td>Fish - Lake Whitefish</td>
+<td>12</td>
+<td>2020;2024</td>
+<td>Bq/kg fresh weight</td>
+<td>1.058333</td>
+<td>3.8</td>
+<td>1.22</td>
+<td>3.114754</td>
+</tr>
+<tr>
+<td>Fish - Northern Pike</td>
+<td>12</td>
+<td>2020;2024</td>
+<td>Bq/kg fresh weight</td>
+<td>2.35</td>
+<td>3.6</td>
+<td>1.22</td>
+<td>2.95082</td>
+</tr>
+<tr>
+<td>Fish - Trout</td>
+<td>12</td>
+<td>2020;2024</td>
+<td>Bq/kg fresh weight</td>
+<td>0.108333</td>
+<td>0.2</td>
+<td>1.22</td>
+<td>0.163934</td>
+</tr>
+<tr>
+<td>Labrador Tea</td>
+<td>2</td>
+<td>2020</td>
+<td>Bq/kg fresh weight</td>
+<td>2.22</td>
+<td>2.6</td>
+<td>203.0</td>
+<td>0.012808</td>
+</tr>
+<tr>
+<td>Labrador tea</td>
+<td>2</td>
+<td>2024</td>
+<td>Bq/kg fresh weight</td>
+<td>3.448</td>
+<td>3.92</td>
+<td>202.9</td>
+<td>0.01932</td>
+</tr>
+</tbody>
+</table>
+<p>IEMP 页面指出，2024 年 Cigar Lake 区域鱼类 Po-210 最高值为 3.5 Bq/kg
+fresh weight，位于区域自然背景范围 0.02-14 Bq/kg fresh weight
+内，且参考站与潜在影响站结果相似，因而不能解释为矿山单独造成。这个结果对地下水课题仍有意义：Po/Pb
+是长期沉积、生物摄入和颗粒相迁移中更敏感的子体核素；它们可能在水相低值时仍通过食物网或沉积物成为剂量评价关键项。</p>
+<h1 id="机制解释为何-urarnpopb-不同步">5. 机制解释：为何
+U、Ra、Rn、Po/Pb 不同步</h1>
+<figure>
+<img role="img" aria-label="迁移控制矩阵" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5ODAiIGhlaWdodD0iNTcwIiB2aWV3Qm94PSIwIDAgOTgwIDU3MCI+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNmZmZmZmYiLz4KPHRleHQgeD0iMzUuMCIgeT0iMzYuMCIgZm9udC1zaXplPSIxOSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMTAyMDMwIiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQtd2VpZ2h0PSI3MDAiPlUtUmEtUm4tUG8tUGIg6L+B56e75o6n5Yi255+p6Zi15LiO6K+E5Lu35YWl5Y+jPC90ZXh0Pgo8cmVjdCB4PSI3MCIgeT0iOTUiIHdpZHRoPSIxOTAiIGhlaWdodD0iMTgwIiByeD0iNyIgZmlsbD0iI2Y3ZjlmYiIgc3Ryb2tlPSIjNGI3OWE4IiBzdHJva2Utd2lkdGg9IjIiLz4KPHRleHQgeD0iMTY1LjAiIHk9IjEyOS4wIiBmb250LXNpemU9IjIyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiM0Yjc5YTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI3MDAiPlU8L3RleHQ+Cjx0ZXh0IHg9IjE2NS4wIiB5PSIxNjcuMCIgZm9udC1zaXplPSIxMyIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj5FaC1wSDwvdGV4dD4KPHRleHQgeD0iMTY1LjAiIHk9IjE5Mi4wIiBmb250LXNpemU9IjEzIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPueis+mFuOebkDwvdGV4dD4KPHRleHQgeD0iMTY1LjAiIHk9IjIxNy4wIiBmb250LXNpemU9IjEzIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPkNhL01n57uc5ZCIPC90ZXh0Pgo8dGV4dCB4PSIxNjUuMCIgeT0iMjQyLjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+RmUvTW7lkLjpmYQ8L3RleHQ+CjxsaW5lIHgxPSIxNjUuMCIgeTE9IjI3NSIgeDI9IjE2NS4wIiB5Mj0iMzMwIiBzdHJva2U9IiM0Yjc5YTgiIHN0cm9rZS13aWR0aD0iMiIgbWFya2VyLWVuZD0idXJsKCNhcnJvdzIpIi8+CjxyZWN0IHg9IjI5NSIgeT0iOTUiIHdpZHRoPSIxOTAiIGhlaWdodD0iMTgwIiByeD0iNyIgZmlsbD0iI2Y3ZjlmYiIgc3Ryb2tlPSIjMmY2ZjczIiBzdHJva2Utd2lkdGg9IjIiLz4KPHRleHQgeD0iMzkwLjAiIHk9IjEyOS4wIiBmb250LXNpemU9IjIyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyZjZmNzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI3MDAiPlJhPC90ZXh0Pgo8dGV4dCB4PSIzOTAuMCIgeT0iMTY3LjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+QmEvU3Lnq57kuok8L3RleHQ+Cjx0ZXh0IHg9IjM5MC4wIiB5PSIxOTIuMCIgZm9udC1zaXplPSIxMyIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj5TTzQv6YeN5pm255+zPC90ZXh0Pgo8dGV4dCB4PSIzOTAuMCIgeT0iMjE3LjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+56a75a2Q5by65bqmPC90ZXh0Pgo8dGV4dCB4PSIzOTAuMCIgeT0iMjQyLjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+6Ziz56a75a2Q5Lqk5o2iPC90ZXh0Pgo8bGluZSB4MT0iMzkwLjAiIHkxPSIyNzUiIHgyPSIzOTAuMCIgeTI9IjMzMCIgc3Ryb2tlPSIjMmY2ZjczIiBzdHJva2Utd2lkdGg9IjIiIG1hcmtlci1lbmQ9InVybCgjYXJyb3cyKSIvPgo8cmVjdCB4PSI1MjAiIHk9Ijk1IiB3aWR0aD0iMTkwIiBoZWlnaHQ9IjE4MCIgcng9IjciIGZpbGw9IiNmN2Y5ZmIiIHN0cm9rZT0iI2I5NmYzNiIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjx0ZXh0IHg9IjYxNS4wIiB5PSIxMjkuMCIgZm9udC1zaXplPSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjYjk2ZjM2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNzAwIj5SbjwvdGV4dD4KPHRleHQgeD0iNjE1LjAiIHk9IjE2Ny4wIiBmb250LXNpemU9IjEzIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPlJh5rqQ6aG5PC90ZXh0Pgo8dGV4dCB4PSI2MTUuMCIgeT0iMTkyLjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+6KOC6ZqZ5byA5bqmPC90ZXh0Pgo8dGV4dCB4PSI2MTUuMCIgeT0iMjE3LjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+5YGc55WZ5pe26Ze0PC90ZXh0Pgo8dGV4dCB4PSI2MTUuMCIgeT0iMjQyLjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+6YC45pWjPC90ZXh0Pgo8bGluZSB4MT0iNjE1LjAiIHkxPSIyNzUiIHgyPSI2MTUuMCIgeTI9IjMzMCIgc3Ryb2tlPSIjYjk2ZjM2IiBzdHJva2Utd2lkdGg9IjIiIG1hcmtlci1lbmQ9InVybCgjYXJyb3cyKSIvPgo8cmVjdCB4PSI3NDUiIHk9Ijk1IiB3aWR0aD0iMTkwIiBoZWlnaHQ9IjE4MCIgcng9IjciIGZpbGw9IiNmN2Y5ZmIiIHN0cm9rZT0iIzdiNGY5ZiIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjx0ZXh0IHg9Ijg0MC4wIiB5PSIxMjkuMCIgZm9udC1zaXplPSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjN2I0ZjlmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNzAwIj5QYi9QbzwvdGV4dD4KPHRleHQgeD0iODQwLjAiIHk9IjE2Ny4wIiBmb250LXNpemU9IjEzIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPkZlL01u5rCn5YyW54mpPC90ZXh0Pgo8dGV4dCB4PSI4NDAuMCIgeT0iMTkyLjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+5pyJ5py66LSoL+ehq+WMlueJqTwvdGV4dD4KPHRleHQgeD0iODQwLjAiIHk9IjIxNy4wIiBmb250LXNpemU9IjEzIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMyMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPuiDtuS9ky/popfnspI8L3RleHQ+Cjx0ZXh0IHg9Ijg0MC4wIiB5PSIyNDIuMCIgZm9udC1zaXplPSIxMyIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMjIzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj7msonnp6/ntK/np688L3RleHQ+CjxsaW5lIHgxPSI4NDAuMCIgeTE9IjI3NSIgeDI9Ijg0MC4wIiB5Mj0iMzMwIiBzdHJva2U9IiM3YjRmOWYiIHN0cm9rZS13aWR0aD0iMiIgbWFya2VyLWVuZD0idXJsKCNhcnJvdzIpIi8+CjxkZWZzPjxtYXJrZXIgaWQ9ImFycm93MiIgbWFya2VyV2lkdGg9IjgiIG1hcmtlckhlaWdodD0iOCIgcmVmWD0iNyIgcmVmWT0iNCIgb3JpZW50PSJhdXRvIj48cGF0aCBkPSJNMCwwIEw4LDQgTDAsOCB6IiBmaWxsPSIjNTU1Ii8+PC9tYXJrZXI+PC9kZWZzPgo8cmVjdCB4PSI3MCIgeT0iMzUwIiB3aWR0aD0iMTkwIiBoZWlnaHQ9IjEwNSIgcng9IjciIGZpbGw9IiNmZmYiIHN0cm9rZT0iIzlhYTdiMyIvPgo8dGV4dCB4PSIxNjUuMCIgeT0iMzgyLjAiIGZvbnQtc2l6ZT0iMTUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzEwMjAzMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjcwMCI+5Y+N5bqU5Zyw55CD5YyW5a2mPC90ZXh0Pgo8dGV4dCB4PSIxNjUuMCIgeT0iNDE1LjAiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzM0NCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjQwMCI+UEhSRUVRQzog57uc5ZCI44CB6aWx5ZKM5oyH5pWw44CB5ZC46ZmEL+WFseayiea3gDwvdGV4dD4KPHJlY3QgeD0iMjk1IiB5PSIzNTAiIHdpZHRoPSIxOTAiIGhlaWdodD0iMTA1IiByeD0iNyIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjOWFhN2IzIi8+Cjx0ZXh0IHg9IjM5MC4wIiB5PSIzODIuMCIgZm9udC1zaXplPSIxNSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMTAyMDMwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNzAwIj7oo4Lpmpnov4Hnp7s8L3RleHQ+Cjx0ZXh0IHg9IjM5MC4wIiB5PSI0MTUuMCIgZm9udC1zaXplPSIxMSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMzQ0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj7lr7nmtYEt5byl5pWjLea7nueVmSArIEJhdGVtYW4g55Sf5oiQL+ihsOWPmDwvdGV4dD4KPHJlY3QgeD0iNTIwIiB5PSIzNTAiIHdpZHRoPSIxOTAiIGhlaWdodD0iMTA1IiByeD0iNyIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjOWFhN2IzIi8+Cjx0ZXh0IHg9IjYxNS4wIiB5PSIzODIuMCIgZm9udC1zaXplPSIxNSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMTAyMDMwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNzAwIj7liYLph4/or4Tku7c8L3RleHQ+Cjx0ZXh0IHg9IjYxNS4wIiB5PSI0MTUuMCIgZm9udC1zaXplPSIxMSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmaWxsPSIjMzQ0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXdlaWdodD0iNDAwIj7ppa7msLTmkYTlhaXjgIHph4rmsKHlkLjlhaXjgIHpo5/niakv5rKJ56ev57Sv56evPC90ZXh0Pgo8cmVjdCB4PSI3NDUiIHk9IjM1MCIgd2lkdGg9IjE5MCIgaGVpZ2h0PSIxMDUiIHJ4PSI3IiBmaWxsPSIjZmZmIiBzdHJva2U9IiM5YWE3YjMiLz4KPHRleHQgeD0iODQwLjAiIHk9IjM4Mi4wIiBmb250LXNpemU9IjE1IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMxMDIwMzAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI3MDAiPuS4jeehruWumuaApzwvdGV4dD4KPHRleHQgeD0iODQwLjAiIHk9IjQxNS4wIiBmb250LXNpemU9IjExIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZpbGw9IiMzNDQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI0MDAiPuW3puWIoOWkseOAgeWto+iKguaAp+OAgUtfZOOAgeWBnOeVmeaXtumXtOOAgeerr+WFg+a3t+WQiDwvdGV4dD4KPHRleHQgeD0iNzAuMCIgeT0iNTE1LjAiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZmlsbD0iIzIyMyIgdGV4dC1hbmNob3I9InN0YXJ0IiBmb250LXdlaWdodD0iNDAwIj7orrrmlofop4LngrnvvJrlronlhajor4Tku7flupTmioroobDlj5jpk77moLjntKDkvZzkuLrogKblkIjns7vnu5/lpITnkIbvvJvmgLsgVSDlj6rog73mj4/ov7DkuIDkuKrmupDpobnnu7TluqbvvIzkuI3og73mm7/ku6MgUmEvUm4vUGIvUG8g55qE5YmC6YeP5LiO6L+B56e76K+E5Lu344CCPC90ZXh0Pgo8L3N2Zz4K" alt="迁移控制矩阵" />
+<figcaption aria-hidden="true">迁移控制矩阵</figcaption>
+</figure>
+<h2 id="u-高不必然-ra-高">5.1 U 高不必然 Ra 高</h2>
+<p>U(VI) 在氧化、碳酸盐水中以阴离子或中性络合物迁移，主要受
+Eh-pH、DIC、Ca/Mg 和 Fe/Mn 氧化物吸附控制。Ra 是二价阳离子，不参与
+uranyl 碳酸盐体系，主要受 Ba/Sr/Ca
+竞争、硫酸盐矿物饱和度、阳离子交换容量和离子强度控制。因此，同一含水层内可能出现：</p>
+<ul>
+<li>氧化碳酸盐水中 U 高、Ra 低：U 形成可迁移络合物，而 Ra
+被重晶石/交换位点截留。</li>
+<li>还原或高离子强度水中 U 低、Ra 高：U(IV) 沉淀或吸附，而 Ra
+从交换位点释放，且缺乏硫酸盐/重晶石沉淀。</li>
+<li>富 Th 岩性中 Ra-228 高但 U 不高：Ra-228 母体来自 Th-232 系列，与
+U-238 源项不同。</li>
+</ul>
+<p>这解释了为什么以总 U 作为唯一指标会误判 Ra 剂量。</p>
+<h2 id="ra-高不必然-rn-高rn-高也不必然-u-高">5.2 Ra 高不必然 Rn 高，Rn
+高也不必然 U 高</h2>
+<p>Rn-222 的半衰期只有 3.82
+天，迁移距离受流速和裂隙连通性约束。若地下水在富 Ra
+裂隙面附近快速进入井筒且脱气少，Rn
+可很高；若路径长、曝气强或停留时间相对半衰期过长，Rn 会衰变或逸散。Rn
+还可由固相 Ra 的反冲进入水相，而不需要高溶解 U。因此，Rn
+更适合作为裂隙系统、岩性和短时标水-岩接触的示踪，而不是 U 浓度代理。</p>
+<p>Health Canada 也强调，水中 Rn
+对室内空气的贡献需要通过空气检测来管理，不能简单由水浓度外推。这一监管逻辑与上述迁移方程一致。</p>
+<h2 id="popb-适合长期风险和累积风险评价">5.3 Po/Pb
+适合长期风险和累积风险评价</h2>
+<p>Pb-210 半衰期 22.2 年，Po-210 半衰期 138.3
+天，二者在矿区水-沉积物-生物体系中具有较强表面反应和生物地球化学循环特征。它们可以通过以下路径影响长期评价：</p>
+<ul>
+<li>管网或井壁 Fe/Mn 氧化物、腐蚀垢和沉积物吸附
+Pb/Po，水力扰动后再释放。</li>
+<li>有机质和硫化物富集 Po，形成与溶解 U 不同步的热点。</li>
+<li>Rn 衰变子体沉积可生成 unsupported Pb-210/Po-210，使 Po/Pb 活度与溶解
+U 脱耦。</li>
+<li>食物网中 Po-210 可能成为剂量敏感项，Cigar Lake IEMP 鱼类结果即显示
+Po-210 是需要单独解释的生态介质指标。</li>
+</ul>
+<p>因此，长期风险评价中只测 U 不足以覆盖 Pb/Po 的沉积和累积路径。</p>
+<h1 id="与预设命题的对齐">6. 与预设命题的对齐</h1>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>hypothesis</th>
+<th>mechanistic_basis</th>
+<th>data_alignment</th>
+<th>status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>U high does not necessarily mean Ra/Pb/Po dose dominance</td>
+<td>U redox/carbonate speciation differs from Ra alkaline-earth
+chemistry and Pb/Po surface reactivity.</td>
+<td>Swedish mean U activity can exceed Ra activity, yet mean dose
+ranking is Pb-210 &gt; Ra-228 &gt; Po-210 &gt; Ra-226 &gt; U-234 &gt;
+U-238.</td>
+<td>supported</td>
+</tr>
+<tr>
+<td>Ra can be high when U is not high</td>
+<td>Ra is controlled by ion exchange, recoil, residence time, ionic
+strength and sulfate/barite sinks rather than U(VI) carbonate
+mobility.</td>
+<td>Vengosh et al. review identifies reducing/permeable settings where
+Ra is mobile; Health Canada treats Ra-226/Ra-228 as primary Canadian
+drinking-water radionuclides.</td>
+<td>supported mechanistically</td>
+</tr>
+<tr>
+<td>Rn is a fracture/residence-time indicator rather than a dissolved-U
+proxy</td>
+<td>Rn is a noble gas produced from Ra-bearing solids, transported over
+a short decay length and lost by degassing.</td>
+<td>Health Canada manages radon mainly through indoor-air testing;
+groundwater may contribute through outgassing but cannot be inferred
+from U alone.</td>
+<td>supported</td>
+</tr>
+<tr>
+<td>Po/Pb are better long-term radiological risk indicators than total U
+alone</td>
+<td>Pb/Po have high dose coefficients and strong association with
+particles, Fe/Mn oxides, organic matter and biota/sediments.</td>
+<td>Swedish well data place Pb-210 first and Po-210 third in mean dose
+contribution; CNSC Cigar Lake food data show Po-210 as the main series
+radionuclide with values governed by regional background rather than
+mine exposure alone.</td>
+<td>supported</td>
+</tr>
+<tr>
+<td>Mine surface-water monitoring can look safe while private well
+groundwater remains variable</td>
+<td>Surface water is aerated, diluted and short-residence; bedrock wells
+integrate water-rock contact and fracture sources.</td>
+<td>Cigar Lake IEMP surface-water radionuclides are below screening
+levels, whereas Swedish private wells show strong variability and 40% ID
+exceedance.</td>
+<td>supported but requires site-specific groundwater data</td>
+</tr>
+</tbody>
+</table>
+<p>综合来看，公开数据和理论模型对齐良好：瑞典井水数据提供“井水强变异性与剂量排序脱钩”的直接证据；Health
+Canada 基准提供“Pb/Ra 是饮用水放射性评价核心，U
+主要是化学毒性”的监管证据；CNSC IEMP
+提供“矿区地表环境监测可低于筛选值，但 Po/Pb/Ra
+仍需在生态介质和地下水中单独评价”的场景证据；Vengosh
+等综述和铀形态综述提供机制支撑。</p>
+<h1 id="面向-phreeqccomsolpinn-的模型框架">7. 面向 PHREEQC/COMSOL/PINN
+的模型框架</h1>
+<h2 id="反应网络">7.1 反应网络</h2>
+<p>建议把状态变量分为四组：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold-italic">𝒚</mi><mo>=</mo><mo stretchy="false" form="prefix">[</mo><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">H</mi></mrow><mo>,</mo><mi>E</mi><mi>h</mi><mo>,</mo><mi>I</mi><mo>,</mo><mi>A</mi><mi>l</mi><mi>k</mi><mo>,</mo><mi>S</mi><msub><mi>O</mi><mn>4</mn></msub><mo>,</mo><mi>C</mi><mi>l</mi><mo>,</mo><mi>B</mi><mi>a</mi><mo>,</mo><mi>S</mi><mi>r</mi><mo>,</mo><mi>C</mi><mi>a</mi><mo>,</mo><mi>F</mi><mi>e</mi><mo>,</mo><mi>M</mi><mi>n</mi><mo>,</mo><mi>D</mi><mi>O</mi><mi>C</mi><mo>,</mo><msub><mi>U</mi><mn>238</mn></msub><mo>,</mo><msub><mi>U</mi><mn>234</mn></msub><mo>,</mo><mi>R</mi><msub><mi>a</mi><mn>226</mn></msub><mo>,</mo><mi>R</mi><msub><mi>a</mi><mn>228</mn></msub><mo>,</mo><mi>R</mi><msub><mi>n</mi><mn>222</mn></msub><mo>,</mo><mi>P</mi><msub><mi>b</mi><mn>210</mn></msub><mo>,</mo><mi>P</mi><msub><mi>o</mi><mn>210</mn></msub><mo stretchy="false" form="postfix">]</mo><mi>.</mi></mrow><annotation encoding="application/x-tex">
+\mathbf y=
+[\mathrm{pH}, Eh, I, Alk, SO_4, Cl, Ba, Sr, Ca, Fe, Mn, DOC,
+U_{238},U_{234},Ra_{226},Ra_{228},Rn_{222},Pb_{210},Po_{210}].
+</annotation></semantics></math></p>
+<p>反应网络包含：</p>
+<ol type="1">
+<li>U(VI)-carbonate-Ca/Mg 络合和 U(IV) 还原沉淀。</li>
+<li>Ra 与 Ba/Sr/Ca 的阳离子交换、barite/celestite
+固溶和硫酸盐控制。</li>
+<li>Rn 由固相 Ra 反冲/emanation 进入水相，并发生衰变和脱气。</li>
+<li>Pb/Po 在 Fe/Mn
+氧化物、有机质、硫化物、胶体和沉积物上的吸附/解吸。</li>
+<li>各核素按 Bateman 生成项耦合，但迁移项和滞留项分别参数化。</li>
+</ol>
+<p>本报告已提供
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mi>o</mi><mi>d</mi><mi>e</mi><mi>l</mi><mi>s</mi><mi>/</mi><mi>u</mi><mi>r</mi><mi>a</mi><mi>n</mi><mi>i</mi><mi>u</mi><msub><mi>m</mi><msub><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">s</mi></mrow><msub><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">h</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">q</mi><mi mathvariant="normal">c</mi></mrow><mrow><mi mathvariant="normal">t</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">p</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">e</mi></mrow></msub></msub></msub><mi>.</mi><mi>p</mi><mi>h</mi><mi>r</mi></mrow><annotation encoding="application/x-tex">models/uranium_{\mathrm{series}}_{\mathrm{phreeqc}}_{\mathrm{template}}.phr</annotation></semantics></math>、<code>models/reactive_transport_state_vector.json</code>
+和
+<code>models/dose_calculation_template.json</code>，作为后续建模起点。</p>
+<h2 id="计算流程">7.2 计算流程</h2>
+<p>推荐工作流如下：</p>
+<ol type="1">
+<li>以水样 pH、Eh/pe、碱度、SO4、Cl、Ba、Sr、Ca、Fe、Mn、DOC 和
+U/Ra/Pb/Po 活度作为输入。</li>
+<li>PHREEQC 计算 U 络合物比例、barite/celestite/calcite
+饱和指数和主要离子活度。</li>
+<li>将 PHREEQC 输出的饱和指数、络合比例和吸附容量转入反应迁移模型。</li>
+<li>对 Rn 单独计算 emanation、裂隙对流和脱气；不把 Rn 简化为溶解 U
+的函数。</li>
+<li>剂量模块分别计算饮水摄入、释氡吸入和食物/沉积累积贡献。</li>
+<li>对
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>K</mi><mi>d</mi></msub><annotation encoding="application/x-tex">K_d</annotation></semantics></math>、停留时间、Ba/Sr、SO4、DOC、Fe/Mn
+氧化物和左删失处理进行敏感性分析。</li>
+</ol>
+<h1 id="局限性">8. 局限性</h1>
+<p>本文是综述性和二次数据分析研究，不替代场址调查或饮用水合规判断。主要局限包括：</p>
+<ul>
+<li>瑞典 2025
+论文的原始样品表开放页面未提供机器可下载数据，本文使用开放页面给出的统计摘要和剂量排序，未重构单井原始数据。</li>
+<li>CNSC IEMP Cigar Lake
+数据为矿区周边地表水和生态介质监测，不是深部地下水或私井数据；本文将其用于矿区环境对比，而非地下水源项拟合。</li>
+<li>Health Canada MAC 和 IEMP 筛选值剂量基准不同，前者为饮用水 1 mSv/y
+参考，后者常按 0.1 mSv/y
+环境筛选设置；本文仅比较结构和数量级，不混同监管含义。</li>
+<li>Rn 的主要健康路径是室内空气吸入，水样 Rn
+只能作为潜在贡献源和裂隙示踪，不能替代室内空气检测。</li>
+<li>Pb/Po 的吸附和胶体模型需要场址特定 Fe/Mn
+氧化物、有机质、颗粒粒径和沉积物数据；现阶段只能建立反应路径图。</li>
+</ul>
+<h1 id="结论与论文最终观点">9. 结论与论文最终观点</h1>
+<p>本文的核心结论如下。</p>
+<p>第一，铀矿区地下水放射性风险不能用总 U
+浓度单独判断。U、Ra、Rn、Pb、Po
+属于衰变链系统，但地下水不是封闭衰变容器；水-岩反应、裂隙流、离子交换、共沉淀、吸附、脱气和生物地球化学过程会造成长期非平衡。</p>
+<p>第二，Ra 是与 U 显著脱耦的剂量关键核素。Ra-226/Ra-228 受
+Ba/Sr、SO4、离子强度和交换位点控制，且 Ra-228 还反映 Th 系列源项。高 U
+不保证高 Ra，低 U 也不能排除 Ra 风险。</p>
+<p>第三，Rn 是裂隙-停留时间-emanation 指标，不是 U 浓度代理。水中 Rn
+受固相
+Ra、裂隙面、流速和脱气控制，并且健康管理上应与室内空气检测耦合。</p>
+<p>第四，Pb-210 和 Po-210
+对长期剂量、沉积累积和生态介质评价尤其重要。2025 年瑞典井水研究显示
+Pb-210、Ra-228、Po-210、Ra-226 的平均剂量贡献均高于 U 同位素；CNSC IEMP
+数据也说明 Po-210
+需要在鱼类等生物介质中单独解释，即便水样低于筛选值。</p>
+<p>第五，一个严谨的铀矿区地下水评价框架应至少同时包含：U
+同位素活度/质量浓度、Ra-226/Ra-228、Rn-222、Pb-210、Po-210；水化学端元和
+Eh-pH；SO4、Ba、Sr、Ca、碱度、离子强度；Fe/Mn
+氧化物、有机质和胶体；裂隙结构与地下水停留时间；饮水、吸入和食物/沉积三类剂量路径。论文的最终观点是：应把铀矿区地下水视为一个“衰变链生成-反应迁移-地球化学截留-人体剂量”的耦合系统，而不是把总铀作为唯一风险代理变量。</p>
+<h1 id="数据与文件清单">数据与文件清单</h1>
+<ul>
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi><mi>a</mi><mi>t</mi><mi>a</mi><mi>/</mi><mi>c</mi><mi>n</mi><mi>s</mi><msub><mi>c</mi><msub><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">p</mi></mrow><msub><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">g</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi></mrow><msub><mrow><mi mathvariant="normal">l</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">k</mi><mi mathvariant="normal">e</mi></mrow><msub><mn>2020</mn><mn>2024</mn></msub></msub></msub></msub></msub><mi>.</mi><mi>c</mi><mi>s</mi><mi>v</mi></mrow><annotation encoding="application/x-tex">data/cnsc_{\mathrm{iemp}}_{\mathrm{cigar}}_{\mathrm{lake}}_2020_2024.csv</annotation></semantics></math>：CNSC
+IEMP 原始 CSV。</li>
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi><mi>a</mi><mi>t</mi><mi>a</mi><mi>/</mi><mi>c</mi><mi>n</mi><mi>s</mi><msub><mi>c</mi><msub><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">p</mi></mrow><msub><mrow><mi mathvariant="normal">w</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">r</mi></mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">y</mi></mrow></msub></msub></msub><mi>.</mi><mi>c</mi><mi>s</mi><mi>v</mi></mrow><annotation encoding="application/x-tex">data/cnsc_{\mathrm{iemp}}_{\mathrm{water}}_{\mathrm{summary}}.csv</annotation></semantics></math>：IEMP
+水样标准化统计与筛选比值。</li>
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi><mi>a</mi><mi>t</mi><mi>a</mi><mi>/</mi><mi>c</mi><mi>n</mi><mi>s</mi><msub><mi>c</mi><msub><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">p</mi></mrow><msub><mrow><mi mathvariant="normal">f</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">d</mi></mrow><msub><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">s</mi></mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">y</mi></mrow></msub></msub></msub></msub><mi>.</mi><mi>c</mi><mi>s</mi><mi>v</mi></mrow><annotation encoding="application/x-tex">data/cnsc_{\mathrm{iemp}}_{\mathrm{food}}_{\mathrm{series}}_{\mathrm{summary}}.csv</annotation></semantics></math>：IEMP
+食物/生物介质 U-Ra-Pb-Po 系列统计。</li>
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi><mi>a</mi><mi>t</mi><mi>a</mi><mi>/</mi><mi>s</mi><mi>w</mi><mi>e</mi><mi>d</mi><mi>i</mi><mi>s</mi><msub><mi>h</mi><msub><mrow><mi mathvariant="normal">w</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">l</mi></mrow><msub><mn>2025</mn><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">y</mi></mrow></msub></msub></msub><mi>.</mi><mi>c</mi><mi>s</mi><mi>v</mi></mrow><annotation encoding="application/x-tex">data/swedish_{\mathrm{well}}_2025_{\mathrm{summary}}.csv</annotation></semantics></math>：瑞典井水论文开放页面统计摘要。</li>
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi><mi>a</mi><mi>t</mi><mi>a</mi><mi>/</mi><mi>h</mi><mi>e</mi><mi>a</mi><mi>l</mi><mi>t</mi><msub><mi>h</mi><msub><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">d</mi><mi mathvariant="normal">a</mi></mrow><msub><mrow><mi mathvariant="normal">r</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">f</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">c</mi><mi mathvariant="normal">e</mi></mrow><mrow><mi mathvariant="normal">l</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">v</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">s</mi></mrow></msub></msub></msub><mi>.</mi><mi>c</mi><mi>s</mi><mi>v</mi></mrow><annotation encoding="application/x-tex">data/health_{\mathrm{canada}}_{\mathrm{reference}}_{\mathrm{levels}}.csv</annotation></semantics></math>：加拿大饮用水放射性与铀基准。</li>
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi><mi>a</mi><mi>t</mi><mi>a</mi><mi>/</mi><mi>d</mi><mi>o</mi><mi>s</mi><msub><mi>e</mi><msub><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">d</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">l</mi></mrow><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">s</mi></mrow></msub></msub><mi>.</mi><mi>c</mi><mi>s</mi><mi>v</mi></mrow><annotation encoding="application/x-tex">data/dose_{\mathrm{model}}_{\mathrm{parameters}}.csv</annotation></semantics></math>：由
+Health Canada MAC 反推的筛选等效剂量系数。</li>
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi><mi>a</mi><mi>t</mi><mi>a</mi><mi>/</mi><mi>h</mi><mi>y</mi><mi>p</mi><mi>o</mi><mi>t</mi><mi>h</mi><mi>e</mi><mi>s</mi><mi>i</mi><msub><mi>s</mi><msub><mrow><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">g</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">t</mi></mrow><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">x</mi></mrow></msub></msub><mi>.</mi><mi>c</mi><mi>s</mi><mi>v</mi></mrow><annotation encoding="application/x-tex">data/hypothesis_{\mathrm{alignment}}_{\mathrm{matrix}}.csv</annotation></semantics></math>：理论命题、机制和数据证据对齐表。</li>
+<li><code>figures/*.svg</code>：论文图件。</li>
+<li><code>models/*.json</code>、<code>models/*.phr</code>：后续
+PHREEQC/反应迁移/剂量模型模板。</li>
+<li><code>sources/*.html</code>：网页源快照。</li>
+</ul>
+<h1 id="参考文献">参考文献</h1>
+<ol type="1">
+<li>Vengosh, A., Coyte, R. M., Podgorski, J., &amp; Johnson, T. M.
+(2022). <em>A critical review on the occurrence and distribution of the
+uranium- and thorium-decay nuclides and their effect on the quality of
+groundwater</em>. Science of The Total Environment, 808, 151914. <a href="https://www.sciencedirect.com/science/article/pii/S0048969721069904" class="uri">https://www.sciencedirect.com/science/article/pii/S0048969721069904</a></li>
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi mathvariant="normal">Π</mi><annotation encoding="application/x-tex">\Pi</annotation></semantics></math>ñero-García,
+F., Thomas, R., Forssell-Aronsson, E., &amp; Isaksson, M. (2025).
+<em>Comprehensive analysis of naturally occurring radionuclides in well
+water: Isotopic ratios, mitigation, and dose assessment</em>.
+Ecotoxicology and Environmental Safety, 289, 117480. <a href="https://www.sciencedirect.com/science/article/pii/S0147651324015562" class="uri">https://www.sciencedirect.com/science/article/pii/S0147651324015562</a></li>
+<li>Health Canada. (2025). <em>Guidelines for Canadian drinking water
+quality: Radiological parameters</em>. <a href="https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-drinking-water-quality-radiological-parameters.html" class="uri">https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-drinking-water-quality-radiological-parameters.html</a></li>
+<li>Health Canada. (2019). <em>Guidelines for Canadian Drinking Water
+Quality Guideline Technical Document - Uranium</em>. <a href="https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-canadian-drinking-water-quality-guideline-technical-document-uranium.html" class="uri">https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-canadian-drinking-water-quality-guideline-technical-document-uranium.html</a></li>
+<li>Canadian Nuclear Safety Commission. (2025). <em>Independent
+Environmental Monitoring Program: Cigar Lake Operation</em>. <a href="https://www.cnsc-ccsn.gc.ca/eng/resources/maps-of-nuclear-facilities/iemp/cigar-lake/" class="uri">https://www.cnsc-ccsn.gc.ca/eng/resources/maps-of-nuclear-facilities/iemp/cigar-lake/</a></li>
+<li>Martell, E. A. M., et al. / Frontiers in Chemistry review source
+used for uranium speciation context: <em>Speciation of Uranium and
+Plutonium From Nuclear Legacy Sites to the Environment: A Mini
+Review</em>. <a href="https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2020.00630/full" class="uri">https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2020.00630/full</a></li>
+</ol>
+</body>
+</html>

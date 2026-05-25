@@ -1,0 +1,48 @@
+{
+  "status": "model-design-only",
+  "state_variables": [
+    "T",
+    "p_l",
+    "S_l",
+    "sigma_eff",
+    "phi",
+    "k",
+    "pH",
+    "Eh",
+    "Cl",
+    "SO4",
+    "H2",
+    "U_aq",
+    "p_g"
+  ],
+  "physics": {
+    "heat_transfer": [
+      "radiogenic heat",
+      "waste heat boundary if repository model is added"
+    ],
+    "darcy_fracture_flow": [
+      "matrix permeability",
+      "fracture transmissivity",
+      "salinity-dependent density optional"
+    ],
+    "solid_mechanics": [
+      "effective stress",
+      "fracture aperture",
+      "bentonite swelling if near-field is added"
+    ],
+    "transport_reactions": [
+      "diffusion/advection",
+      "radiolysis source",
+      "sulfate reduction",
+      "sorption/decay"
+    ]
+  },
+  "required_calibration_data": [
+    "sample-level chemistry",
+    "fracture transmissivity",
+    "diffusion coefficients",
+    "microbial rates",
+    "corrosion rates",
+    "Kd/surface complexation constants"
+  ]
+}
