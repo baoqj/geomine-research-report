@@ -1,0 +1,66 @@
+TITLE U(VI) sulfate-carbonate speciation envelope for uranium waste-rock leachate
+SELECTED_OUTPUT 1
+    -file /Users/aibao/Documents/Project/MiningReg/openminer/report/2026-05-30-phreeqc-waste-rock-weathering-rewrite/models/03_uranium_speciation_envelope.sel
+    -reset false
+    -simulation true
+    -solution true
+    -pH true
+    -pe true
+    -totals U S(6) C(4)
+    -molalities UO2+2 UO2SO4 UO2(SO4)2-2 UO2CO3 UO2(CO3)2-2 UO2(CO3)3-4 UO2OH+ UO2(OH)2
+    -saturation_indices Uraninite UO2CO3 UO2SO4 UO3:2H2O
+
+SOLUTION 1 pH3_sulfate_rich_low_carbonate
+    temp 25
+    pH 3
+    pe 8
+    units umol/kgw
+    U(6) 1
+    S(6) 10000 as SO4
+    C(4) 100 as HCO3
+    Na 10 charge
+END
+
+SOLUTION 2 pH4_sulfate_rich_low_carbonate
+    temp 25
+    pH 4
+    pe 8
+    units umol/kgw
+    U(6) 1
+    S(6) 10000 as SO4
+    C(4) 100 as HCO3
+    Na 10 charge
+END
+
+SOLUTION 3 pH6_mixed_sulfate_carbonate
+    temp 25
+    pH 6
+    pe 8
+    units umol/kgw
+    U(6) 1
+    S(6) 1000 as SO4
+    C(4) 1000 as HCO3
+    Na 10 charge
+END
+
+SOLUTION 4 pH7_carbonate_rich
+    temp 25
+    pH 7
+    pe 8
+    units umol/kgw
+    U(6) 1
+    S(6) 1000 as SO4
+    C(4) 2000 as HCO3
+    Na 10 charge
+END
+
+SOLUTION 5 pH8_carbonate_rich
+    temp 25
+    pH 8
+    pe 8
+    units umol/kgw
+    U(6) 1
+    S(6) 1000 as SO4
+    C(4) 2000 as HCO3
+    Na 10 charge
+END

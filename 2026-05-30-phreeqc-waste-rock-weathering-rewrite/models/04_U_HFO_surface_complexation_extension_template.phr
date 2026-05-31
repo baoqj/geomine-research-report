@@ -1,0 +1,28 @@
+TITLE U(VI)-HFO surface-complexation extension template
+# This file is intentionally not executed in the package because the local databases
+# do not provide U(VI)-HFO surface-complexation constants suitable for this case.
+# To run it, replace the placeholder reactions with documented constants from a
+# selected database/publication and report the source in the paper.
+
+SOLUTION 1 leachate_placeholder
+    pH <measured_pH>
+    pe <measured_pe>
+    units mmol/kgw
+    U(6) <U_umol_kgw> umol/kgw
+    S(6) <SO4_mmol_kgw> as SO4
+    C(4) <alkalinity_or_DIC> as HCO3
+
+SURFACE 1
+    Hfo_wOH <weak_site_moles> <specific_area_m2_g> <mass_g>
+    Hfo_sOH <strong_site_moles> <specific_area_m2_g> <mass_g>
+
+# SURFACE_SPECIES
+# Hfo_wOH + UO2+2 = <documented_surface_complex> + <stoichiometry>
+#     log_k <documented_logK>
+
+SELECTED_OUTPUT 1
+    -pH true
+    -totals U S(6) C(4) Fe
+    -molalities UO2+2 UO2SO4 UO2(CO3)2-2 UO2(CO3)3-4
+    -surface true
+END

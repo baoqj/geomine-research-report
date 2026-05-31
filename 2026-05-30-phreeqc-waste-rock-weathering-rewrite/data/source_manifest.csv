@@ -1,0 +1,6 @@
+source_id,path,role,status
+local_original_manuscript_pdf,Paper/LiZhenze/Reactive-Geochemical-Model-for-Simulated-Weathering-of-Acid-Generating-Waste-Rock.pdf,Original manuscript and reviewer-response draft used as the scientific object to rewrite.,local_pdf_extracted_with_pdftotext
+local_geochemical_review,Paper/LiZhenze/geochemical_review_PHREEQC_waste_rock_paper.md,Technical analysis and PHREEQC-oriented review used as the rewrite logic.,local_markdown_review
+local_phreeqc_install,/Users/aibao/.local/bin/phreeqc,PHREEQC command-line engine used for mechanism tests.,executed_locally
+phreeqc_dat,/Users/aibao/.local/phreeqc/phreeqc-3.5.0-14000/database/phreeqc.dat,"Major-ion, acid-neutralization, Fe-S secondary phase screening.",executed_locally
+llnl_dat,/Users/aibao/.local/phreeqc/phreeqc-3.5.0-14000/database/llnl.dat,U(VI) aqueous speciation and uranyl sulfate/carbonate envelope.,executed_locally

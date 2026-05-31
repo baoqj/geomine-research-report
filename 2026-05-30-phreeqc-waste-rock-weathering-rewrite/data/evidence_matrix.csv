@@ -1,0 +1,8 @@
+claim,evidence,status
+PAG behavior is controlled by pyrite oxidation,Samples contain 3.0-6.1 wt.% pyrite; sulfate dominates HCT leachate; PHREEQC acid proxy causes pH decline.,supported_mechanistically
+Equilibrium-only modeling is insufficient,Original manuscript states poor agreement; PHREEQC equilibrium endmembers show immediate neutralization behavior unlike gradual HCT evolution.,supported_by_PHREEQC_screening
+Silicate minerals provide long-term buffering,Carbonate is negligible; anorthite/biotite/chlorite/muscovite are present; kinetic PHREEQC scenarios sustain higher pH than acid-only scenario.,supported_mechanistically_with_uncertainty
+Dolomite in Sample B should be treated as carbonate-equivalent proxy,XRD/TIC do not prove significant carbonate; original model used 0.025 mol/kg dolomite by trial and error.,rewrite_required
+Intraparticle diffusion is not explicitly solved in PHREEQC,Review notes actual implementation is k_eff=k0 exp(-alpha t); PHREEQC RATES can represent attenuation but not radial PDE gradients.,terminology_correction_required
+"U release requires speciation, carbonate/sulfate complexation and sorption discussion",LLNL PHREEQC envelope shows uranyl sulfate dominance at low pH/high sulfate and carbonate dominance at neutral pH/high alkalinity.,supported_by_PHREEQC_speciation
+Field-scale prediction requires separate hydrologic/oxygen/PSD model,"HCT uses crushed material, controlled air and weekly flushing; no field water balance or oxygen diffusion model supplied.",boundary_condition_limit

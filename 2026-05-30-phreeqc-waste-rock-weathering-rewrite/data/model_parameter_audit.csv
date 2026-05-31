@@ -1,0 +1,11 @@
+parameter,value,unit,source,model_use
+HCT duration,140-150,weeks,manuscript,Boundary condition and interpretation scale.
+HCT weekly cycle,3 dry air + 3 humid air + 1 leach day,days,manuscript,PHREEQC cycle conceptualization.
+solution retention fraction,0.10,dimensionless,manuscript,Suggested MIX/SAVE solution replacement engine.
+fresh solution fraction,0.90,dimensionless,manuscript,Suggested MIX/SAVE solution replacement engine.
+pO2,0.21,atm,manuscript,Oxidizing HCT boundary; tested as strong assumption.
+DI water pH,7,pH,manuscript,Fresh leach solution.
+solid-to-solution ratio,1:1,kg/L approximation,manuscript,Model scale; not field scale.
+bulk surface area,10,m2/kg,manuscript,Original simplifying assumption requiring sensitivity analysis.
+secondary phase surface area,100,m2,manuscript,Original simplifying assumption requiring caution.
+effective diffusion coefficient,1e-13 to 1e-12,m2/s,manuscript,"Used only as interpretation of attenuation, not explicitly solved."

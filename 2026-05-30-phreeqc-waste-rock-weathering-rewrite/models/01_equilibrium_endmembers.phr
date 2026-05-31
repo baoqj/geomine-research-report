@@ -1,0 +1,75 @@
+TITLE Equilibrium endmember tests for acid-generating waste rock
+SELECTED_OUTPUT 1
+    -file /Users/aibao/Documents/Project/MiningReg/openminer/report/2026-05-30-phreeqc-waste-rock-weathering-rewrite/models/01_equilibrium_endmembers.sel
+    -reset false
+    -simulation true
+    -state true
+    -solution true
+    -pH true
+    -pe true
+    -ionic_strength true
+    -totals S(6) Ca Mg K Al Si C Fe
+    -saturation_indices Calcite Dolomite Anorthite K-mica Chlorite(14A) Jarosite-K Fe(OH)3(a)
+
+SOLUTION 1 acid_sulfate_only
+    temp 25
+    pH 3
+    pe 8
+    units mmol/kgw
+    S(6) 10 as SO4
+    O(0) 0.26
+    Na 20 charge
+END
+
+SOLUTION 2 acid_plus_trace_calcite
+    temp 25
+    pH 3
+    pe 8
+    units mmol/kgw
+    S(6) 10 as SO4
+    O(0) 0.26
+    Na 20 charge
+EQUILIBRIUM_PHASES 2
+    Calcite 0 0.001
+END
+
+SOLUTION 3 acid_plus_trace_dolomite
+    temp 25
+    pH 3
+    pe 8
+    units mmol/kgw
+    S(6) 10 as SO4
+    O(0) 0.26
+    Na 20 charge
+EQUILIBRIUM_PHASES 3
+    Dolomite 0 0.001
+END
+
+SOLUTION 4 acid_plus_aluminosilicate_equilibrium
+    temp 25
+    pH 3
+    pe 8
+    units mmol/kgw
+    S(6) 10 as SO4
+    O(0) 0.26
+    Na 20 charge
+EQUILIBRIUM_PHASES 4
+    Anorthite 0 0.001
+    K-mica 0 0.001
+    Chlorite(14A) 0 0.001
+END
+
+SOLUTION 5 acid_plus_Fe_secondary_phases
+    temp 25
+    pH 3
+    pe 8
+    units mmol/kgw
+    S(6) 10 as SO4
+    K 1
+    Fe(3) 1
+    O(0) 0.26
+    Na 20 charge
+EQUILIBRIUM_PHASES 5
+    Jarosite-K 0 0.001
+    Fe(OH)3(a) 0 0.001
+END

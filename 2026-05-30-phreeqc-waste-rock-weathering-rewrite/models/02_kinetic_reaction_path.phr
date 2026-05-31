@@ -1,0 +1,214 @@
+TITLE Kinetic PHREEQC reaction-path benchmarks for HCT interpretation
+# These are screening reaction paths, not a replacement for calibration to raw HCT CSV data.
+SELECTED_OUTPUT 1
+    -file /Users/aibao/Documents/Project/MiningReg/openminer/report/2026-05-30-phreeqc-waste-rock-weathering-rewrite/models/02_kinetic_reaction_path.sel
+    -reset false
+    -simulation true
+    -state true
+    -solution true
+    -time true
+    -pH true
+    -pe true
+    -ionic_strength true
+    -totals S(6) Ca Mg K Al Si C Fe
+    -kinetic_reactants Pyrite_Acid Anorthite_Kin Kmica_Kin Chlorite_Kin Biotite_Kin Dolomite_Kin
+
+RATES
+Pyrite_Acid
+-start
+10 k = PARM(1)
+20 moles = k * M * TIME
+30 IF (moles > M) THEN moles = M
+40 SAVE moles
+-end
+
+Anorthite_Kin
+-start
+10 k = PARM(1)
+20 alpha = PARM(2)
+30 n = PARM(3)
+40 H = ACT("H+")
+50 hfac = (H / 1e-4)^n
+60 IF (hfac < 0.05) THEN hfac = 0.05
+70 IF (hfac > 20) THEN hfac = 20
+80 keff = k * EXP(-alpha * TOTAL_TIME)
+90 moles = keff * M * TIME * hfac
+100 IF (moles > M) THEN moles = M
+110 SAVE moles
+-end
+
+Kmica_Kin
+-start
+10 k = PARM(1)
+20 alpha = PARM(2)
+30 n = PARM(3)
+40 H = ACT("H+")
+50 hfac = (H / 1e-4)^n
+60 IF (hfac < 0.05) THEN hfac = 0.05
+70 IF (hfac > 20) THEN hfac = 20
+80 keff = k * EXP(-alpha * TOTAL_TIME)
+90 moles = keff * M * TIME * hfac
+100 IF (moles > M) THEN moles = M
+110 SAVE moles
+-end
+
+Chlorite_Kin
+-start
+10 k = PARM(1)
+20 alpha = PARM(2)
+30 n = PARM(3)
+40 H = ACT("H+")
+50 hfac = (H / 1e-4)^n
+60 IF (hfac < 0.05) THEN hfac = 0.05
+70 IF (hfac > 20) THEN hfac = 20
+80 keff = k * EXP(-alpha * TOTAL_TIME)
+90 moles = keff * M * TIME * hfac
+100 IF (moles > M) THEN moles = M
+110 SAVE moles
+-end
+
+Biotite_Kin
+-start
+10 k = PARM(1)
+20 alpha = PARM(2)
+30 n = PARM(3)
+40 H = ACT("H+")
+50 hfac = (H / 1e-4)^n
+60 IF (hfac < 0.05) THEN hfac = 0.05
+70 IF (hfac > 20) THEN hfac = 20
+80 keff = k * EXP(-alpha * TOTAL_TIME)
+90 moles = keff * M * TIME * hfac
+100 IF (moles > M) THEN moles = M
+110 SAVE moles
+-end
+
+Dolomite_Kin
+-start
+10 k = PARM(1)
+20 alpha = PARM(2)
+30 n = PARM(3)
+40 H = ACT("H+")
+50 hfac = (H / 1e-4)^n
+60 IF (hfac < 0.05) THEN hfac = 0.05
+70 IF (hfac > 20) THEN hfac = 20
+80 keff = k * EXP(-alpha * TOTAL_TIME)
+90 moles = keff * M * TIME * hfac
+100 IF (moles > M) THEN moles = M
+110 SAVE moles
+-end
+
+SOLUTION 1 acid_only_accessible_pyrite
+    temp 25
+    pH 7
+    pe 8
+    units mmol/kgw
+    O(0) 0.26
+    Na 0.01 charge
+KINETICS 1
+Pyrite_Acid
+    -formula H2SO4 2
+    -m0 0.012
+    -parms 2.0e-9
+    -step_divide 100
+    -steps 90720000 in 150 steps
+END
+
+SOLUTION 2 sample_A_kinetic_no_attenuation
+    temp 25
+    pH 7
+    pe 8
+    units mmol/kgw
+    O(0) 0.26
+    Na 0.01 charge
+KINETICS 2
+Pyrite_Acid
+    -formula H2SO4 2
+    -m0 0.012
+    -parms 2.0e-9
+Anorthite_Kin
+    -formula CaAl2Si2O8 1
+    -m0 0.172
+    -parms 8.0e-11 0 0.25
+Kmica_Kin
+    -formula KAl3Si3O10(OH)2 1
+    -m0 0.251
+    -parms 5.0e-11 0 0.20
+Chlorite_Kin
+    -formula Mg5Al2Si3O10(OH)8 1
+    -m0 0.056
+    -parms 8.0e-11 0 0.25
+Biotite_Kin
+    -formula KMg3AlSi3O10(OH)2 1
+    -m0 0.289
+    -parms 8.0e-11 0 0.20
+    -step_divide 100
+    -steps 90720000 in 150 steps
+END
+
+SOLUTION 3 sample_A_kinetic_with_attenuation
+    temp 25
+    pH 7
+    pe 8
+    units mmol/kgw
+    O(0) 0.26
+    Na 0.01 charge
+KINETICS 3
+Pyrite_Acid
+    -formula H2SO4 2
+    -m0 0.012
+    -parms 2.0e-9
+Anorthite_Kin
+    -formula CaAl2Si2O8 1
+    -m0 0.172
+    -parms 8.0e-11 2.5e-8 0.25
+Kmica_Kin
+    -formula KAl3Si3O10(OH)2 1
+    -m0 0.251
+    -parms 5.0e-11 2.5e-8 0.20
+Chlorite_Kin
+    -formula Mg5Al2Si3O10(OH)8 1
+    -m0 0.056
+    -parms 8.0e-11 2.5e-8 0.25
+Biotite_Kin
+    -formula KMg3AlSi3O10(OH)2 1
+    -m0 0.289
+    -parms 8.0e-11 2.5e-8 0.20
+    -step_divide 100
+    -steps 90720000 in 150 steps
+END
+
+SOLUTION 4 sample_B_trace_carbonate_proxy
+    temp 25
+    pH 7
+    pe 8
+    units mmol/kgw
+    O(0) 0.26
+    Na 0.01 charge
+KINETICS 4
+Pyrite_Acid
+    -formula H2SO4 2
+    -m0 0.006
+    -parms 2.0e-9
+Anorthite_Kin
+    -formula CaAl2Si2O8 1
+    -m0 0.165
+    -parms 8.0e-11 2.5e-8 0.25
+Kmica_Kin
+    -formula KAl3Si3O10(OH)2 1
+    -m0 0.276
+    -parms 5.0e-11 2.5e-8 0.20
+Chlorite_Kin
+    -formula Mg5Al2Si3O10(OH)8 1
+    -m0 0.084
+    -parms 8.0e-11 2.5e-8 0.25
+Biotite_Kin
+    -formula KMg3AlSi3O10(OH)2 1
+    -m0 0.265
+    -parms 8.0e-11 2.5e-8 0.20
+Dolomite_Kin
+    -formula CaMg(CO3)2 1
+    -m0 0.025
+    -parms 2.0e-10 2.5e-8 0.50
+    -step_divide 100
+    -steps 90720000 in 150 steps
+END

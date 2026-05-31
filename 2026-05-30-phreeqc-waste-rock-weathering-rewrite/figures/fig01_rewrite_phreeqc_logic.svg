@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="60" y="48" font-family="Arial" font-size="26" font-weight="700" fill="#12313b">PHREEQC-supported rewrite logic for acid-generating uranium waste rock</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#39515c"/></marker></defs>
+<g font-family="Arial" font-size="16" fill="#102a33">
+<rect x="70" y="95" width="220" height="90" rx="8" fill="#e8f1f5" stroke="#9fb7c1"/><text x="92" y="130">HCT evidence</text><text x="92" y="156">pH, sulfate, cations, U</text>
+<rect x="405" y="95" width="260" height="90" rx="8" fill="#eaf6ee" stroke="#9fc6aa"/><text x="428" y="130">PHREEQC model engine</text><text x="428" y="156">SOLUTION, KINETICS, SI</text>
+<rect x="795" y="95" width="240" height="90" rx="8" fill="#fff4df" stroke="#d8bb7a"/><text x="818" y="130">Rewritten claim</text><text x="818" y="156">calibrated source-term model</text>
+<line x1="290" y1="140" x2="405" y2="140" stroke="#39515c" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="665" y1="140" x2="795" y2="140" stroke="#39515c" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="95" y="285" width="230" height="105" rx="8" fill="#f4f8fb" stroke="#b6c6ce"/><text x="118" y="318">Pyrite acid source</text><text x="118" y="346">H2SO4 proxy + pO2</text>
+<rect x="435" y="285" width="230" height="105" rx="8" fill="#f4f8fb" stroke="#b6c6ce"/><text x="458" y="318">Silicate/carbonate buffer</text><text x="458" y="346">kinetic mineral release</text>
+<rect x="775" y="285" width="230" height="105" rx="8" fill="#f4f8fb" stroke="#b6c6ce"/><text x="798" y="318">U(VI) speciation</text><text x="798" y="346">sulfate vs carbonate</text>
+<line x1="325" y1="338" x2="435" y2="338" stroke="#39515c" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="665" y1="338" x2="775" y2="338" stroke="#39515c" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="165" y="475" width="770" height="80" rx="8" fill="#f7f7f7" stroke="#c8c8c8"/>
+<text x="190" y="510">Guardrail: no raw HCT CSV was supplied, so PHREEQC runs prove mechanism consistency and model design, not new regulatory validation.</text>
+</g></svg>

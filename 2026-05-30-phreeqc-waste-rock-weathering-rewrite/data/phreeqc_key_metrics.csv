@@ -1,0 +1,15 @@
+scenario,final_week,final_pH,final_SO4_mol_kgw,final_Ca_mol_kgw,final_Mg_mol_kgw,remaining_pyrite_proxy_mol,pH,free_uranyl_fraction_selected,uranyl_sulfate_fraction_selected,uranyl_carbonate_fraction_selected,SI_UO2CO3,SI_UO2SO4,Ca_mol_kgw,Mg_mol_kgw,C_mol_kgw,si_Calcite,si_Dolomite,si_Jarosite_K
+acid_only_accessible_pyrite,150.0,2.210,3.982e-03,0.000e+00,0.000e+00,1.001e-02,,,,,,,,,,,,
+sample_A_kinetic_no_attenuation,150.0,6.264,3.983e-03,3.478e-04,2.829e-03,1.001e-02,,,,,,,,,,,,
+sample_A_kinetic_with_attenuation,150.0,4.479,3.982e-03,1.787e-04,1.391e-03,1.001e-02,,,,,,,,,,,,
+sample_B_trace_carbonate_proxy,150.0,5.859,1.991e-03,1.300e-04,1.065e-03,5.004e-03,,,,,,,,,,,,
+pH3_sulfate_rich_low_carbonate,,,,,,,3.00,0.233,0.766,0.000,-7.14,-11.16,,,,,,
+pH4_sulfate_rich_low_carbonate,,,,,,,4.00,0.225,0.765,0.000,-5.16,-11.16,,,,,,
+pH6_mixed_sulfate_carbonate,,,,,,,6.00,0.009,0.007,0.603,-1.62,-13.27,,,,,,
+pH7_carbonate_rich,,,,,,,7.00,0.000,0.000,0.931,-2.56,-15.94,,,,,,
+pH8_carbonate_rich,,,,,,,8.00,0.000,0.000,0.970,-3.83,-18.28,,,,,,
+acid_sulfate_only,,,,,,,3.000,,,,,,0.000e+00,0.000e+00,0.000e+00,-1000.00,-1000.00,-1000.00
+acid_plus_trace_calcite,,,,,,,5.927,,,,,,1.000e-03,0.000e+00,1.000e-03,-2.94,-1000.00,-1000.00
+acid_plus_trace_dolomite,,,,,,,8.165,,,,,,8.513e-04,8.513e-04,1.703e-03,-0.05,0.00,-1000.00
+acid_plus_aluminosilicate_equilibrium,,,,,,,7.109,,,,,,1.161e-06,1.040e-03,0.000e+00,-1000.00,-1000.00,-1000.00
+acid_plus_Fe_secondary_phases,,,,,,,2.844,,,,,,0.000e+00,0.000e+00,0.000e+00,-1000.00,-1000.00,0.00

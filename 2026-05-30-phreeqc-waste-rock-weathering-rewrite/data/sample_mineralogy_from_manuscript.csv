@@ -1,0 +1,3 @@
+sample,depth_m,lithology,Quartz_wt_pct,Anorthite_wt_pct,Muscovite_wt_pct,Biotite_wt_pct,Pyrite_wt_pct,Chlorite_wt_pct,Graphite_wt_pct,Pyrite_mol_kg_model,Uraninite_mol_kg_model,note
+A,503,SPGN,60,4.8,10,12,6.1,3.1,3.7,0.508,0.000168,From manuscript Table 1 and Table 2.
+B,408,SPGN,64,4.6,11,11,3.0,4.7,1.3,0.25,5.6e-05,From manuscript Table 1 and Table 2; dolomite proxy was 0.025 mol/kg in original model.

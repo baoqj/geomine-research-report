@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="90" y="35" font-family="Arial" font-size="22" font-weight="700" fill="#12313b">Equilibrium endmembers show why equilibrium-only interpretation is unstable</text>
+<line x1="90" y1="70" x2="90" y2="390" stroke="#233" stroke-width="1.5"/>
+<line x1="90" y1="390" x2="870" y2="390" stroke="#233" stroke-width="1.5"/>
+<text x="18" y="230.0" transform="rotate(-90 18,230.0)" font-family="Arial" font-size="15">PHREEQC pH</text>
+<line x1="90" y1="390.0" x2="870" y2="390.0" stroke="#e5eef2" stroke-width="1"/>
+<text x="30" y="394.0" font-family="Arial" font-size="12">0.00</text>
+<line x1="90" y1="310.0" x2="870" y2="310.0" stroke="#e5eef2" stroke-width="1"/>
+<text x="30" y="314.0" font-family="Arial" font-size="12">2.20</text>
+<line x1="90" y1="230.0" x2="870" y2="230.0" stroke="#e5eef2" stroke-width="1"/>
+<text x="30" y="234.0" font-family="Arial" font-size="12">4.41</text>
+<line x1="90" y1="150.0" x2="870" y2="150.0" stroke="#e5eef2" stroke-width="1"/>
+<text x="30" y="154.0" font-family="Arial" font-size="12">6.61</text>
+<line x1="90" y1="70.0" x2="870" y2="70.0" stroke="#e5eef2" stroke-width="1"/>
+<text x="30" y="74.0" font-family="Arial" font-size="12">8.82</text>
+<rect x="119.6" y="281.1" width="96.7" height="108.9" fill="#1f77b4" opacity="0.88"/>
+<text x="168.0" y="273.1" font-family="Arial" font-size="12" text-anchor="middle">3.00</text>
+<text x="168.0" y="410" transform="rotate(35 168.0,410)" font-family="Arial" font-size="11">acid_sulfate_only</text>
+<rect x="275.6" y="174.9" width="96.7" height="215.1" fill="#2ca02c" opacity="0.88"/>
+<text x="324.0" y="166.9" font-family="Arial" font-size="12" text-anchor="middle">5.93</text>
+<text x="324.0" y="410" transform="rotate(35 324.0,410)" font-family="Arial" font-size="11">acid_plus_trace_calcite</text>
+<rect x="431.6" y="93.7" width="96.7" height="296.3" fill="#9467bd" opacity="0.88"/>
+<text x="480.0" y="85.7" font-family="Arial" font-size="12" text-anchor="middle">8.17</text>
+<text x="480.0" y="410" transform="rotate(35 480.0,410)" font-family="Arial" font-size="11">acid_plus_trace_dolomite</text>
+<rect x="587.6" y="132.0" width="96.7" height="258.0" fill="#ff7f0e" opacity="0.88"/>
+<text x="636.0" y="124.0" font-family="Arial" font-size="12" text-anchor="middle">7.11</text>
+<text x="636.0" y="410" transform="rotate(35 636.0,410)" font-family="Arial" font-size="11">acid_plus_aluminosilicate_equilibrium</text>
+<rect x="743.6" y="286.8" width="96.7" height="103.2" fill="#8c564b" opacity="0.88"/>
+<text x="792.0" y="278.8" font-family="Arial" font-size="12" text-anchor="middle">2.84</text>
+<text x="792.0" y="410" transform="rotate(35 792.0,410)" font-family="Arial" font-size="11">acid_plus_Fe_secondary_phases</text>
+</svg>
